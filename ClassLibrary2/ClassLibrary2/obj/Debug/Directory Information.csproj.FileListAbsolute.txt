@@ -13,3 +13,8 @@ C:\Users\Pirororor\Desktop\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.p
 C:\Users\Pirororor\Desktop\ClassLibrary2\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pirororor\Desktop\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.dll
 C:\Users\Pirororor\Desktop\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
