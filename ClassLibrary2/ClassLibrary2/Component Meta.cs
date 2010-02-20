@@ -8,6 +8,7 @@ namespace DirectoryInformation
 {
     public abstract class ComponentMeta
     {
+        //Hello qiqiqiqiqiqs
         public string Name
         {
             get;
