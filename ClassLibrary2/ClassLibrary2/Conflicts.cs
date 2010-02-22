@@ -8,38 +8,51 @@ namespace DirectoryInformation
     public class Conflicts
     {
 
-        public enum ConflictType
+        public enum FolderFileType
         {
             FolderConflict,
             FileConflict
         }
 
-        public Conflicts(FolderMeta currentPCFolder, FolderMeta USBFolder, ConflictType type)
+        public enum ConflictType
         {
-            this.currentPCFolder = currentPCFolder;
+            New,
+            Modified,
+            Deleted
+
+        }
+       
+
+        public Conflicts(FolderMeta currentPCFolder, FolderMeta USBFolder, ConflictType PCFolderFileType, ConflictType USBFolderFileType)
+        {
+            this.CurrentPCFolder = currentPCFolder;
             this.USBFolder  = USBFolder;
-            this.type = type;
+            this.FolderOrFileConflictType = FolderFileType.FolderConflict;
+            this.PCFolderFileType = PCFolderFileType;
+            this.USBFolderFileType = USBFolderFileType;
             
         }
-        public Conflicts(FileMeta currentPCFile, FileMeta USBFile,ConflictType type)
+        public Conflicts(FileMeta currentPCFile, FileMeta USBFile,ConflictType PCFolderFileType, ConflictType USBFolderFileType)
         {
-            this.currentPCFile = currentPCFile;
+            this.CurrentPCFile = currentPCFile;
             this.USBFile = USBFile;
-            this.type = type;
+            this.FolderOrFileConflictType = FolderFileType.FileConflict;
+            this.PCFolderFileType = PCFolderFileType;
+            this.USBFolderFileType = USBFolderFileType;
 
         }
-
-        public FolderMeta currentPCFolder
+        public FolderMeta CurrentPCFolder
         {
             get;
             set;
         }
+       
         public FolderMeta USBFolder
         {
             get;
             set;
         }
-        public FileMeta currentPCFile
+        public FileMeta CurrentPCFile
         {
             get;
             set;
@@ -49,7 +62,18 @@ namespace DirectoryInformation
             get;
             set;
         }
-        public ConflictType type
+        public FolderFileType FolderOrFileConflictType
+        {
+            get;
+            set;
+        }
+
+        public ConflictType PCFolderFileType
+        {
+            get;
+            set;
+        }
+        public ConflictType USBFolderFileType
         {
             get;
             set;

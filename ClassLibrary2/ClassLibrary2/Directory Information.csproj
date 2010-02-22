@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComparsionResult.cs" />
     <Compile Include="Conflicts.cs" />
     <Compile Include="Diff2.cs" />
     <Compile Include="Component Meta.cs" />
