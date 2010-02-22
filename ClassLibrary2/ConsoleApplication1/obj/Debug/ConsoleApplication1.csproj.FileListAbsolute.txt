@@ -14,3 +14,10 @@ C:\Users\Sanji\Desktop\ClassLibrary2\ConsoleApplication1\obj\Debug\ResolveAssemb
 C:\Users\Sanji\Desktop\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Sanji\Desktop\Cs3215\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Sanji\Desktop\Cs3215\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\bin\Debug\ClassLibrary2.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\bin\Debug\ClassLibrary2.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\ClassLibrary2\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
