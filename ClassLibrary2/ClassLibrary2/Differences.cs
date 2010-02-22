@@ -6,26 +6,6 @@ using System.Text;
 
 namespace DirectoryInformation
 {
-    public class InitializationDifferences
-    {
-        public Differences ExternalToComputer
-        {
-            get;
-            set;
-        }
-        public Differences ComputerToExternal
-        {
-            get;
-            set;
-        }
-
-        public InitializationDifferences()
-        {
-            ExternalToComputer = new Differences();
-            ComputerToExternal = new Differences();
-        }
-    }
-
     public class Differences
     {
         private LinkedList<FolderMeta> deletedFolderDifference =new LinkedList<FolderMeta>();
