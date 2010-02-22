@@ -20,9 +20,9 @@ namespace DirectoryInformation
             set;
         }
 
-        public ComponentMeta(string path)
+        public ComponentMeta(string path, string rootDir)
         {
-            Path = System.IO.Path.GetFullPath(path);
+            Path = System.IO.Path.GetFullPath(path).Substring(rootDir.Length);
             Name = System.IO.Path.GetFileName(path);
         }
 
@@ -57,7 +57,7 @@ namespace DirectoryInformation
             set;
         }
 
-        public FileMeta(string path) : base(path)
+        public FileMeta(string path, string directoryPath) : base(path, directoryPath)
         {
             FileInfo fileInfo = new FileInfo(path);
             CreationTime = fileInfo.CreationTime;
@@ -80,10 +80,9 @@ namespace DirectoryInformation
 
         private LinkedList<FolderMeta> folders;
         private LinkedList<FileMeta> files;
-        private HashSet<FileMeta> files2;
 
-        public FolderMeta(string path)
-            : base(path)
+        public FolderMeta(string path, string directoryPath)
+            : base(path, directoryPath)
         {
             folders = new LinkedList<FolderMeta>();
             files = new LinkedList<FileMeta>();
@@ -116,8 +115,8 @@ namespace DirectoryInformation
             
             String stringVer = "";
             stringVer += this.Path + "\n";
-            while(file.MoveNext()) stringVer += file.Current.Path;
-            while(folder.MoveNext()) stringVer += folder.Current.Path;
+            while(file.MoveNext()) stringVer += file.Current.getString();
+            while(folder.MoveNext()) stringVer += folder.Current.getString();
             return stringVer;
         }
     }
