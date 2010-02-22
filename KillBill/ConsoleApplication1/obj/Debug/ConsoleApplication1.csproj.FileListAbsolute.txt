@@ -1,0 +1,7 @@
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\bin\Debug\ClassLibrary2.dll
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\bin\Debug\ClassLibrary2.pdb
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
