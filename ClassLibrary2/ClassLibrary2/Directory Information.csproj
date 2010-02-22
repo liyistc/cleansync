@@ -50,6 +50,7 @@
     <Compile Include="Diff2.cs" />
     <Compile Include="Component Meta.cs" />
     <Compile Include="Differences.cs" />
+    <Compile Include="JobUSB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
