@@ -7,7 +7,7 @@ using System.IO;
 namespace DirectoryInformation
 {
     [Serializable]
-    public abstract class ComponentMeta
+    public abstract class ComponentMeta 
     {
         public string Name
         {
