@@ -37,15 +37,7 @@ namespace DirectoryInformation
             modifiedFileDifference.AddLast(newFile);
         }
 
-        public void AddNewFolderDifferences(FolderMeta folderMeta)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddDeletedFolderDifferences(FolderMeta folderMeta)
-        {
-            throw new NotImplementedException();
-        }
+      
         
         public LinkedList<FolderMeta> getNewFolderList()
         {

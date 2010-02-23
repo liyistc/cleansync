@@ -63,6 +63,7 @@ namespace DirectoryInformation
         {
             FileInfo fileInfo = new FileInfo(path);
             CreationTime = fileInfo.CreationTime;
+            LastModifiedTime = fileInfo.LastAccessTime;
             SizeKiloByte = ConvertToKiloByte(fileInfo);
         }
 
