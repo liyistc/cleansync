@@ -11,9 +11,16 @@ namespace CleanSyncMini
     {
         static void Main(string[] args)
         {
-            MainLogic MainLog = new MainLogic();
-
             
+            /*testcode for compareLogic method: compareDirectories()
+            CleanSyncCompare.CompareLogic  compareLogic = new CleanSyncCompare.CompareLogic();
+            DirectoryInformation.FolderMeta Folder1Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
+            DirectoryInformation.FolderMeta Folder2Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
+            DirectoryInformation.Differences  diff  = compareLogic.CompareDirectories(Folder2Meta, Folder1Meta);
+            compareLogic.compareTest(diff);
+            */
+
+       /*     
             string PCpath = Console.ReadLine();
             string USBpath = Console.ReadLine();
             string Jobname = Console.ReadLine();
@@ -41,6 +48,7 @@ namespace CleanSyncMini
             
             MainLog.AcceptJobSync(completeJobList.First());
             Console.ReadLine();
+            */
 
         }
     }

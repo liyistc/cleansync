@@ -6,13 +6,16 @@ using DirectoryInformation;
 using System.Diagnostics;
 namespace CleanSyncCompare
 {
-    public class CompareLogic
+    class CompareLogic
     {
 
-
+        public CompareLogic()
+        {
+        }
 
         public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)
         {
+            
             Differences differences = new Differences();
             CompareDirectories(newTree, oldTree, differences);
             return differences;
@@ -20,6 +23,7 @@ namespace CleanSyncCompare
 
         private void CompareDirectories(FolderMeta newTree, FolderMeta oldTree, Differences differences)
         {
+           
             this.CompareFiles(newTree, oldTree, differences);
             this.CompareFolders(newTree, oldTree, differences);
         }
@@ -28,35 +32,54 @@ namespace CleanSyncCompare
         {
             IEnumerator<FileMeta> newSubFiles = newFolder.GetFiles();
             IEnumerator<FileMeta> oldSubFiles = oldFolder.GetFiles();
-
-            newSubFiles.MoveNext();
-            oldSubFiles.MoveNext();
-
-            while (newSubFiles.Current != null && oldSubFiles.Current != null)
+            bool newSubFilesNext  =newSubFiles.MoveNext();
+            bool oldSubFilesNext  = oldSubFiles.MoveNext();
+            
+           
+            while (newSubFilesNext && oldSubFilesNext)
             {
+               
                 FileMeta newSubFile = newSubFiles.Current;
                 FileMeta oldSubFile = oldSubFiles.Current;
+                
+                if (newSubFile.Name.CompareTo(oldSubFile.Name)< 0 )
+                {
 
-                if (newSubFile < oldSubFile)
-                {
+                   // Console.WriteLine("I am adding a new File to the list: "+ newSubFile);
                     differences.AddNewFileDifference(newSubFile);
-                    newSubFiles.MoveNext();
+                    newSubFilesNext = newSubFiles.MoveNext();
+                   
                 }
-                else if (newSubFile > oldSubFile)
+                else if (newSubFile.Name.CompareTo(oldSubFile.Name)>0)
                 {
+                   // Console.WriteLine("ponit2");
                     differences.AddDeletedFileDifference(oldSubFile);
-                    oldSubFiles.MoveNext();
+                    oldSubFilesNext = oldSubFiles.MoveNext();
                 }
                 else
+
                 {   //newSubfile is the later version, hence it has a later modifed time 
+                    
                     Debug.Assert(newSubFile.LastModifiedTime >= oldSubFile.LastModifiedTime);
+                 //  Console.WriteLine(newSubFile.LastModifiedTime + " "+ oldSubFile.LastModifiedTime);
                     if (newSubFile.LastModifiedTime > oldSubFile.LastModifiedTime)//modified
                     {
+                        
                         differences.AddModifiedFileDifference(newSubFile);
                     }
-                    newSubFiles.MoveNext();
-                    oldSubFiles.MoveNext();
+                    newSubFilesNext = newSubFiles.MoveNext();
+                    oldSubFilesNext = oldSubFiles.MoveNext();
                 }
+            }
+            while (newSubFilesNext)
+            {
+                differences.AddNewFileDifference(newSubFiles.Current);
+                newSubFilesNext = newSubFiles.MoveNext();
+            }
+            while (oldSubFilesNext)
+            {
+                differences.AddDeletedFileDifference(oldSubFiles.Current);
+                oldSubFilesNext=oldSubFiles.MoveNext();
             }
         }
 
@@ -65,42 +88,47 @@ namespace CleanSyncCompare
             IEnumerator<FolderMeta> newSubFolders = newFolder.GetFolders();
             IEnumerator<FolderMeta> oldSubFolders = oldFolder.GetFolders();
 
-            newSubFolders.MoveNext();
-            oldSubFolders.MoveNext();
-
-            while (newSubFolders.Current != null && oldSubFolders.Current != null)
+            bool newSubFoldersNext = newSubFolders.MoveNext();
+            bool oldSubFoldersNext = oldSubFolders.MoveNext();
+            //Console.WriteLine(newSubFolders.Current.Name);
+            while (newSubFoldersNext && oldSubFoldersNext)
             {
+                
                 FolderMeta newSubFolder = newSubFolders.Current;
                 FolderMeta oldSubFolder = oldSubFolders.Current;
 
-                if (newSubFolder < oldSubFolder)
+                if (newSubFolder.Name.CompareTo(oldSubFolder.Name) <0)
                 {
-                    differences.AddNewFolderDifference(newFolder);
-                    newSubFolders.MoveNext();
+                    
+                    differences.AddNewFolderDifference(newSubFolder);
+                    newSubFoldersNext = newSubFolders.MoveNext();
                 }
 
-                else if (oldSubFolder < newSubFolder)
+                else if (oldSubFolder.Name.CompareTo(newSubFolder.Name)<0)
                 {
-                    differences.AddDeletedFolderDifference(oldFolder);
-                    oldSubFolders.MoveNext();
+                    differences.AddDeletedFolderDifference(oldSubFolder);
+                    oldSubFoldersNext = oldSubFolders.MoveNext();
                 }
 
                 else
                 {
                     CompareDirectories(newSubFolder, oldSubFolder, differences);
-                    newSubFolders.MoveNext();
-                    oldSubFolders.MoveNext();
+                    newSubFoldersNext = newSubFolders.MoveNext();
+                    oldSubFoldersNext = oldSubFolders.MoveNext();
                 }
             }
-            while (newSubFolders.Current != null)
+            
+            while (newSubFoldersNext)
             {
-                differences.AddNewFolderDifferences(newSubFolders.Current);
-                newSubFolders.MoveNext();
+                newSubFoldersNext = newSubFolders.MoveNext();
+                differences.AddNewFolderDifference(newSubFolders.Current);
+                
             }
-            while (oldSubFolders.Current != null)
+            while (oldSubFoldersNext)
             {
-                differences.AddDeletedFolderDifferences(oldSubFolders.Current);
-                oldSubFolders.MoveNext();
+                oldSubFoldersNext = oldSubFolders.MoveNext();
+                differences.AddDeletedFolderDifference(oldSubFolders.Current);
+                
             }
         }
 
@@ -210,5 +238,50 @@ namespace CleanSyncCompare
                
             return conflicts;
         }
+
+
+        //test code for compareDirectories
+        public void compareTest(Differences diff)
+        {
+            LinkedList<FolderMeta> deletedFolderDifference = diff.getDeletedFolderList();
+            LinkedList<FolderMeta> newFolderDifference = diff.getNewFolderList();
+            LinkedList<FileMeta> deletedFileDifference = diff.getDeletedFileList();
+            LinkedList<FileMeta> newFileDifference = diff.getNewFileList();
+            LinkedList<FileMeta> modifiedFileDifference = diff.getModifiedFileList();
+
+            Console.WriteLine("DeletedFolders");
+            printResult(deletedFolderDifference);
+            Console.WriteLine("NewFolders");
+            printResult( newFolderDifference);
+            Console.WriteLine("DeletedFiles");
+            printResult(deletedFileDifference);
+            Console.WriteLine("NewFiles");
+            printResult(newFileDifference);
+            Console.WriteLine("ModifiedFiles");
+            printResult(modifiedFileDifference);
+
+        }
+
+
+        public static void printResult(LinkedList<FolderMeta> folderList)
+        {
+            foreach( FolderMeta folder in folderList ){
+                Console.WriteLine("   "+folder.Name);
+            }
+
+        }
+        public void printResult(LinkedList<FileMeta> fileList)
+        {
+
+            foreach (FileMeta file in fileList)
+            {
+                
+                Console.WriteLine("   "+file.Name);
+            }
+
+        }
+
+        //test code for comparePCwithUSB
+
     }
 }
