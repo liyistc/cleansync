@@ -27,6 +27,7 @@ namespace DirectoryInformation
 
             foreach( FolderMeta newFolder in newFolderList)
             {
+                string PCPath = job.PC
                 ReadAndWrite.copyFolder(newFolder.USBPath, job.PCPath);
             }
             foreach (FolderMeta deletedFolder in newFolderList)
