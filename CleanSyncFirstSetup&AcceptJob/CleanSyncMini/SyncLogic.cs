@@ -1,8 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using cleanSyncMinimalVersion;
+using CleanSyncMinimalVersion;
 using CleanSync;
 
 namespace DirectoryInformation
@@ -49,5 +50,22 @@ namespace DirectoryInformation
             }
         }*/
 
+
+        internal static void SyncPCtoUSB(Job job)
+        {
+            IEnumerator<FileMeta> files = job.FM.GetFiles();
+            IEnumerator<FolderMeta> folders = job.FM.GetFolders();
+
+            Directory.CreateDirectory(job.pathUSB);
+            while (files.MoveNext())
+            {
+                ReadAndWrite.CopyFile(files.Current.Path, job.pathUSB + "\\" + files.Current.Name);
+            }
+
+            while (folders.MoveNext())
+            {
+                ReadAndWrite.CopyFolder(folders.Current.Path, job.pathUSB + "\\" + folders.Current.Name);
+            }
+        }
     }
 }

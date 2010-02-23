@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using DirectoryInformation;
 
-namespace cleanSyncMinimalVersion
+namespace CleanSyncMinimalVersion
 {
     [Serializable]
     class Job
@@ -34,7 +34,7 @@ namespace cleanSyncMinimalVersion
             get;
             set;
         }
-        internal JobUSB JobUSB
+        /*internal JobUSB JobUSB
         {
             get;
             set;
@@ -43,7 +43,7 @@ namespace cleanSyncMinimalVersion
         {
             get;
             set;
-        }
+        }*/
         public Job(string pathPC, string pathUSB, string jobName)
         {
             this.pathPC = pathPC;
@@ -51,10 +51,15 @@ namespace cleanSyncMinimalVersion
             this.jobName = jobName;
             FM = null;
             PCID = 0;
-            pathPC2 = "";
+            //pathPC2 = "";
         }
         public Job(JobUSB jobUSB, string pathPC)
-        { 
+        {
+            this.pathPC = pathPC;
+            this.pathUSB = jobUSB.pathUSB;
+            this.jobName = jobUSB.jobName;
+            FM = null;
+            PCID = 1;
         }
     }
 }
