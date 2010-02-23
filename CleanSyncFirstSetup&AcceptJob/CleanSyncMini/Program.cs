@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using CleanSyncMinimalVersion;
 using CleanSync;
+using System.IO;
 
 namespace CleanSyncMini
 {
@@ -11,6 +12,8 @@ namespace CleanSyncMini
     {
         static void Main(string[] args)
         {
+            DirectoryInformation.FolderMeta root = ReadAndWrite.BuildTree("C:\\Users\\Pirororor\\Desktop\\Album 1");
+            (new StreamWriter("C:\\Users\\Pirororor\\Desktop\\haha.txt")).Write(root.getString());
             
             /*testcode for compareLogic method: compareDirectories()
             CleanSyncCompare.CompareLogic  compareLogic = new CleanSyncCompare.CompareLogic();

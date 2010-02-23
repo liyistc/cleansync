@@ -12,7 +12,12 @@ namespace CleanSync
     {
         public static FolderMeta BuildTree(string sourceDir)
         {
-            FolderMeta thisFolder = new FolderMeta(sourceDir);
+            return BuildTree(sourceDir, sourceDir);
+        }
+
+        public static FolderMeta BuildTree(string sourceDir, string rootDir)
+        {
+            FolderMeta thisFolder = new FolderMeta(sourceDir, rootDir);
             // Process the list of files found in the directory.
             string[] fileEntries;
             try
@@ -33,14 +38,14 @@ namespace CleanSync
             foreach (string fileDir in fileEntries)
             {
 
-                thisFolder.AddFile(new FileMeta(fileDir));
+                thisFolder.AddFile(new FileMeta(fileDir, rootDir));
             }
             // Recurse into subdirectories of this directory.
             string[] subdirEntries = Directory.GetDirectories(sourceDir);
             Array.Sort(subdirEntries);
             foreach (string subdir in subdirEntries)
             {
-                thisFolder.AddFolder(BuildTree(subdir));
+                thisFolder.AddFolder(BuildTree(subdir, rootDir));
             }
             return thisFolder;
         }
@@ -64,9 +69,9 @@ namespace CleanSync
             }
         }
 
-        public static void CopyFile(string soucre,string destination)
+        public static void CopyFile(string source,string destination)
         {
-            File.Copy(soucre, destination,true);
+            File.Copy(source, destination,true);
         }
 
         public static void CopyFolder(string source,string destination)

@@ -10,17 +10,17 @@ namespace DirectoryInformation
 {
     public static class SyncLogic
     {
-        /*public static void cleanSync(ComparsionResult comparsionResult, Job job)
+       /* public static void cleanSync(ComparsionResult comparsionResult, Job job)
         {
             Differences USBToPC = comparsionResult.USBDifferences;
             Differences PCT0USB = comparsionResult.PCDifferences;
 
-            //syncUSBToPC(USBToPC,job);
-            //syncPCToUSB(PCTOUSB, job);
-        }*/
+            syncUSBToPC(USBToPC,job);
+            syncPCToUSB(PCTOUSB, job);
+        }
 
 
-        /*private void syncUSBToPC(Differences USBToPC, Job job)
+        private static void syncUSBToPC(Differences USBToPC, Job job)
         {
             LinkedList<FolderMeta> newFolderList = USBToPC.getNewFolderList();
             LinkedList<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
@@ -30,26 +30,26 @@ namespace DirectoryInformation
 
             foreach( FolderMeta newFolder in newFolderList)
             {
-                //ReadAndWrite.copyFolder(newFolder.USBPath, job.PCPath);
+                ReadAndWrite.copyFolder(job.pathUSB + newFolder.Path + newFolder.Name, job.PCPath + newFolder.Path);
             }
             foreach (FolderMeta deletedFolder in newFolderList)
             {
-                //ReadAndWrite.DeleteFile(job.PCPath);
+                ReadAndWrite.DeleteFile(job.pathPC + deletedFolder.Path + deletedFolder.Name);
             }
-            //foreach (FileMeta newFile in newFolderList)
+            foreach (FileMeta newFile in newFolderList)
             {
-                //ReadAndWrite.copyFile(job.USBPath, job.PCPath);
+                ReadAndWrite.copyFile(job.pathUSB + newFile.Path + newFile.Name, job.PCPath + newFile.Path);
             }
-            //foreach (FileMeta modifiedFile in newFolderList)
+            foreach (FileMeta modifiedFile in newFolderList)
             {
-                //ReadAndWrite.copyFile(job.USBPath, job.PCPath);
+                ReadAndWrite.copyFile(job.pathUSB + modifiedFile.Path + modifiedFile.Name, job.PCPath + modifiedFile.Path);
             }
-            //foreach (FileMeta deletedFile in newFolderList)
+            foreach (FileMeta deletedFile in newFolderList)
             {
-                //ReadAndWrite.deleteFile(job.USBPath, job.PCPath);
+                ReadAndWrite.deleteFile(job.USBPath + deletedFile.Path + deletedFile.Name, job.PCPath + deletedFile.Path);
             }
         }*/
-
+        
 
         internal static void SyncPCtoUSB(Job job)
         {
@@ -67,5 +67,6 @@ namespace DirectoryInformation
                 ReadAndWrite.CopyFolder(folders.Current.Path, job.pathUSB + "\\" + folders.Current.Name);
             }
         }
+         
     }
 }
