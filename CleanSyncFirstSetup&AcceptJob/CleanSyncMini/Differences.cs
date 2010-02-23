@@ -9,53 +9,53 @@ namespace DirectoryInformation
     [Serializable]
     public class Differences
     {
-        private LinkedList<FolderMeta> deletedFolderDifference =new LinkedList<FolderMeta>();
-        private LinkedList<FolderMeta> newFolderDifference = new LinkedList<FolderMeta>();
-        private LinkedList<FileMeta> deletedFileDifference = new LinkedList<FileMeta>();
-        private LinkedList<FileMeta> newFileDifference = new LinkedList<FileMeta>();
-        private LinkedList<FileMeta> modifiedFileDifference = new LinkedList<FileMeta>();
+        private List<FolderMeta> deletedFolderDifference =new List<FolderMeta>();
+        private List<FolderMeta> newFolderDifference = new List<FolderMeta>();
+        private List<FileMeta> deletedFileDifference = new List<FileMeta>();
+        private List<FileMeta> newFileDifference = new List<FileMeta>();
+        private List<FileMeta> modifiedFileDifference = new List<FileMeta>();
 
         public void AddDeletedFolderDifference(FolderMeta deletedFolder) 
         {
-            deletedFolderDifference.AddLast(deletedFolder);
+            deletedFolderDifference.Add(deletedFolder);
         }
 
         public void AddNewFolderDifference(FolderMeta newFolder) 
         {
-            newFolderDifference.AddLast(newFolder);
+            newFolderDifference.Add(newFolder);
         }
         public void AddNewFileDifference(FileMeta newFile)
         {
-            newFileDifference.AddLast(newFile);
+            newFileDifference.Add(newFile);
         }
         public void AddDeletedFileDifference(FileMeta newFile)
         {
-           deletedFileDifference.AddLast(newFile);
+           deletedFileDifference.Add(newFile);
         }
         public void AddModifiedFileDifference(FileMeta newFile)
         {
-            modifiedFileDifference.AddLast(newFile);
+            modifiedFileDifference.Add(newFile);
         }
 
       
         
-        public LinkedList<FolderMeta> getNewFolderList()
+        public List<FolderMeta> getNewFolderList()
         {
             return this.newFolderDifference;
         }
-        public LinkedList<FolderMeta> getDeletedFolderList()
+        public List<FolderMeta> getDeletedFolderList()
         {
             return this.deletedFolderDifference;
         }
-        public LinkedList<FileMeta> getDeletedFileList()
+        public List<FileMeta> getDeletedFileList()
         {
             return this.deletedFileDifference;
         }
-        public LinkedList<FileMeta> getNewFileList()
+        public List<FileMeta> getNewFileList()
         {
             return this.newFileDifference;
         }
-        public LinkedList<FileMeta> getModifiedFileList()
+        public List<FileMeta> getModifiedFileList()
         {
             return this.modifiedFileDifference;
         }

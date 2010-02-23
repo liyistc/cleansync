@@ -134,143 +134,198 @@ namespace CleanSyncCompare
 
 
 
-        public LinkedList<Conflicts> comparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles)
+        public List<Conflicts> ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles)
         {
-            LinkedList<Conflicts> conflicts = new LinkedList<Conflicts>();
-            
-            LinkedList<FolderMeta> USBDeletedFolders = USBFoldersAndFiles.getDeletedFolderList();
-            LinkedList<FolderMeta> PCDeletedFolders = PCFoldersAndFiles.getDeletedFolderList();
-            LinkedList<FolderMeta> PCNewFolders = PCFoldersAndFiles.getNewFolderList();
-            LinkedList<FolderMeta> USBNewFolders = USBFoldersAndFiles.getNewFolderList();
-            
-            LinkedList<FileMeta> USBNewFiles = USBFoldersAndFiles.getNewFileList();
-            LinkedList<FileMeta> USBDeletedFiles = USBFoldersAndFiles.getDeletedFileList();
-            LinkedList<FileMeta> PCNewFiles =   PCFoldersAndFiles.getNewFileList();
-            LinkedList<FileMeta> PCDeletedFiles = PCFoldersAndFiles.getDeletedFileList();
-            LinkedList<FileMeta> USBModifiedFiles = USBFoldersAndFiles.getModifiedFileList();
-            LinkedList<FileMeta> PCModifiedFiles = PCFoldersAndFiles.getModifiedFileList();
-            for (int i = 0; i < USBDeletedFolders.Count; i++)
+            List<Conflicts> conflicts = new List<Conflicts>();
+
+            List<FolderMeta> USBDeletedFolders = USBFoldersAndFiles.getDeletedFolderList();
+           // USBDeletedFolders.Sort();
+            List<FolderMeta> PCDeletedFolders = PCFoldersAndFiles.getDeletedFolderList();
+            //PCDeletedFolders.Sort();
+            List<FolderMeta> PCNewFolders = PCFoldersAndFiles.getNewFolderList();
+           // PCNewFolders.Sort()
+            List<FolderMeta> USBNewFolders = USBFoldersAndFiles.getNewFolderList();
+           // USBNewFolders.Sort();
+            List<FileMeta> USBNewFiles = USBFoldersAndFiles.getNewFileList();
+            //USBNewFiles.Sort();
+            List<FileMeta> USBDeletedFiles = USBFoldersAndFiles.getDeletedFileList();
+           // USBDeletedFiles.Sort();
+            List<FileMeta> PCNewFiles =   PCFoldersAndFiles.getNewFileList();
+            //PCNewFiles.Sort();
+            List<FileMeta> PCDeletedFiles = PCFoldersAndFiles.getDeletedFileList();
+            //PCDeletedFiles.Sort();
+            List<FileMeta> USBModifiedFiles = USBFoldersAndFiles.getModifiedFileList();
+            //USBModifiedFiles.Sort();
+            List<FileMeta> PCModifiedFiles = PCFoldersAndFiles.getModifiedFileList();
+            //PCModifiedFiles.Sort();
+
+            for (int i = 0; i < USBDeletedFolders.Count; i++ )
             {
+                
                 FolderMeta tempUSB = USBDeletedFolders.ElementAt(i);
-                FolderMeta tempPCDeleted = PCDeletedFolders.ElementAt(i);
-                FolderMeta tempPCNew     = PCNewFolders.ElementAt(i);
-                if (tempUSB.Name.CompareTo(tempPCDeleted.Name) == 0)
+                // FolderMeta tempUSB = USBDeletedFolders.ElementAt(i);
+               // Console.WriteLine(i+ ": deletedFolder  " + tempUSB.Name);
+                // FolderMeta tempPCDeleted = PCDeletedFolders.ElementAt(i);
+                //FolderMeta tempPCNew     = PCNewFolders.ElementAt(i);
+                FolderMeta folderDeletedConflict = checkList(tempUSB, PCDeletedFolders);
+                if (folderDeletedConflict != null)
                 {
+                   
                     USBDeletedFolders.Remove(tempUSB);
+                    i--;
                 }
-                if (tempUSB.Name.CompareTo(tempPCNew.Name) == 0)
+                FolderMeta folderNewConflict = checkList(tempUSB, PCNewFolders);
+                if (folderNewConflict != null)
                 {
 
-                    conflicts.AddLast(new Conflicts(tempPCNew, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted));
+                    conflicts.Add(new Conflicts(folderNewConflict, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted));
                 }
             }
             for (int i = 0; i < USBNewFolders.Count; i++)
             {
                 FolderMeta tempUSB = USBNewFolders.ElementAt(i);
-                FolderMeta tempPCDeleted = PCDeletedFolders.ElementAt(i);
-                FolderMeta tempPCNew = PCNewFolders.ElementAt(i);
-                if (tempUSB.Name.CompareTo(tempPCDeleted.Name) == 0)
+                //FolderMeta tempPCDeleted = PCDeletedFolders.ElementAt(i);
+                //FolderMeta tempPCNew = PCNewFolders.ElementAt(i);
+                FolderMeta folderDeletedConflict = checkList(tempUSB, PCDeletedFolders);
+                if (folderDeletedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCDeleted, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New));
+                    conflicts.Add(new Conflicts(folderDeletedConflict, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New));
                 }
-                if (tempUSB.Name.CompareTo(tempPCNew.Name) == 0)
+                FolderMeta folderNewConflict = checkList(tempUSB, PCNewFolders);
+                if (folderNewConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCNew, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.New));
+                    conflicts.Add(new Conflicts(folderNewConflict, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.New));
                 }
             }
             for (int i = 0; i < USBNewFiles.Count; i++)
             {
                 FileMeta tempUSB = USBNewFiles.ElementAt(i);
-                FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
-                FileMeta tempPCNew = PCNewFiles.ElementAt(i);
-                FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
-                if (tempUSB.Name.CompareTo(tempPCDeleted.Name) == 0)
+                //FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
+                //FileMeta tempPCNew = PCNewFiles.ElementAt(i);
+                //FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
+                FileMeta fileDeletedConflict = checkList(tempUSB, PCDeletedFiles);
+                if (fileDeletedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCDeleted, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New));
+                    conflicts.Add(new Conflicts(fileDeletedConflict, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New));
                 }
-                if (tempUSB.Name.CompareTo(tempPCNew.Name) == 0)
+                FileMeta fileNewConflict = checkList(tempUSB, PCNewFiles);
+                if (fileNewConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCNew, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.New));
+                    conflicts.Add(new Conflicts(fileNewConflict, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.New));
                 }
-                if (tempUSB.Name.CompareTo(tempPCModified.Name) == 0)
+                FileMeta fileModifiedConflict = checkList(tempUSB, PCModifiedFiles);
+                if (fileModifiedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCModified, tempUSB,Conflicts.ConflictType.Modified, Conflicts.ConflictType.New));
+                    conflicts.Add(new Conflicts(fileModifiedConflict, tempUSB,Conflicts.ConflictType.Modified, Conflicts.ConflictType.New));
                 }
             }
             for (int i = 0; i < USBModifiedFiles.Count; i++)
             {
                 FileMeta tempUSB = USBModifiedFiles.ElementAt(i);
-                FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
-                FileMeta tempPCNew = PCNewFiles.ElementAt(i);
-                FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
-                if (tempUSB.Name.CompareTo(tempPCDeleted.Name) == 0)
+               // FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
+               // FileMeta tempPCNew = PCNewFiles.ElementAt(i);
+               // FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
+                FileMeta fileDeletedConflict = checkList(tempUSB, PCDeletedFiles);
+                if (fileDeletedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCDeleted, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.Modified));
+                    conflicts.Add(new Conflicts(fileDeletedConflict, tempUSB, Conflicts.ConflictType.Deleted, Conflicts.ConflictType.Modified));
                 }
-                if (tempUSB.Name.CompareTo(tempPCNew.Name) == 0)
+                FileMeta fileNewConflict = checkList(tempUSB, PCNewFiles);
+                if (fileNewConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCNew, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Modified));
+                    conflicts.Add(new Conflicts(fileNewConflict, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Modified));
                 }
-                if (tempUSB.Name.CompareTo(tempPCModified.Name) == 0)
+                FileMeta fileModifiedConflict = checkList(tempUSB, PCModifiedFiles);
+                if (fileModifiedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCModified, tempUSB, Conflicts.ConflictType.Modified, Conflicts.ConflictType.Modified));
+                    conflicts.Add(new Conflicts(fileModifiedConflict, tempUSB, Conflicts.ConflictType.Modified, Conflicts.ConflictType.Modified));
                 }
             }
             for (int i = 0; i < USBDeletedFiles.Count; i++)
             {
                 FileMeta tempUSB = USBDeletedFiles.ElementAt(i);
-                FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
-                FileMeta tempPCNew = PCNewFiles.ElementAt(i);
-                FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
-                if (tempUSB.Name.CompareTo(tempPCDeleted.Name) == 0)
+                //FileMeta tempPCDeleted = PCDeletedFiles.ElementAt(i);
+                //FileMeta tempPCNew = PCNewFiles.ElementAt(i);
+                //FileMeta tempPCModified = PCModifiedFiles.ElementAt(i);
+                FileMeta fileDeletedConflict = checkList(tempUSB, PCDeletedFiles);
+                if (fileDeletedConflict != null)
                 {
                     USBDeletedFiles.Remove(tempUSB);
-                }
-                if (tempUSB.Name.CompareTo(tempPCNew.Name) == 0)
+                    i--;
+                } 
+                FileMeta fileNewConflict = checkList(tempUSB, PCNewFiles);
+                if (fileNewConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCNew, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted));
-                }
-                if (tempUSB.Name.CompareTo(tempPCModified.Name) == 0)
+                    conflicts.Add(new Conflicts(fileNewConflict, tempUSB, Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted));
+                } 
+                FileMeta fileModifiedConflict = checkList(tempUSB, PCModifiedFiles);
+                if (fileModifiedConflict != null)
                 {
-                    conflicts.AddLast(new Conflicts(tempPCModified, tempUSB,Conflicts.ConflictType.Modified, Conflicts.ConflictType.Deleted));
+                    conflicts.Add(new Conflicts(fileModifiedConflict, tempUSB,Conflicts.ConflictType.Modified, Conflicts.ConflictType.Deleted));
                 }
             }
                
             return conflicts;
+        }
+        private FolderMeta checkList(FolderMeta folderMeta, List<FolderMeta> folderList)
+        {
+            FolderMeta folderDetected = null;
+            foreach (FolderMeta folder in folderList)
+            {
+                if (folderMeta.Name.CompareTo(folder.Name) ==0)
+                {
+                    folderDetected = folder;
+                    break; 
+                }
+            }
+            return folderDetected;
+        }
+        private FileMeta checkList(FileMeta fileMeta, List<FileMeta> fileList)
+        {
+            FileMeta fileDetected = null;
+            foreach (FileMeta file in fileList)
+            {
+                if (fileMeta.Name.CompareTo(file.Name) ==0)
+                {
+                    fileDetected = file;
+                    break; 
+                }
+            }
+            return fileDetected;
         }
 
 
         //test code for compareDirectories
         public void compareTest(Differences diff)
         {
-            LinkedList<FolderMeta> deletedFolderDifference = diff.getDeletedFolderList();
-            LinkedList<FolderMeta> newFolderDifference = diff.getNewFolderList();
-            LinkedList<FileMeta> deletedFileDifference = diff.getDeletedFileList();
-            LinkedList<FileMeta> newFileDifference = diff.getNewFileList();
-            LinkedList<FileMeta> modifiedFileDifference = diff.getModifiedFileList();
+            List<FolderMeta> deletedFolderDifference = diff.getDeletedFolderList();
+            List<FolderMeta> newFolderDifference = diff.getNewFolderList();
+            List<FileMeta> deletedFileDifference = diff.getDeletedFileList();
+            List<FileMeta> newFileDifference = diff.getNewFileList();
+            List<FileMeta> modifiedFileDifference = diff.getModifiedFileList();
 
             Console.WriteLine("DeletedFolders");
-            printResult(deletedFolderDifference);
+            printResultFolder(deletedFolderDifference);
             Console.WriteLine("NewFolders");
-            printResult( newFolderDifference);
+            printResultFolder( newFolderDifference);
             Console.WriteLine("DeletedFiles");
-            printResult(deletedFileDifference);
+            printResultFile(deletedFileDifference);
             Console.WriteLine("NewFiles");
-            printResult(newFileDifference);
+            printResultFile(newFileDifference);
             Console.WriteLine("ModifiedFiles");
-            printResult(modifiedFileDifference);
+            printResultFile(modifiedFileDifference);
 
         }
 
 
-        public static void printResult(LinkedList<FolderMeta> folderList)
+        public static void printResultFolder(List<FolderMeta> folderList)
         {
             foreach( FolderMeta folder in folderList ){
                 Console.WriteLine("   "+folder.Name);
             }
 
         }
-        public void printResult(LinkedList<FileMeta> fileList)
+        public static void printResultFile(List<FileMeta> fileList)
         {
 
             foreach (FileMeta file in fileList)
@@ -280,8 +335,59 @@ namespace CleanSyncCompare
             }
 
         }
+        public static void printResultConflicts(List<Conflicts> conflictList)
+        {
+            foreach (Conflicts conflict in conflictList)
+            {
+                if(conflict.FolderOrFileConflictType == Conflicts.FolderFileType.FolderConflict)
+                {
+                    Console.WriteLine("PCFodler: "+conflict.CurrentPCFolder.Name +" conflicts with USBFolder: "+ conflict.USBFolder.Name);
+
+                }
+                else if (conflict.FolderOrFileConflictType == Conflicts.FolderFileType.FileConflict)
+                {
+                    Console.WriteLine("PCFile: " + conflict.CurrentPCFile.Name + " conflicts with USBFile: " + conflict.USBFile.Name);
+
+                }
+               
+            }
+
+        }
 
         //test code for comparePCwithUSB
+        public void ComaprePCwithUSBTest(Differences USBDifferences, Differences PCDifferences, List<Conflicts> conflictList)
+        {
+            Console.WriteLine("USBDifferences:");
+            Console.WriteLine("DeletedFolder");
+            printResultFolder(USBDifferences.getDeletedFolderList());
+            Console.WriteLine("NewFolder");
+            printResultFolder(USBDifferences.getNewFolderList());
+            Console.WriteLine("DeletedFiles");
+            printResultFile(USBDifferences.getDeletedFileList());
+            Console.WriteLine("NewFiles");
+            printResultFile(USBDifferences.getNewFileList());
+            Console.WriteLine("ModifiedFiles");
+            printResultFile(USBDifferences.getModifiedFileList());
+
+            Console.WriteLine();
+            Console.WriteLine("PCDifferences:");
+            Console.WriteLine("DeletedFolder");
+            printResultFolder(PCDifferences.getDeletedFolderList());
+            Console.WriteLine("NewFolder");
+            printResultFolder(PCDifferences.getNewFolderList());
+            Console.WriteLine("DeletedFiles");
+            printResultFile(PCDifferences.getDeletedFileList());
+            Console.WriteLine("NewFiles");
+            printResultFile(PCDifferences.getNewFileList());
+            Console.WriteLine("ModifiedFiles");
+            printResultFile(PCDifferences.getModifiedFileList());
+
+
+            Console.WriteLine("Conflictions Detected:");
+            printResultConflicts(conflictList);
+        }
 
     }
+
+
 }
