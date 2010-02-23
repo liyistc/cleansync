@@ -9,3 +9,8 @@ C:\Users\Sanji\Desktop\Cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\De
 C:\Users\Sanji\Desktop\Cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Sanji\Desktop\Cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.exe
 C:\Users\Sanji\Desktop\Cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.exe
+C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.pdb
