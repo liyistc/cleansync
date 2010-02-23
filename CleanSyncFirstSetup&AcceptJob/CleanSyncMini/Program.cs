@@ -12,17 +12,17 @@ namespace CleanSyncMini
     {
         static void Main(string[] args)
         {
-            DirectoryInformation.FolderMeta root = ReadAndWrite.BuildTree("C:\\Users\\Pirororor\\Desktop\\Album 1");
+          /*  DirectoryInformation.FolderMeta root = ReadAndWrite.BuildTree("C:\\Users\\Pirororor\\Desktop\\Album 1");
             (new StreamWriter("C:\\Users\\Pirororor\\Desktop\\haha.txt")).Write(root.getString());
-            
-            /*//testcode for compareLogic method: compareDirectories()
+           */ 
+            //testcode for compareLogic method: compareDirectories()
             CleanSyncCompare.CompareLogic  compareLogic = new CleanSyncCompare.CompareLogic();
             DirectoryInformation.FolderMeta Folder1Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
             DirectoryInformation.FolderMeta Folder2Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
             DirectoryInformation.Differences  difference  = compareLogic.CompareDirectories(Folder2Meta, Folder1Meta);
             compareLogic.compareTest(difference);
-            */
-            //test code for comparelogic method: comparePCwithUSB()
+            
+        /*    //test code for comparelogic method: comparePCwithUSB()
             CleanSyncCompare.CompareLogic compareLogic = new CleanSyncCompare.CompareLogic();
             DirectoryInformation.FolderMeta Folder1Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
             DirectoryInformation.FolderMeta Folder2Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
@@ -32,7 +32,7 @@ namespace CleanSyncMini
             DirectoryInformation.Differences difference2 = compareLogic.CompareDirectories(Folder4Meta, Folder3Meta);
             List<DirectoryInformation.Conflicts> conflictList =  compareLogic.ComparePCwithUSB(difference1, difference2);
             compareLogic.ComaprePCwithUSBTest(difference1, difference2, conflictList);
-            
+          */  
        /*     
             string PCpath = Console.ReadLine();
             string USBpath = Console.ReadLine();
