@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using DirectoryInformation;
-using cleanSyncMinimalVersion;
+using CleanSyncMinimalVersion;
 
 namespace CleanSync
 {
@@ -53,7 +53,15 @@ namespace CleanSync
 
         public static void DeleteFolder(string path)
         {
-            Directory.Delete(path, true);
+            Directory.Delete(path,true);
+        }
+
+        public static void EmptyFolder(string path)
+        {
+            foreach (string file in Directory.GetFiles(path))
+            {
+                DeleteFile(file);
+            }
         }
 
         public static void CopyFile(string soucre,string destination)
@@ -84,9 +92,9 @@ namespace CleanSync
             return DataInputOutput<List<Job>>.LoadFromBinary(Directory.GetCurrentDirectory() + @"/incompleteJobList.data");
         }
 
-        internal static Job ImportIncompleteFromUSB(string USBPath)
+        internal static List<JobUSB> ImportIncompleteFromUSB(string USBPath)
         {
-            return DataInputOutput<Job>.LoadFromBinary(USBPath + @"/incompleteJob.data");
+            return DataInputOutput<List<JobUSB>>.LoadFromBinary(Path.GetPathRoot(USBPath) + @"incompleteJob.data");
         }
 
         internal static void ExportJobList(List<Job> jobs)
@@ -98,9 +106,9 @@ namespace CleanSync
         {
             DataInputOutput<List<Job>>.SaveToBinary(Directory.GetCurrentDirectory() + @"/incompleteJobList.data",incompleteJobs);
         }
-        internal static void ExportIncompleteToUSB(Job incompleteJob)
+        internal static void ExportIncompleteToUSB(List<JobUSB> incompleteUSBJobs, string path)
         {
-            DataInputOutput<Job>.SaveToBinary(incompleteJob.pathUSB + @"/incompleteJob.data", incompleteJob);
+            DataInputOutput<List<JobUSB>>.SaveToBinary(path + @"incompleteJob.data", incompleteUSBJobs);
         }
         internal static void ExportCompleteToUSB(Job completeJob)
         {

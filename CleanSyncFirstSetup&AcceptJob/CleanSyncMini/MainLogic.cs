@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using CleanSync;
 
-namespace cleanSyncMinimalVersion
+namespace CleanSyncMinimalVersion
 {
     class MainLogic
     {
@@ -22,9 +22,9 @@ namespace cleanSyncMinimalVersion
          {
              return JL.setupJob(job);
          }
-         internal List<Job> AcceptJob()
+         internal List<JobUSB> AcceptJob(string root)
          {
-             return ReadAndWrite.ImportJobList(); 
+             return JL.GetIncompleteJobList(root); 
          }
          internal Job CreateJob(JobUSB jobUSB, string pathPC)
          {
@@ -33,7 +33,7 @@ namespace cleanSyncMinimalVersion
              return j;
          }
 
-         /*internal bool AcceptJobSync(Job ContinuedJob)
+         internal bool AcceptJobSync(Job ContinuedJob)
          {
              try
              {
@@ -44,7 +44,7 @@ namespace cleanSyncMinimalVersion
              {
                  return false;
              }
-         }*/
+         }
 
          /*internal bool CleanSync(Comparison Com, Job job)
          {
