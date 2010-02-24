@@ -14,3 +14,5 @@ C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanS
 C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.exe
 C:\Users\Pirororor\Desktop\CS3215\cleansync\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\bin\Debug\CleanSyncMini.pdb
+C:\Users\Li Zichen\Desktop\cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Li Zichen\Desktop\cs3215\CleanSyncFirstSetup&AcceptJob\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
