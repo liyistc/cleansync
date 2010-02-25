@@ -7,7 +7,7 @@ using DirectoryInformation;
 namespace CleanSyncMinimalVersion
 {
     [Serializable]
-    class Job
+    public class Job
     {
         internal string pathPC
         {
