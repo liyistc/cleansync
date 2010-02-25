@@ -10,48 +10,115 @@ namespace DirectoryInformation
 {
     public static class SyncLogic
     {
-       /* public static void cleanSync(ComparsionResult comparsionResult, Job job)
+        public static void cleanSync(ComparsionResult comparsionResult, Job job)
         {
             Differences USBToPC = comparsionResult.USBDifferences;
-            Differences PCT0USB = comparsionResult.PCDifferences;
+            Differences PCToUSB = comparsionResult.PCDifferences;
 
-            syncUSBToPC(USBToPC,job);
-            syncPCToUSB(PCTOUSB, job);
+            SyncUSBToPC(USBToPC,job);
+            SyncPCToUSB(PCToUSB, job);
+        }
+
+        private static void SyncPCToUSB(Differences PCToUSB, Job job)
+        {
+            LinkedList<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
+            LinkedList<FileMeta> newFileList = PCToUSB.getNewFileList();
+            LinkedList<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
+
+            SyncPCToUSBNewFolder(job, newFolderList);
+            SyncPCToUSBNewFile(job, newFileList);
+
+            int i = 0;
+            foreach (FileMeta modifiedFile in modifiedFileList)
+            {
+                ReadAndWrite.CopyFile(job.pathPC + modifiedFile.Path + modifiedFile.Name, job.pathUSB + "modified" + i + ".temp");
+                i++;
+            }
+        }
+
+        private static void SyncPCToUSBNewFile(Job job, LinkedList<FileMeta> newFileList)
+        {
+
+            int i = 0;
+            foreach (FileMeta newFile in newFileList)
+            {
+                ReadAndWrite.CopyFile(job.pathPC + newFile.Path + newFile.Name, job.pathUSB + "new" + i + ".temp");
+                i++;
+            }
+        }
+
+        private static void SyncPCToUSBNewFolder(Job job, LinkedList<FolderMeta> newFolderList)
+        {
+            int i = 0;
+            foreach(FolderMeta newFolder in newFolderList)
+            {
+                ReadAndWrite.CopyFolder(job.pathPC + newFolder.Path + newFolder.Name, job.pathUSB + "new" + i);
+                i++;
+            }
         }
 
 
-        private static void syncUSBToPC(Differences USBToPC, Job job)
+        private static void SyncUSBToPC(Differences USBToPC, Job job)
         {
             LinkedList<FolderMeta> newFolderList = USBToPC.getNewFolderList();
             LinkedList<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
             LinkedList<FileMeta> newFileList = USBToPC.getNewFileList();
             LinkedList<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
             LinkedList<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
+            SyncUSBToPCNewFolder(job, newFolderList);
+            SyncUSBtoPCDeleteFolder(job, deletedFolderList);
+            SyncUSbToPCNewFile(job, newFileList);
+            SyncUSBToPCModifiedFile(job, modifiedFileList);
+            SyncUSBToPCDeleteFile(job, deletedFileList);
+        }
 
-            foreach( FolderMeta newFolder in newFolderList)
+        private static void SyncUSBToPCDeleteFile(Job job, LinkedList<FileMeta> deletedFileList)
+        {
+            foreach (FileMeta deletedFile in deletedFileList)
             {
-                ReadAndWrite.copyFolder(job.pathUSB + newFolder.Path + newFolder.Name, job.PCPath + newFolder.Path);
+                ReadAndWrite.DeleteFile(job.pathPC + deletedFile.Path + deletedFile.Name);
             }
-            foreach (FolderMeta deletedFolder in newFolderList)
+        }
+
+        private static void SyncUSBToPCModifiedFile(Job job, LinkedList<FileMeta> modifiedFileList)
+        {
+            int i = 0;
+            foreach (FileMeta modifiedFile in modifiedFileList)
             {
-                ReadAndWrite.DeleteFile(job.pathPC + deletedFolder.Path + deletedFolder.Name);
+                ReadAndWrite.CopyFile(job.pathUSB + "modified" + i + ".temp", job.pathPC + modifiedFile.Path + modifiedFile.Name);
+                i++;
             }
-            foreach (FileMeta newFile in newFolderList)
-            {
-                ReadAndWrite.copyFile(job.pathUSB + newFile.Path + newFile.Name, job.PCPath + newFile.Path);
-            }
-            foreach (FileMeta modifiedFile in newFolderList)
-            {
-                ReadAndWrite.copyFile(job.pathUSB + modifiedFile.Path + modifiedFile.Name, job.PCPath + modifiedFile.Path);
-            }
-            foreach (FileMeta deletedFile in newFolderList)
-            {
-                ReadAndWrite.deleteFile(job.USBPath + deletedFile.Path + deletedFile.Name, job.PCPath + deletedFile.Path);
-            }
-        }*/
+        }
         
+        private static void SyncUSbToPCNewFile(Job job, LinkedList<FileMeta> newFileList)
+        {
+            int i = 0;
+            foreach (FileMeta newFile in newFileList)
+            {
+                ReadAndWrite.CopyFile(job.pathUSB + "new" + i + ".temp", job.pathPC + newFile.Path + newFile.Name);
+                i++;
+            }
+        }
 
-        internal static void SyncPCtoUSB(Job job)
+        private static void SyncUSBtoPCDeleteFolder(Job job, LinkedList<FolderMeta> deleteFolderList)
+        {
+            foreach (FolderMeta deletedFolder in deleteFolderList)
+            {
+                ReadAndWrite.DeleteFolder(job.pathPC + deletedFolder.Path + deletedFolder.Name);
+            }
+        }
+
+        private static void SyncUSBToPCNewFolder(Job job, LinkedList<FolderMeta> newFolderList)
+        {
+            int i = 0;
+            foreach (FolderMeta newFolder in newFolderList)
+            {
+                ReadAndWrite.CopyFolder(job.pathUSB + "new" + i, job.pathPC + newFolder.Path + newFolder.Name);
+                i++;
+            }
+        }
+
+        internal static void SyncPCToUSB(Job job)
         {
             IEnumerator<FileMeta> files = job.FM.GetFiles();
             IEnumerator<FolderMeta> folders = job.FM.GetFolders();
@@ -66,7 +133,6 @@ namespace DirectoryInformation
             {
                 ReadAndWrite.CopyFolder(folders.Current.Path, job.pathUSB + "\\" + folders.Current.Name);
             }
-        }
-         
+        }       
     }
 }

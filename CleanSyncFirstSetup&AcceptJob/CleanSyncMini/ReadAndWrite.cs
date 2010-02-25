@@ -37,7 +37,7 @@ namespace CleanSync
             Array.Sort(fileEntries);
             foreach (string fileDir in fileEntries)
             {
-
+               // Console.WriteLine(fileDir);
                 thisFolder.AddFile(new FileMeta(fileDir, rootDir));
             }
             // Recurse into subdirectories of this directory.
@@ -45,6 +45,7 @@ namespace CleanSync
             Array.Sort(subdirEntries);
             foreach (string subdir in subdirEntries)
             {
+                //Console.WriteLine("subdir: " + subdir);
                 thisFolder.AddFolder(BuildTree(subdir, rootDir));
             }
             return thisFolder;
