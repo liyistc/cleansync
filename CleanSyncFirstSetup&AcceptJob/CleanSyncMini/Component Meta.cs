@@ -26,6 +26,7 @@ namespace DirectoryInformation
             path = System.IO.Path.GetFullPath(path).Substring(rootDir.Length);
             Name = System.IO.Path.GetFileName(path);
             Path = path.Substring(0, (path.Length - Name.Length));
+            Console.WriteLine(Path + "\n" + Name);
         }
 
         public static bool operator >(ComponentMeta first, ComponentMeta second)
@@ -75,7 +76,7 @@ namespace DirectoryInformation
 
         public string getString()
         {
-            return this.Path + "\n";
+            return this.Path +"\n\t" + this.Name + "\n";
         }
     }
 
@@ -85,7 +86,6 @@ namespace DirectoryInformation
 
         private LinkedList<FolderMeta> folders;
         private LinkedList<FileMeta> files;
-        private HashSet<FileMeta> files2;
 
         public FolderMeta(string path, string rootDir)
             : base(path, rootDir)
@@ -120,8 +120,8 @@ namespace DirectoryInformation
             IEnumerator<FolderMeta> folder = this.GetFolders();
             
             String stringVer = "";
-            stringVer += this.Path + "\n";
-            while(file.MoveNext()) stringVer += file.Current.Path+"\n";
+            stringVer += this.Path + "\n\t" + this.Name + "\n";
+            while(file.MoveNext()) stringVer += file.Current.getString()+"\n";
             while (folder.MoveNext())
             {
                 stringVer += folder.Current.getString();
