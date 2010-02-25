@@ -1,5 +1,0 @@
-C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ClassLibrary2\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.dll
-C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
-C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.dll
-C:\Users\Pirororor\Documents\Visual Studio 2008\Projects\ClassLibrary2\ClassLibrary2\obj\Debug\ClassLibrary2.pdb
