@@ -97,7 +97,7 @@ namespace CleanSyncMinimalVersion
            ReadAndWrite.CopyFolder(ContinuedJob.pathUSB, ContinuedJob.pathPC);
            ReadAndWrite.DeleteFolder(ContinuedJob.pathUSB);
 
-           SyncLogic.SyncPCtoUSB(ContinuedJob);
+           //SyncLogic.SyncPCtoUSB(ContinuedJob);
            ContinuedJob.FM = ReadAndWrite.BuildTree(ContinuedJob.pathPC);
            ReadAndWrite.ExportJobList(JobList);
 
