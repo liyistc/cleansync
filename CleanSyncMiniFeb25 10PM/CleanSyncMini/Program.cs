@@ -10,8 +10,27 @@ namespace CleanSyncMini
     {
         static void Main(string[] args)
         {
-            MainLogic MainLog = new MainLogic();
-
+            //testcode for compareLogic method: compareDirectories()
+            CleanSyncCompare.CompareLogic  compareLogic = new CleanSyncCompare.CompareLogic();
+            DirectoryInformation.FolderMeta Folder1Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
+            DirectoryInformation.FolderMeta Folder2Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
+            DirectoryInformation.Differences  difference  = compareLogic.CompareDirectories(Folder2Meta, Folder1Meta);
+            compareLogic.compareTest(difference);
+            
+            //test code for comparelogic method: comparePCwithUSB()
+          /*  CleanSyncCompare.CompareLogic compareLogic = new CleanSyncCompare.CompareLogic();
+            DirectoryInformation.FolderMeta Folder1Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
+            DirectoryInformation.FolderMeta Folder2Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
+            DirectoryInformation.FolderMeta Folder3Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version1");
+            DirectoryInformation.FolderMeta Folder4Meta = ReadAndWrite.BuildTree("C:\\Users\\Sanji\\Desktop\\xiaoQ牛btest2010version2");
+            DirectoryInformation.Differences difference1 = compareLogic.CompareDirectories(Folder2Meta, Folder1Meta);
+            DirectoryInformation.Differences difference2 = compareLogic.CompareDirectories(Folder4Meta, Folder3Meta);
+            List<DirectoryInformation.Conflicts> conflictList = compareLogic.ComparePCwithUSB(difference1, difference2);
+            compareLogic.ComaprePCwithUSBTest(difference1, difference2, conflictList);
+            
+           */
+            /*MainLogic MainLog = new MainLogic();
+            
             
             string PCpath = Console.ReadLine();
             string USBpath = Console.ReadLine();
@@ -47,7 +66,7 @@ namespace CleanSyncMini
 
             MainLog.AcceptJobSync(pcJobs.First());
             Console.ReadLine();
-
+            */
         }
     }
 }
