@@ -8,28 +8,30 @@ namespace TestStubs
 {
     public static class ReadAndWrite
     {
-        static SyncLogicUnitTestResults results = new SyncLogicUnitTestResults();
-
+        public static List<string> paths = new List<string>();
         public static void CopyFile(string sourcePath, string targetPath)
         {
-          
+            paths.Add("Copy File " + sourcePath + " " + targetPath);
         }
 
         public static void CopyFolder(string sourcePath, string targetPath)
         {
+            paths.Add("Copy Folder " + sourcePath + " " + targetPath);
         }
 
         public static void DeleteFile(string Path)
         {
+            paths.Add("Delete File " + Path );
         }
 
         public static void DeleteFolder(string sourcePath)
         {
+            paths.Add("Delete Folder " + sourcePath);
         }
 
     }
 
-    public class ComparsionResult
+    public class ComparisonResult
     {
 
         public Differences USBDifferences
@@ -43,7 +45,7 @@ namespace TestStubs
             set;
         }
 
-        public ComparsionResult(Differences USBDifferences, Differences PCDifferences)
+        public ComparisonResult(Differences USBDifferences, Differences PCDifferences)
         {
             this.USBDifferences = USBDifferences;
             this.PCDifferences = PCDifferences;
@@ -91,7 +93,7 @@ namespace TestStubs
         }
     }
 
-    public class Job
+    public class PCJob
     {
         public string pathUSB
         {
@@ -104,7 +106,7 @@ namespace TestStubs
             set;
         }
 
-        public Job(string pathPc, string pathUSB)
+        public PCJob(string pathPc, string pathUSB)
         {
             this.pathPC = pathPc;
             this.pathUSB = pathUSB;
@@ -114,11 +116,11 @@ namespace TestStubs
     public class Differences
     {
 
-        private List<FolderMeta> deletedFolderDifference = new List<FolderMeta>();
-        private List<FolderMeta> newFolderDifference = new List<FolderMeta>();
-        private List<FileMeta> deletedFileDifference = new List<FileMeta>();
-        private List<FileMeta> newFileDifference = new List<FileMeta>();
-        private List<FileMeta> modifiedFileDifference = new List<FileMeta>();
+        public List<FolderMeta> deletedFolderDifference = new List<FolderMeta>();
+        public List<FolderMeta> newFolderDifference = new List<FolderMeta>();
+        public List<FileMeta> deletedFileDifference = new List<FileMeta>();
+        public List<FileMeta> newFileDifference = new List<FileMeta>();
+        public List<FileMeta> modifiedFileDifference = new List<FileMeta>();
 
         public void AddDeletedFolderDifference(FolderMeta deletedFolder)
         {

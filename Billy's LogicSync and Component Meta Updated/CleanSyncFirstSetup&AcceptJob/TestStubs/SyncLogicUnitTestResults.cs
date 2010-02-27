@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace TestStubs
 {
-    class SyncLogicUnitTestResults
+    static class SyncLogicUnitTestResults
     {
+        static List<string> results = new List<string>();
+
+
     }
 }
