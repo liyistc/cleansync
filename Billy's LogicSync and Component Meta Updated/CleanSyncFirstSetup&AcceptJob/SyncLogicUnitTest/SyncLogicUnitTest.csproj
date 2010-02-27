@@ -5,15 +5,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{F9EB64B8-5312-4D91-A287-9F7B2A9D96A8}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{1CD18F3D-B7AE-4123-8077-392660572DFF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CleanSyncMini</RootNamespace>
-    <AssemblyName>CleanSyncMini</AssemblyName>
+    <RootNamespace>SyncLogicUnitTest</RootNamespace>
+    <AssemblyName>SyncLogicUnitTest</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>
-    </StartupObject>
+    <StartupObject>SyncLogicUnitTest.Tester</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -33,7 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Accessibility" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -48,10 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SyncLogic.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CleanSyncMini\CleanSyncMini.csproj">
+      <Project>{F9EB64B8-5312-4D91-A287-9F7B2A9D96A8}</Project>
+      <Name>CleanSyncMini</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TestStubs\TestStubs.csproj">
       <Project>{91382ACB-181E-48C7-BDBE-CE6EBAEDCF23}</Project>
       <Name>TestStubs</Name>
