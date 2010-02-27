@@ -2,9 +2,9 @@
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Diagnostics;
 using System.Text;
-using CleanSyncMinimalVersion;
-using CleanSync;
+using TestStubs;
 
 namespace DirectoryInformation
 {
@@ -12,8 +12,12 @@ namespace DirectoryInformation
     {
         public static void cleanSync(ComparsionResult comparsionResult, Job job)
         {
+            Debug.Assert(comparsionResult != null);
+            Debug.Assert(job != null);
             Differences USBToPC = comparsionResult.USBDifferences;
             Differences PCToUSB = comparsionResult.PCDifferences;
+            Debug.Assert(USBToPC != null);
+            Debug.Assert(PCToUSB != null);
 
             SyncUSBToPC(USBToPC,job);
             SyncPCToUSB(PCToUSB, job);
@@ -21,22 +25,30 @@ namespace DirectoryInformation
 
         private static void SyncPCToUSB(Differences PCToUSB, Job job)
         {
-            LinkedList<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
-            LinkedList<FileMeta> newFileList = PCToUSB.getNewFileList();
-            LinkedList<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
-
+            List<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
+            List<FileMeta> newFileList = PCToUSB.getNewFileList();
+            List<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
+            Debug.Assert(newFolderList != null);
+            Debug.Assert(newFileList != null);
+            Debug.Assert(modifiedFileList != null);
             SyncPCToUSBNewFolder(job, newFolderList);
             SyncPCToUSBNewFile(job, newFileList);
+            SyncPCToUSBModifiedFile(job, modifiedFileList);
+        }
 
+        private static void SyncPCToUSBModifiedFile(Job job, List<FileMeta> modifiedFileList)
+        {
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
             {
+                Debug.Assert(modifiedFile != null);
+                Debug.Assert(job.pathPC != null && job.pathUSB != null);
                 ReadAndWrite.CopyFile(job.pathPC + modifiedFile.Path + modifiedFile.Name, job.pathUSB + "modified" + i + ".temp");
                 i++;
             }
         }
 
-        private static void SyncPCToUSBNewFile(Job job, LinkedList<FileMeta> newFileList)
+        private static void SyncPCToUSBNewFile(Job job, List<FileMeta> newFileList)
         {
 
             int i = 0;
@@ -47,7 +59,7 @@ namespace DirectoryInformation
             }
         }
 
-        private static void SyncPCToUSBNewFolder(Job job, LinkedList<FolderMeta> newFolderList)
+        private static void SyncPCToUSBNewFolder(Job job, List<FolderMeta> newFolderList)
         {
             int i = 0;
             foreach(FolderMeta newFolder in newFolderList)
@@ -60,11 +72,11 @@ namespace DirectoryInformation
 
         private static void SyncUSBToPC(Differences USBToPC, Job job)
         {
-            LinkedList<FolderMeta> newFolderList = USBToPC.getNewFolderList();
-            LinkedList<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
-            LinkedList<FileMeta> newFileList = USBToPC.getNewFileList();
-            LinkedList<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
-            LinkedList<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
+            List<FolderMeta> newFolderList = USBToPC.getNewFolderList();
+            List<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
+            List<FileMeta> newFileList = USBToPC.getNewFileList();
+            List<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
+            List<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
             SyncUSBToPCNewFolder(job, newFolderList);
             SyncUSBtoPCDeleteFolder(job, deletedFolderList);
             SyncUSbToPCNewFile(job, newFileList);
@@ -72,7 +84,7 @@ namespace DirectoryInformation
             SyncUSBToPCDeleteFile(job, deletedFileList);
         }
 
-        private static void SyncUSBToPCDeleteFile(Job job, LinkedList<FileMeta> deletedFileList)
+        private static void SyncUSBToPCDeleteFile(Job job, List<FileMeta> deletedFileList)
         {
             foreach (FileMeta deletedFile in deletedFileList)
             {
@@ -80,7 +92,7 @@ namespace DirectoryInformation
             }
         }
 
-        private static void SyncUSBToPCModifiedFile(Job job, LinkedList<FileMeta> modifiedFileList)
+        private static void SyncUSBToPCModifiedFile(Job job, List<FileMeta> modifiedFileList)
         {
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
@@ -90,7 +102,7 @@ namespace DirectoryInformation
             }
         }
         
-        private static void SyncUSbToPCNewFile(Job job, LinkedList<FileMeta> newFileList)
+        private static void SyncUSbToPCNewFile(Job job, List<FileMeta> newFileList)
         {
             int i = 0;
             foreach (FileMeta newFile in newFileList)
@@ -100,7 +112,7 @@ namespace DirectoryInformation
             }
         }
 
-        private static void SyncUSBtoPCDeleteFolder(Job job, LinkedList<FolderMeta> deleteFolderList)
+        private static void SyncUSBtoPCDeleteFolder(Job job, List<FolderMeta> deleteFolderList)
         {
             foreach (FolderMeta deletedFolder in deleteFolderList)
             {
@@ -108,7 +120,7 @@ namespace DirectoryInformation
             }
         }
 
-        private static void SyncUSBToPCNewFolder(Job job, LinkedList<FolderMeta> newFolderList)
+        private static void SyncUSBToPCNewFolder(Job job, List<FolderMeta> newFolderList)
         {
             int i = 0;
             foreach (FolderMeta newFolder in newFolderList)
@@ -117,7 +129,7 @@ namespace DirectoryInformation
                 i++;
             }
         }
-
+        /*
         internal static void SyncPCToUSB(Job job)
         {
             IEnumerator<FileMeta> files = job.FM.GetFiles();
@@ -133,6 +145,7 @@ namespace DirectoryInformation
             {
                 ReadAndWrite.CopyFolder(folders.Current.Path, job.pathUSB + "\\" + folders.Current.Name);
             }
-        }       
+        }   
+         * */
     }
 }
