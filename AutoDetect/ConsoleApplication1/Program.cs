@@ -19,7 +19,8 @@ namespace ConsoleApplication1
         public static void getUSBName()
         {
             Name = "Didn't find any USB plug in+\n";           
-            AddInsertUSBHandler();        
+            AddInsertUSBHandler();
+            AddRemoveUSBHandler();
         }
 
         private static void getDrives()
@@ -65,6 +66,33 @@ namespace ConsoleApplication1
             Insert = true;
             getDrives();
             Insert = false;
+        }
+        static void AddRemoveUSBHandler()
+        {
+
+            WqlEventQuery q;
+            ManagementScope scope = new ManagementScope("root\\CIMV2");
+            scope.Options.EnablePrivileges = true;
+            try
+            {
+
+                q = new WqlEventQuery();
+                q.EventClassName = "__InstanceDeletionEvent";
+                q.WithinInterval = new TimeSpan(0, 0, 3);
+                q.Condition = "TargetInstance ISA 'Win32_USBControllerdevice'";
+                w = new ManagementEventWatcher(scope, q);
+                w.EventArrived += USBRemoved;
+                w.Start();
+            }
+            catch
+            {
+                w.Stop();
+            }
+        }
+
+        static void USBRemoved(object sender, EventArgs e)
+        {
+            getDrives();
         }
     }
 
