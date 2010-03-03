@@ -44,7 +44,7 @@ namespace ConsoleApplication1
         {
             
                 WqlEventQuery q;
-                ManagementScope scope = new ManagementScope("root\\CIMV2");
+                ManagementScope scope = new ManagementScope();
                 scope.Options.EnablePrivileges = true;
                 try {
 
@@ -71,7 +71,7 @@ namespace ConsoleApplication1
         {
 
             WqlEventQuery q;
-            ManagementScope scope = new ManagementScope("root\\CIMV2");
+            ManagementScope scope = new ManagementScope();
             scope.Options.EnablePrivileges = true;
             try
             {

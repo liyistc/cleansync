@@ -10,3 +10,6 @@ C:\Users\Wenhao\Desktop\AutoDetect\ConsoleApplication1\bin\Debug\ConsoleApplicat
 C:\Users\Wenhao\Desktop\AutoDetect\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Wenhao\Desktop\cleansync\AutoDetect\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Wenhao\Desktop\cleansync\AutoDetect\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Wenhao\Desktop\cleansync\AutoDetect\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Wenhao\Desktop\cleansync\AutoDetect\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Wenhao\Desktop\cleansync\AutoDetect\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
