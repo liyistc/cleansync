@@ -29,6 +29,21 @@ namespace TestStubs
             paths.Add("Delete Folder " + sourcePath);
         }
 
+
+        public static void ExportPCJob(PCJob job)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static void ExportUSBJob(object p)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static FolderMeta BuildTree(string p)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class ComparisonResult
@@ -95,22 +110,46 @@ namespace TestStubs
 
     public class PCJob
     {
-        public string pathUSB
-        {
-            get;
-            set;
-        }
-        public string pathPC
+        public int PCID
         {
             get;
             set;
         }
 
-        public PCJob(string pathPc, string pathUSB)
+        public string PCPath
         {
-            this.pathPC = pathPc;
-            this.pathUSB = pathUSB;
+            get;
+            set;
         }
+        public string USBPath
+        {
+            get;
+            set;
+        }
+
+        public PCJob(string pathPc, string USBPath)
+        {
+            this.PCPath = pathPc;
+            this.USBPath = USBPath;
+        }
+
+        public USBJob GetUsbJob()
+        {
+            throw new NotImplementedException();
+        }
+
+        public FolderMeta FolderInfo
+        {
+            get;
+            set;
+        }
+
+    }
+
+    public class USBJob
+    {
+        public int MostRecentPCID { get; set; }
+        public Differences diff { get; set; }
     }
 
     public class Differences
