@@ -1,0 +1,15 @@
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\bin\Debug\CleanSyncMini.exe
+C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\bin\Debug\CleanSyncMini.pdb
+C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegratedFeb28 11PM\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegratedFeb28 11PM\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegratedFeb28 11PM\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegratedFeb28 11PM\CleanSyncMini\bin\Debug\CleanSyncMini.exe
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegratedFeb28 11PM\CleanSyncMini\bin\Debug\CleanSyncMini.pdb
+C:\Users\Sanji\Desktop\Cs3215\YuQiqiWithConflictHandler&DifferencesUpdated\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Sanji\Desktop\Cs3215\YuQiqiWithConflictHandler&DifferencesUpdated\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegrated3,04,12pm\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Sanji\Desktop\Cs3215\CleanSyncMiniIntegrated3,04,12pm\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
