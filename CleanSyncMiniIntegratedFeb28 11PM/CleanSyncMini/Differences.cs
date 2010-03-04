@@ -59,5 +59,25 @@ namespace DirectoryInformation
         {
             return this.modifiedFileDifference;
         }
+        public void removeFolderFromDeletedFolderList(FolderMeta folder)
+        {
+            this.deletedFolderDifference.Remove(folder);
+        }
+        public void removeFolderFromNewFolderList(FolderMeta folder)
+        {
+            this.newFolderDifference.Remove(folder);
+        }
+        public void removeFileFromNewFileList(FileMeta file)
+        {
+            this.newFileDifference.Remove(file);
+        }
+        public void removeFileFromModifiedFileList(FileMeta file)
+        {
+            this.modifiedFileDifference.Remove(file);
+        }
+        public void removeFileFromDeletedFileList(FileMeta file)
+        {
+            this.deletedFileDifference.Remove(file);
+        }
     }
 }
