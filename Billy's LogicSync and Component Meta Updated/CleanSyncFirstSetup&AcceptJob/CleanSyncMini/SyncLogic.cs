@@ -40,6 +40,9 @@ namespace DirectoryInformation
 
         }
 
+        private static void AcceptJobSync(ComparisonResult comparisonResult, PCJob job)
+        {
+        }
 
         private static void CleanSyncReSync(ComparisonResult comparisonResult, PCJob job)
         {
@@ -68,34 +71,37 @@ namespace DirectoryInformation
             List<FileMeta> modifiedFilesOld = oldDifferences.getModifiedFileList();
             List<FileMeta> modifiedFilesNew = newDifferences.getModifiedFileList();
 
-            foreach(FileMeta deletedFile in deletedFilesNew)
-            {
-                bool found = false;
-                for(int i = 0; i < newFilesOld.Count && !found; i++)
-                {
-                    if((deletedFile.Path + deletedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
-                    {
-                        ReadAndWrite.DeleteFile(job.USBPath + "\\new" + i + ".temp");
-                        newFilesOld[i] = null;
-                        found = true;
-                    }
-                }
-                for(int i = 0; i < modifiedFilesOld.Count && !found; i++)
-                {
-                    if((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
-                    {
-                        ReadAndWrite.DeleteFile(job.USBPath + "\\modified" + i + ".temp");
-                        modifiedFilesOld[i] = null;
-                        oldDifferences.AddDeletedFileDifference(deletedFile);
-                        found = true;
-                    }
-                }
-                if(!found) modifiedFilesOld.Add(deletedFile);
-            }
-
+            ReSyncDeletedFiles(oldDifferences, job, newFilesOld, deletedFilesNew, modifiedFilesOld);
             RemoveNullComponentsFiles(job, newFilesOld, "new");
             RemoveNullComponentsFiles(job, modifiedFilesOld, "modified");
+            ReSyncModifiedFiles(oldDifferences, job, newFilesOld, modifiedFilesOld, modifiedFilesNew);
+            ReSyncNewFiles(job, oldDifferences, newFilesNew);
+        }
 
+        private static void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob job)
+        {
+            List<FolderMeta> newFoldersOld = oldDifferences.getNewFolderList();
+            List<FolderMeta> newFoldersNew = newDifferences.getNewFolderList();
+            List<FolderMeta> deletedFoldersNew = newDifferences.getDeletedFolderList();
+            ReSyncDeletedFolders(oldDifferences, job, newFoldersOld, deletedFoldersNew);
+
+            RemoveNullComponentsFolders(job, newFoldersOld, "new");
+            ReSyncNewFolders(oldDifferences, job, newFoldersNew);
+        }
+
+        private static void ReSyncNewFiles(PCJob job, Differences oldDifferences, List<FileMeta> newFilesNew)
+        {
+            int i = 0;
+            foreach (FileMeta newFile in newFilesNew)
+            {
+                oldDifferences.AddNewFileDifference(newFile);
+                ReadAndWrite.CopyFile(job.PCPath + newFile.Path + newFile.Name, job.USBPath + "\\new" + i + ".temp");
+                i++;
+            }
+        }
+
+        private static void ReSyncModifiedFiles(Differences oldDifferences, PCJob job, List<FileMeta> newFilesOld, List<FileMeta> modifiedFilesOld, List<FileMeta> modifiedFilesNew)
+        {
             foreach (FileMeta modifiedFile in modifiedFilesNew)
             {
                 bool found = false;
@@ -125,35 +131,39 @@ namespace DirectoryInformation
                     oldDifferences.AddModifiedFileDifference(modifiedFile);
                 }
             }
+        }
+
+        private static void ReSyncDeletedFiles(Differences oldDifferences, PCJob job, List<FileMeta> newFilesOld, List<FileMeta> deletedFilesNew, List<FileMeta> modifiedFilesOld)
+        {
 
             foreach (FileMeta deletedFile in deletedFilesNew)
             {
-                oldDifferences.AddDeletedFileDifference(deletedFile);
+                bool found = false;
+                for (int i = 0; i < newFilesOld.Count && !found; i++)
+                {
+                    if ((deletedFile.Path + deletedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
+                    {
+                        ReadAndWrite.DeleteFile(job.USBPath + "\\new" + i + ".temp");
+                        newFilesOld[i] = null;
+                        found = true;
+                    }
+                }
+                for (int i = 0; i < modifiedFilesOld.Count && !found; i++)
+                {
+                    if ((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
+                    {
+                        ReadAndWrite.DeleteFile(job.USBPath + "\\modified" + i + ".temp");
+                        modifiedFilesOld[i] = null;
+                        oldDifferences.AddDeletedFileDifference(deletedFile);
+                        found = true;
+                    }
+                }
+                if (!found) modifiedFilesOld.Add(deletedFile);
             }
         }
 
-        private static void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob job)
+        private static void ReSyncNewFolders(Differences oldDifferences, PCJob job, List<FolderMeta> newFoldersNew)
         {
-            List<FolderMeta> newFoldersOld = oldDifferences.getNewFolderList();
-            List<FolderMeta> newFoldersNew = newDifferences.getNewFolderList();
-            List<FolderMeta> deletedFoldersNew = newDifferences.getDeletedFolderList();
-            
-            foreach(FolderMeta deletedFolder in deletedFoldersNew)
-            {
-                bool found = false;
-                for(int i = 0; i < newFoldersOld.Count && !found; i++)
-                {
-                    if((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
-                    {
-                        ReadAndWrite.DeleteFolder(job.USBPath + "\\new" + i);
-                        newFoldersOld[i] = null;
-                        found = true;
-                     }
-                }
-                if(!found) oldDifferences.AddDeletedFolderDifference(deletedFolder);
-            }
-
-            RemoveNullComponentsFolders(job, newFoldersOld, "new");
 
             int j = newFoldersNew.Count;
             foreach (FolderMeta newFolder in newFoldersNew)
@@ -161,6 +171,25 @@ namespace DirectoryInformation
                 oldDifferences.AddNewFolderDifference(newFolder);
                 ReadAndWrite.CopyFolder(job.PCPath + newFolder.Path + newFolder.Name, job.USBPath + "\\new" + j);
                 j++;
+            }
+        }
+
+        private static void ReSyncDeletedFolders(Differences oldDifferences, PCJob job, List<FolderMeta> newFoldersOld, List<FolderMeta> deletedFoldersNew)
+        {
+
+            foreach (FolderMeta deletedFolder in deletedFoldersNew)
+            {
+                bool found = false;
+                for (int i = 0; i < newFoldersOld.Count && !found; i++)
+                {
+                    if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
+                    {
+                        ReadAndWrite.DeleteFolder(job.USBPath + "\\new" + i);
+                        newFoldersOld[i] = null;
+                        found = true;
+                    }
+                }
+                if (!found) oldDifferences.AddDeletedFolderDifference(deletedFolder);
             }
         }
         
