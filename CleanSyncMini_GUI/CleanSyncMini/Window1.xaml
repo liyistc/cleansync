@@ -1,0 +1,94 @@
+﻿<Window x:Class="CleanSyncMini.GUI"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="CleanSync" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="146*" />
+            <RowDefinition Height="295*" />
+            <RowDefinition Height="79*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280*" />
+            <ColumnDefinition Width="516*" />
+        </Grid.ColumnDefinitions>
+        
+        <TabControl Margin="15.834,5.5,7.834,5.5" Name="JobControl" Grid.Row="1" Grid.RowSpan="2">
+            <TabItem Header="Jobs" Name="Jobs" Width="120">
+                <ListBox Height="400" Name="JobList" Width="240" />
+            </TabItem>
+            <TabItem Header="Incompleted Jobs" Name="Incompleted_Jobs" Width="120">
+                <ListBox Height="400" Name="IncompletedJobList" Width="240" />
+            </TabItem>
+        </TabControl>
+        <Grid Name="MainFrameInfor" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Visibility="Visible">
+            <TextBox HorizontalAlignment="Left" Margin="50,20,0,0" Name="JobName" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="JobName :" BorderBrush="Transparent" BorderThickness="0" />
+            <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" Name="LocalPath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" Background="Transparent" Text="Local Path :" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Top" />
+            <TextBox HorizontalAlignment="Left" Margin="50,80,0,0" Name="RemotePath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Remote Path :" BorderBrush="Transparent" BorderThickness="0" />
+            <TextBox HorizontalAlignment="Left" Margin="50,110,0,0" Name="USBPath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="USB Path :" BorderBrush="Transparent" BorderThickness="0" />
+            <ComboBox Grid.Column="1" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="50,160,0,0" Name="Automation" VerticalAlignment="Top" Width="120" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
+                <ComboBoxItem>&lt;Automation&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,200,0,0" Name="Filter" SelectedIndex="0" Width="120" Grid.Column="1" Height="20" Grid.Row="2" VerticalAlignment="Top" DisplayMemberPath="" SelectedValuePath="" Uid="">
+                <ComboBoxItem>&lt;Filter&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,240,0,0" Name="RunMode" SelectedIndex="0" Width="120" Grid.Column="1" Height="20" Grid.Row="2" VerticalAlignment="Top">
+                <ComboBoxItem>&lt;Run Mode&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Grid Name="AcceptFrameInfor" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Visibility="Hidden">
+            <TextBox HorizontalAlignment="Left" Margin="50,20,0,0" Name="AcceptJobName" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="JobName :" BorderBrush="Transparent" BorderThickness="0" />
+            <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" Name="AcceptLocalPath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" Background="Transparent" Text="Local Path :" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Top" />
+            <TextBox HorizontalAlignment="Left" Margin="50,80,0,0" Name="AcceptRemotePath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Remote Path :" BorderBrush="Transparent" BorderThickness="0" />
+            <TextBox HorizontalAlignment="Left" Margin="50,110,0,0" Name="AcceptUSBPath" Width="120" Height="20" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="USB Path :" BorderBrush="Transparent" BorderThickness="0" />
+            <TextBox HorizontalAlignment="Left" Margin="50,200,0,0" Name="AttachDropBox" Width="150" Height="20" VerticalAlignment="Top" />
+            <Button Height="130" Width="150" HorizontalAlignment="Left" Margin="50,220,0,0" Name="FolderSelection" VerticalAlignment="Top" AllowDrop="True" Click="FolderSelection_Click"></Button>
+        </Grid>
+        <Grid Name="NewJobFrameInfor" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Visibility="Hidden">
+            <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" Name="NewJobNameEnter" Width="250" Height="20" Text ="Please Enter New Job Name:" VerticalAlignment="Top" BorderBrush="Transparent" />
+            <TextBox HorizontalAlignment="Left" Margin="50,70,0,0" Name="NewJobName" Width="150" Height="20" VerticalAlignment="Top" />
+            <TextBox HorizontalAlignment="Left" Margin="50,130,0,0" Name="AttachDropBox1" Width="150" Height="20" VerticalAlignment="Top" />
+            <TextBox HorizontalAlignment="Left" Margin="300,130,0,0" Name="AttachDropBox2" Width="150" Height="20" VerticalAlignment="Top" />
+            <Button Height="130" Width="150" HorizontalAlignment="Left" Margin="50,150,0,0" Name="FolderSelection1" VerticalAlignment="Top" AllowDrop="True" Click="FolderSelection_Click1"></Button>
+            <Button Height="130" Width="150" HorizontalAlignment="Left" Margin="300,150,0,0" Name="FolderSelection2" VerticalAlignment="Top" AllowDrop="True" Click="FolderSelection_Click2"></Button>
+            <ComboBox Grid.Column="1" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="50,330,0,0" Name="NewJobAutomation" VerticalAlignment="Top" Width="120" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
+                <ComboBoxItem>&lt;Automation&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,360,0,0" Name="NewJobFilter" SelectedIndex="0" Width="120" Grid.Column="1" Height="20" Grid.Row="2" VerticalAlignment="Top" DisplayMemberPath="" SelectedValuePath="" Uid="">
+                <ComboBoxItem>&lt;Filter&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+            <ComboBox Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,390,0,0" Name="NewJobRunMode" SelectedIndex="0" Width="120" Grid.Column="1" Height="20" Grid.Row="2" VerticalAlignment="Top">
+                <ComboBoxItem>&lt;Run Mode&gt;</ComboBoxItem>
+                <ComboBoxItem>Choice 1</ComboBoxItem>
+                <ComboBoxItem>Choice 2</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <Button Margin="95,25,95,25" Width="70" Name="Version" Grid.Row="3">Version</Button>
+        <Grid Name="MainFrameGridButtons" Grid.Column="1" Grid.Row="3" Visibility="Visible">
+            <Button Grid.Row="3" HorizontalAlignment="Left" Margin="44.8,25,0,25" Name="NewJob" Width="70" Grid.Column="1" Click="NewJob_Click">New Job</Button>
+            <Button Margin="159.6,25,0,25" Width="70" Name="Analyse" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" Click="Analyse_Click">Analyse</Button>
+            <Button Margin="274.4,25,0,25" Width="70" Name="StartSync" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left">Start Sync</Button>
+            <Button HorizontalAlignment="Left" Margin="389.2,25,0,25" Width="70" Name="SyncAll" Grid.Column="1" Grid.Row="3">Sync All</Button>
+        </Grid>
+        <Grid Name="AcceptFrameGridButtons" Grid.Column="1" Grid.Row="3" Visibility="Hidden">
+            <Button Grid.Row="3" HorizontalAlignment="Left" Margin="72.5,25,0,25" Name="Accept" Width="70" Grid.Column="1">Accept</Button>
+            <Button Margin="217.166,25,0,25" Width="70" Name="AcceptAll" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left">Accept All</Button>
+            <Button HorizontalAlignment="Right" Margin="0,25,72.5,25" Width="70" Name="CancelAccept" Grid.Column="1" Grid.Row="3" Click="CancelAccept_Click">Cancel</Button>
+        </Grid>
+        <Grid Name="NewJobFrameGridButtons" Grid.Column="1" Grid.Row="3" Visibility="Hidden">
+            <Button Grid.Row="3" HorizontalAlignment="Left" Margin="121.3,25,0,25" Name="CreatJob" Width="70" Grid.Column="1" Click="CreatJob_Click">Create Job</Button>
+            <Button HorizontalAlignment="Right" Margin="0,25,121.3,25" Width="70" Name="CancelCreat" Grid.Column="1" Grid.Row="3" Click="CancelCreat_Click">Cancel</Button>
+        </Grid>
+    </Grid>
+</Window>
