@@ -135,25 +135,27 @@ namespace CleanSyncMini
         {
             ReadAndWrite.ExportIncompleteJobToUSB(usbJob);
         }
-        internal void AcceptSetup(PCJob ContinuedJob)
+        internal ComparisonResult AcceptSetupCompare(PCJob ContinuedJob)
         {
             ContinuedJob.FolderInfo = ReadAndWrite.BuildTree(ContinuedJob.PCPath);
 
             Differences newDiff = compareLogic.ConvertFolderMetaToDifferences(ContinuedJob.FolderInfo);
  
             List<Conflicts> firstConflict = compareLogic.ComparePCwithUSB(ContinuedJob.GetUsbJob().diff, newDiff);
+
+            ComparisonResult result = new ComparisonResult(ContinuedJob.GetUsbJob().diff, newDiff, firstConflict);
          
             if (firstConflict.Count != 0)
             {
                 Console.WriteLine("There is conflicts.");
-                return;
+                return result;
             }
 
-            ComparisonResult result = new ComparisonResult(ContinuedJob.GetUsbJob().diff,newDiff,firstConflict);
-            ContinuedJob.SetUsbJob(ContinuedJob.GetUsbJob());
-            SyncLogic.CleanSync(result,ContinuedJob);
+            return result;
+            
+            //SyncLogic.CleanSync(result,ContinuedJob);
  
-            ReadAndWrite.ExportUSBJob(ContinuedJob.GetUsbJob());
+            //ReadAndWrite.ExportUSBJob(ContinuedJob.GetUsbJob());
         }
 
 
@@ -163,7 +165,7 @@ namespace CleanSyncMini
         {
  
             SyncLogic.CleanSync(comparisonResult, pcJob);
-            ReadAndWrite.ExportPCJob(pcJob);
+            //ReadAndWrite.ExportPCJob(pcJob);
             
         }
 

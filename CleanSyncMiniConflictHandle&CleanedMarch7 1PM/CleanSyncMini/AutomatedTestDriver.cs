@@ -55,8 +55,9 @@ namespace CleanSyncMini
 
             List<PCJob> pcJobsListTwo = MainLogTwo.GetPCJobs();
 
-            MainLogTwo.AcceptJobSync(pcJobsListTwo.First());
+            ComparisonResult result =  MainLogTwo.AcceptJobCompare(pcJobsListTwo.First());
 
+            MainLogTwo.CleanSync(result, pcJobsListTwo.First());
             //Console.ReadLine();
             //Apply modification to pc1.
             DeleteFolder(PCpath);
@@ -64,7 +65,7 @@ namespace CleanSyncMini
             CopyFolder(modifiedPCpath, PCpath);
 
             MainLogOne.USBPlugIn(USB);
-            ComparisonResult result = MainLogOne.Compare(pcJobListOne.First());
+            result = MainLogOne.Compare(pcJobListOne.First());
             
             int[] userChoice = new int[result.conflictList.Count];
             result = MainLogOne.handleConflicts(result, userChoice);
