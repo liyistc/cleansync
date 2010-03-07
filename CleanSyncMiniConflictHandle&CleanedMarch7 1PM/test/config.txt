@@ -1,0 +1,7 @@
+C:\test\PCOne\pic
+C:\test\PCTwo\pic
+C:\test\modified\pcone\pic
+C:\test\modified\pctwo\pic
+C:\test\original\pcone\pic
+C:\test\original\pctwo\pic
+C:\test\CleanSyncLog.txt

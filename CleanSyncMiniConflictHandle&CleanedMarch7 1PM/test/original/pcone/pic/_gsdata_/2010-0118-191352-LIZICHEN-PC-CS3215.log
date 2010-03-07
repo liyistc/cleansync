@@ -1,0 +1,41 @@
+----- 1/18/2010 7:13:52 PM: Job 'CS3215': ANALYSIS started by User on computer 'LIZICHEN-PC' (GoodSync 8.1.2.5 on Windows 7) -----
+CS3215: C:\照片 <-> C:\Users\Li Zichen\Pictures, SavePrev, TmpDest, EstReq, CopyLocked, CaseSens, Reconnect=3, ChangeLimit=10
+Exclude Hidden, Exclude System, Exclude licens*.rfo|cache.rfo|mru.rfo|mpp*.rfo|/System Volume Information|Thumbs.db|.DS_Store 
+Left: Read State File C:\照片\_gsdata_\_file_state._gs
+Left: State file does not exist: C:\照片\_gsdata_\_file_state._gs
+Left: No State File found, New State will be built
+Left: Files: 17 (excluded 0). Folders: 0 (excluded 1). C:\ NTFS, Free: 4.26 GB, Total: 31.8 GB
+Right: Read State File C:\Users\Li Zichen\Pictures\_gsdata_\_file_state._gs
+Right: State file does not exist: C:\Users\Li Zichen\Pictures\_gsdata_\_file_state._gs
+Right: No State File found, New State will be built
+Right: Files: 0 (excluded 1). Folders: 0 (excluded 1). C:\ NTFS, Free: 4.26 GB, Total: 31.8 GB
+On disk C: space required for sync is 23.1 MB, you have 4.26 GB
+On disk C: space required for sync is 23.1 MB, you have 4.26 GB
+Changes: 17, Conflicts: 0, CopyTime: 0, CopyState: 0, Errors: 0
+Left to Right: Copy File: 17 
+----- 1/18/2010 7:13:52 PM: Analysis Completed. Time 00:00:00, Speed: Many files/s -----
+
+===== 1/18/2010 7:13:53 PM: Job 'CS3215': SYNC started by User on computer 'LIZICHEN-PC' =====
+CS3215: C:\照片 <-> C:\Users\Li Zichen\Pictures, SavePrev, TmpDest, EstReq, CopyLocked, CaseSens, Reconnect=3, ChangeLimit=10
+Copy New 'C:\照片\DSC00189.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00189.JPG'
+Copy New 'C:\照片\DSC00241.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00241.JPG'
+Copy New 'C:\照片\DSC00242.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00242.JPG'
+Copy New 'C:\照片\DSC00257.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00257.JPG'
+Copy New 'C:\照片\DSC00563.jpg' -> 'C:\Users\Li Zichen\Pictures\DSC00563.jpg'
+Copy New 'C:\照片\DSC00568.jpg' -> 'C:\Users\Li Zichen\Pictures\DSC00568.jpg'
+Copy New 'C:\照片\DSC00622.jpg' -> 'C:\Users\Li Zichen\Pictures\DSC00622.jpg'
+Copy New 'C:\照片\DSC00674.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00674.JPG'
+Copy New 'C:\照片\DSC00683.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00683.JPG'
+Copy New 'C:\照片\DSC00690.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00690.JPG'
+Copy New 'C:\照片\DSC00709.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00709.JPG'
+Copy New 'C:\照片\DSC00724.jpg' -> 'C:\Users\Li Zichen\Pictures\DSC00724.jpg'
+Copy New 'C:\照片\DSC00737.jpg' -> 'C:\Users\Li Zichen\Pictures\DSC00737.jpg'
+Copy New 'C:\照片\DSC00763.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00763.JPG'
+Copy New 'C:\照片\DSC00834.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC00834.JPG'
+Copy New 'C:\照片\DSC01481.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC01481.JPG'
+Copy New 'C:\照片\DSC01795.JPG' -> 'C:\Users\Li Zichen\Pictures\DSC01795.JPG'
+Save State File C:\照片\_gsdata_\_file_state._gs
+Save State File C:\Users\Li Zichen\Pictures\_gsdata_\_file_state._gs
+Items Synced OK: 17, Errors: 0
+===== 1/18/2010 7:13:54 PM: Sync Completed. Time: 00:00:01, Speed:  =====
+
