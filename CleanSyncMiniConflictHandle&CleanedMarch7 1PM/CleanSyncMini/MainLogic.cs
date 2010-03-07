@@ -40,10 +40,10 @@ namespace CleanSyncMini
              return jobPC;
          }
 
-         internal bool AcceptJobSync(PCJob ContinuedJob)
+         internal ComparisonResult AcceptJobCompare(PCJob ContinuedJob)
          {
-             jobLogic.AcceptSetup(ContinuedJob);
-             return true;
+             ComparisonResult result =  jobLogic.AcceptSetupCompare(ContinuedJob);
+             return result;
          }
 
          internal ComparisonResult Compare(PCJob pcJob)
@@ -81,5 +81,7 @@ namespace CleanSyncMini
         {
             return jobLogic.handleConflicts(comparisonResult, userChoice);
         }
+
+        
     }
 }
