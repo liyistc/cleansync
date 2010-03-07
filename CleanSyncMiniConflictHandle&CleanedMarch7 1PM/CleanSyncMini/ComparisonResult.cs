@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DirectoryInformation
 {
-    public class ComparsionResult
+    public class ComparisonResult
     {
 
         public Differences USBDifferences
@@ -24,7 +24,7 @@ namespace DirectoryInformation
             set;
         }
 
-        public ComparsionResult(Differences USBDifferences, Differences PCDifferences, List<Conflicts> conflictList)
+        public ComparisonResult(Differences USBDifferences, Differences PCDifferences, List<Conflicts> conflictList)
         {
             this.USBDifferences = USBDifferences;
             this.PCDifferences = PCDifferences;

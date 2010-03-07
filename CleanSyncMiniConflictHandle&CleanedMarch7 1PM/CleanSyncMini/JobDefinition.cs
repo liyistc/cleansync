@@ -59,12 +59,26 @@ namespace CleanSyncMini
             set;
         }
 
+        [NonSerialized]
+        private USBJob usbJob;
+
+        public USBJob GetUsbJob()
+        {
+            return usbJob;
+        }
+
+        public void SetUsbJob(USBJob usb)
+        {
+            usbJob = usb;
+        }
+
         public PCJob(string jobName, string pathOnPC, string pathOnUSB)
             : base(jobName, pathOnUSB)
         {
             PCPath = pathOnPC;
             FolderInfo = null;
             PCID = 0;
+            usbJob = null;
         }
 
         public PCJob(USBJob jobOnUSB, string pathOnPC)
@@ -73,12 +87,16 @@ namespace CleanSyncMini
             PCPath = pathOnPC;
             FolderInfo = null;
             PCID = 1;
+            usbJob = jobOnUSB;
         }
     }
 
     [Serializable]
     public class USBJob : JobDefinition
     {
+        const int PCONE = 1;
+        const int INVALID = -1;
+
         public string PCOnePath
         {
             get;
@@ -122,8 +140,8 @@ namespace CleanSyncMini
             PCTwoPath = "";
             diff = null;
             PCOneID = jobOnPC.PCID;
-            PCTwoID = -1;
-            MostRecentPCID = PCOneID;
+            PCTwoID = INVALID;
+            MostRecentPCID = PCONE;
         }
         
     }

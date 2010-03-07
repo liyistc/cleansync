@@ -45,16 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Component Meta.cs" />
-    <Compile Include="JobDefinition.cs" />
+    <Compile Include="AutomatedTestDriver.cs" />
     <Compile Include="CompareLogic.cs" />
-    <Compile Include="ComparsionResult.cs" />
+    <Compile Include="ComparisonResult.cs" />
+    <Compile Include="Component Meta.cs" />
+    <Compile Include="ConflictHandler.cs" />
     <Compile Include="Conflicts.cs" />
-    <Compile Include="DataInuptOutput.cs" />
     <Compile Include="Differences.cs" />
-    <Compile Include="Job.cs" />
+    <Compile Include="JobDefinition.cs" />
+    <Compile Include="DataInuptOutput.cs" />
     <Compile Include="JobLogic.cs" />
-    <Compile Include="JobUSB.cs" />
+    <Compile Include="LogFile.cs" />
     <Compile Include="MainLogic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
