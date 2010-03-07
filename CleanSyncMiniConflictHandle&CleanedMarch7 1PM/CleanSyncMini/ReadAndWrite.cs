@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using DirectoryInformation;
-using CleanSyncMinimalVersion;
 using CleanSyncMini;
 
-namespace CleanSync
+namespace CleanSyncMini
 {
     public static class ReadAndWrite
     {
@@ -55,11 +54,25 @@ namespace CleanSync
         public static void DeleteFile(string path)
         {
             File.Delete(path);
+            LogFile.FileDeletion(path);
         }
 
         public static void DeleteFolder(string path)
         {
             Directory.Delete(path,true);
+            LogFile.FolderDeletion(path);
+        }
+
+        public static void DeleteFolderContent(string path)
+        {
+            foreach (string folder in Directory.GetDirectories(path))
+            {
+                DeleteFolder(folder);
+            }
+            foreach (string file in Directory.GetFiles(path))
+            {
+                DeleteFile(file);
+            }
         }
 
         public static void EmptyFolder(string path)
@@ -70,14 +83,16 @@ namespace CleanSync
             }
         }
 
-        public static void CopyFile(string soucre,string destination)
+        public static void CopyFile(string source,string destination)
         {
-            File.Copy(soucre, destination,true);
+            File.Copy(source, destination,true);
+            LogFile.FileCopy(source, destination);
         }
 
         public static void CopyFolder(string source,string destination)
         {
             Directory.CreateDirectory(destination);
+            LogFile.FolderCopy(source, destination);
             foreach (string file in Directory.GetFiles(source))
             {
                 CopyFile(file, destination + @"\"+ Path.GetFileName(file));
@@ -88,52 +103,49 @@ namespace CleanSync
             } 
         }
 
-        internal static List<string> ImportJobList()
+        //Modified
+        internal static List<string> ImportJobList(int n)
         {
-            return DataInputOutput<List<string>>.LoadFromBinary(GetPCJobListPath());
+            return DataInputOutput<List<string>>.LoadFromBinary(GetPCJobListPath(n));
         }
 
-        /*internal static List<Job> ImportIncompleteJobList()
-        {
-            return DataInputOutput<List<Job>>.LoadFromBinary(Directory.GetCurrentDirectory() + @"/incompleteJobList.data");
-        }*/
-
+       
         internal static USBJob ImportIncompleteJobFromUSB(string incompleteUSBJobPath)
         {
             return DataInputOutput<USBJob>.LoadFromBinary(incompleteUSBJobPath);
         }
 
-        internal static void ExportPCJobPathsList(List<string> pcJobPathsList)
+        //Modified
+        internal static void ExportPCJobPathsList(List<string> pcJobPathsList,int n)
         {
-            DataInputOutput<List<string>>.SaveToBinary(GetPCJobListPath(),pcJobPathsList);
+            DataInputOutput<List<string>>.SaveToBinary(GetPCJobListPath(n),pcJobPathsList);
         }
 
         internal static void ExportPCJob(PCJob pcJob)
         {
             DataInputOutput<PCJob>.SaveToBinary(GetStoredPathOnPC(pcJob),pcJob);
+            LogFile.ExportToPC(GetStoredPathOnPC(pcJob));
         }
         internal static void ExportIncompleteJobToUSB(USBJob incompleteUSBJob)
         {
             DataInputOutput<USBJob>.SaveToBinary(GetIncompleteUSBFilePath(incompleteUSBJob),incompleteUSBJob);
         }
-        internal static void ExportCompleteToUSB(Job completeJob)
-        {
-            DataInputOutput<Job>.SaveToBinary(completeJob.pathUSB + @"\completeJob.data", completeJob);
-        }
+        
 
         internal static string GetStoredPathOnPC(PCJob pcJob)
-        {
+        {            
             if (!Directory.Exists(Directory.GetCurrentDirectory() + @"\JobsList"))
                 Directory.CreateDirectory(Directory.GetCurrentDirectory() + @"\JobsList");
-            return Directory.GetCurrentDirectory() + @"\JobsList\" + pcJob.JobName + ".jInfo";
+            return Directory.GetCurrentDirectory() + @"\JobsList\" + pcJob.JobName+pcJob.PCID + ".jInfo";
         }
 
-        internal static string GetPCJobListPath()
+        //Modified
+        internal static string GetPCJobListPath(int n)
         {
-            return Directory.GetCurrentDirectory() + @"\jobPathList.pathList";
+            return Directory.GetCurrentDirectory() + @"\jobPathList"+n+".pathList";
         }
 
-        //ERROR
+        
         internal static string GetIncompleteUSBFilePath(USBJob usbJob)
         {
             if (!Directory.Exists(GetUSBRootPath(usbJob) + @"\incompleteJobs"))
@@ -188,11 +200,27 @@ namespace CleanSync
         internal static void ExportUSBJob(USBJob usbJob)
         {
             DataInputOutput<USBJob>.SaveToBinary(GetStoredPathOnUSB(usbJob), usbJob);
+            LogFile.ExportToUSB(GetStoredPathOnUSB(usbJob));
         }
 
         internal static string GetUSBRootPath(USBJob usbJob)
         {
             return Path.GetPathRoot(usbJob.USBPath) + @"\usb";
+        }
+
+        internal static List<string> GetUSBJobListPath(string usbPath)
+        {
+            return DataInputOutput<List<string>>.LoadFromBinary(usbPath+@"\usbJobPathList.pList");
+        }
+
+        internal static List<USBJob> GetUSBJobs(List<string> usbJobListPath)
+        {
+            List<USBJob> jobLists = new List<USBJob>();
+            foreach (string usbJob in usbJobListPath)
+            {
+                jobLists.Add(DataInputOutput<USBJob>.LoadFromBinary(usbJob));
+            }
+            return jobLists;
         }
     }
 }
