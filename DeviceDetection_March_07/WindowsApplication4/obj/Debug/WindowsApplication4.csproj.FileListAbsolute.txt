@@ -1,0 +1,16 @@
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.exe
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.pdb
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\bin\Debug\WindowsApplication4.exe
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\bin\Debug\WindowsApplication4.pdb
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.Form1.resources
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.csproj.GenerateResource.Cache
+C:\Users\Wenhao\Desktop\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\bin\Debug\WindowsApplication4.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\bin\Debug\WindowsApplication4.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.Form1.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\DeviceDetection\WindowsApplication4\obj\Debug\WindowsApplication4.pdb
