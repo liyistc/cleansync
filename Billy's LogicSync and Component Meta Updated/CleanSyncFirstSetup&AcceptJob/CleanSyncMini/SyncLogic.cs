@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Diagnostics;
 using System.Text;
-using TestStubs;
+using CleanSyncMini;
 
 namespace DirectoryInformation
 {
@@ -12,13 +12,14 @@ namespace DirectoryInformation
 
         public static void CleanSync(ComparisonResult comparisonResult, PCJob job)
         {
-            if (job.PCID == job.GetUsbJob().MostRecentPCID)
-            {
-                CleanSyncReSync(comparisonResult, job);
-            }
-            else NormalCleanSync(comparisonResult, job);
+           //if (job.PCID == job.GetUsbJob().MostRecentPCID)
+   //         {
+             //   CleanSyncReSync(comparisonResult, job);
+     //       }
+            //else
+            NormalCleanSync(comparisonResult, job);
 
-            job.GetUsbJob().MostRecentPCID = job.PCID;
+        //    job.GetUsbJob().MostRecentPCID = job.PCID;
         }
 
         private static void NormalCleanSync(ComparisonResult comparisonResult, PCJob job)
@@ -60,7 +61,6 @@ namespace DirectoryInformation
             ReadAndWrite.ExportUSBJob(job.GetUsbJob());
             job.FolderInfo = ReadAndWrite.BuildTree(job.PCPath);
             ReadAndWrite.ExportPCJob(job);
-            
         }
 
         private static void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob job)
@@ -192,7 +192,7 @@ namespace DirectoryInformation
                 if (!found) oldDifferences.AddDeletedFolderDifference(deletedFolder);
             }
         }
-        
+
         private static void RemoveNullComponentsFiles(PCJob job, List<FileMeta> files, string listType)
         {
             int lastFreeIndex = 0;
@@ -202,7 +202,7 @@ namespace DirectoryInformation
                 {
                     if (lastFreeIndex < i)
                     {
-                        //ReadAndWrite.RenameFolder(job.USBPath + "\\" + listType + i, job.USBPAth + "\\" + listType + lastFreeIndex + ".temp");
+                        //ReadAndWrite.RenameFile(job.USBPath + "\\" + listType + i, job.USBPAth + "\\" + listType + lastFreeIndex + ".temp");
                         files[lastFreeIndex] = files[i];
                         files[i] = null;
                     }
@@ -249,7 +249,7 @@ namespace DirectoryInformation
             SyncPCToUSBNewFile(job, newFileList);
             SyncPCToUSBModifiedFile(job, modifiedFileList);
         }
-        
+
         public static void SyncPCToUSBModifiedFile(PCJob job, List<FileMeta> modifiedFileList)
         {
             int i = 0;
@@ -277,7 +277,7 @@ namespace DirectoryInformation
         public static void SyncPCToUSBNewFolder(PCJob job, List<FolderMeta> newFolderList)
         {
             int i = 0;
-            foreach(FolderMeta newFolder in newFolderList)
+            foreach (FolderMeta newFolder in newFolderList)
             {
                 Debug.Assert(newFolder != null);
                 Debug.Assert(newFolder.Path != null & newFolder.Name != null);
@@ -302,12 +302,15 @@ namespace DirectoryInformation
             Debug.Assert(modifiedFileList != null);
             Debug.Assert(deletedFileList != null);
             Debug.Assert(deletedFolderList != null);
-            
+
             SyncUSBToPCNewFolder(job, newFolderList);
             SyncUSBtoPCDeleteFolder(job, deletedFolderList);
             SyncUSbToPCNewFile(job, newFileList);
             SyncUSBToPCModifiedFile(job, modifiedFileList);
             SyncUSBToPCDeleteFile(job, deletedFileList);
+
+            //Delete usb temp folders and files
+            ReadAndWrite.DeleteFolderContent(job.USBPath);
         }
 
         public static void SyncUSBToPCDeleteFile(PCJob job, List<FileMeta> deletedFileList)
@@ -332,7 +335,7 @@ namespace DirectoryInformation
                 i++;
             }
         }
-        
+
         public static void SyncUSbToPCNewFile(PCJob job, List<FileMeta> newFileList)
         {
             int i = 0;
