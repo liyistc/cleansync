@@ -1,0 +1,97 @@
+Export PC Job to File temp0.jInfo
+Export PC Job to File temp0.jInfo
+Copy Folder C:\test\PCOne\pic\_gsdata_ to C:\usb\test\new0
+Copy File C:\test\PCOne\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\usb\test\new0\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File C:\test\PCOne\pic\_gsdata_\_file_state._gs to C:\usb\test\new0\_file_state._gs
+Copy File C:\test\PCOne\pic\DSC00189.JPG to C:\usb\test\new0.temp
+Copy File C:\test\PCOne\pic\DSC00241.JPG to C:\usb\test\new1.temp
+Copy File C:\test\PCOne\pic\DSC00242.JPG to C:\usb\test\new2.temp
+Copy File C:\test\PCOne\pic\DSC00257.JPG to C:\usb\test\new3.temp
+Copy File C:\test\PCOne\pic\DSC00563.jpg to C:\usb\test\new4.temp
+Copy File C:\test\PCOne\pic\DSC00568.jpg to C:\usb\test\new5.temp
+Copy File C:\test\PCOne\pic\DSC00622.jpg to C:\usb\test\new6.temp
+Copy File C:\test\PCOne\pic\DSC00674.JPG to C:\usb\test\new7.temp
+Copy File C:\test\PCOne\pic\DSC00683.JPG to C:\usb\test\new8.temp
+Copy File C:\test\PCOne\pic\DSC00690.JPG to C:\usb\test\new9.temp
+Copy File C:\test\PCOne\pic\DSC00709.JPG to C:\usb\test\new10.temp
+Copy File C:\test\PCOne\pic\DSC00724.jpg to C:\usb\test\new11.temp
+Copy File C:\test\PCOne\pic\DSC00737.jpg to C:\usb\test\new12.temp
+Copy File C:\test\PCOne\pic\DSC00763.JPG to C:\usb\test\new13.temp
+Copy File C:\test\PCOne\pic\DSC00834.JPG to C:\usb\test\new14.temp
+Copy File C:\test\PCOne\pic\DSC01481.JPG to C:\usb\test\new15.temp
+Copy File C:\test\PCOne\pic\DSC01795.JPG to C:\usb\test\new16.temp
+Copy File C:\test\PCOne\pic\test.txt to C:\usb\test\new17.temp
+Export PC Job to File temp1.jInfo
+Export USB Job to File temp.jInfo
+Delete File C:\\usb\incompleteJobs\temp.jUSBInfo
+Copy Folder C:\usb\test\new0 to C:\test\PCTwo\pic\_gsdata_
+Copy File C:\usb\test\new0\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\test\PCTwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File C:\usb\test\new0\_file_state._gs to C:\test\PCTwo\pic\_gsdata_\_file_state._gs
+Copy File C:\usb\test\new0.temp to C:\test\PCTwo\pic\DSC00189.JPG
+Copy File C:\usb\test\new1.temp to C:\test\PCTwo\pic\DSC00241.JPG
+Copy File C:\usb\test\new2.temp to C:\test\PCTwo\pic\DSC00242.JPG
+Copy File C:\usb\test\new3.temp to C:\test\PCTwo\pic\DSC00257.JPG
+Copy File C:\usb\test\new4.temp to C:\test\PCTwo\pic\DSC00563.jpg
+Copy File C:\usb\test\new5.temp to C:\test\PCTwo\pic\DSC00568.jpg
+Copy File C:\usb\test\new6.temp to C:\test\PCTwo\pic\DSC00622.jpg
+Copy File C:\usb\test\new7.temp to C:\test\PCTwo\pic\DSC00674.JPG
+Copy File C:\usb\test\new8.temp to C:\test\PCTwo\pic\DSC00683.JPG
+Copy File C:\usb\test\new9.temp to C:\test\PCTwo\pic\DSC00690.JPG
+Copy File C:\usb\test\new10.temp to C:\test\PCTwo\pic\DSC00709.JPG
+Copy File C:\usb\test\new11.temp to C:\test\PCTwo\pic\DSC00724.jpg
+Copy File C:\usb\test\new12.temp to C:\test\PCTwo\pic\DSC00737.jpg
+Copy File C:\usb\test\new13.temp to C:\test\PCTwo\pic\DSC00763.JPG
+Copy File C:\usb\test\new14.temp to C:\test\PCTwo\pic\DSC00834.JPG
+Copy File C:\usb\test\new15.temp to C:\test\PCTwo\pic\DSC01481.JPG
+Copy File C:\usb\test\new16.temp to C:\test\PCTwo\pic\DSC01795.JPG
+Copy File C:\usb\test\new17.temp to C:\test\PCTwo\pic\test.txt
+Delete Folder C:\usb\test\new0
+Delete File C:\usb\test\new0.temp
+Delete File C:\usb\test\new1.temp
+Delete File C:\usb\test\new10.temp
+Delete File C:\usb\test\new11.temp
+Delete File C:\usb\test\new12.temp
+Delete File C:\usb\test\new13.temp
+Delete File C:\usb\test\new14.temp
+Delete File C:\usb\test\new15.temp
+Delete File C:\usb\test\new16.temp
+Delete File C:\usb\test\new17.temp
+Delete File C:\usb\test\new2.temp
+Delete File C:\usb\test\new3.temp
+Delete File C:\usb\test\new4.temp
+Delete File C:\usb\test\new5.temp
+Delete File C:\usb\test\new6.temp
+Delete File C:\usb\test\new7.temp
+Delete File C:\usb\test\new8.temp
+Delete File C:\usb\test\new9.temp
+Copy Folder C:\test\PCTwo\pic\mytest to C:\usb\test\new0
+Copy File C:\test\PCTwo\pic\sees.txt to C:\usb\test\new0.temp
+Export USB Job to File temp.jInfo
+Export PC Job to File temp1.jInfo
+Copy Folder C:\usb\test\new0 to C:\test\PCOne\pic\mytest
+Copy File C:\usb\test\new0.temp to C:\test\PCOne\pic\sees.txt
+Delete Folder C:\usb\test\new0
+Delete File C:\usb\test\new0.temp
+Copy Folder C:\test\PCOne\pic\xinfolder to C:\usb\test\new0
+Copy File C:\test\PCOne\pic\xinfolder\kanDedao.txt to C:\usb\test\new0\kanDedao.txt
+Copy Folder C:\test\PCOne\pic\xinfolder\okle to C:\usb\test\new0\okle
+Copy File C:\test\PCOne\pic\xinfile.txt to C:\usb\test\new0.temp
+Copy File C:\test\PCOne\pic\test.txt to C:\usb\test\modified0.temp
+Export USB Job to File temp.jInfo
+Export PC Job to File temp0.jInfo
+Copy Folder C:\usb\test\new0 to C:\test\PCTwo\pic\xinfolder
+Copy File C:\usb\test\new0\kanDedao.txt to C:\test\PCTwo\pic\xinfolder\kanDedao.txt
+Copy Folder C:\usb\test\new0\okle to C:\test\PCTwo\pic\xinfolder\okle
+Delete Folder C:\test\PCTwo\pic\_gsdata_
+Copy File C:\usb\test\new0.temp to C:\test\PCTwo\pic\xinfile.txt
+Copy File C:\usb\test\modified0.temp to C:\test\PCTwo\pic\test.txt
+Delete Folder C:\usb\test\new0
+Delete File C:\usb\test\modified0.temp
+Delete File C:\usb\test\new0.temp
+Export USB Job to File temp.jInfo
+Export PC Job to File temp1.jInfo
+Delete Folder C:\test\PCOne\pic\mytest
+Delete File C:\test\PCOne\pic\DSC00622.jpg
+Delete File C:\test\PCOne\pic\sees.txt
+Export USB Job to File temp.jInfo
+Export PC Job to File temp0.jInfo
