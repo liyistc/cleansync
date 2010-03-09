@@ -1,0 +1,7 @@
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\CleanSync.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\TestStubs.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\TestStubs.pdb
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\CleanSync.dll
+C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy's LogicSync and Component Meta Updated\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\CleanSync.pdb
