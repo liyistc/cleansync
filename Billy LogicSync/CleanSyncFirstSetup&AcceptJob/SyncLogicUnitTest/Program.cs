@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using DirectoryInformation;
+//using DirectoryInformation;
 using TestStubs;
 
 namespace SyncLogicUnitTest
@@ -23,15 +23,13 @@ namespace SyncLogicUnitTest
             * */
 
             List<string> test = new List<string>();
-            test.Add("1");
-            test.Add("HALLO");
             test.Add(null);
             test.Add(null);
-            test.Add("HAHAHA");
+            test.Add(null);
+            test.Add(null);
             Console.WriteLine("try1: \n");
             foreach (string i in test)
                 Console.WriteLine(i == null ? "null" : i);
-            Console.WriteLine("Try 1 fin: \n");
             tester(test);
             Console.WriteLine("Try 2: \n");
 
@@ -42,25 +40,32 @@ namespace SyncLogicUnitTest
         public static void tester( List<string> folders)
         {
             int lastFreeIndex = 0;
-            for (int i = 0; i < folders.Count; i++)
+            int pointer = folders.Count - 1;
+            bool doing = true;
+            while (doing)
             {
-                if (folders[i] != null)
+                while (lastFreeIndex < pointer && folders[lastFreeIndex] != null)
                 {
-                    Console.WriteLine(folders[i]);
-                    if (lastFreeIndex < i)
-                    {
-                        Console.WriteLine(i + " " + lastFreeIndex);
-                        //ReadAndWrite.RenameFolder(job.USBPath + "\\" + listType + i, job.USBPAth + "\\" + listType + lastFreeIndex);
-                        folders[lastFreeIndex] = folders[i];
-                        folders[i] = null;
-                    }
                     lastFreeIndex++;
                 }
+                while (lastFreeIndex < pointer && folders[pointer] == null)
+                {
+                    pointer--;
+                }
+                if (lastFreeIndex < pointer)
+                {
+                    folders[lastFreeIndex] = folders[pointer];
+                    folders[pointer] = null;
+                }
+                else doing = false;
             }
+
+            
             while (lastFreeIndex < folders.Count)
             {
                 folders.RemoveAt(lastFreeIndex);
             }
         }
+
     }
 }

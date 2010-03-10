@@ -83,7 +83,6 @@ namespace DirectoryInformation
             List<FolderMeta> newFoldersNew = newDifferences.getNewFolderList();
             List<FolderMeta> deletedFoldersNew = newDifferences.getDeletedFolderList();
             ReSyncDeletedFolders(oldDifferences, pcJob, newFoldersOld, deletedFoldersNew);
-
             RemoveNullComponentsFolders(pcJob, newFoldersOld, "new");
             ReSyncNewFolders(oldDifferences, pcJob, newFoldersNew);
         }
@@ -195,18 +194,20 @@ namespace DirectoryInformation
         private static void RemoveNullComponentsFiles(PCJob pcJob, List<FileMeta> files, string listType)
         {
             int lastFreeIndex = 0;
-            for (int i = 0; i < files.Count; i++)
+            int lastFileIndex = files.Count;
+            bool rearranging = true;
+
+            while(rearranging)
             {
-                if (files[i] != null)
+                while(lastFreeIndex < lastFileIndex && files[lastFreeIndex] != null) lastFreeIndex++;
+                while(lastFreeIndex < lastFileIndex && files[lastFileIndex] == null) lastFileIndex--;
+                if (lastFreeIndex < lastFileIndex)
                 {
-                    if (lastFreeIndex < i)
-                    {
-                        ReadAndWrite.RenameFile(pcJob.USBPath + "\\" + listType + i, pcJob.USBPAth + "\\" + listType + lastFreeIndex + ".temp");
-                        files[lastFreeIndex] = files[i];
-                        files[i] = null;
-                    }
-                    lastFreeIndex++;
+                    ReadAndWrite.RenameFile(pcJob.USBPath + "\\" + listType + lastFileIndex + ".temp", pcJob.USBPAth + "\\" + listType + lastFreeIndex + ".temp");
+                    files[lastFreeIndex] = files[lastFileIndex];
+                    files[lastFileIndex] = null;
                 }
+                else rearranging = false;
             }
             while (lastFreeIndex < files.Count)
             {
@@ -217,18 +218,20 @@ namespace DirectoryInformation
         public static void RemoveNullComponentsFolders(PCJob pcJob, List<FolderMeta> folders, string listType)
         {
             int lastFreeIndex = 0;
-            for (int i = 0; i < folders.Count; i++)
+            int lastFileIndex = folders.Count;
+            bool rearranging = true;
+
+            while (rearranging)
             {
-                if (folders[i] != null)
+                while (lastFreeIndex < lastFileIndex && files[lastFreeIndex] != null) lastFreeIndex++;
+                while (lastFreeIndex < lastFileIndex && files[lastFileIndex] == null) lastFileIndex--;
+                if (lastFreeIndex < lastFileIndex)
                 {
-                    if (lastFreeIndex < i)
-                    {
-                        ReadAndWrite.RenameFolder(pcJob.USBPath + "\\" + listType + i, pcJob.USBPAth + "\\" + listType + lastFreeIndex);
-                        folders[lastFreeIndex] = folders[i];
-                        folders[i] = null;
-                    }
-                    lastFreeIndex++;
+                    ReadAndWrite.RenameFolder(pcJob.USBPath + "\\" + listType + lastFileIndex, pcJob.USBPAth + "\\" + listType + lastFreeIndex);
+                    folders[lastFreeIndex] = folders[lastFileIndex];
+                    folders[lastFileIndex] = null;
                 }
+                else rearranging = false;
             }
             while (lastFreeIndex < folders.Count)
             {
