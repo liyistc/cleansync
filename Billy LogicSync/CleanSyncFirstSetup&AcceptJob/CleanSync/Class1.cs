@@ -135,7 +135,6 @@ namespace DirectoryInformation
 
         private static void ReSyncDeletedFiles(Differences oldDifferences, PCJob pcJob, List<FileMeta> newFilesOld, List<FileMeta> deletedFilesNew, List<FileMeta> modifiedFilesOld)
         {
-
             foreach (FileMeta deletedFile in deletedFilesNew)
             {
                 bool found = false;
@@ -158,7 +157,7 @@ namespace DirectoryInformation
                         found = true;
                     }
                 }
-                if (!found) modifiedFilesOld.Add(deletedFile);
+                if (!found) oldDifferences.AddDeletedFileDifference(deletedFile);
             }
         }
 
