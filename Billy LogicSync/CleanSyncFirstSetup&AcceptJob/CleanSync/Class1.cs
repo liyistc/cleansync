@@ -73,7 +73,7 @@ namespace DirectoryInformation
             ReSyncDeletedFiles(oldDifferences, pcJob, newFilesOld, deletedFilesNew, modifiedFilesOld);
             RemoveNullComponentsFiles(pcJob, newFilesOld, "new");
             RemoveNullComponentsFiles(pcJob, modifiedFilesOld, "modified");
-            ReSyncModifiedFiles(oldDifferences, pcJob, newFilesOld, modifiedFilesOld, modifiedFilesNew);
+            ReSyncModifiedFiles(oldDifferences, pcJob, modifiedFilesOld, modifiedFilesNew);
             ReSyncNewFiles(pcJob, oldDifferences, newFilesNew);
         }
 
@@ -99,8 +99,9 @@ namespace DirectoryInformation
             }
         }
 
-        private static void ReSyncModifiedFiles(Differences oldDifferences, PCJob pcJob, List<FileMeta> newFilesOld, List<FileMeta> modifiedFilesOld, List<FileMeta> modifiedFilesNew)
+        private static void ReSyncModifiedFiles(Differences oldDifferences, PCJob pcJob, List<FileMeta> modifiedFilesOld, List<FileMeta> modifiedFilesNew)
         {
+            List<FileMeta> newFilesOld = oldDifferences.getNewFileList();
             foreach (FileMeta modifiedFile in modifiedFilesNew)
             {
                 bool found = false;

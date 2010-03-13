@@ -4,3 +4,5 @@ C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSync
 C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSyncMini.exe
 C:\Users\Li Zichen\Documents\Visual Studio 2008\Projects\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSyncMini.pdb
+C:\Users\Pirororor\Desktop\3215\CleanSyncMiniWithoutGUIMarch08 3PM\CleanSyncMini\obj\Debug\CleanSyncMini.exe
+C:\Users\Pirororor\Desktop\3215\CleanSyncMiniWithoutGUIMarch08 3PM\CleanSyncMini\obj\Debug\CleanSyncMini.pdb

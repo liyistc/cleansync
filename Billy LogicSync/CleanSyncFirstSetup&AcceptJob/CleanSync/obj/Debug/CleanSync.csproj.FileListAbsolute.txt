@@ -12,3 +12,5 @@ C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\TestStubs.dll
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\CleanSync\bin\Debug\TestStubs.pdb
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\CleanSync\obj\Debug\CleanSync.dll
