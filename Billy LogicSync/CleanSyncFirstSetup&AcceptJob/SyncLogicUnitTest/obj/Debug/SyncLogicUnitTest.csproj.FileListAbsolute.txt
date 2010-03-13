@@ -18,3 +18,12 @@ C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\TestStubs.pdb
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\CleanSync.pdb
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\obj\Debug\SyncLogicUnitTest.exe
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\obj\Debug\SyncLogicUnitTest.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\SyncLogicUnitTest.exe
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\SyncLogicUnitTest.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\CleanSync.dll
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\TestStubs.dll
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\TestStubs.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\SyncLogicUnitTest\obj\Debug\ResolveAssemblyReference.cache

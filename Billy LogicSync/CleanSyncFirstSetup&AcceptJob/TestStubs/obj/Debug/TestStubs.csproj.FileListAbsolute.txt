@@ -8,3 +8,8 @@ C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\TestStubs.dll
 C:\Users\Pirororor\Desktop\CS3215\cleansync\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\TestStubs.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\bin\Debug\TestStubs.dll
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\bin\Debug\TestStubs.pdb
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\TestStubs.dll
+C:\Users\Pirororor\Desktop\3215\Billy LogicSync\CleanSyncFirstSetup&AcceptJob\TestStubs\obj\Debug\TestStubs.pdb
