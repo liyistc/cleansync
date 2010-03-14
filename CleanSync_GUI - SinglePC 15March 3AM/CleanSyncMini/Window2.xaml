@@ -1,0 +1,15 @@
+﻿<Window x:Class="CleanSyncMini.Analyser"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Analyser" Height="500" Width="500" ResizeMode="NoResize" WindowStyle="ToolWindow" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="382*" />
+            <RowDefinition Height="80*" />
+        </Grid.RowDefinitions>
+        <Button Grid.Row="2" HorizontalAlignment="Right" Margin="0,25,140,25" Name="StartSync" Width="70" Grid.RowSpan="2" Click="StartSync_Click">Start Sync</Button>
+        <Button Grid.Row="2" HorizontalAlignment="Right" Margin="0,25,50,25" Width="70" Name="Cancel" Grid.RowSpan="2" Click="Cancel_Click">Cancel</Button>
+        <TreeView Name="CompareResult" />
+        <TextBox Name="ResultDisplay" />
+    </Grid>
+</Window>
