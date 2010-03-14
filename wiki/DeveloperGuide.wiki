@@ -12,12 +12,17 @@ CLEANSync is developed using .NET Visual C#.
 The logics components form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
 
 *Classes*
-
-*MainLogic*
-
-MainLogic is in charge of delegating jobs from the GUI to other logics. It is the sole class that communicates with the GUI components and all communication between GUI and the logic components go through MainLogic.
-
-*JobLogic*
-
+*MainLogic
+*JobLogic
+*CompareLogic
+*SyncLogic
+*ReadAndWrite
 
 ====MetaData====
+
+*Classes*
+*ComponentMeta
+*PCJob
+*USBJob
+*Differences
+*ComparisonResult
