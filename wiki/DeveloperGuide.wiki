@@ -4,4 +4,10 @@
 
 CLEANSync is developed using .NET Visual C#. 
 
-==Class Diagram==
+==Components==
+
+GUI
+
+Logics
+
+MetaData
