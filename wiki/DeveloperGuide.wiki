@@ -1,5 +1,7 @@
 #CLEANSync developers' guide
 
+==Development Platform==
+
 CLEANSync is developed using .NET Visual C#. 
 
-==Architecture==
+==Class Diagram==
