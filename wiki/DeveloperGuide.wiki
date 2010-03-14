@@ -19,6 +19,7 @@ The logics components form the underlying engine of CLEANSync. This component is
   * ReadAndWrite
 
 ====MetaData====
+MetaData classes store various information used by CLEANSync to perform its operations. 
 
 *Classes*
   * ComponentMeta
