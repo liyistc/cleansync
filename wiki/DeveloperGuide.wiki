@@ -5,10 +5,10 @@
 CLEANSync is developed using .NET Visual C#. 
 ----
 ==Components==
-----
-====GUI====
-----
-====Logics====
+
+===GUI===
+
+===Logics===
 The logics components form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
 
 *Classes*
@@ -17,8 +17,8 @@ The logics components form the underlying engine of CLEANSync. This component is
   * CompareLogic
   * SyncLogic
   * ReadAndWrite
------
-====MetaData====
+
+===MetaData===
 MetaData classes store various information used by CLEANSync to perform its operations. 
 
 *Classes*
