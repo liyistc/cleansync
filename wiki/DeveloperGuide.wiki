@@ -6,8 +6,8 @@ CLEANSync is developed using .NET Visual C#.
 
 ==Components==
 
-GUI
+*GUI*
 
-Logics
+*Logics*
 
-MetaData
+*MetaData*
