@@ -2,6 +2,9 @@
 
 = Sync Logic Description=
 
-HAHA
+Sync Logic handles synchronization between two folders. After comparing differences of the component metas, the results are brought here to execute synchronization and the copying of files and folders from the USB to the PC and vice versa. 
 
-= Details =
+Files and Folders stored in the USB are renamed and their renaming is also handled by Sync Logic.
+
+----
+= Methods =
