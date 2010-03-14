@@ -29,3 +29,21 @@ MetaData classes store various information used by CLEANSync to perform its oper
   * USBJob
   * Differences
   * ComparisonResult
+----
+==CLEANSync Feature Implementation Details==
+===Creating a Job===
+
+
+===Accepting a Job===
+
+
+===Deleting a Job===
+
+
+===Normal Synchronization===
+
+
+===Re-Synchronization===
+
+
+===Comparing meta data===
