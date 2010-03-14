@@ -1,0 +1,118 @@
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\CleanSnycMini.exe
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\CleanSnycMini.pdb
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\ResolveAssemblyReference.cache
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\Window1.baml
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\Window2.baml
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\Window1.g.cs
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\Window2.g.cs
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\App.g.cs
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSnycMini.g.resources
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSnycMini.exe
+G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\obj\Debug\CleanSnycMini.pdb
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\Window1.baml
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\Window2.baml
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\Window1.g.cs
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\Window2.g.cs
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\App.g.cs
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window1.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window2.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window2.baml
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+K:\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache

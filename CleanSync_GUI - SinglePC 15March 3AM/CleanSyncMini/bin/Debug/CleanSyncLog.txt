@@ -1,0 +1,1299 @@
+Export PC Job to File job.jInfo
+Export PC Job to File job.jInfo
+Export PC Job to File job.jInfo
+Export PC Job to File job.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to K:\usb\New folder\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to K:\usb\New folder\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to K:\usb\New folder\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to K:\usb\New folder\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to K:\usb\New folder\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to K:\usb\New folder\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to K:\usb\New folder\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to K:\usb\New folder\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to K:\usb\New folder\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to K:\usb\New folder\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to K:\usb\New folder\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to K:\usb\New folder\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to K:\usb\New folder\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to K:\usb\New folder\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to K:\usb\New folder\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to K:\usb\New folder\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to K:\usb\New folder\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to K:\usb\New folder\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to K:\usb\New folder\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to K:\usb\New folder\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to K:\usb\New folder\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to K:\usb\New folder\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to K:\usb\New folder\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to K:\usb\New folder\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to K:\usb\New folder\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to K:\usb\New folder\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to K:\usb\New folder\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to K:\usb\New folder\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to K:\usb\New folder\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to K:\usb\New folder\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to K:\usb\New folder\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to K:\usb\New folder\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to K:\usb\New folder\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe.manifest to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe.manifest
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\jobPathList.pathList to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\jobPathList.pathList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\JobsList to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\JobsList\job.jInfo to K:\usb\New folder\new0\CleanSyncMini\bin\Debug\JobsList\job.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to K:\usb\New folder\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to K:\usb\New folder\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to K:\usb\New folder\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to K:\usb\New folder\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to K:\usb\New folder\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to K:\usb\New folder\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to K:\usb\New folder\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to K:\usb\New folder\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to K:\usb\New folder\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to K:\usb\New folder\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to K:\usb\New folder\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to K:\usb\New folder\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to K:\usb\New folder\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to K:\usb\New folder\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to K:\usb\New folder\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to K:\usb\New folder\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to K:\usb\New folder\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to K:\usb\New folder\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to K:\usb\New folder\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to K:\usb\New folder\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to K:\usb\New folder\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to K:\usb\New folder\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to K:\usb\New folder\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to K:\usb\New folder\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to K:\usb\New folder\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to K:\usb\New folder\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to K:\usb\New folder\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to K:\usb\New folder\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to K:\usb\New folder\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to K:\usb\New folder\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to K:\usb\New folder\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to K:\usb\New folder\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to K:\usb\New folder\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to K:\usb\New folder\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to K:\usb\New folder\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to K:\usb\New folder\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to K:\usb\New folder\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to K:\usb\New folder\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to K:\usb\New folder\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to K:\usb\New folder\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to K:\usb\New folder\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to K:\usb\New folder\new0.temp
+Export PC Job to File job1.jInfo
+Export PC Job to File job1.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to G:\Module\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to G:\Module\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to G:\Module\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to G:\Module\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to G:\Module\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to G:\Module\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to G:\Module\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to G:\Module\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to G:\Module\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to G:\Module\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to G:\Module\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to G:\Module\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to G:\Module\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to G:\Module\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to G:\Module\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to G:\Module\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to G:\Module\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to G:\Module\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to G:\Module\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to G:\Module\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to G:\Module\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to G:\Module\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to G:\Module\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to G:\Module\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to G:\Module\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to G:\Module\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to G:\Module\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to G:\Module\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to G:\Module\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to G:\Module\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to G:\Module\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to G:\Module\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to G:\Module\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe.manifest to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe.manifest
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to G:\Module\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\jobPathList.pathList to G:\Module\new0\CleanSyncMini\bin\Debug\jobPathList.pathList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\JobsList to G:\Module\new0\CleanSyncMini\bin\Debug\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\JobsList\job.jInfo to G:\Module\new0\CleanSyncMini\bin\Debug\JobsList\job.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\JobsList\job1.jInfo to G:\Module\new0\CleanSyncMini\bin\Debug\JobsList\job1.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to G:\Module\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to G:\Module\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to G:\Module\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to G:\Module\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to G:\Module\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to G:\Module\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to G:\Module\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to G:\Module\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to G:\Module\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to G:\Module\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to G:\Module\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to G:\Module\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to G:\Module\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to G:\Module\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to G:\Module\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to G:\Module\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to G:\Module\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to G:\Module\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to G:\Module\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to G:\Module\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to G:\Module\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to G:\Module\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to G:\Module\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to G:\Module\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to G:\Module\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to G:\Module\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to G:\Module\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to G:\Module\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to G:\Module\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to G:\Module\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to G:\Module\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to G:\Module\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to G:\Module\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to G:\Module\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to G:\Module\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to G:\Module\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to G:\Module\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to G:\Module\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to G:\Module\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to G:\Module\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to G:\Module\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to G:\Module\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to G:\Module\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to G:\Module\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to G:\Module\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to G:\Module\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to G:\Module\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to G:\Module\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to G:\Module\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to G:\Module\new0.temp
+Export PC Job to File test.jInfo
+Export PC Job to File test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\usb\test\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\usb\test\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\usb\test\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\usb\test\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\usb\test\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\usb\test\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\usb\test\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\usb\test\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\usb\test\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\usb\test\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\usb\test\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\usb\test\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\usb\test\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\usb\test\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\usb\test\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\usb\test\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\usb\test\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\usb\test\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\usb\test\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\usb\test\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\usb\test\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\usb\test\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\usb\test\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\usb\test\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\usb\test\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\usb\test\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\usb\test\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\usb\test\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\usb\test\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\usb\test\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\usb\test\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\usb\test\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\usb\test\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\usb\test\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\usb\test\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\usb\test\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\usb\test\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\usb\test\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\usb\test\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\usb\test\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\usb\test\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\usb\test\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\usb\test\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\usb\test\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\usb\test\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\usb\test\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\usb\test\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\usb\test\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\usb\test\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\usb\test\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\usb\test\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\usb\test\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\usb\test\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\usb\test\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\usb\test\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\usb\test\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\usb\test\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\usb\test\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\usb\test\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\usb\test\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\usb\test\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\usb\test\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\usb\test\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC.rar to I:\usb\test\new0.temp
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\usb\test\new1.temp
+Copy File C:\Users\Gu Yang\Desktop\Window1.xaml.cs to I:\usb\test\new2.temp
+Export PC Job to File testbar.jInfo
+Export PC Job to File testbar.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\usb\testbar\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\usb\testbar\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\usb\testbar\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\usb\testbar\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\usb\testbar\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\usb\testbar\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\usb\testbar\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\usb\testbar\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\usb\testbar\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\usb\testbar\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\usb\testbar\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\usb\testbar\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\usb\testbar\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\usb\testbar\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\usb\testbar\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\usb\testbar\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\usb\testbar\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\usb\testbar\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\usb\testbar\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\usb\testbar\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\usb\testbar\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\usb\testbar\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\usb\testbar\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\usb\testbar\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\usb\testbar\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\usb\testbar\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\usb\testbar\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\usb\testbar\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\usb\testbar\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\usb\testbar\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\usb\testbar\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\usb\testbar\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\usb\testbar\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\usb\testbar\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\usb\testbar\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\usb\testbar\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\usb\testbar\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\usb\testbar\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\usb\testbar\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\usb\testbar\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\usb\testbar\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\usb\testbar\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\usb\testbar\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\usb\testbar\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\usb\testbar\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\usb\testbar\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\usb\testbar\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\usb\testbar\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\usb\testbar\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\usb\testbar\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\usb\testbar\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\usb\testbar\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\usb\testbar\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\usb\testbar\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\usb\testbar\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\usb\testbar\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\usb\testbar\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\usb\testbar\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\usb\testbar\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC.rar to I:\usb\testbar\new0.temp
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\usb\testbar\new1.temp
+Copy File C:\Users\Gu Yang\Desktop\Window1.xaml.cs to I:\usb\testbar\new2.temp
+Export PC Job to File test.jInfo
+Export PC Job to File test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\usb\test\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\usb\test\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\usb\test\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\usb\test\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\usb\test\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\usb\test\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\usb\test\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\usb\test\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\usb\test\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\usb\test\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\usb\test\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\usb\test\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\usb\test\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\usb\test\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\usb\test\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\usb\test\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\usb\test\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\usb\test\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\usb\test\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\usb\test\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\usb\test\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\usb\test\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\usb\test\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\usb\test\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\usb\test\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\usb\test\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\usb\test\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\usb\test\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\usb\test\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\usb\test\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\usb\test\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\usb\test\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\usb\test\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\usb\test\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\usb\test\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\usb\test\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\usb\test\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\usb\test\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\usb\test\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\usb\test\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\usb\test\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\usb\test\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\usb\test\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\usb\test\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\usb\test\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\usb\test\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\usb\test\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\usb\test\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\usb\test\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\usb\test\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\usb\test\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\usb\test\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\usb\test\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\usb\test\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\usb\test\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\usb\test\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\usb\test\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\usb\test\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\usb\test\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\usb\test\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\usb\test\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\usb\test\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\usb\test\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC.rar to I:\usb\test\new0.temp
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\usb\test\new1.temp
+Copy File C:\Users\Gu Yang\Desktop\Window1.xaml.cs to I:\usb\test\new2.temp
+Export PC Job to File test3.jInfo
+Export PC Job to File test3.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\usb\test\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\usb\test\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\usb\test\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\usb\test\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\usb\test\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\usb\test\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\usb\test\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\usb\test\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\usb\test\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\usb\test\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\usb\test\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\usb\test\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\usb\test\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\usb\test\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\usb\test\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\usb\test\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\usb\test\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\usb\test\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\usb\test\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\usb\test\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\usb\test\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\usb\test\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\usb\test\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\usb\test\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\usb\test\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\usb\test\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\usb\test\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\usb\test\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\usb\test\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\usb\test\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\usb\test\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test3.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test3.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo to I:\usb\test\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\testbar.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\usb\test\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\usb\test\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\usb\test\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\usb\test\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\usb\test\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\usb\test\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\usb\test\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\usb\test\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\usb\test\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\usb\test\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\usb\test\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\usb\test\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\usb\test\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\usb\test\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\usb\test\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\usb\test\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\usb\test\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\usb\test\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\usb\test\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\usb\test\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\usb\test\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\usb\test\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\usb\test\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\usb\test\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\usb\test\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\usb\test\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\usb\test\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\usb\test\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\usb\test\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\usb\test\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\usb\test\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\usb\test\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\usb\test\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\usb\test\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\usb\test\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\usb\test\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\usb\test\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\usb\test\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\usb\test\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\usb\test\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\usb\test\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC.rar to I:\usb\test\new0.temp
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\usb\test\new1.temp
+Copy File C:\Users\Gu Yang\Desktop\Window1.xaml.cs to I:\usb\test\new2.temp
+Delete File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test3.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\test3.jUSBInfo
+Delete Folder I:\usb\test
+Export PC Job to File test analyse.jInfo
+Export USB Job to File test analyse.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\test analyse.jUSBInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\test sync.jUSBInfo
+Copy Folder I:\test sync job\new0 to C:\Users\Gu Yang\Desktop\New folder\modified
+Copy Folder I:\test sync job\new0\pcone to C:\Users\Gu Yang\Desktop\New folder\modified\pcone
+Copy Folder I:\test sync job\new0\pcone\pic to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic
+Copy File I:\test sync job\new0\pcone\pic\DSC00189.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00189.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00241.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00241.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00242.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00242.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00257.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00257.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00563.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00563.jpg
+Copy File I:\test sync job\new0\pcone\pic\DSC00568.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00568.jpg
+Copy File I:\test sync job\new0\pcone\pic\DSC00622.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00622.jpg
+Copy File I:\test sync job\new0\pcone\pic\DSC00674.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00674.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00683.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00683.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00690.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00690.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00709.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00709.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00724.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00724.jpg
+Copy File I:\test sync job\new0\pcone\pic\DSC00737.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00737.jpg
+Copy File I:\test sync job\new0\pcone\pic\DSC00763.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00763.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC00834.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC00834.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC01481.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC01481.JPG
+Copy File I:\test sync job\new0\pcone\pic\DSC01795.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\DSC01795.JPG
+Copy File I:\test sync job\new0\pcone\pic\test.txt to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\test.txt
+Copy File I:\test sync job\new0\pcone\pic\xinfile.txt to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\xinfile.txt
+Copy Folder I:\test sync job\new0\pcone\pic\xinfolder to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\xinfolder
+Copy File I:\test sync job\new0\pcone\pic\xinfolder\kanDedao.txt to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\xinfolder\kanDedao.txt
+Copy Folder I:\test sync job\new0\pcone\pic\xinfolder\okle to C:\Users\Gu Yang\Desktop\New folder\modified\pcone\pic\xinfolder\okle
+Copy Folder I:\test sync job\new0\pctwo to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo
+Copy Folder I:\test sync job\new0\pctwo\pic to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic
+Copy File I:\test sync job\new0\pctwo\pic\DSC00189.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00189.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00241.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00241.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00242.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00242.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00257.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00257.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00563.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00563.jpg
+Copy File I:\test sync job\new0\pctwo\pic\DSC00568.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00568.jpg
+Copy File I:\test sync job\new0\pctwo\pic\DSC00674.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00674.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00683.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00683.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00690.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00690.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00709.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00709.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00724.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00724.jpg
+Copy File I:\test sync job\new0\pctwo\pic\DSC00737.jpg to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00737.jpg
+Copy File I:\test sync job\new0\pctwo\pic\DSC00763.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00763.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC00834.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC00834.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC01481.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC01481.JPG
+Copy File I:\test sync job\new0\pctwo\pic\DSC01795.JPG to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\DSC01795.JPG
+Copy File I:\test sync job\new0\pctwo\pic\test.txt to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\test.txt
+Copy Folder I:\test sync job\new0\pctwo\pic\_gsdata_ to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\_gsdata_
+Copy File I:\test sync job\new0\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File I:\test sync job\new0\pctwo\pic\_gsdata_\_file_state._gs to C:\Users\Gu Yang\Desktop\New folder\modified\pctwo\pic\_gsdata_\_file_state._gs
+Copy Folder I:\test sync job\new1 to C:\Users\Gu Yang\Desktop\New folder\original
+Copy Folder I:\test sync job\new1\pcone to C:\Users\Gu Yang\Desktop\New folder\original\pcone
+Copy Folder I:\test sync job\new1\pcone\pic to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic
+Copy File I:\test sync job\new1\pcone\pic\DSC00189.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00189.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00241.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00241.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00242.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00242.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00257.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00257.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00563.jpg to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00563.jpg
+Copy File I:\test sync job\new1\pcone\pic\DSC00568.jpg to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00568.jpg
+Copy File I:\test sync job\new1\pcone\pic\DSC00622.jpg to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00622.jpg
+Copy File I:\test sync job\new1\pcone\pic\DSC00674.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00674.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00683.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00683.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00690.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00690.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00709.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00709.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00724.jpg to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00724.jpg
+Copy File I:\test sync job\new1\pcone\pic\DSC00737.jpg to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00737.jpg
+Copy File I:\test sync job\new1\pcone\pic\DSC00763.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00763.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC00834.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC00834.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC01481.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC01481.JPG
+Copy File I:\test sync job\new1\pcone\pic\DSC01795.JPG to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\DSC01795.JPG
+Copy File I:\test sync job\new1\pcone\pic\test.txt to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\test.txt
+Copy Folder I:\test sync job\new1\pcone\pic\_gsdata_ to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\_gsdata_
+Copy File I:\test sync job\new1\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File I:\test sync job\new1\pcone\pic\_gsdata_\_file_state._gs to C:\Users\Gu Yang\Desktop\New folder\original\pcone\pic\_gsdata_\_file_state._gs
+Copy Folder I:\test sync job\new1\pctwo to C:\Users\Gu Yang\Desktop\New folder\original\pctwo
+Copy Folder I:\test sync job\new1\pctwo\pic to C:\Users\Gu Yang\Desktop\New folder\original\pctwo\pic
+Copy File I:\test sync job\new1\pctwo\pic\sees.txt to C:\Users\Gu Yang\Desktop\New folder\original\pctwo\pic\sees.txt
+Copy Folder I:\test sync job\new1\pctwo\pic\mytest to C:\Users\Gu Yang\Desktop\New folder\original\pctwo\pic\mytest
+Copy File I:\test sync job\new0.temp to C:\Users\Gu Yang\Desktop\New folder\CleanSyncLog.txt
+Copy File I:\test sync job\new1.temp to C:\Users\Gu Yang\Desktop\New folder\config.txt
+Delete Folder I:\test sync job\new0
+Delete Folder I:\test sync job\new1
+Delete File I:\test sync job\new0.temp
+Delete File I:\test sync job\new1.temp
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Copy File C:\Users\Gu Yang\Desktop\New folder\New Text Document.txt to I:\test sync job\new0.temp
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Copy File C:\Users\Gu Yang\Desktop\New folder\New Text Document.txt to I:\test sync job\new0.temp
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC to I:\test sync job\new0
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\test sync job\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\test sync job\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\test sync job\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\test sync job\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\test sync job\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\test sync job\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\test sync job\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\test sync job\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\test sync job\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\test sync job\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\test sync job\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\test sync job\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\test sync job\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\test sync job\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\test sync job\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\test sync job\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\test sync job\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\test sync job\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\test sync job\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\test sync job\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\test sync job\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\test sync job\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\test sync job\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\test sync job\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\test sync job\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\test sync job\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\test sync job\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\test sync job\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\test sync job\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\test sync job\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\test sync job\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\test sync job\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\test sync job\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test analyse.jInfo to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data\deletedJobs\test analyse.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test sync.jInfo to I:\test sync job\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test sync.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\test sync job\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\test sync job\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\test sync job\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\test sync job\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\test sync job\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\test sync job\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\test sync job\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\test sync job\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\test sync job\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\test sync job\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\test sync job\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\test sync job\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\test sync job\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\test sync job\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\test sync job\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\test sync job\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\test sync job\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\test sync job\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\test sync job\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\test sync job\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\test sync job\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\test sync job\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\test sync job\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\test sync job\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\test sync job\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\test sync job\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\test sync job\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\test sync job\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\test sync job\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\New folder\tcp_timed to I:\test sync job\new1
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\connectsock.c to I:\test sync job\new1\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\connectTCP.c to I:\test sync job\new1\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\errexit.c to I:\test sync job\new1\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\Makefile to I:\test sync job\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\Makefile.linux to I:\test sync job\new1\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\Makefile.sun to I:\test sync job\new1\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\Makefile.sun~ to I:\test sync job\new1\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\passivesock.c to I:\test sync job\new1\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\passiveTCP.c to I:\test sync job\new1\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\readme.txt to I:\test sync job\new1\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\TCPdaytime.c to I:\test sync job\new1\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed\TCPdaytimed.c to I:\test sync job\new1\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\New folder\CleanSyncMini_GUI - SinglePC.rar to I:\test sync job\new1.temp
+Copy File C:\Users\Gu Yang\Desktop\New folder\tcp_timed.tgz to I:\test sync job\new2.temp
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export USB Job to File test sync.jInfo
+Export PC Job to File test sync.jInfo
+Export PC Job to File test.jInfo
+Export PC Job to File test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\usb\testbar\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\usb\testbar\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\usb\testbar\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\usb\testbar\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\usb\testbar\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\usb\testbar\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\usb\testbar\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\usb\testbar\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\usb\testbar\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\usb\testbar\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\usb\testbar\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\usb\testbar\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\usb\testbar\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\usb\testbar\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\usb\testbar\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\usb\testbar\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\usb\testbar\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\usb\testbar\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\usb\testbar\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\usb\testbar\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\usb\testbar\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\usb\testbar\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\usb\testbar\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\usb\testbar\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\usb\testbar\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\usb\testbar\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\usb\testbar\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\usb\testbar\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\usb\testbar\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\usb\testbar\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\usb\testbar\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\usb\testbar\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\usb\testbar\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\usb\testbar\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\usb\testbar\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\usb\testbar\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\usb\testbar\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\usb\testbar\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\usb\testbar\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\usb\testbar\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\usb\testbar\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\usb\testbar\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\usb\testbar\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\usb\testbar\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\usb\testbar\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\usb\testbar\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\usb\testbar\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\usb\testbar\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\usb\testbar\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\usb\testbar\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\usb\testbar\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\usb\testbar\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\usb\testbar\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\usb\testbar\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\usb\testbar\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\usb\testbar\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\usb\testbar\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\usb\testbar\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\usb\testbar\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\usb\testbar\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\usb\testbar\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\usb\testbar\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\usb\testbar\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\usb\testbar\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\usb\testbar\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\usb\testbar\new0.temp
+Export PC Job to File test3.jInfo
+Export PC Job to File test3.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC to I:\test2\new0
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.sln to I:\test2\new0\CleanSyncMini.sln
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini.suo to I:\test2\new0\CleanSyncMini.suo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini to I:\test2\new0\CleanSyncMini
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml to I:\test2\new0\CleanSyncMini\App.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\App.xaml.cs to I:\test2\new0\CleanSyncMini\App.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\AutomatedTestDriver.cs to I:\test2\new0\CleanSyncMini\AutomatedTestDriver.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj to I:\test2\new0\CleanSyncMini\CleanSyncMini.csproj
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CleanSyncMini.csproj.user to I:\test2\new0\CleanSyncMini\CleanSyncMini.csproj.user
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\CompareLogic.cs to I:\test2\new0\CleanSyncMini\CompareLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ComparisonResult.cs to I:\test2\new0\CleanSyncMini\ComparisonResult.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Component Meta.cs to I:\test2\new0\CleanSyncMini\Component Meta.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ConflictHandler.cs to I:\test2\new0\CleanSyncMini\ConflictHandler.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Conflicts.cs to I:\test2\new0\CleanSyncMini\Conflicts.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\DataInuptOutput.cs to I:\test2\new0\CleanSyncMini\DataInuptOutput.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Differences.cs to I:\test2\new0\CleanSyncMini\Differences.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobDefinition.cs to I:\test2\new0\CleanSyncMini\JobDefinition.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\JobLogic.cs to I:\test2\new0\CleanSyncMini\JobLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\LogFile.cs to I:\test2\new0\CleanSyncMini\LogFile.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\MainLogic.cs to I:\test2\new0\CleanSyncMini\MainLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Program.cs to I:\test2\new0\CleanSyncMini\Program.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\ReadAndWrite.cs to I:\test2\new0\CleanSyncMini\ReadAndWrite.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\SyncLogic.cs to I:\test2\new0\CleanSyncMini\SyncLogic.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.cs to I:\test2\new0\CleanSyncMini\USBDetection.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.Designer.cs to I:\test2\new0\CleanSyncMini\USBDetection.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\USBDetection.resx to I:\test2\new0\CleanSyncMini\USBDetection.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\usbDetection2.cs to I:\test2\new0\CleanSyncMini\usbDetection2.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml to I:\test2\new0\CleanSyncMini\Window1.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window1.xaml.cs to I:\test2\new0\CleanSyncMini\Window1.xaml.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml to I:\test2\new0\CleanSyncMini\Window2.xaml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Window2.xaml.cs to I:\test2\new0\CleanSyncMini\Window2.xaml.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin to I:\test2\new0\CleanSyncMini\bin
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug to I:\test2\new0\CleanSyncMini\bin\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.exe to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.pdb to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSnycMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncLog.txt to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSyncLog.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest to I:\test2\new0\CleanSyncMini\bin\Debug\CleanSyncMini.vshost.exe.manifest
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data to I:\test2\new0\CleanSyncMini\bin\Debug\_cs_job_data
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList to I:\test2\new0\CleanSyncMini\bin\Debug\_cs_job_data\jobPathList.pList
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList to I:\test2\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo to I:\test2\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test3.jInfo to I:\test2\new0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test3.jInfo
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj to I:\test2\new0\CleanSyncMini\obj
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug to I:\test2\new0\CleanSyncMini\obj\Debug
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\App.g.cs to I:\test2\new0\CleanSyncMini\obj\Debug\App.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.exe to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.pdb to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.FileListAbsolute.txt
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources to I:\test2\new0\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.baml to I:\test2\new0\CleanSyncMini\obj\Debug\Window1.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window1.g.cs to I:\test2\new0\CleanSyncMini\obj\Debug\Window1.g.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.baml to I:\test2\new0\CleanSyncMini\obj\Debug\Window2.baml
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Window2.g.cs to I:\test2\new0\CleanSyncMini\obj\Debug\Window2.g.cs
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\Refactor to I:\test2\new0\CleanSyncMini\obj\Debug\Refactor
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE to I:\test2\new0\CleanSyncMini\obj\Debug\TempPE
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll to I:\test2\new0\CleanSyncMini\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic to I:\test2\new0\CleanSyncMini\Pic
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Accept.png to I:\test2\new0\CleanSyncMini\Pic\Accept.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Analyse.png to I:\test2\new0\CleanSyncMini\Pic\Analyse.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Background.jpg to I:\test2\new0\CleanSyncMini\Pic\Background.jpg
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Cancel.png to I:\test2\new0\CleanSyncMini\Pic\Cancel.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\Delete.png to I:\test2\new0\CleanSyncMini\Pic\Delete.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\FolderBro.png to I:\test2\new0\CleanSyncMini\Pic\FolderBro.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac1.png to I:\test2\new0\CleanSyncMini\Pic\JobsBac1.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac2.png to I:\test2\new0\CleanSyncMini\Pic\JobsBac2.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\JobsBac3.png to I:\test2\new0\CleanSyncMini\Pic\JobsBac3.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\New Job.png to I:\test2\new0\CleanSyncMini\Pic\New Job.png
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Pic\StartSyn.png to I:\test2\new0\CleanSyncMini\Pic\StartSyn.png
+Copy Folder C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties to I:\test2\new0\CleanSyncMini\Properties
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\AssemblyInfo.cs to I:\test2\new0\CleanSyncMini\Properties\AssemblyInfo.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.Designer.cs to I:\test2\new0\CleanSyncMini\Properties\Resources.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Resources.resx to I:\test2\new0\CleanSyncMini\Properties\Resources.resx
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.Designer.cs to I:\test2\new0\CleanSyncMini\Properties\Settings.Designer.cs
+Copy File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\Properties\Settings.settings to I:\test2\new0\CleanSyncMini\Properties\Settings.settings
+Copy Folder C:\Users\Gu Yang\Desktop\Client_Server to I:\test2\new1
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c to I:\test2\new1\Client.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Client.c~ to I:\test2\new1\Client.c~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile to I:\test2\new1\Makefile
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Makefile~ to I:\test2\new1\Makefile~
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c to I:\test2\new1\Server.c
+Copy File C:\Users\Gu Yang\Desktop\Client_Server\Server.c~ to I:\test2\new1\Server.c~
+Copy Folder C:\Users\Gu Yang\Desktop\tcp_timed to I:\test2\new2
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectsock.c to I:\test2\new2\connectsock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\connectTCP.c to I:\test2\new2\connectTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\errexit.c to I:\test2\new2\errexit.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile to I:\test2\new2\Makefile
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.linux to I:\test2\new2\Makefile.linux
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun to I:\test2\new2\Makefile.sun
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\Makefile.sun~ to I:\test2\new2\Makefile.sun~
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passivesock.c to I:\test2\new2\passivesock.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\passiveTCP.c to I:\test2\new2\passiveTCP.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\readme.txt to I:\test2\new2\readme.txt
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytime.c to I:\test2\new2\TCPdaytime.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed\TCPdaytimed.c to I:\test2\new2\TCPdaytimed.c
+Copy File C:\Users\Gu Yang\Desktop\tcp_timed.tgz to I:\test2\new0.temp
+Export PC Job to File test1.jInfo
+Export USB Job to File test1.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\test1.jUSBInfo
+Export PC Job to File test1111111.jInfo
+Export USB Job to File test1111111.jInfo
+Delete File K:\\_cs_job_data\incompleteJobs\test1111111.jUSBInfo
+Export PC Job to File test333333333.jInfo
+Export USB Job to File test333333333.jInfo
+Delete File L:\\_cs_job_data\incompleteJobs\test333333333.jUSBInfo
+Delete File C:\Users\Gu Yang\Desktop\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test333333333.jInfo
+Export PC Job to File test1111111.jInfo
+Export PC Job to File test delete.jInfo
+Export USB Job to File test delete.jInfo
+Delete File E:\\_cs_job_data\incompleteJobs\test delete.jUSBInfo
+Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test delete.jInfo
+Export PC Job to File test.jInfo
+Export USB Job to File test.jInfo
+Delete File E:\\_cs_job_data\incompleteJobs\test.jUSBInfo
+Copy File E:\usb\new0\_gsdata_\new0.temp to C:\integratedTest\New Folder\Client.c
+Copy File E:\usb\new0\_gsdata_\new1.temp to C:\integratedTest\New Folder\Client.c~
+Copy File E:\usb\new0\_gsdata_\new2.temp to C:\integratedTest\New Folder\Makefile
+Copy File E:\usb\new0\_gsdata_\new3.temp to C:\integratedTest\New Folder\Makefile~
+Copy File E:\usb\new0\_gsdata_\new4.temp to C:\integratedTest\New Folder\Server.c
+Copy File E:\usb\new0\_gsdata_\new5.temp to C:\integratedTest\New Folder\Server.c~
+Delete File E:\usb\new0\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Delete File E:\usb\new0\_gsdata_\new0.temp
+Delete File E:\usb\new0\_gsdata_\new1.temp
+Delete File E:\usb\new0\_gsdata_\new2.temp
+Delete File E:\usb\new0\_gsdata_\new3.temp
+Delete File E:\usb\new0\_gsdata_\new4.temp
+Delete File E:\usb\new0\_gsdata_\new5.temp
+Delete File E:\usb\new0\_gsdata_\_file_state._gs
+Export USB Job to File test.jInfo
+Export PC Job to File test.jInfo
+Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Export USB Job to File test.jInfo
+Export PC Job to File shouldbedeleted.jInfo
+Export PC Job to File shouldbedeleted.jInfo
+Copy Folder C:\test\modified to E:\DeleteTest\new0
+Copy Folder C:\test\modified\pcone to E:\DeleteTest\new0\pcone
+Copy Folder C:\test\modified\pcone\pic to E:\DeleteTest\new0\pcone\pic
+Copy File C:\test\modified\pcone\pic\DSC00189.JPG to E:\DeleteTest\new0\pcone\pic\DSC00189.JPG
+Copy File C:\test\modified\pcone\pic\DSC00241.JPG to E:\DeleteTest\new0\pcone\pic\DSC00241.JPG
+Copy File C:\test\modified\pcone\pic\DSC00242.JPG to E:\DeleteTest\new0\pcone\pic\DSC00242.JPG
+Copy File C:\test\modified\pcone\pic\DSC00257.JPG to E:\DeleteTest\new0\pcone\pic\DSC00257.JPG
+Copy File C:\test\modified\pcone\pic\DSC00563.jpg to E:\DeleteTest\new0\pcone\pic\DSC00563.jpg
+Copy File C:\test\modified\pcone\pic\DSC00568.jpg to E:\DeleteTest\new0\pcone\pic\DSC00568.jpg
+Copy File C:\test\modified\pcone\pic\DSC00622.jpg to E:\DeleteTest\new0\pcone\pic\DSC00622.jpg
+Copy File C:\test\modified\pcone\pic\DSC00674.JPG to E:\DeleteTest\new0\pcone\pic\DSC00674.JPG
+Copy File C:\test\modified\pcone\pic\DSC00683.JPG to E:\DeleteTest\new0\pcone\pic\DSC00683.JPG
+Copy File C:\test\modified\pcone\pic\DSC00690.JPG to E:\DeleteTest\new0\pcone\pic\DSC00690.JPG
+Copy File C:\test\modified\pcone\pic\DSC00709.JPG to E:\DeleteTest\new0\pcone\pic\DSC00709.JPG
+Copy File C:\test\modified\pcone\pic\DSC00724.jpg to E:\DeleteTest\new0\pcone\pic\DSC00724.jpg
+Copy File C:\test\modified\pcone\pic\DSC00737.jpg to E:\DeleteTest\new0\pcone\pic\DSC00737.jpg
+Copy File C:\test\modified\pcone\pic\DSC00763.JPG to E:\DeleteTest\new0\pcone\pic\DSC00763.JPG
+Copy File C:\test\modified\pcone\pic\DSC00834.JPG to E:\DeleteTest\new0\pcone\pic\DSC00834.JPG
+Copy File C:\test\modified\pcone\pic\DSC01481.JPG to E:\DeleteTest\new0\pcone\pic\DSC01481.JPG
+Copy File C:\test\modified\pcone\pic\DSC01795.JPG to E:\DeleteTest\new0\pcone\pic\DSC01795.JPG
+Copy File C:\test\modified\pcone\pic\test.txt to E:\DeleteTest\new0\pcone\pic\test.txt
+Copy File C:\test\modified\pcone\pic\xinfile.txt to E:\DeleteTest\new0\pcone\pic\xinfile.txt
+Copy Folder C:\test\modified\pcone\pic\xinfolder to E:\DeleteTest\new0\pcone\pic\xinfolder
+Copy File C:\test\modified\pcone\pic\xinfolder\kanDedao.txt to E:\DeleteTest\new0\pcone\pic\xinfolder\kanDedao.txt
+Copy Folder C:\test\modified\pcone\pic\xinfolder\okle to E:\DeleteTest\new0\pcone\pic\xinfolder\okle
+Copy Folder C:\test\modified\pctwo to E:\DeleteTest\new0\pctwo
+Copy Folder C:\test\modified\pctwo\pic to E:\DeleteTest\new0\pctwo\pic
+Copy File C:\test\modified\pctwo\pic\DSC00189.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00189.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00241.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00241.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00242.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00242.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00257.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00257.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00563.jpg to E:\DeleteTest\new0\pctwo\pic\DSC00563.jpg
+Copy File C:\test\modified\pctwo\pic\DSC00568.jpg to E:\DeleteTest\new0\pctwo\pic\DSC00568.jpg
+Copy File C:\test\modified\pctwo\pic\DSC00674.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00674.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00683.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00683.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00690.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00690.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00709.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00709.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00724.jpg to E:\DeleteTest\new0\pctwo\pic\DSC00724.jpg
+Copy File C:\test\modified\pctwo\pic\DSC00737.jpg to E:\DeleteTest\new0\pctwo\pic\DSC00737.jpg
+Copy File C:\test\modified\pctwo\pic\DSC00763.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00763.JPG
+Copy File C:\test\modified\pctwo\pic\DSC00834.JPG to E:\DeleteTest\new0\pctwo\pic\DSC00834.JPG
+Copy File C:\test\modified\pctwo\pic\DSC01481.JPG to E:\DeleteTest\new0\pctwo\pic\DSC01481.JPG
+Copy File C:\test\modified\pctwo\pic\DSC01795.JPG to E:\DeleteTest\new0\pctwo\pic\DSC01795.JPG
+Copy File C:\test\modified\pctwo\pic\test.txt to E:\DeleteTest\new0\pctwo\pic\test.txt
+Copy Folder C:\test\modified\pctwo\pic\_gsdata_ to E:\DeleteTest\new0\pctwo\pic\_gsdata_
+Copy File C:\test\modified\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to E:\DeleteTest\new0\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File C:\test\modified\pctwo\pic\_gsdata_\_file_state._gs to E:\DeleteTest\new0\pctwo\pic\_gsdata_\_file_state._gs
+Copy Folder C:\test\original to E:\DeleteTest\new1
+Copy Folder C:\test\original\pcone to E:\DeleteTest\new1\pcone
+Copy Folder C:\test\original\pcone\pic to E:\DeleteTest\new1\pcone\pic
+Copy File C:\test\original\pcone\pic\DSC00189.JPG to E:\DeleteTest\new1\pcone\pic\DSC00189.JPG
+Copy File C:\test\original\pcone\pic\DSC00241.JPG to E:\DeleteTest\new1\pcone\pic\DSC00241.JPG
+Copy File C:\test\original\pcone\pic\DSC00242.JPG to E:\DeleteTest\new1\pcone\pic\DSC00242.JPG
+Copy File C:\test\original\pcone\pic\DSC00257.JPG to E:\DeleteTest\new1\pcone\pic\DSC00257.JPG
+Copy File C:\test\original\pcone\pic\DSC00563.jpg to E:\DeleteTest\new1\pcone\pic\DSC00563.jpg
+Copy File C:\test\original\pcone\pic\DSC00568.jpg to E:\DeleteTest\new1\pcone\pic\DSC00568.jpg
+Copy File C:\test\original\pcone\pic\DSC00622.jpg to E:\DeleteTest\new1\pcone\pic\DSC00622.jpg
+Copy File C:\test\original\pcone\pic\DSC00674.JPG to E:\DeleteTest\new1\pcone\pic\DSC00674.JPG
+Copy File C:\test\original\pcone\pic\DSC00683.JPG to E:\DeleteTest\new1\pcone\pic\DSC00683.JPG
+Copy File C:\test\original\pcone\pic\DSC00690.JPG to E:\DeleteTest\new1\pcone\pic\DSC00690.JPG
+Copy File C:\test\original\pcone\pic\DSC00709.JPG to E:\DeleteTest\new1\pcone\pic\DSC00709.JPG
+Copy File C:\test\original\pcone\pic\DSC00724.jpg to E:\DeleteTest\new1\pcone\pic\DSC00724.jpg
+Copy File C:\test\original\pcone\pic\DSC00737.jpg to E:\DeleteTest\new1\pcone\pic\DSC00737.jpg
+Copy File C:\test\original\pcone\pic\DSC00763.JPG to E:\DeleteTest\new1\pcone\pic\DSC00763.JPG
+Copy File C:\test\original\pcone\pic\DSC00834.JPG to E:\DeleteTest\new1\pcone\pic\DSC00834.JPG
+Copy File C:\test\original\pcone\pic\DSC01481.JPG to E:\DeleteTest\new1\pcone\pic\DSC01481.JPG
+Copy File C:\test\original\pcone\pic\DSC01795.JPG to E:\DeleteTest\new1\pcone\pic\DSC01795.JPG
+Copy File C:\test\original\pcone\pic\test.txt to E:\DeleteTest\new1\pcone\pic\test.txt
+Copy Folder C:\test\original\pcone\pic\_gsdata_ to E:\DeleteTest\new1\pcone\pic\_gsdata_
+Copy File C:\test\original\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to E:\DeleteTest\new1\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File C:\test\original\pcone\pic\_gsdata_\_file_state._gs to E:\DeleteTest\new1\pcone\pic\_gsdata_\_file_state._gs
+Copy Folder C:\test\original\pctwo to E:\DeleteTest\new1\pctwo
+Copy Folder C:\test\original\pctwo\pic to E:\DeleteTest\new1\pctwo\pic
+Copy File C:\test\original\pctwo\pic\sees.txt to E:\DeleteTest\new1\pctwo\pic\sees.txt
+Copy Folder C:\test\original\pctwo\pic\mytest to E:\DeleteTest\new1\pctwo\pic\mytest
+Copy File C:\test\CleanSyncLog.txt to E:\DeleteTest\new0.temp
+Copy File C:\test\config.txt to E:\DeleteTest\new1.temp
+Export PC Job to File shouldbedeleted.jInfo
+Delete File E:\\_cs_job_data\usbJobsList\shouldbedeleted.jInfo
+Delete Folder E:\DeleteTest
+Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\shouldbedeleted.jInfo
+Export PC Job to File test.jInfo
+Export USB Job to File test.jInfo
+Delete File E:\\_cs_job_data\incompleteJobs\test.jUSBInfo
+Export PC Job to File test2.jInfo
+Export USB Job to File test2.jInfo
+Delete File E:\\_cs_job_data\incompleteJobs\test2.jUSBInfo
+Copy Folder E:\test22222\new0 to C:\integratedTest\IntTest2\modified
+Copy Folder E:\test22222\new0\pcone to C:\integratedTest\IntTest2\modified\pcone
+Copy Folder E:\test22222\new0\pcone\pic to C:\integratedTest\IntTest2\modified\pcone\pic
+Copy File E:\test22222\new0\pcone\pic\DSC00189.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00189.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00241.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00241.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00242.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00242.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00257.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00257.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00563.jpg to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00563.jpg
+Copy File E:\test22222\new0\pcone\pic\DSC00568.jpg to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00568.jpg
+Copy File E:\test22222\new0\pcone\pic\DSC00622.jpg to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00622.jpg
+Copy File E:\test22222\new0\pcone\pic\DSC00674.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00674.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00683.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00683.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00690.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00690.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00709.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00709.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00724.jpg to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00724.jpg
+Copy File E:\test22222\new0\pcone\pic\DSC00737.jpg to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00737.jpg
+Copy File E:\test22222\new0\pcone\pic\DSC00763.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00763.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC00834.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC00834.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC01481.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC01481.JPG
+Copy File E:\test22222\new0\pcone\pic\DSC01795.JPG to C:\integratedTest\IntTest2\modified\pcone\pic\DSC01795.JPG
+Copy File E:\test22222\new0\pcone\pic\test.txt to C:\integratedTest\IntTest2\modified\pcone\pic\test.txt
+Copy File E:\test22222\new0\pcone\pic\xinfile.txt to C:\integratedTest\IntTest2\modified\pcone\pic\xinfile.txt
+Copy Folder E:\test22222\new0\pcone\pic\xinfolder to C:\integratedTest\IntTest2\modified\pcone\pic\xinfolder
+Copy File E:\test22222\new0\pcone\pic\xinfolder\kanDedao.txt to C:\integratedTest\IntTest2\modified\pcone\pic\xinfolder\kanDedao.txt
+Copy Folder E:\test22222\new0\pcone\pic\xinfolder\okle to C:\integratedTest\IntTest2\modified\pcone\pic\xinfolder\okle
+Copy Folder E:\test22222\new0\pctwo to C:\integratedTest\IntTest2\modified\pctwo
+Copy Folder E:\test22222\new0\pctwo\pic to C:\integratedTest\IntTest2\modified\pctwo\pic
+Copy File E:\test22222\new0\pctwo\pic\DSC00189.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00189.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00241.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00241.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00242.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00242.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00257.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00257.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00563.jpg to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00563.jpg
+Copy File E:\test22222\new0\pctwo\pic\DSC00568.jpg to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00568.jpg
+Copy File E:\test22222\new0\pctwo\pic\DSC00674.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00674.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00683.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00683.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00690.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00690.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00709.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00709.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00724.jpg to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00724.jpg
+Copy File E:\test22222\new0\pctwo\pic\DSC00737.jpg to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00737.jpg
+Copy File E:\test22222\new0\pctwo\pic\DSC00763.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00763.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC00834.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC00834.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC01481.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC01481.JPG
+Copy File E:\test22222\new0\pctwo\pic\DSC01795.JPG to C:\integratedTest\IntTest2\modified\pctwo\pic\DSC01795.JPG
+Copy File E:\test22222\new0\pctwo\pic\test.txt to C:\integratedTest\IntTest2\modified\pctwo\pic\test.txt
+Copy Folder E:\test22222\new0\pctwo\pic\_gsdata_ to C:\integratedTest\IntTest2\modified\pctwo\pic\_gsdata_
+Copy File E:\test22222\new0\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\integratedTest\IntTest2\modified\pctwo\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File E:\test22222\new0\pctwo\pic\_gsdata_\_file_state._gs to C:\integratedTest\IntTest2\modified\pctwo\pic\_gsdata_\_file_state._gs
+Copy Folder E:\test22222\new1 to C:\integratedTest\IntTest2\original
+Copy Folder E:\test22222\new1\pcone to C:\integratedTest\IntTest2\original\pcone
+Copy Folder E:\test22222\new1\pcone\pic to C:\integratedTest\IntTest2\original\pcone\pic
+Copy File E:\test22222\new1\pcone\pic\DSC00189.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00189.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00241.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00241.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00242.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00242.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00257.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00257.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00563.jpg to C:\integratedTest\IntTest2\original\pcone\pic\DSC00563.jpg
+Copy File E:\test22222\new1\pcone\pic\DSC00568.jpg to C:\integratedTest\IntTest2\original\pcone\pic\DSC00568.jpg
+Copy File E:\test22222\new1\pcone\pic\DSC00622.jpg to C:\integratedTest\IntTest2\original\pcone\pic\DSC00622.jpg
+Copy File E:\test22222\new1\pcone\pic\DSC00674.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00674.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00683.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00683.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00690.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00690.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00709.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00709.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00724.jpg to C:\integratedTest\IntTest2\original\pcone\pic\DSC00724.jpg
+Copy File E:\test22222\new1\pcone\pic\DSC00737.jpg to C:\integratedTest\IntTest2\original\pcone\pic\DSC00737.jpg
+Copy File E:\test22222\new1\pcone\pic\DSC00763.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00763.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC00834.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC00834.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC01481.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC01481.JPG
+Copy File E:\test22222\new1\pcone\pic\DSC01795.JPG to C:\integratedTest\IntTest2\original\pcone\pic\DSC01795.JPG
+Copy File E:\test22222\new1\pcone\pic\test.txt to C:\integratedTest\IntTest2\original\pcone\pic\test.txt
+Copy Folder E:\test22222\new1\pcone\pic\_gsdata_ to C:\integratedTest\IntTest2\original\pcone\pic\_gsdata_
+Copy File E:\test22222\new1\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log to C:\integratedTest\IntTest2\original\pcone\pic\_gsdata_\2010-0118-191352-LIZICHEN-PC-CS3215.log
+Copy File E:\test22222\new1\pcone\pic\_gsdata_\_file_state._gs to C:\integratedTest\IntTest2\original\pcone\pic\_gsdata_\_file_state._gs
+Copy Folder E:\test22222\new1\pctwo to C:\integratedTest\IntTest2\original\pctwo
+Copy Folder E:\test22222\new1\pctwo\pic to C:\integratedTest\IntTest2\original\pctwo\pic
+Copy File E:\test22222\new1\pctwo\pic\sees.txt to C:\integratedTest\IntTest2\original\pctwo\pic\sees.txt
+Copy Folder E:\test22222\new1\pctwo\pic\mytest to C:\integratedTest\IntTest2\original\pctwo\pic\mytest
+Copy File E:\test22222\new0.temp to C:\integratedTest\IntTest2\CleanSyncLog.txt
+Copy File E:\test22222\new1.temp to C:\integratedTest\IntTest2\config.txt
+Delete Folder E:\test22222\new0
+Delete Folder E:\test22222\new1
+Delete File E:\test22222\new0.temp
+Delete File E:\test22222\new1.temp
+Export USB Job to File test2.jInfo
+Export PC Job to File test2.jInfo
+Copy File E:\imtitesy\new0.temp to C:\integratedTest\IntTest1\Client.c
+Copy File E:\imtitesy\new1.temp to C:\integratedTest\IntTest1\Client.c~
+Copy File E:\imtitesy\new2.temp to C:\integratedTest\IntTest1\Makefile
+Copy File E:\imtitesy\new3.temp to C:\integratedTest\IntTest1\Makefile~
+Copy File E:\imtitesy\new4.temp to C:\integratedTest\IntTest1\Server.c
+Copy File E:\imtitesy\new5.temp to C:\integratedTest\IntTest1\Server.c~
+Delete File E:\imtitesy\new0.temp
+Delete File E:\imtitesy\new1.temp
+Delete File E:\imtitesy\new2.temp
+Delete File E:\imtitesy\new3.temp
+Delete File E:\imtitesy\new4.temp
+Delete File E:\imtitesy\new5.temp
+Export USB Job to File test.jInfo
+Export PC Job to File test.jInfo
+Copy Folder C:\integratedTest\IntTest1\test1 to E:\imtitesy\new0
+Copy File C:\integratedTest\IntTest1\Server.c to E:\imtitesy\modified0.temp
+Export USB Job to File test.jInfo
+Export PC Job to File test.jInfo
+Export PC Job to File test.jInfo
+Export PC Job to File test2.jInfo
+Delete File E:\\_cs_job_data\usbJobsList\test.jInfo
+Delete Folder E:\imtitesy
+Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\test.jInfo
+Copy Folder E:\test22222\new0 to C:\integratedTest\IntTest2\newfold
+Copy File E:\test22222\new0\New Microsoft Office Wo.docx to C:\integratedTest\IntTest2\newfold\New Microsoft Office Wo.docx
+Copy File E:\test22222\modified0.temp to C:\integratedTest\IntTest2\config.txt
+Delete File C:\integratedTest\IntTest2\CleanSyncLog.txt
+Delete Folder E:\test22222\new0
+Delete File E:\test22222\modified0.temp
+Export USB Job to File test2.jInfo
+Export PC Job to File test2.jInfo
