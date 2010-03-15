@@ -1,13 +1,20 @@
-#summary One-sentence summary of this page.
-
-= Introduction =
-
-Add your content here.
 
 
-= Details =
+= ComponentMeta =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+   ==This is the basic file and folder metadata definition, which provides the basic information about each files, also, give the structure of the folders using tree structure.==
+
+----
+= Attributes =
+ ====public enum Type
+        {
+            New,
+            Modified,
+            Deleted,
+            NotTouched
+        }====
+    Defines the type (or status) of one file. 
+    New: first created 
+    Modified: being modified by other side
+    Deleted: Deleted by other side
+    NotTouched: No change on both sides
