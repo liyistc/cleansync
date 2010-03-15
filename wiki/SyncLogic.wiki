@@ -14,9 +14,15 @@ This method checks whether this PC is the last PC to do a synchronization with t
 The worker object is used to update the progress of synchronization.
 
 ==Private==
+Private methods are divided into three groups.
+===Calculate Size===
+These methods are called to calculate the total size of data needed to be copied for this job.
 ====void initializeTotalSize(ComparisonResult comparisonResult)====
 ====void updateFolderSize(List`<`FolderMeta`>` folders)====
 ====void updateFileSize(List`<`FileMeta`>` files)====
+===Normal Synchronization===
+These methods are called to do a normal synchronization. 
+====void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)====
 ====void SyncPCToUSBModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)====
 ====void SyncPCToUSBNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)====
@@ -27,7 +33,7 @@ The worker object is used to update the progress of synchronization.
 ====void SyncUSbToPCNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)====
 ====void SyncUSBtoPCDeleteFolder(PCJob pcJob, List`<`FolderMeta`>` deleteFolderList)====
 ====void SyncUSBToPCNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)====
-====void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
+===Resynchronization===
 ====void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob pcJob)====
 ====void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob pcJob)====
