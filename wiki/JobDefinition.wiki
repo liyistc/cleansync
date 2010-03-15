@@ -2,7 +2,16 @@
 
 = JobDefinition Class Description=
 
-JobDefinition is an abstract class used to describe the meta data for jobs. USBJob and PCJob inherit from JobDefinition
+JobDefinition is a serializable abstract class used to describe the meta data for jobs. USBJob and PCJob inherit from JobDefinition
 ----
 = Data Members =
+==Public==
+===enum JobStatus { Complete, Incomplete, NotReady }===
+ * Complete indicates that both PCs synchronized in this Job have already been identified.
+ * Incomplete indicates that 
+ * NotReady
+===string JobName===
+===JobStatus JobState===
+===string RelativeUSBPath===
 = Methods =
+==Public==
