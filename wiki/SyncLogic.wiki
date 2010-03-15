@@ -47,4 +47,13 @@ These methods are called to do a resynchronization. Updates of files and folders
 This method deletes the null entries in a given FileMeta List. Files are re-organized accordingly and their temporary names are also changed.
 ====void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders, string listType)====
 This method is the same as the previous, but works on a given FolderMeta list instead.
-    
+----
+==Renaming of Files and Folders in the USB==
+Files and folders copied to the USB are renamed to avoid name conflicts between files and folders of the same name but in different folders in the PC. They are named as such: pcJob.JobName + difference type modifier+ index in the list. Files are renamed similarly, but with an extension .temp.
+
+||Difference Type||Modifier||
+||New||n||
+||Modified||m||
+||Deleted||d||
+
+For example, if a file that is modified is to be copied over to the USB, and the file is the 3rd modified file difference in the list. If the job's name is "SyncJob", the file will be renamed as "SyncJobm3.temp". If it is a folder, the folder will be renamed as "SyncJobm3". Note that subfiles and subfolders within the folder is not renamed.
