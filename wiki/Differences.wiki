@@ -1,2 +1,32 @@
-
 = Differences =
+
+-----
+== Attributes==
+ ==== private List`<`FolderMeta`>` deletedFolderDifference =new List`<`FolderMeta`>`();====
+ Contains differences of type folder deleted.
+ ==== private List`<`FolderMeta`>` newFolderDifference = new List`<`FolderMeta`>`();====
+ Contains differences of type folder created.
+ ==== private List`<`FileMeta`>` deletedFileDifference = new List`<`FileMeta`>`();====
+ Contains differences of type file deleted.
+ ==== private List`<`FileMeta`>` newFileDifference = new List`<`FileMeta`>`();====
+ Contains differences of type file created.
+ ==== private List`<`FileMeta`>` modifiedFileDifference = new List<FileMeta`>`();====
+ Contains differences of type file modified.
+----
+== Methods ==
+ ====public void AddDeletedFolderDifference(FolderMeta deletedFolder) ====
+ ====public void AddNewFolderDifference(FolderMeta newFolder)====
+ ====public void AddNewFileDifference(FileMeta newFile)====
+ ====public void AddDeletedFileDifference(FileMeta newFile)====
+ ====public void AddModifiedFileDifference(FileMeta newFile)====
+ ====public List`<`FolderMeta`>` getNewFolderList()====
+ ====public List`<`FolderMeta`>` getDeletedFolderList()====
+ ====public List`<`FileMeta`>` getDeletedFileList()====
+ ====public List`<`FileMeta`>` getNewFileList()====
+ ====public List`<`FileMeta`>` getModifiedFileList()====
+ ====public void removeFolderFromDeletedFolderList(FolderMeta folder)====
+ ====public void removeFolderFromNewFolderList(FolderMeta folder)====
+ ====public void removeFileFromNewFileList(FileMeta file)====
+ ====public void removeFileFromModifiedFileList(FileMeta file)====
+ ====public void removeFileFromDeletedFileList(FileMeta file)====
+ ====public override string ToString()====
