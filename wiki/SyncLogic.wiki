@@ -8,10 +8,9 @@ Files and Folders stored in the USB are renamed and their renaming is also handl
 
 ----
 = Methods =
-==Constructor==
 
 ==Public==
-====void CleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
+====void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)====
 
 ==Private==
 ====void initializeTotalSize(ComparisonResult comparisonResult)====
