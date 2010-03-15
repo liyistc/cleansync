@@ -1,5 +1,10 @@
 = Differences =
-
+  ==Handle basically five different type of differences:==
+  ===1. Folder created.===
+ === 2. Folder deleted.===
+ === 3. File created.===
+ === 4. File deleted.===
+ === 5. File modified.===
 -----
 == Attributes==
  ==== private List`<`FolderMeta`>` deletedFolderDifference =new List`<`FolderMeta`>`();====
