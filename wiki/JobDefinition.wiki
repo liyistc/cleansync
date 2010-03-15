@@ -2,7 +2,7 @@
 
 = JobDefinition Class Description=
 
-JobDefinition is a serializable abstract class used to describe the meta data for jobs. USBJob[WikiSyntax#PCJob test] and PCJob inherit from JobDefinition
+JobDefinition is a serializable abstract class used to describe the meta data for jobs. USBJob[WikiSyntax#USBJob Class Description] and PCJob inherit from JobDefinition
 ----
 = Attributes =
 ==Public==
