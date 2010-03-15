@@ -25,8 +25,9 @@ MetaData classes store various information used by CLEANSync to perform its oper
   * ComponentMeta
    * FileMeta
    * FolderMeta
-  * PCJob
-  * USBJob
+  * JobDefinition
+   * PCJob
+   * USBJob
   * Differences
   * ComparisonResult
 ----
