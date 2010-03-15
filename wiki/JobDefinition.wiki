@@ -1,6 +1,6 @@
 = JobDefinition Class Description=
 
-JobDefinition is a serializable abstract class used to describe the meta data for jobs. [USBJob_Class_Description|USBJob] and PCJob inherit from JobDefinition
+JobDefinition is a serializable abstract class used to describe the meta data for jobs. USBJob and PCJob inherit from JobDefinition
 ----
 =Attributes =
 ==Public==
@@ -44,5 +44,8 @@ USBJob stores the metadata of the job information that is stored on the USB.
  * *string PCOneID*
  * *string PCTwoID*
  * *string MostRecentPCID*
+  * The ID of the most recent PC which did a synchronization.
  * *bool PCOneDeleted*
+  * Checks if PCOne has deleted this job.
  * *bool PCTwoDeleted* 
+  * Checks if PCtwo has deleted this job.
