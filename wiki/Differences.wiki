@@ -1,6 +1,6 @@
 = Differences =
   ==Handle basically five different type of differences:==
-  ===1. Folder created.===
+  === 1. Folder created.===
  === 2. Folder deleted.===
  === 3. File created.===
  === 4. File deleted.===
