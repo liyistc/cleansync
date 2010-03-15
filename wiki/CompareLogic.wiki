@@ -3,7 +3,7 @@
 ----
 == public functions == 
   
-=== public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)===
+==== public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)====
 * public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)*
 * public List`<`Conflicts`>` ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles) *
 * public FolderMeta ConvertDifferencesToTreeStructure(FolderMeta root, Differences differences)*
