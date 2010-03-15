@@ -1,5 +1,3 @@
-
 = CompareLogic =
 
-Add your content here.
-
+* public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)*
