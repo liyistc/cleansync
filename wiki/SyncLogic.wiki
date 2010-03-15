@@ -21,7 +21,7 @@ These methods are called to calculate the total size of data needed to be copied
 ====void updateFolderSize(List`<`FolderMeta`>` folders)====
 ====void updateFileSize(List`<`FileMeta`>` files)====
 ===Normal Synchronization===
-These methods are called to do a normal synchronization. 
+These methods are called to do a normal synchronization. In the methods that copies files and folders from the USB to the PC, the individual files and folders in the USB will be deleted immediately after being copied to the PC.
 ====void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)====
 ====void SyncPCToUSBModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)====
@@ -34,6 +34,7 @@ These methods are called to do a normal synchronization.
 ====void SyncUSBtoPCDeleteFolder(PCJob pcJob, List`<`FolderMeta`>` deleteFolderList)====
 ====void SyncUSBToPCNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)====
 ===Resynchronization===
+These methods are called to do a resynchronization. Updates of files and folders in the PC will be updated on the USB. The renaming of these files and folders are also handled here.
 ====void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob pcJob)====
 ====void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob pcJob)====
@@ -43,6 +44,7 @@ These methods are called to do a normal synchronization.
 ====void ReSyncNewFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersNew)====
 ====void ReSyncDeletedFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersOld, List`<`FolderMeta`>` deletedFoldersNew)====
 ====void RemoveNullComponentsFiles(PCJob pcJob, List`<`FileMeta`>` files, string listType)====
+This method deletes the null entries in a given FileMeta List. Files are re-organized accordingly and their temporary names are also changed.
 ====void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders, string listType)====
-  
+This method is the same as the previous, but works on a given FolderMeta list instead.
     
