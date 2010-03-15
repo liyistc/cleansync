@@ -24,27 +24,27 @@ PCJob stores the metadata of the job information that is stored on the PC.
 ----
 = Attributes =
 ==Public==
-* *string PCPath*
-* *FolderMeta FolderInfo*
- * Stores the last known metadata of the root folder in the PC.
-* *string PCID*
+ * *string PCPath*
+ * *FolderMeta FolderInfo*
+  * Stores the last known metadata of the root folder in the PC.
+ * *string PCID*
 ==Private==
-* *USBJob usbJob*
+ * *USBJob usbJob*
 = Methods =
 ==Public==
-* *USBJob GetUsbJob()*
-* *void SetUsbJob(USBJob usb)*
+ * *USBJob GetUsbJob()*
+ * *void SetUsbJob(USBJob usb)*
 ----
 = USBJob Class Description=
 USBJob stores the metadata of the job information that is stored on the USB.
 ----
 = Attributes =
 ==Public==
-* *string PCOnePath*
-* *string PCTwoPath*
-* *Differences diff*
-* *string PCOneID*
-* *string PCTwoID*
-* *string MostRecentPCID*
-* *bool PCOneDeleted*
-* *bool PCTwoDeleted* 
+ * *string PCOnePath*
+ * *string PCTwoPath*
+ * *Differences diff*
+ * *string PCOneID*
+ * *string PCTwoID*
+ * *string MostRecentPCID*
+ * *bool PCOneDeleted*
+ * *bool PCTwoDeleted* 
