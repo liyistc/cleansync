@@ -4,9 +4,12 @@
 == public functions == 
   
 ==== public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)====
-* public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)*
-* public List`<`Conflicts`>` ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles) *
-* public FolderMeta ConvertDifferencesToTreeStructure(FolderMeta root, Differences differences)*
+==== public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)====
+==== public List`<`Conflicts`>` ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles) ====
+==== public FolderMeta ConvertDifferencesToTreeStructure(FolderMeta root, Differences differences)====
+
+----
+
 == private functions ==
 * private void CompareDirectories(FolderMeta newTree, FolderMeta oldTree, Differences differences)*
 * private void CompareFiles(FolderMeta newFolder, FolderMeta oldFolder, Differences differences)*
