@@ -417,7 +417,7 @@ namespace DirectoryInformation
             SyncUSBToPCDeleteFile(pcJob, deletedFileList);
 
             //Delete usb temp folders and files
-            ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
+           // ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
         }
 
         public void SyncUSBToPCDeleteFile(PCJob pcJob, List<FileMeta> deletedFileList)
@@ -443,7 +443,7 @@ namespace DirectoryInformation
                 Debug.Assert(modifiedFile != null);
                 Debug.Assert(modifiedFile.Name != null && modifiedFile.Path != null);
                 ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name,bgWorker,onePercentSize);
-
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp");
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + modifiedFile.Path + modifiedFile.Name);
@@ -460,7 +460,7 @@ namespace DirectoryInformation
                 Debug.Assert(newFile != null);
                 Debug.Assert(newFile.Path != null && newFile.Name != null);
                 ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name,bgWorker,onePercentSize);
-
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp");
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + newFile.Path + newFile.Name);
@@ -491,7 +491,7 @@ namespace DirectoryInformation
                 Debug.Assert(newFolder != null);
                 Debug.Assert(newFolder.Name != null && newFolder.Path != null);
                 ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\new" + i, pcJob.PCPath + newFolder.Path + newFolder.Name,bgWorker,onePercentSize);
-
+                ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\new" + i);
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + newFolder.Path + newFolder.Name);
