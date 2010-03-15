@@ -1,6 +1,36 @@
 
-
 = Conflict =
-  
-
-
+ === Defines the basic object of conflicts between files.===
+----
+== Attributes ==
+ ====public enum FolderFileType`{`FolderConflict,FileConflict `}`====
+ Defines the conflict is between files or between folders.
+ ====public enum ConflictType`{`New,Modified,Deleted`}`====
+ Defindes the confilct type between pairs, whether it is 
+ ====1. Newly created====
+ ====2. Being Modified====
+ ====3. Being Deleted====
+ ====public FolderMeta CurrentPCFolder====
+ Folder metadata of the current PC folder being synchronized.
+ ====public FolderMeta USBFolder====
+ Folder metadata of the current USB folder being synchronized.
+ ====public FileMeta CurrentPCFile====
+ File metadata on current PC file being synchronized.
+ ====public FileMeta USBFile====
+ File metadata on current USB file being synchronized.
+ ====public FolderFileType FolderOrFileConflictType====
+ Defines whether it is a folder conflict or file conflict.
+ ====public ConflictType PCFolderFileType====
+ Defines whether it is "new" or "deleted" of conflict on PC side.
+ ====public ConflictType USBFolderFileType====
+ Defines whether it is "new" or "deleted" of conflict on USB side.
+----
+== Constructors ==
+ ====public Conflicts(FolderMeta currentPCFolder, FolderMeta USBFolder, ConflictType PCFolderFileType, ConflictType USBFolderFileType)====
+  Defined for folder conflicts.
+ ====public Conflicts(FileMeta currentPCFile, FileMeta USBFile,ConflictType PCFolderFileType, ConflictType USBFolderFileType)====
+  Defined for file conflicts.
+----
+== Methods ==
+ ====public override string ToString()====
+ Return a string representation of the conflicts.
