@@ -24,9 +24,9 @@
   ==== public ComponentMeta(string path, string rootDir) ====
 ----
 == Methods ==
-  ==== public static bool operator >(ComponentMeta first, ComponentMeta second) ====
+  ==== public static bool operator `>`(ComponentMeta first, ComponentMeta second) ====
   Compare if the first component metadata is larger than second.
-  ==== public static bool operator <(ComponentMeta first, ComponentMeta second) ====
+  ==== public static bool operator `<`(ComponentMeta first, ComponentMeta second) ====
   Compare if the first component metadata is smaller than second.
 ----
 == FileMeta ==
@@ -60,9 +60,9 @@
 == Attributes ==
   ====public Type FolderType====
   Type of the folder: using the Type in the ComponentMeta enum.
-  ====public List<FolderMeta> folders====
+  ====public List`<`FolderMeta`>` folders====
   List of folders inside one folder.
-  ====public  List<FileMeta> files====
+  ====public  List`<`FileMeta`>` files====
   List of files inside one folder.
   ====public long Size====
   Size of the folder.
@@ -78,9 +78,9 @@
   Add one file to the file list.
   ====public void AddFolder(FolderMeta folder)====
   Add one folder to the folder list.
-  ====public IEnumerator<FolderMeta> GetFolders()====
+  ====public IEnumerator`<`FolderMeta`>` GetFolders()====
   Get all the folders in the folder metadata.
-  ====public IEnumerator<FileMeta> GetFiles()====
+  ====public IEnumerator`<`FileMeta`>` GetFiles()====
   Get all the files in the folder metadata.
   ====public String getString()====
   Return a string representation of the folder metadata.
