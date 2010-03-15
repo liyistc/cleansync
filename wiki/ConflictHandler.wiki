@@ -1,4 +1,13 @@
 
-
 = ConflictHandler =
-
+ == Given one conflict the Conflict will handle different user inputs: Whether to keep a copy on the removable device or on the PC, which the file/folder information will be provided as a reference.==
+----
+== Constructor==
+  ====public ConflictHandler()====
+----
+== Methods==
+===public method===
+  ==== public ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice) ====
+===private method===
+  ====private void handleFolderConflict(Differences differencesToBeUpdated , Conflicts folderConflict, int USBorPCIndex)====
+  ====private void handleFileConflict(Differences differencesToBeUpdated, Conflicts fileConflict, int USBorPCIndex)====
