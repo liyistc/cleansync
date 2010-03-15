@@ -3,10 +3,84 @@
    ==This is the basic file and folder metadata definition extends form the basic metadata definition "ComponentMeta". It provides the basic information about each files, also, give the structure of the folders using tree structure.==
 
 ----
-= Attributes =
+== Attributes ==
  ==== public enum Type`{` New,Modified,Deleted,NotTouched `}` ====
     Defines the type (or status) of one file(folder). 
     =====New: first created===== 
     =====Modified: being modified by other side=====
     =====Deleted: Deleted by other side=====
     =====NotTouched: No change on both sides=====
+ ==== public string Name ====
+   Name of the file/folder metadata
+ ==== public string Path ====
+   Relative path based on the root folder selected. Eg:"D:\temp\temp1\a.txt", if we selected 
+   "D:\temp" as the root, then path will be "temp1\a.txt".
+ ==== public string AbsolutePath ====
+   Stores the absolutePath of the file/folder metadata
+ ==== public string rootDir ====
+   Give the root folder selected by user
+----
+== Constructor ==
+  ==== public ComponentMeta(string path, string rootDir) ====
+----
+== Methods ==
+  ==== public static bool operator >(ComponentMeta first, ComponentMeta second) ====
+  Compare if the first component metadata is larger than second.
+  ==== public static bool operator <(ComponentMeta first, ComponentMeta second) ====
+  Compare if the first component metadata is smaller than second.
+----
+== FileMeta ==
+  An instance extends from ComponentMeta which specifies the file informations.
+----
+== Attributes ==
+  ====public Type FileType====
+  Type of the file: using the Type in the ComponentMeta enum.
+  ====public DateTime LastModifiedTime====
+  Get the last modified time for the file.
+  ====public DateTime CreationTime====
+  Get the creation time of the file.
+  ====public long Size====
+  Get the size of the file.
+----
+==Constructor==
+  ====public FileMeta(string path, string rootDir) : base(path, rootDir)====
+  Inheritated from the ComponentMata.
+  ====public FileMeta(FileMeta file) : base(file.AbsolutePath,file.rootDir)====
+  Using the given FileMeta to construct new FileMeta object. 
+----
+== Methods ==
+  ====public static int ConvertToKiloByte(FileInfo fileInfo)====
+  Return file size in K bytes.
+  ====public string getString()====
+  Provide a string representation of the file metadata.
+----
+= FolderMeta = 
+  An instance extends from ComponentMeta which specifies the folder informations. 
+----
+== Attributes ==
+  ====public Type FolderType====
+  Type of the folder: using the Type in the ComponentMeta enum.
+  ====public List<FolderMeta> folders====
+  List of folders inside one folder.
+  ====public  List<FileMeta> files====
+  List of files inside one folder.
+  ====public long Size====
+  Size of the folder.
+----
+== Constructor ==
+  ==== public FolderMeta(string path, string rootDir) ====
+  Inheritated from the ComponentMata.
+  ==== public FolderMeta(FolderMeta root):base(root.AbsolutePath,root.rootDir)====
+  Given one folder metadata to generate its own metadata.
+----
+== Methods ==
+  ====public void AddFile(FileMeta file)====
+  Add one file to the file list.
+  ====public void AddFolder(FolderMeta folder)====
+  Add one folder to the folder list.
+  ====public IEnumerator<FolderMeta> GetFolders()====
+  Get all the folders in the folder metadata.
+  ====public IEnumerator<FileMeta> GetFiles()====
+  Get all the files in the folder metadata.
+  ====public String getString()====
+  Return a string representation of the folder metadata.
