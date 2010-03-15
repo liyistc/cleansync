@@ -21,7 +21,7 @@ These methods are called to calculate the total size of data needed to be copied
 ====void updateFolderSize(List`<`FolderMeta`>` folders)====
 ====void updateFileSize(List`<`FileMeta`>` files)====
 ===Normal Synchronization===
-These methods are called to do a normal synchronization. In the methods that copies files and folders from the USB to the PC, the individual files and folders in the USB will be deleted immediately after being copied to the PC.
+These methods are called to do a normal synchronization. In the methods that copies files and folders from the USB to the PC, the individual files and folders in the USB will be deleted immediately after being copied to the PC. The algorithm is basic, just going through the differences in the comparison result and copying and renaming the files and folders accordingly.
 ====void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)====
 ====void SyncPCToUSBModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)====
