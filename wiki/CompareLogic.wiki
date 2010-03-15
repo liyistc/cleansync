@@ -1,6 +1,6 @@
 = CompareLogic=
 
-   Compare Logic handle comparison between two folders, given two root folders, it is able to tell what are the changes: "modified", "deleted" or "created". And return a comprehensive result to callers.
+  == Compare Logic handle comparison between two folders, given two root folders, it is able to tell what are the changes: "modified", "deleted" or "created". And return a comprehensive result to callers.==
 
 Methods are list as belows:
 ----
