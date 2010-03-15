@@ -3,7 +3,7 @@
   === 1. Folder created.===
   === 2. Folder deleted.===
   === 3. File created.===
- === 4. File deleted.===
+  === 4. File deleted.===
  === 5. File modified.===
 -----
 == Attributes==
