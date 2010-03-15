@@ -1,0 +1,24 @@
+
+
+= ComparisonResult =
+  
+  ==Comparison Result contains the result through compare logic, which maintains three different results: Differences on PC, difference on removable devices and lastly the conflict between the two above.==
+
+
+----
+= Attributes =
+   ====public Differences USBDifferences====
+     This is the difference on USB relative to PC, of type Differences.
+   ====public Differences PCDifferences====
+     This is the difference on PC relative to USB, of type Differences.
+   ====public List`<`Conflicts`>` conflictList====
+     This contains conflicts of PC and USB, which maintained inside a list of Conflicts.
+
+----
+= Constructors =
+  
+   ====public ComparisonResult(Differences USBDifferences, Differences PCDifferences, List<Conflicts> conflictList)====
+----
+= Methods =
+ ==== public List<string> ConvertComparisonResultToListOfString(ComparisonResult comparisonResult) ====
+==== private string ConflictlistToString(List<Conflicts> conflictList)====
