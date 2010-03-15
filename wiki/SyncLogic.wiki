@@ -1,4 +1,3 @@
-#Sync Logic description
 
 = Sync Logic Description=
 
