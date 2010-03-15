@@ -25,7 +25,7 @@ Files and Folders stored in the USB are renamed and their renaming is also handl
 ====void SyncUSBToPCModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)====
 ====void SyncUSbToPCNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)====
 ====void SyncUSBtoPCDeleteFolder(PCJob pcJob, List`<`FolderMeta`>` deleteFolderList)====
-====void SyncUSBToPCNewFolder(PCJob pcJob, List``<``FolderMeta`>` newFolderList)====
+====void SyncUSBToPCNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)====
 ====void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)====
 ====void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob pcJob)====
