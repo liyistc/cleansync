@@ -1,5 +1,5 @@
 = DataInputOutput =
-  ==Provide a file read/write.==
+  ==Provides a file read/write.==
 ----
 ==Methods==
  ====public static T LoadFromBinary(string path)====
