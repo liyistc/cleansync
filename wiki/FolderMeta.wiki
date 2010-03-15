@@ -1,11 +1,11 @@
 = ComponentMeta =
 
-   ==This is the basic file and folder metadata definition, which provides the basic information about each files, also, give the structure of the folders using tree structure.==
+   ==This is the basic file and folder metadata definition extends form the basic metadata definition "ComponentMeta". It provides the basic information about each files, also, give the structure of the folders using tree structure.==
 
 ----
 = Attributes =
  ==== public enum Type`{` New,Modified,Deleted,NotTouched `}` ====
-    Defines the type (or status) of one file. 
+    Defines the type (or status) of one file(folder). 
     =====New: first created===== 
     =====Modified: being modified by other side=====
     =====Deleted: Deleted by other side=====
