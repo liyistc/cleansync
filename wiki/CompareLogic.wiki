@@ -1,6 +1,6 @@
-
 = CompareLogic=
 
+----
 == public functions ==   
 * public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)*
 * public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)*
