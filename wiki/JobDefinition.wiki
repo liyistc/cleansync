@@ -1,14 +1,8 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+= JobDefinition Class Description=
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-s
+JobDefinition is an abstract class used to describe the meta data for jobs. USBJob and PCJob inherit from JobDefinition
+----
+= Data Members =
+= Methods =
