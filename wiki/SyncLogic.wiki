@@ -10,7 +10,8 @@ Files and Folders stored in the USB are renamed and their renaming is also handl
 ==Public==
 In SyncLogic there is only one method called by external classes, which is to do a synchronization.
 ====void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)====
-This method checks whether this PC is the last PC to do a synchronization with the USB by matching the PCID with the usbJob's 
+This method checks whether this PC is the last PC to do a synchronization with the USB by matching the PCID with the usbJob's MostRecentPCID. If it is not the last PC to synchronization with the USB, a normal synchronization is performed. Else, it will do a re-synchronization. 
+The worker object is used to update the progress of synchronization.
 
 ==Private==
 ====void initializeTotalSize(ComparisonResult comparisonResult)====
