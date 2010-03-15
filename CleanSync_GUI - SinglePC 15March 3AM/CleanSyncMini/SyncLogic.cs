@@ -130,8 +130,8 @@ namespace DirectoryInformation
             List<FileMeta> modifiedFilesNew = newDifferences.getModifiedFileList();
 
             ReSyncDeletedFiles(oldDifferences, pcJob, newFilesOld, deletedFilesNew, modifiedFilesOld);
-            RemoveNullComponentsFiles(pcJob, newFilesOld, "new");
-            RemoveNullComponentsFiles(pcJob, modifiedFilesOld, "modified");
+            RemoveNullComponentsFiles(pcJob, newFilesOld, "n");
+            RemoveNullComponentsFiles(pcJob, modifiedFilesOld, "m");
             ReSyncModifiedFiles(oldDifferences, pcJob, newFilesOld, modifiedFilesOld, modifiedFilesNew);
             ReSyncNewFiles(pcJob, oldDifferences, newFilesNew);
         }
@@ -143,7 +143,7 @@ namespace DirectoryInformation
             List<FolderMeta> deletedFoldersNew = newDifferences.getDeletedFolderList();
             ReSyncDeletedFolders(oldDifferences, pcJob, newFoldersOld, deletedFoldersNew);
 
-            RemoveNullComponentsFolders(pcJob, newFoldersOld, "new");
+            RemoveNullComponentsFolders(pcJob, newFoldersOld, "n");
             ReSyncNewFolders(oldDifferences, pcJob, newFoldersNew);
         }
 
@@ -154,7 +154,7 @@ namespace DirectoryInformation
             foreach (FileMeta newFile in newFilesNew)
             {
                 oldDifferences.AddNewFileDifference(newFile);
-                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\new" + i + ".temp",bgWorker,onePercentSize);
+                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
                 i++;
             }
         }
@@ -169,8 +169,8 @@ namespace DirectoryInformation
                     if ((modifiedFile.Path + modifiedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
                     {
                         newFilesOld[i] = modifiedFile;
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\new" + i + ".temp",bgWorker,onePercentSize);
+                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
+                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
                         found = true;
                     }
                 }
@@ -179,14 +179,14 @@ namespace DirectoryInformation
                     if ((modifiedFile.Path + modifiedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
                     {
                         modifiedFilesOld[i] = modifiedFile;
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp",bgWorker,onePercentSize);
+                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
+                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp",bgWorker,onePercentSize);
                         found = true;
                     }
                 }
                 if (!found)
                 {
-                    ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\modified" + modifiedFilesOld.Count + ".temp",bgWorker,onePercentSize);
+                    ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + modifiedFilesOld.Count + ".temp",bgWorker,onePercentSize);
                     oldDifferences.AddModifiedFileDifference(modifiedFile);
                 }
             }
@@ -202,7 +202,7 @@ namespace DirectoryInformation
                 {
                     if ((deletedFile.Path + deletedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
                     {
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp");
+                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
                         newFilesOld[i] = null;
                         found = true;
                     }
@@ -211,7 +211,7 @@ namespace DirectoryInformation
                 {
                     if ((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
                     {
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp");
+                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName +"m" + i + ".temp");
                         modifiedFilesOld[i] = null;
                         oldDifferences.AddDeletedFileDifference(deletedFile);
                         found = true;
@@ -228,7 +228,7 @@ namespace DirectoryInformation
             foreach (FolderMeta newFolder in newFoldersNew)
             {
                 oldDifferences.AddNewFolderDifference(newFolder);
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\new" + j,bgWorker,onePercentSize);
+                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + j,bgWorker,onePercentSize);
                 j++;
             }
         }
@@ -243,7 +243,7 @@ namespace DirectoryInformation
                 {
                     if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
                     {
-                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\new" + i);
+                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
                         newFoldersOld[i] = null;
                         found = true;
                     }
@@ -264,7 +264,7 @@ namespace DirectoryInformation
                 while (lastFreeIndex < lastFileIndex && files[lastFileIndex] == null) lastFileIndex--;
                 if (lastFreeIndex < lastFileIndex)
                 {
-                    ReadAndWrite.RenameFile(pcJob.AbsoluteUSBPath + "\\" + listType + lastFileIndex + ".temp", pcJob.AbsoluteUSBPath + "\\" + listType + lastFreeIndex + ".temp");
+                    ReadAndWrite.RenameFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + listType + lastFileIndex + ".temp", pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + listType + lastFreeIndex + ".temp");
                     files[lastFreeIndex] = files[lastFileIndex];
                     files[lastFileIndex] = null;
                 }
@@ -290,7 +290,7 @@ namespace DirectoryInformation
                 while (lastFreeIndex < lastFileIndex && folders[lastFileIndex - 1] == null) lastFileIndex--;
                 if (lastFreeIndex < lastFileIndex)
                 {
-                    ReadAndWrite.RenameFolder(pcJob.AbsoluteUSBPath + "\\" + listType + lastFileIndex, pcJob.AbsoluteUSBPath + "\\" + listType + lastFreeIndex);
+                    ReadAndWrite.RenameFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + listType + lastFileIndex, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + listType + lastFreeIndex);
                     folders[lastFreeIndex] = folders[lastFileIndex];
                     folders[lastFileIndex] = null;
                 }
@@ -346,7 +346,7 @@ namespace DirectoryInformation
             {
                 Debug.Assert(modifiedFile != null);
                 Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
-                ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp",bgWorker,onePercentSize);
+                ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp",bgWorker,onePercentSize);
 
                 //Update progress
                 //operationCount++;
@@ -364,7 +364,7 @@ namespace DirectoryInformation
             {
                 Debug.Assert(newFile != null);
                 Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\new" + i + ".temp",bgWorker,onePercentSize);
+                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
 
                 //Update progress
                 //operationCount++;
@@ -382,7 +382,7 @@ namespace DirectoryInformation
             {
                 Debug.Assert(newFolder != null);
                 Debug.Assert(newFolder.Path != null & newFolder.Name != null);
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\new" + i,bgWorker,onePercentSize);
+                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "new" + i,bgWorker,onePercentSize);
 
                 //Update progesss
                 //operationCount++;
@@ -442,8 +442,8 @@ namespace DirectoryInformation
             {
                 Debug.Assert(modifiedFile != null);
                 Debug.Assert(modifiedFile.Name != null && modifiedFile.Path != null);
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\modified" + i + ".temp");
+                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name,bgWorker,onePercentSize);
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + modifiedFile.Path + modifiedFile.Name);
@@ -459,8 +459,8 @@ namespace DirectoryInformation
             {
                 Debug.Assert(newFile != null);
                 Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\new" + i + ".temp");
+                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name,bgWorker,onePercentSize);
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + newFile.Path + newFile.Name);
@@ -490,8 +490,8 @@ namespace DirectoryInformation
             {
                 Debug.Assert(newFolder != null);
                 Debug.Assert(newFolder.Name != null && newFolder.Path != null);
-                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\new" + i, pcJob.PCPath + newFolder.Path + newFolder.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\new" + i);
+                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName +"n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name,bgWorker,onePercentSize);
+                ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
                 //Update progesss
                 //operationCount++;
                 //bgWorker.ReportProgress(syncJobPercentage(), pcJob.PCPath + newFolder.Path + newFolder.Name);
