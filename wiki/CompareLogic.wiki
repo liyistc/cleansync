@@ -1,29 +1,28 @@
 
 
-
 = CompareLogic=
 
 == public functions ==   
 * public Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)*
 * public Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)*
-* public List<Conflicts> ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles) *
+* public List`<`Conflicts`>` ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles) *
 * public FolderMeta ConvertDifferencesToTreeStructure(FolderMeta root, Differences differences)*
 == private functions ==
 * private void CompareDirectories(FolderMeta newTree, FolderMeta oldTree, Differences differences)*
 * private void CompareFiles(FolderMeta newFolder, FolderMeta oldFolder, Differences differences)*
 * private void CompareFolders(FolderMeta newFolder, FolderMeta oldFolder, Differences differences)*
-* private FolderMeta checkList(FolderMeta folderMeta, List<FolderMeta> folderList)*
-* private FileMeta checkList(FileMeta fileMeta, List<FileMeta> fileList)*
-* private void RemoveFile(FileMeta fileToBeRemoved, List<FileMeta> fileList)*
-* private void RemoveFolder(FolderMeta folderToBeRemoved, List<FolderMeta> folderList)*
-* private bool CheckFileInList(FileMeta fileToBeChecked, List<FileMeta> fileList) *
-* private bool CheckFolderInList(FolderMeta folderToBeChecked, List<FolderMeta> folderList)*
+* private FolderMeta checkList(FolderMeta folderMeta, List`<`FolderMeta`>` folderList)*
+* private FileMeta checkList(FileMeta fileMeta, List`<`FileMeta`>` fileList)*
+* private void RemoveFile(FileMeta fileToBeRemoved, List`<`FileMeta`>` fileList)*
+* private void RemoveFolder(FolderMeta folderToBeRemoved, List`<`FolderMeta`>` folderList)*
+* private bool CheckFileInList(FileMeta fileToBeChecked, List`<`FileMeta`>` fileList) *
+* private bool CheckFolderInList(FolderMeta folderToBeChecked, List`<`FolderMeta`>` folderList)*
 * private void ConvertSubFolders(FolderMeta root, Differences differences, List<FolderMeta> subFolders)*
-* private void AddDeletedFilesToRootFileList(FolderMeta root, List<FileMeta> deletedFileList)*
-* private void RemoveUntouchedFilesFromRootFileList(FolderMeta root, Differences differences, List<FileMeta> subFiles)*
+* private void AddDeletedFilesToRootFileList(FolderMeta root, List`<`FileMeta`>` deletedFileList)*
+* private void RemoveUntouchedFilesFromRootFileList(FolderMeta root, Differences differences, List`<`FileMeta`>` subFiles)*
 * private static void ClearRootUnTouchedFolders(FolderMeta root)*
 * private static void ClearRootUnTouchedFiles(FolderMeta root)*
-* private void ClearFileList(FolderMeta root, List<FileMeta> fileList, ComponentMeta.Type type)*
-* private void ClearFolderList(FolderMeta root, List<FolderMeta> folderList, ComponentMeta.Type type)*
+* private void ClearFileList(FolderMeta root, List`<`FileMeta`>` fileList, ComponentMeta.Type type)*
+* private void ClearFolderList(FolderMeta root, List`<`FolderMeta`>` folderList, ComponentMeta.Type type)*
 * private bool checkFileExistence(FileMeta file, Differences differences)*
 * private bool checkFolderExistence(FolderMeta folder, Differences differences)*
