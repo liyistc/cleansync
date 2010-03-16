@@ -1,0 +1,36 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+----
+= Attributes =
+== Public ==
+ * *List`<`string`>` GetCurrentDrives*
+== Private ==
+ * *JobLogic jobLogic*
+ * *string thisPCID*
+ * *List`<`string`>` CurrentDrives*
+ * *List`<`USBJob`>` IncompleteList*
+
+= Constructors =
+ * *MainLogic()*
+
+= Methods =
+==Public==
+ * *void InitializePCJobInfo()*
+ * *PCJob CreateJob(string JobName,string PCPath, string pathName )*
+ * *bool FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
+ * *List`<`USBJob`>` AcceptJob(List`<`string`>` drives)*
+ * *PCJob CreateJob(USBJob jobUSB, string PCPath)*
+ * *ComparisonResult Compare(PCJob pcJob)*
+ * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
+ * *void setUSBJobList(List`<`USBJob`>` usbJobs)*
+ * *void USBPlugIn(List`<`string`>` drives)*
+ * *void USBRemoved(string[] drives)*
+ * *List`<`PCJob`>` GetPCJobs()*
+ * *List`<`USBJob`>` GetUSBJobs()*
+ * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
+ * *void DeleteJob(PCJob pcJob)*
+ * *string GetPCID()*
