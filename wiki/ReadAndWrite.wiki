@@ -18,9 +18,9 @@ Add your content here.
  * *static void CopyFolder(string source,string destination)*
  * *static void RenameFile(string source, string destination)*
  * *static void RenameFolder(string source, string destination)*
- * *static List<string> ImportJobList()*
+ * *static List`<`string`>` ImportJobList()*
  * *static USBJob ImportIncompleteJobFromUSB(string incompleteUSBJobPath)*
- * *static void ExportPCJobPathsList(List<string> pcJobPathsList)*
+ * *static void ExportPCJobPathsList(List`<`string`>` pcJobPathsList)*
  * *static void ExportPCJob(PCJob pcJob)*
  * *static void ExportIncompleteJobToUSB(USBJob incompleteUSBJob)*
  * *static string GetStoredPathOnPC(PCJob pcJob)*
@@ -29,19 +29,19 @@ Add your content here.
  * *static string GetIncompleteUSBFilePath(USBJob usbJob)*
  * *static string GetIncompleteUSBFolderPath(string AbsoluteUSBPath)*
  * *static string GetIncompleteUSBFolderLocation(string usbRoot)*
- * *static List<USBJob> GetIncompleteUSBJobList(string USBRoot)*
- * *static List<PCJob> GetPCJobList(string rootFolder)*
- * *static List<USBJob> GetUSBJobList(string rootFolder)*
+ * *static List`<`USBJob`>` GetIncompleteUSBJobList(string USBRoot)*
+ * *static List`<`PCJob`>` GetPCJobList(string rootFolder)*
+ * *static List`<`USBJob`>` GetUSBJobList(string rootFolder)*
  * *static void RemoveIncompleteUSBJob(USBJob jobUSB)*
- * *static List<PCJob> GetPCJobs(List<string> jobPaths)*
+ * *static List`<`PCJob`>` GetPCJobs(List`<`string`>` jobPaths)*
  * *static string GetStoredPathOnUSB(USBJob usbJob)*
  * *static string GetStoredFolderOnUSB(string usbPath)*
- * *static void ExportUSBJobPathsList(List<string> StoredUSBJobInfoPaths,USBJob usbJob)*
+ * *static void ExportUSBJobPathsList(List`<`string`>` StoredUSBJobInfoPaths,USBJob usbJob)*
  * *static void ExportUSBJob(USBJob usbJob)*
  * *static string GetUSBRootPath(USBJob usbJob)*
  * *static string GetUSBRootPath(string usbPath)*
- * *static List<string> GetUSBJobListPath(string AbsoluteUSBPath)*
- * *static List<USBJob> GetUSBJobs(List<string> usbJobListPath)*
+ * *static List`<`string`>` GetUSBJobListPath(string AbsoluteUSBPath)*
+ * *static List`<`USBJob`>` GetUSBJobs(List`<`string`>` usbJobListPath)*
 
 ==Private==
  * *static FolderMeta BuildTree(string sourceDir, string rootDir)*
