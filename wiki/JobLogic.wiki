@@ -7,14 +7,14 @@ Add your content here.
 
 = Attributes =
 ==Private==
- * *List<string> StoredPCJobInfoPaths;*
- * *List<string> StoredUSBJobInfoPaths;*
+ * *List`<`string`>` StoredPCJobInfoPaths;*
+ * *List`<`string`>` StoredUSBJobInfoPaths;*
  * *SyncLogic sync;*
  * *CompareLogic compareLogic;*
 
 ==Internal==
- * *List<PCJob> PCJobs*
- * *List<USBJob> USBJobs*
+ * *List`<`PCJob`>` PCJobs*
+ * *List`<`USBJob`>` USBJobs*
 
 = Constructors =
  * *JobLogic()*
