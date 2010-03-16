@@ -29,7 +29,8 @@ MetaData classes store various information used by CLEANSync to perform its oper
    * PCJob
    * USBJob
   * Differences
-  * ComparisonResult
+  * ComparisonResult 
+  * LogFile
 ----
 ==CLEANSync Feature Implementation Details==
 ===Creating a Job===
