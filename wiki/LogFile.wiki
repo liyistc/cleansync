@@ -1,8 +1,6 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
-Add your content here.
+LogFile is in charge of writing changes to a file.
 
 ----
 = Attributes =
