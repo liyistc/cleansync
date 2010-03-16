@@ -37,4 +37,11 @@ Add your content here.
  * *void USBRemoved()*
  * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
  * *PCJob ConnectUSBJobwithPCJob(USBJob usbJob)*
-void DeleteJob(PCJob pcJob,string pcID)*
+ * *void DeleteJob(PCJob pcJob,string pcID)*
+==Private==
+ * *int CheckPCTwoDelete(int i, USBJob usbJob)*
+ * *int CheckPCOneDelete(int i, USBJob usbJob)*
+ * *int GetPCNumber(USBJob usbJob,string pcID)*
+ * *void WriteIncompleteFileInfoOnUSB(USBJob usbJob)*
+ * *void RemovePCJob(PCJob pcJob)*
+ * *void RemoveUSBJob(USBJob usbJob)*
