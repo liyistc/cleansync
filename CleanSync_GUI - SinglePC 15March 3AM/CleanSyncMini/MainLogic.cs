@@ -36,15 +36,15 @@ namespace CleanSyncMini
         {
             jobLogic.InitializePCJobInfo();
         }
-         internal PCJob CreateJob(string JobName,string PCPath, string pathName )
+        internal PCJob CreateJob(string JobName,string PCPath, string pathName )
          {
              return jobLogic.CreateJob(JobName,PCPath, pathName, thisPCID);
          }
-         internal bool FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+        internal bool FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
          {
              return jobLogic.setupJob(pcJob, worker);
          }
-         internal List<USBJob> AcceptJob(List<string> drives)
+        internal List<USBJob> AcceptJob(List<string> drives)
          {
              List<USBJob> incomplete = new List<USBJob>();
              string pcID = GetPCID();
@@ -78,7 +78,7 @@ namespace CleanSyncMini
              IncompleteList = incomplete;
              return incomplete; 
          }
-         internal PCJob CreateJob(USBJob jobUSB, string PCPath)
+        internal PCJob CreateJob(USBJob jobUSB, string PCPath)
          {
              
              PCJob jobPC = jobLogic.CreateJob(jobUSB,PCPath,thisPCID);
@@ -86,19 +86,19 @@ namespace CleanSyncMini
              return jobPC;
          }
 
-         /*internal ComparisonResult AcceptJobCompare(PCJob ContinuedJob)
+        /*internal ComparisonResult AcceptJobCompare(PCJob ContinuedJob)
          {
              ComparisonResult result =  jobLogic.Compare(ContinuedJob);
              return result;
          }*/
 
-         internal ComparisonResult Compare(PCJob pcJob)
+        internal ComparisonResult Compare(PCJob pcJob)
          {
              ComparisonResult compResult = jobLogic.Compare(pcJob);
              return compResult;
          }
 
-         internal void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+        internal void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
          {
              jobLogic.CleanSync(comparisonResult, pcJob, worker);
          }

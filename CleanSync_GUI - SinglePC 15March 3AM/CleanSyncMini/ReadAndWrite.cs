@@ -56,7 +56,6 @@ namespace CleanSyncMini
             return thisFolder;
         }
 
-
         public static void DeleteFile(string path)
         {
             File.Delete(path);
@@ -156,7 +155,6 @@ namespace CleanSyncMini
             SetPCFolderAccess();
             return ret;
         }
-
        
         internal static USBJob ImportIncompleteJobFromUSB(string incompleteUSBJobPath)
         {
@@ -203,7 +201,6 @@ namespace CleanSyncMini
             SetUSBFolderAccess(incompleteUSBJob.AbsoluteUSBPath);
         }
         
-
         internal static string GetStoredPathOnPC(PCJob pcJob)
         {
             /*DirectoryInfo di;
@@ -224,10 +221,7 @@ namespace CleanSyncMini
         internal static string GetUSBJobListPathLocation(string usbPath)
         {
             return GetUSBRootPath(usbPath) + @"\usbJobPathList.pList";
-        }
-
-
-        
+        }   
         internal static string GetIncompleteUSBFilePath(USBJob usbJob)
         {
             /*if (!Directory.Exists(GetUSBRootPath(usbJob) + @"\incompleteJobs"))
@@ -267,9 +261,6 @@ namespace CleanSyncMini
             return pcJobs;
         }
 
-        
-        
-
         internal static List<USBJob> GetUSBJobList(string rootFolder)
         {
             List<USBJob> usbJobs = new List<USBJob>();
@@ -299,9 +290,7 @@ namespace CleanSyncMini
         {
             
             return GetUSBRootPath(usbJob) + @"\usbJobsList\" + usbJob.JobName + ".jInfo";
-        }
-
-        
+        }    
       
         internal static string GetStoredFolderOnUSB(string usbPath)
         {

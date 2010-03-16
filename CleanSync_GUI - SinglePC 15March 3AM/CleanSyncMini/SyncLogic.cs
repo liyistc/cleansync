@@ -72,8 +72,7 @@ namespace DirectoryInformation
                CleanSyncReSync(comparisonResult, pcJob);
             }
             else NormalCleanSync(comparisonResult, pcJob);
-
-            pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
+            if(JobStatus.Complete == pcJob.JobState) pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
             this.bgWorker = null;
         }
 
@@ -382,7 +381,7 @@ namespace DirectoryInformation
             {
                 Debug.Assert(newFolder != null);
                 Debug.Assert(newFolder.Path != null & newFolder.Name != null);
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "new" + i,bgWorker,onePercentSize);
+                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i,bgWorker,onePercentSize);
 
                 //Update progesss
                 //operationCount++;

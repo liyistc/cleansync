@@ -1297,3 +1297,203 @@ Delete Folder E:\test22222\new0
 Delete File E:\test22222\modified0.temp
 Export USB Job to File test2.jInfo
 Export PC Job to File test2.jInfo
+Export PC Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\Album 1\Sub Folder to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1918.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1918.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1920.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1920.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1981.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1981.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1985.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1985.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\! - Copy (5).txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\! - Copy (6).txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn1.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\!.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn2.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\#.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn3.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\$.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn4.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\%.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn5.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\&.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn6.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\,.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn7.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\..txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn8.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\'.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn9.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\-.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn10.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\;.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn11.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\@.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn12.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\^.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn13.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\_.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn14.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\`.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn15.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\{.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn16.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\}.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn17.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\~.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn18.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\+.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn19.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\=.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn20.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\adai.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn21.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut (2).lnk to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn22.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut.lnk to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn23.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\anak.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn24.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\bengawan solo3.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn25.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\bengawan.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn26.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\chrono.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn27.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\dancedallnight.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn28.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1921.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn29.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1923.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn30.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1992.JPG to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn31.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\getaran.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn32.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\GR.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn33.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\littlesuite.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn34.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\loykrathong.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn35.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\New Text Document.txt to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn36.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\sakura.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn37.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\satyagraha.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn38.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\spiritedaway.mp3 to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn39.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\SyncToy_7f65ceed-cbfe-4f7c-8c65-6a3c3d06182d.dat to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn40.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\test.zargo to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn41.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\test.zargo~ to C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn42.temp
+Copy Folder C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0 to C:\Users\Pirororor\Desktop\Album 1\Sub Folder
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1918.JPG to C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1918.JPG
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1920.JPG to C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1920.JPG
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1981.JPG to C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1981.JPG
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0\DSC_1985.JPG to C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1985.JPG
+Delete Folder C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0.temp to C:\Users\Pirororor\Desktop\Album 1\! - Copy (5).txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn0.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn1.temp to C:\Users\Pirororor\Desktop\Album 1\! - Copy (6).txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn1.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn2.temp to C:\Users\Pirororor\Desktop\Album 1\!.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn2.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn3.temp to C:\Users\Pirororor\Desktop\Album 1\#.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn3.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn4.temp to C:\Users\Pirororor\Desktop\Album 1\$.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn4.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn5.temp to C:\Users\Pirororor\Desktop\Album 1\%.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn5.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn6.temp to C:\Users\Pirororor\Desktop\Album 1\&.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn6.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn7.temp to C:\Users\Pirororor\Desktop\Album 1\,.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn7.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn8.temp to C:\Users\Pirororor\Desktop\Album 1\..txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn8.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn9.temp to C:\Users\Pirororor\Desktop\Album 1\'.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn9.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn10.temp to C:\Users\Pirororor\Desktop\Album 1\-.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn10.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn11.temp to C:\Users\Pirororor\Desktop\Album 1\;.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn11.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn12.temp to C:\Users\Pirororor\Desktop\Album 1\@.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn12.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn13.temp to C:\Users\Pirororor\Desktop\Album 1\^.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn13.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn14.temp to C:\Users\Pirororor\Desktop\Album 1\_.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn14.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn15.temp to C:\Users\Pirororor\Desktop\Album 1\`.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn15.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn16.temp to C:\Users\Pirororor\Desktop\Album 1\{.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn16.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn17.temp to C:\Users\Pirororor\Desktop\Album 1\}.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn17.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn18.temp to C:\Users\Pirororor\Desktop\Album 1\~.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn18.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn19.temp to C:\Users\Pirororor\Desktop\Album 1\+.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn19.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn20.temp to C:\Users\Pirororor\Desktop\Album 1\=.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn20.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn21.temp to C:\Users\Pirororor\Desktop\Album 1\adai.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn21.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn22.temp to C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut (2).lnk
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn22.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn23.temp to C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut.lnk
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn23.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn24.temp to C:\Users\Pirororor\Desktop\Album 1\anak.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn24.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn25.temp to C:\Users\Pirororor\Desktop\Album 1\bengawan solo3.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn25.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn26.temp to C:\Users\Pirororor\Desktop\Album 1\bengawan.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn26.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn27.temp to C:\Users\Pirororor\Desktop\Album 1\chrono.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn27.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn28.temp to C:\Users\Pirororor\Desktop\Album 1\dancedallnight.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn28.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn29.temp to C:\Users\Pirororor\Desktop\Album 1\DSC_1921.JPG
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn29.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn30.temp to C:\Users\Pirororor\Desktop\Album 1\DSC_1923.JPG
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn30.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn31.temp to C:\Users\Pirororor\Desktop\Album 1\DSC_1992.JPG
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn31.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn32.temp to C:\Users\Pirororor\Desktop\Album 1\getaran.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn32.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn33.temp to C:\Users\Pirororor\Desktop\Album 1\GR.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn33.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn34.temp to C:\Users\Pirororor\Desktop\Album 1\littlesuite.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn34.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn35.temp to C:\Users\Pirororor\Desktop\Album 1\loykrathong.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn35.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn36.temp to C:\Users\Pirororor\Desktop\Album 1\New Text Document.txt
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn36.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn37.temp to C:\Users\Pirororor\Desktop\Album 1\sakura.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn37.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn38.temp to C:\Users\Pirororor\Desktop\Album 1\satyagraha.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn38.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn39.temp to C:\Users\Pirororor\Desktop\Album 1\spiritedaway.mp3
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn39.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn40.temp to C:\Users\Pirororor\Desktop\Album 1\SyncToy_7f65ceed-cbfe-4f7c-8c65-6a3c3d06182d.dat
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn40.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn41.temp to C:\Users\Pirororor\Desktop\Album 1\test.zargo
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn41.temp
+Copy File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn42.temp to C:\Users\Pirororor\Desktop\Album 1\test.zargo~
+Delete File C:\Users\Pirororor\Desktop\usb\Job Kamen Rider QQQ Lideli Hakoudenn42.temp
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File 53w.jInfo
+Export PC Job to File 53w.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\Album 1\Sub Folder to I:\\53wn0
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1918.JPG to I:\\53wn0\DSC_1918.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1920.JPG to I:\\53wn0\DSC_1920.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1981.JPG to I:\\53wn0\DSC_1981.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\Sub Folder\DSC_1985.JPG to I:\\53wn0\DSC_1985.JPG
+Copy File C:\Users\Pirororor\Desktop\Album 1\! - Copy (5).txt to I:\\53wn0.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\! - Copy (6).txt to I:\\53wn1.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\!.txt to I:\\53wn2.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\#.txt to I:\\53wn3.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\$.txt to I:\\53wn4.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\%.txt to I:\\53wn5.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\&.txt to I:\\53wn6.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\,.txt to I:\\53wn7.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\..txt to I:\\53wn8.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\'.txt to I:\\53wn9.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\-.txt to I:\\53wn10.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\;.txt to I:\\53wn11.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\@.txt to I:\\53wn12.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\^.txt to I:\\53wn13.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\_.txt to I:\\53wn14.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\`.txt to I:\\53wn15.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\{.txt to I:\\53wn16.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\}.txt to I:\\53wn17.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\~.txt to I:\\53wn18.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\+.txt to I:\\53wn19.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\=.txt to I:\\53wn20.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\adai.mp3 to I:\\53wn21.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut (2).lnk to I:\\53wn22.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\Album 1 - Shortcut.lnk to I:\\53wn23.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\anak.mp3 to I:\\53wn24.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\bengawan solo3.mp3 to I:\\53wn25.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\bengawan.mp3 to I:\\53wn26.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\chrono.mp3 to I:\\53wn27.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\dancedallnight.mp3 to I:\\53wn28.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1921.JPG to I:\\53wn29.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1923.JPG to I:\\53wn30.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\DSC_1992.JPG to I:\\53wn31.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\getaran.mp3 to I:\\53wn32.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\GR.mp3 to I:\\53wn33.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\littlesuite.mp3 to I:\\53wn34.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\loykrathong.mp3 to I:\\53wn35.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\New Text Document.txt to I:\\53wn36.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\sakura.mp3 to I:\\53wn37.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\satyagraha.mp3 to I:\\53wn38.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\spiritedaway.mp3 to I:\\53wn39.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\SyncToy_7f65ceed-cbfe-4f7c-8c65-6a3c3d06182d.dat to I:\\53wn40.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\test.zargo to I:\\53wn41.temp
+Copy File C:\Users\Pirororor\Desktop\Album 1\test.zargo~ to I:\\53wn42.temp
+Export PC Job to File 53w.jInfo
+Delete File C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\53w.jInfo
+Export PC Job to File testsync.jInfo
+Export USB Job to File testsync.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\testsync.jUSBInfo
+Copy Folder I:\synctest\testsyncn0 to C:\Users\Pirororor\Desktop\tester\_gsdata_
