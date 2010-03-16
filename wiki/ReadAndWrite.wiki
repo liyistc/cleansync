@@ -9,8 +9,11 @@ ReadAndWrite performs all copy and delete operations on files and folders. It is
  * *static FolderMeta BuildTree(string rootDir)*
  * *static void DeleteFile(string path)*
  * *static void DeleteFolder(string path)*
+  * This method will delete the specified folder and all its contents.
  * *static void DeleteFolderContent(string path)*
+  * This method will not delete the specified folder, only all its contents.
  * *static void EmptyFolder(string path)*
+  * this method will only delete the subfiles within the specified folder. 
  * *static void CopyFile(string source,string destination)*
  * *static void CopyFile(string source, string destination, System.ComponentModel.BackgroundWorker worker, double onePercentSize) *
  * *static void CopyFolder(string source, string destination, System.ComponentModel.BackgroundWorker worker, double onePercentSize)*
