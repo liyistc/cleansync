@@ -49,6 +49,6 @@ Add your content here.
  * *static void CreateDataFolder(string rootPath)*
  * *static void ReSetPCFolderAccess()*
  * *static void SetPCFolderAccess()*
-static void ReSetUSBFolderAccess(string path)*
-static void SetUSBFolderAccess(string path)*
-static void GrantAccess(string folderPath)
+ * *static void ReSetUSBFolderAccess(string path)*
+ * *static void SetUSBFolderAccess(string path)*
+ * *static void GrantAccess(string folderPath)
