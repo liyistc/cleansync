@@ -1,8 +1,7 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
-
-Add your content here.
+JobLogic handles all requests for job-related work. It manages the jobs in the system and delegates the work further to CompareLogic and SyncLogic.
 
 
 = Attributes =
