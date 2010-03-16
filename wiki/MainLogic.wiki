@@ -1,9 +1,6 @@
-#summary One-sentence summary of this page.
 
 = Introduction =
-
-Add your content here.
-
+MainLogic handles request from the GUI and distributes the work to the various classes in the logic component. 
 ----
 = Attributes =
 == Public ==
