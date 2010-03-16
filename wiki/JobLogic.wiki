@@ -1,0 +1,40 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+
+
+= Attributes =
+==Private==
+ * *List<string> StoredPCJobInfoPaths;*
+ * *List<string> StoredUSBJobInfoPaths;*
+ * *SyncLogic sync;*
+ * *CompareLogic compareLogic;*
+
+==Internal==
+ * *List<PCJob> PCJobs*
+ * *List<USBJob> USBJobs*
+
+= Constructors =
+ * *JobLogic()*
+
+= Methods =
+==Public==
+ * *void InitializePCJobInfo()*
+ * *void InitializeUSBJobInfo(string usbRoot,string pcID)*
+ * *PCJob CreateJob(string jobName, string PCPath, string AbsoluteUSBPath, string PCID)*
+ * *PCJob CreateJob(USBJob jobUSB, string PCPath, string PCID)*
+ * *bool CheckNameConflict(string JobName)*
+ * *void InsertJob(USBJob usbJob)*
+ * *void InsertJob(PCJob pcJob)*
+ * *bool setupJob(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
+ * *string GetFullFolderPath(PCJob pcJob, FolderMeta folderInfo)*
+ * *void WriteIncompleteFileInfoOnUSB(USBJob usbJob)*
+ * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob,  System.ComponentModel.BackgroundWorker worker)*
+ * *ComparisonResult Compare(PCJob pcJob)*
+ * *void USBPlugIn(string drive, string pcID)*
+ * *void USBRemoved()*
+ * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
+ * *PCJob ConnectUSBJobwithPCJob(USBJob usbJob)*
+void DeleteJob(PCJob pcJob,string pcID)*
