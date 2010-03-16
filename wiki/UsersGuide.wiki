@@ -15,7 +15,7 @@ From the main screen, click on the "new job" button to create a new job.
 
 Enter a name for the job, and select the folder to synchronize. Also, select the USB directory and a folder on that USB to use as the third medium. After this, you are ready to do a first time synchronization! Click on "FirstSync" to copy all the files from the PC folder to the USB folder. After this, setup on this PC is complete.
 = Accepting a CLEANSync Job =
-From the main screen, if a 
+From the main screen, if a USB with a job that has not been accepted is plugged in, it will be shown on the main menu and users will have the option of accepting the CLEANSync job. 
 
 = Analysing differences =
 
