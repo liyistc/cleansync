@@ -111,7 +111,7 @@
             </ComboBox>
         </Grid>
         <Grid Name="AcceptFrameInfor" Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Visibility="Hidden">
-            <Label HorizontalAlignment="Left" Margin="50,20,0,0" Name="AcceptJobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Content="JobName :" BorderBrush="Transparent" BorderThickness="0" IsEnabled="True" IsHitTestVisible="True" IsTabStop="True" Focusable="True"  />
+            <Label HorizontalAlignment="Left" Margin="50,20,0,0" Name="AcceptJobName" Width="120" Height="30" VerticalAlignment="Top" Background="LightCyan" Content="JobName :" BorderBrush="Transparent" BorderThickness="0" IsEnabled="True" IsHitTestVisible="True" IsTabStop="True" Focusable="True" Opacity="0" />
             <Label HorizontalAlignment="Left" Margin="50,50,0,0" Name="AcceptLocalPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" Background="Transparent" Content="Local Path :" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Top" />
             <Label HorizontalAlignment="Left" Margin="50,80,0,0" Name="AcceptRemotePath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Content="Remote Path :" BorderBrush="Transparent" BorderThickness="0" />
             <Label HorizontalAlignment="Left" Margin="50,110,0,0" Name="AcceptUSBPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Content="USB Path :" BorderBrush="Transparent" BorderThickness="0" />

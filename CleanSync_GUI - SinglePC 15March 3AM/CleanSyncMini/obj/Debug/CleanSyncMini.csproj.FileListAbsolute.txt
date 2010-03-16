@@ -116,3 +116,18 @@ C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSy
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - SinglePC\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\Window2.baml
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\Window2.g.cs
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Users\Pirororor\Desktop\3215\CleanSync_GUI - SinglePC 15March 3AM\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache

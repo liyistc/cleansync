@@ -328,10 +328,6 @@ namespace CleanSyncMini
             }
         }
 
-        
-
-        
-
         internal ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)
         {
             ConflictHandler conflictHandler = new ConflictHandler();
@@ -398,8 +394,7 @@ namespace CleanSyncMini
             ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
 
         }
-
-        
+       
         /*private void DeleteCorrespondingPCJob(string usbRoot,string pcID)
         {
             List<USBJob> deletedUSBJobs = ReadAndWrite.GetUSBJobList(ReadAndWrite.GetDeleteJobUSBFolder(usbRoot));
