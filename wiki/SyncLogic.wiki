@@ -33,7 +33,7 @@ These methods are called to do a normal synchronization. In the methods that cop
  * *void SyncUSbToPCNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)*
  * *void SyncUSBtoPCDeleteFolder(PCJob pcJob, List`<`FolderMeta`>` deleteFolderList)*
  * *void SyncUSBToPCNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)*
- ===Resynchronization===
+===Resynchronization===
 These methods are called to do a resynchronization. Updates of files and folders in the PC will be updated on the USB. The renaming of these files and folders are also handled here. The pair of differences in the comparisonResult, instead of being treated as in a normal synchronization, are now viewed as old and new differences. Old differences are the differences in the USB that is to be synchronized with the other PC, new differences are the differences in the PC that are now to be copied to the USB.
  * *void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)*
  * *void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob pcJob)*
