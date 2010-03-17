@@ -5,6 +5,8 @@ Sync Logic handles synchronization between two folders. After comparing differen
 Files and Folders stored in the USB are renamed and their renaming is also handled by Sync Logic.
 
 ----
+= Constructor =
+ * *SyncLogic()*
 = Methods =
 
 ==Public==
