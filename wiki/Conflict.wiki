@@ -4,12 +4,12 @@ Defines the basic object of conflicts between files.
 =Attributes=
 ===Public===
  * *enum FolderFileType*
-  * FolderConflict,
-  * FileConflict,
-  * FolderVSFileConflict,
-  * FileVSFolderConflict,
-  * FolderVSSubFolderConflict,
+  * FileConflict
+  * FolderVSFileConflict
+  * FileVSFolderConflict
+  * FolderVSSubFolderConflict
   * SubFolderVSFolderConflict
+   * 3 different kinds of conflicts are identified by CLEANSync. The first one is when two files are modified in both the PC and the USB. The second one is when a folder is modified on one side while a sub-file in that folder is modified in the other side. The third kind of conflict happens when a folder is modified in one side and a sub-folder is modified on the other side.
  * *enum UserChoice*
   * KeepPCUpdates
   * KeepUSBUpdates
