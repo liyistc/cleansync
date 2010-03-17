@@ -19,7 +19,7 @@ MainLogic handles request from the GUI and distributes the work to the various c
  * *PCJob CreateJob(string JobName,string PCPath, string pathName )*
  * *bool FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
  * *List`<`USBJob`>` AcceptJob(List`<`string`>` drives)*
-  * This method searches all USB drives connected to the computer for incomplete jobs. If there is an incomplete job, check if this computer is the computer that created the job. If it is not, it will return it as an incomplete USB job.
+  * This method searches all USB drives connected to the computer for incomplete jobs. If there is an incomplete job, check if this computer is the computer that created the job. If it is not, it will return it as an incomplete USB job available to be accepted by this computer.
  * *PCJob CreateJob(USBJob jobUSB, string PCPath)*
  * *ComparisonResult Compare(PCJob pcJob)*
  * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
