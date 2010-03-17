@@ -9,4 +9,6 @@ DifferenceToTreeConvertor converts a difference into tree form for display purpo
 
 ===Private===
  * *bool ConvertFolderListToTree(FolderMeta root, bool haveDifference, List`<`FolderMeta`>` folders)*
- * *bool ConvertFileListToTree(FolderMeta root, bool haveDifference, List`<`FileMeta`>` files)*
+  * Adds a list of FolderMeta into a given root. Parent folders are created if it does not exist yet.
+ * *bool ConvertFileListToTree(FolderMeta root, bool haveDifference, List`<`FileMeta`>` files*
+  * Adds a list of FileMeta into a given root. Parent folders are created if it does not exist yet.
