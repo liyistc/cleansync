@@ -60,7 +60,7 @@ These methods are called to do a resynchronization. Updates of files and folders
   * This method deletes the null entries in a given FileMeta List. Files are re-organized accordingly and their temporary names are also changed.
  * *void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders, string listType)*
   * This method is the same as the previous, but works on a given FolderMeta list instead.
- * *void RemoveNullComponentsFolders(PCJob pcJob, List<FolderMeta> folders)*
+ * *void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders)*
   * This method does not change the name of any folder on the hard disk. Only the null components on the list are removed.
 ----
 ==Renaming of Files and Folders in the USB==
