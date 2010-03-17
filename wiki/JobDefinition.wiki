@@ -1,6 +1,6 @@
 = JobDefinition Class Description=
 
-JobDefinition is a serializable abstract class used to describe the meta data for jobs. USBJob and PCJob inherit from JobDefinition
+JobDefinition is a serializable abstract class used to describe the meta data for jobs. [http://code.google.com/p/cleansync/wiki/JobDefinition#USBJob_Class_Description USBJob] and PCJob inherit from JobDefinition
 ----
 =Attributes =
 ==Public==
