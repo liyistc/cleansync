@@ -5,4 +5,4 @@ Current version - 0.9
 Currently, CLEANSync has a couple of known issues.
 
 ||#||Defect||Status||Notes||
-||1||Hello!||Test||What!?||
+||1||||||||
