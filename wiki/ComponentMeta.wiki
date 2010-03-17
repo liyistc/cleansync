@@ -36,7 +36,7 @@
 ----
 == Attributes ==
 ===Public===
- * *Type FileType
+ * *Type FileType*
   * Type of the file: using the Type in the ComponentMeta enum.
  * *public DateTime LastModifiedTime*
   * Get the last modified time for the file.
