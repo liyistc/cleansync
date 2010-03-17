@@ -40,20 +40,20 @@ These methods are called to do a resynchronization. Updates of files and folders
  * *void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob pcJob)*
  * *void ReSyncNewFiles(PCJob pcJob, Differences oldDifferences, List`<`FileMeta`>` newFilesNew)*
  * *void ReSyncModifiedFiles(Differences oldDifferences, PCJob pcJob, List`<`FileMeta`>` modifiedFilesOld, List`<`FileMeta`>` modifiedFilesNew)*
-3 possible cases:
-  * The modified file was previously a new file in the USB. In this case, the modified file will be copied over and treated as a new version of the new file yet to be copied to the other PC.
-  * The modified file was previously a modified file in the USB. Thus, the modified file will also be copied over and treated as a new version of the modified file.
-  * Else, the modified file's information will be added to the old difference, and the file will be copied over to the USB.
+  * 3 possible cases:
+   * The modified file was previously a new file in the USB. In this case, the modified file will be copied over and treated as a new version of the new file yet to be copied to the other PC.
+   * The modified file was previously a modified file in the USB. Thus, the modified file will also be copied over and treated as a new version of the modified file.
+   * Else, the modified file's information will be added to the old difference, and the file will be copied over to the USB.
  * *void ReSyncDeletedFiles(Differences oldDifferences, PCJob pcJob, List`<`FileMeta`>` newFilesOld, List`<`FileMeta`>` deletedFilesNew, List`<`FileMeta`>` modifiedFilesOld)*
-3 possible cases:
-  * The deleted file was previously a new file in the USB. In this case, the file will be deleted and its information removed from the old difference.
-  * The deleted file was previously a modified file in the USB. In this case, the file will be deleted, and its information moved from the modified list to the deleted list in the old difference.
-  * Else, the deleted file's information will be added to the old difference's deleted list.
+  * 3 possible cases:
+   * The deleted file was previously a new file in the USB. In this case, the file will be deleted and its information removed from the old difference.
+   * The deleted file was previously a modified file in the USB. In this case, the file will be deleted, and its information moved from the modified list to the deleted list in the old difference.
+   * Else, the deleted file's information will be added to the old difference's deleted list.
  * *void ReSyncNewFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersNew)*
  * *void ReSyncDeletedFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersOld, List`<`FolderMeta`>` deletedFoldersNew)*
-2 possible cases:
-  * The deleted folder was previously a new folder in the USb. In this case, the folder will be deleted from the USB and its information removed from the old difference.
-  * Else, the deleted folder's information will be added to the old difference.
+  * 2 possible cases:
+   * The deleted folder was previously a new folder in the USb. In this case, the folder will be deleted from the USB and its information removed from the old difference.
+   * Else, the deleted folder's information will be added to the old difference.
  * *void RemoveNullComponentsFiles(PCJob pcJob, List`<`FileMeta`>` files, string listType)*
 This method deletes the null entries in a given FileMeta List. Files are re-organized accordingly and their temporary names are also changed.
  * *void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders, string listType)*
