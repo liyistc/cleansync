@@ -7,6 +7,7 @@ CLEANSync is developed using .NET Visual C#.
 ==Components==
 
 ===GUI===
+CLEANSync uses WPF for the UI. 
 
 ===Logics===
 The logics components form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
