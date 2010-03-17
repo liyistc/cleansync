@@ -38,5 +38,5 @@
  * *void removeFileFromDeletedFileList(FileMeta file)*
  * *override string ToString()*
 ===Private===
- * *void DuplicateFolderList(List<FolderMeta> newList, List<FolderMeta> baseList)*
- * *void DuplicateFileList(List<FileMeta> newList, List<FileMeta> baseList)*
+ * *void DuplicateFolderList(List`<`FolderMeta`>` newList, List`<`FolderMeta`>` baseList)*
+ * *void DuplicateFileList(List`<`FileMeta`>` newList, List`<`FileMeta`>` baseList)*
