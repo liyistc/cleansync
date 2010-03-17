@@ -19,7 +19,9 @@ JobLogic handles all requests for job-related work. It manages the jobs in the s
 = Methods =
 ==Public==
  * *void InitializePCJobInfo()*
+  * Loads all pcJob found on the PC
  * *void InitializeUSBJobInfo(string usbRoot,string pcID)*
+  * Searches and Loads all usbJob found on the USB drives and mount them to the respective pcJobs.
  * *PCJob CreateJob(string jobName, string PCPath, string AbsoluteUSBPath, string PCID)*
  * *PCJob CreateJob(USBJob jobUSB, string PCPath, string PCID)*
  * *bool CheckNameConflict(string JobName)*
