@@ -1,5 +1,5 @@
 = Introduction =
-ReadAndWrite performs all copy and delete operations on files and folders. It is also called to fetch data from the hard disk. 
+Other than for logging, ReadAndWrite performs all copy and delete operations on files and folders. It is also called to fetch data from the hard disk. 
 
 ----
 = Methods=
