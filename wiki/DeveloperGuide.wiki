@@ -36,5 +36,5 @@ MetaData classes store various information used by CLEANSync to perform its oper
 ----
 =Implementation Details=
 ==Creating a CLEANSync job==
-==Synchronization==
 ==Accepting a CLEANSync job==
+==Synchronization==
