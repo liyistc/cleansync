@@ -31,3 +31,4 @@ MainLogic handles request from the GUI and distributes the work to the various c
  * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
  * *void DeleteJob(PCJob pcJob)*
  * *string GetPCID()*
+  * Uses the MAC address of this computer as the PCID.
