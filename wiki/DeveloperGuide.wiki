@@ -19,6 +19,7 @@ The logics components form the underlying engine of CLEANSync. This component is
   * SyncLogic
   * ReadAndWrite
   * LogFile
+  * ConflictHandler
 
 ===MetaData===
 MetaData classes store various information used by CLEANSync to perform its operations. 
@@ -32,6 +33,7 @@ MetaData classes store various information used by CLEANSync to perform its oper
    * [http://code.google.com/p/cleansync/wiki/JobDefinition#USBJob_Class_Description USBJob]
   * Differences
   * ComparisonResult 
+  * [http://code.google.com/p/cleansync/wiki/Conflict Conflict]
 ----
 ==Known Issues==
 See [http://code.google.com/p/cleansync/wiki/KnownIssues KnownIssues]
