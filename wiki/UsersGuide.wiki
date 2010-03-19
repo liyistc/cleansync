@@ -1,22 +1,17 @@
 #User's Guide to using CLEANSync
 
 = Introduction =
-
 CLEANSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CLEANSync  utilizes our new technology, Clean Synchronization, that allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately. 
 
 = Installation Details =
-
+Unzip CLEANSync_v0.9.zip to any directory in your computer. A folder “CLEANSync v0.9” will be created in that directory.
 
 = Starting CLEANSync =
-To start, just click on CLEANSync.exe.
-
-= Creating a new CLEANSync Job =
-From the main screen, click on the "new job" button to create a new job.
-
-Enter a name for the job, and select the folder to synchronize. Also, select the USB directory and a folder on that USB to use as the third medium. After this, you are ready to do a first time synchronization! Click on "FirstSync" to copy all the files from the PC folder to the USB folder. After this, setup on this PC is complete.
-= Accepting a CLEANSync Job =
-From the main screen, if a USB with a job that has not been accepted is plugged in, it will be shown on the main menu and users will have the option of accepting the CLEANSync job. 
-
-= Analysing differences =
+To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
 
 = Synchronizing a job =
+From the main screen, select the job you want to synchronize. Only jobs with their USBs plugged in are allowed to be synchronized (i.e jobs listed with the colour green). First, click on Analyse to view the impending changes. 
+
+After viewing the changes that will happen from USB to PC and from PC to USB, click on “Start Sync” to start synchronization. 
+
+= Handling Conflicts = 
