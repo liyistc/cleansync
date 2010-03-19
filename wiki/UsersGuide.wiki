@@ -10,7 +10,7 @@ Unzip CLEANSync_v0.9.zip to any directory in your computer. A folder “CLEANSyn
 To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
 
 = Creating a new CLEANSync job =
-[http://cleansync.googlecode.com/files/synchronizing.jpg]
+[http://cleansync.googlecode.com/files/select_new_job.jpg]
 
 From the main screen, click on "new job" to create a new job. 
 
