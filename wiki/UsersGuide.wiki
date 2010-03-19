@@ -15,11 +15,20 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
 From the main screen, click on "new job" to create a new job. 
 
 [http://cleansync.googlecode.com/files/new_job_screen.jpg]
+
 Enter a name for the job, and select the folder to synchronize. Also, select the USB directory and a folder on that USB to use as the third medium. After this, you are ready to do a first time synchronization! Click on "FirstSync" to copy all the files from the PC folder to the USB folder. After this, setup on this PC is complete. 
 
+=Accepting a CLEANSync Job=
+[http://cleansync.googlecode.com/files/accept_job.jpg]
+
+From the main screen, if a USB with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CLEANSync job. An incomplete job will be listed with the colour red. To accept, select the incomplete job, select a folder to synchronize on and click on “Accept”.  After this, accepting a CLEANSync job is complete.
 = Synchronizing a job =
+[http://cleansync.googlecode.com/files/analyse.jpg]
+
 From the main screen, select the job you want to synchronize. Only jobs with their USBs plugged in are allowed to be synchronized (i.e jobs listed with the colour green). First, click on Analyse to view the impending changes. 
+
+[http://cleansync.googlecode.com/files/start_sync.jpg]
 
 After viewing the changes that will happen from USB to PC and from PC to USB, click on “Start Sync” to start synchronization. 
 
-= Handling Conflicts = 
+[http://cleansync.googlecode.com/files/synchronizing.jpg]
