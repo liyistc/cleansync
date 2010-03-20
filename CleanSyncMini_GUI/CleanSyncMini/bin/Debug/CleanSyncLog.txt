@@ -1,7 +1,0 @@
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSnycMini\CleanSnycMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\bin\Debug\JobsList\10.jInfo
-Export PC Job to File G:\Module\Sem6\CS3215\CleanSyncMini\CleanSyncMini\bin\Debug\JobsList\10.jInfo
