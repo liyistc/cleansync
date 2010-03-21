@@ -11,6 +11,7 @@ CLEANSync uses WPF to implement the user interface.
 
 ===Logics===
 See: [http://code.google.com/p/cleansync/wiki/LogicComponents Logics Component]
+
 The logics component form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
 
 
