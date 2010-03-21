@@ -1,5 +1,3 @@
-
-
-= Details =
-
-nothing
+= CLEANSync =
+Read our [UserGuide]
+Read our [Developer's Guide http://code.google.com/p/cleansync/wiki/DeveloperGuide]
