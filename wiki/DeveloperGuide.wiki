@@ -10,16 +10,9 @@ CLEANSync is developed using .NET Visual C#.
 CLEANSync uses WPF to implement the user interface. 
 
 ===Logics===
-The logics components form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
+See: [http://code.google.com/p/cleansync/wiki/LogicComponents Logics Component]
+The logics component form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
 
-*Classes*
-  * MainLogic
-  * JobLogic
-  * CompareLogic
-  * SyncLogic
-  * ReadAndWrite
-  * LogFile
-  * ConflictHandler
 
 ===MetaData===
 MetaData classes store various information used by CLEANSync to perform its operations. 
