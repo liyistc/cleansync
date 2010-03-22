@@ -16,18 +16,10 @@ The logics component form the underlying engine of CLEANSync. This component is 
 
 
 ===MetaData===
+See: [http://code.google.com/p/cleansync/wiki/MetaDataComponent MetaData Component]
+
 MetaData classes store various information used by CLEANSync to perform its operations. 
 
-*Classes*
-  * ComponentMeta
-   * [http://code.google.com/p/cleansync/wiki/ComponentMeta#FileMeta FileMeta]
-   * [http://code.google.com/p/cleansync/wiki/ComponentMeta#FolderMeta FolderMeta]
-  * JobDefinition
-   * [http://code.google.com/p/cleansync/wiki/JobDefinition#PCJob_Class_Description PCJob]
-   * [http://code.google.com/p/cleansync/wiki/JobDefinition#USBJob_Class_Description USBJob]
-  * [http://code.google.com/p/cleansync/wiki/Differences Differences ]
-  * ComparisonResult 
-  * [http://code.google.com/p/cleansync/wiki/Conflict Conflict]
 ----
 ==Known Issues==
 See [http://code.google.com/p/cleansync/wiki/KnownIssues KnownIssues]
