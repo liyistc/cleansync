@@ -45,9 +45,9 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
  * From the main screen, select the job you want to synchronize. 
  * Only jobs with their USB drives plugged in are allowed to be synchronized (i.e jobs listed with the colour green). 
  * Click on Analyse to view the impending changes
-  * denotes a new file/folder to be copied over
-  * denotes a modified file or a folder whose contents have been changed.
-  * denotes a deleted file or folder.
+  * [http://cleansync.googlecode.com/files/New_diff.jpg]denotes a new file/folder to be copied over
+  * [http://cleansync.googlecode.com/files/mod_diff.jpg]denotes a modified file or a folder whose contents have been changed.
+  * [http://cleansync.googlecode.com/files/del_diff.jpg]denotes a deleted file or folder.
 
 
 [http://cleansync.googlecode.com/files/start_sync.jpg]
