@@ -2,7 +2,9 @@
 
 = Introduction =
 ----
-CLEANSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CLEANSync  utilizes our new technology, Clean Synchronization, that allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately. 
+Frequently need to work on the same files and folders on 2 different computers? Having trouble ensuring both sets of files and folders are updated? Let CLEANSync handle that for you!
+
+CLEANSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CLEANSync utilizes our new technology, Clean Synchronization that allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately.
 
 = Installation Details =
 ----
@@ -16,22 +18,37 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
 ----
 [http://cleansync.googlecode.com/files/select_new_job.jpg]
 
-From the main screen, click on "new job" to create a new job. 
+ * From the main screen, click on "new job" to create a new job. 
 
 [http://cleansync.googlecode.com/files/new_job_screen.jpg]
 
-Enter a name for the job, and select the folder to synchronize. Also, select the USB directory and a folder on that USB to use as the third medium. After this, you are ready to do a first time synchronization! Click on "FirstSync" to copy all the files from the PC folder to the USB folder. After this, setup on this PC is complete. 
-
+ * Enter a name for the job, and select the folder to synchronize. 
+ * Select a folder on the USB drive to store the data on the USB drive.
+ * You are ready to do a first time synchronization! 
+ * Click on "FirstSync" to copy all the files from the PC folder to the USB folder. 
+ * Creating a job on this PC is now complete!
+ * Now you can plug the USB into another computer for the other computer to accept the CLEANSync job.
+`*` Version 0.9: Please select an empty folder on the USB drive.
 =Accepting a CLEANSync Job=
 ----
 [http://cleansync.googlecode.com/files/accept_job.jpg]
 
-From the main screen, if a USB with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CLEANSync job. An incomplete job will be listed with the colour red. To accept, select the incomplete job, select a folder to synchronize on and click on “Accept”.  After this, accepting a CLEANSync job is complete.
+ * From the main screen, if a USB drive with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CLEANSync job.
+ * An incomplete job will be listed with the colour red. 
+ * To accept, select the incomplete job, select a folder to synchronize on and click on “Accept”.
+ * Accepting a CLEANSync job is now complete!
+
 = Synchronizing a job =
 ----
 [http://cleansync.googlecode.com/files/analyse.jpg]
 
-From the main screen, select the job you want to synchronize. Only jobs with their USBs plugged in are allowed to be synchronized (i.e jobs listed with the colour green). First, click on Analyse to view the impending changes. 
+ * From the main screen, select the job you want to synchronize. 
+ * Only jobs with their USB drives plugged in are allowed to be synchronized (i.e jobs listed with the colour green). 
+ * Click on Analyse to view the impending changes
+  * denotes a new file/folder to be copied over
+  * denotes a modified file or a folder whose contents have been changed.
+  * denotes a deleted file or folder.
+
 
 [http://cleansync.googlecode.com/files/start_sync.jpg]
 
