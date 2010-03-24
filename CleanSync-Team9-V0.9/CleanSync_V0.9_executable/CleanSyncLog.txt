@@ -1,1 +1,597 @@
 Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Game 1 to F:\\Billyn0
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Game 1\DSCF9510.JPG to F:\\Billyn0\DSCF9510.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Game 1\DSCF9511.JPG to F:\\Billyn0\DSCF9511.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Game 1\DSCF9512.JPG to F:\\Billyn0\DSCF9512.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Game 1\DSCF9513.JPG to F:\\Billyn0\DSCF9513.JPG
+Copy Folder C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland to F:\\Billyn1
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2247.JPG to F:\\Billyn1\IMG_2247.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2248.JPG to F:\\Billyn1\IMG_2248.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2250.JPG to F:\\Billyn1\IMG_2250.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2470.JPG to F:\\Billyn1\IMG_2470.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2472.JPG to F:\\Billyn1\IMG_2472.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2473.JPG to F:\\Billyn1\IMG_2473.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2474.JPG to F:\\Billyn1\IMG_2474.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2476.JPG to F:\\Billyn1\IMG_2476.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2477.JPG to F:\\Billyn1\IMG_2477.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2478.JPG to F:\\Billyn1\IMG_2478.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2479.JPG to F:\\Billyn1\IMG_2479.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2480.JPG to F:\\Billyn1\IMG_2480.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2481.JPG to F:\\Billyn1\IMG_2481.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2482.JPG to F:\\Billyn1\IMG_2482.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2483.JPG to F:\\Billyn1\IMG_2483.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2485.JPG to F:\\Billyn1\IMG_2485.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2486.JPG to F:\\Billyn1\IMG_2486.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2488.JPG to F:\\Billyn1\IMG_2488.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2489.JPG to F:\\Billyn1\IMG_2489.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2490.JPG to F:\\Billyn1\IMG_2490.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2491.JPG to F:\\Billyn1\IMG_2491.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2492.JPG to F:\\Billyn1\IMG_2492.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2493.JPG to F:\\Billyn1\IMG_2493.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2494.JPG to F:\\Billyn1\IMG_2494.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2495.JPG to F:\\Billyn1\IMG_2495.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2496.JPG to F:\\Billyn1\IMG_2496.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2497.JPG to F:\\Billyn1\IMG_2497.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2498.JPG to F:\\Billyn1\IMG_2498.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2499.JPG to F:\\Billyn1\IMG_2499.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2500.JPG to F:\\Billyn1\IMG_2500.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2501.JPG to F:\\Billyn1\IMG_2501.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2502.JPG to F:\\Billyn1\IMG_2502.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2503.JPG to F:\\Billyn1\IMG_2503.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2504.JPG to F:\\Billyn1\IMG_2504.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2505.JPG to F:\\Billyn1\IMG_2505.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2506.JPG to F:\\Billyn1\IMG_2506.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2507.JPG to F:\\Billyn1\IMG_2507.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2508.JPG to F:\\Billyn1\IMG_2508.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2509.JPG to F:\\Billyn1\IMG_2509.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2510.JPG to F:\\Billyn1\IMG_2510.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2511.JPG to F:\\Billyn1\IMG_2511.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2512.JPG to F:\\Billyn1\IMG_2512.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2513.JPG to F:\\Billyn1\IMG_2513.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2514.JPG to F:\\Billyn1\IMG_2514.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2515.JPG to F:\\Billyn1\IMG_2515.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2516.JPG to F:\\Billyn1\IMG_2516.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2517.JPG to F:\\Billyn1\IMG_2517.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2518.JPG to F:\\Billyn1\IMG_2518.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2519.JPG to F:\\Billyn1\IMG_2519.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2520.JPG to F:\\Billyn1\IMG_2520.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2521.JPG to F:\\Billyn1\IMG_2521.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2522.JPG to F:\\Billyn1\IMG_2522.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2523.JPG to F:\\Billyn1\IMG_2523.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2524.JPG to F:\\Billyn1\IMG_2524.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2525.JPG to F:\\Billyn1\IMG_2525.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2526.JPG to F:\\Billyn1\IMG_2526.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2527.JPG to F:\\Billyn1\IMG_2527.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2528.JPG to F:\\Billyn1\IMG_2528.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2529.JPG to F:\\Billyn1\IMG_2529.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2530.JPG to F:\\Billyn1\IMG_2530.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2531.JPG to F:\\Billyn1\IMG_2531.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2532.JPG to F:\\Billyn1\IMG_2532.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2533.JPG to F:\\Billyn1\IMG_2533.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2534.JPG to F:\\Billyn1\IMG_2534.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2535.JPG to F:\\Billyn1\IMG_2535.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2536.JPG to F:\\Billyn1\IMG_2536.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2537.JPG to F:\\Billyn1\IMG_2537.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2538.JPG to F:\\Billyn1\IMG_2538.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2539.JPG to F:\\Billyn1\IMG_2539.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2540.JPG to F:\\Billyn1\IMG_2540.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2541.JPG to F:\\Billyn1\IMG_2541.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2542.JPG to F:\\Billyn1\IMG_2542.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2543.JPG to F:\\Billyn1\IMG_2543.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2544.JPG to F:\\Billyn1\IMG_2544.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2545.JPG to F:\\Billyn1\IMG_2545.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2546.JPG to F:\\Billyn1\IMG_2546.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2547.JPG to F:\\Billyn1\IMG_2547.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2548.JPG to F:\\Billyn1\IMG_2548.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2549.JPG to F:\\Billyn1\IMG_2549.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2550.JPG to F:\\Billyn1\IMG_2550.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2551.JPG to F:\\Billyn1\IMG_2551.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2552.JPG to F:\\Billyn1\IMG_2552.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2553.JPG to F:\\Billyn1\IMG_2553.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2554.JPG to F:\\Billyn1\IMG_2554.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2555.JPG to F:\\Billyn1\IMG_2555.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2556.JPG to F:\\Billyn1\IMG_2556.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2557.JPG to F:\\Billyn1\IMG_2557.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2558.JPG to F:\\Billyn1\IMG_2558.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2559.JPG to F:\\Billyn1\IMG_2559.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2560.JPG to F:\\Billyn1\IMG_2560.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2561.JPG to F:\\Billyn1\IMG_2561.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2562.JPG to F:\\Billyn1\IMG_2562.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2563.JPG to F:\\Billyn1\IMG_2563.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2564.JPG to F:\\Billyn1\IMG_2564.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2565.JPG to F:\\Billyn1\IMG_2565.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2566.JPG to F:\\Billyn1\IMG_2566.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2567.JPG to F:\\Billyn1\IMG_2567.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2568.JPG to F:\\Billyn1\IMG_2568.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2569.JPG to F:\\Billyn1\IMG_2569.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2570.JPG to F:\\Billyn1\IMG_2570.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2571.JPG to F:\\Billyn1\IMG_2571.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2572.JPG to F:\\Billyn1\IMG_2572.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2573.JPG to F:\\Billyn1\IMG_2573.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2574.JPG to F:\\Billyn1\IMG_2574.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2575.JPG to F:\\Billyn1\IMG_2575.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2576.JPG to F:\\Billyn1\IMG_2576.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2577.JPG to F:\\Billyn1\IMG_2577.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2578.JPG to F:\\Billyn1\IMG_2578.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2579.JPG to F:\\Billyn1\IMG_2579.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2580.JPG to F:\\Billyn1\IMG_2580.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2581.JPG to F:\\Billyn1\IMG_2581.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2582.JPG to F:\\Billyn1\IMG_2582.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2583.JPG to F:\\Billyn1\IMG_2583.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2584.JPG to F:\\Billyn1\IMG_2584.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2585.JPG to F:\\Billyn1\IMG_2585.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2586.JPG to F:\\Billyn1\IMG_2586.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2587.JPG to F:\\Billyn1\IMG_2587.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2588.JPG to F:\\Billyn1\IMG_2588.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2589.JPG to F:\\Billyn1\IMG_2589.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2590.JPG to F:\\Billyn1\IMG_2590.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2591.JPG to F:\\Billyn1\IMG_2591.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2592.JPG to F:\\Billyn1\IMG_2592.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2593.JPG to F:\\Billyn1\IMG_2593.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2594.JPG to F:\\Billyn1\IMG_2594.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2595.JPG to F:\\Billyn1\IMG_2595.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2596.JPG to F:\\Billyn1\IMG_2596.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2598.JPG to F:\\Billyn1\IMG_2598.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2599.JPG to F:\\Billyn1\IMG_2599.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2600.JPG to F:\\Billyn1\IMG_2600.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2601.JPG to F:\\Billyn1\IMG_2601.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2602.JPG to F:\\Billyn1\IMG_2602.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2603.JPG to F:\\Billyn1\IMG_2603.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2604.JPG to F:\\Billyn1\IMG_2604.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2605.JPG to F:\\Billyn1\IMG_2605.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2606.JPG to F:\\Billyn1\IMG_2606.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2607.JPG to F:\\Billyn1\IMG_2607.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2608.JPG to F:\\Billyn1\IMG_2608.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2610.JPG to F:\\Billyn1\IMG_2610.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2612.JPG to F:\\Billyn1\IMG_2612.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2613.JPG to F:\\Billyn1\IMG_2613.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2614.JPG to F:\\Billyn1\IMG_2614.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2615.JPG to F:\\Billyn1\IMG_2615.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2616.JPG to F:\\Billyn1\IMG_2616.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2617.JPG to F:\\Billyn1\IMG_2617.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2618.JPG to F:\\Billyn1\IMG_2618.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2619.JPG to F:\\Billyn1\IMG_2619.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2620.JPG to F:\\Billyn1\IMG_2620.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2621.JPG to F:\\Billyn1\IMG_2621.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2622.JPG to F:\\Billyn1\IMG_2622.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2623.JPG to F:\\Billyn1\IMG_2623.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2624.JPG to F:\\Billyn1\IMG_2624.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2625.JPG to F:\\Billyn1\IMG_2625.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2626.JPG to F:\\Billyn1\IMG_2626.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2627.JPG to F:\\Billyn1\IMG_2627.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2628.JPG to F:\\Billyn1\IMG_2628.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2629.JPG to F:\\Billyn1\IMG_2629.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2630.JPG to F:\\Billyn1\IMG_2630.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2631.JPG to F:\\Billyn1\IMG_2631.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2632.JPG to F:\\Billyn1\IMG_2632.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2638.JPG to F:\\Billyn1\IMG_2638.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2639.JPG to F:\\Billyn1\IMG_2639.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2642.JPG to F:\\Billyn1\IMG_2642.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2643.JPG to F:\\Billyn1\IMG_2643.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2644.JPG to F:\\Billyn1\IMG_2644.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2645.JPG to F:\\Billyn1\IMG_2645.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2646.JPG to F:\\Billyn1\IMG_2646.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2647.JPG to F:\\Billyn1\IMG_2647.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2648.JPG to F:\\Billyn1\IMG_2648.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2649.JPG to F:\\Billyn1\IMG_2649.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2650.JPG to F:\\Billyn1\IMG_2650.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2651.JPG to F:\\Billyn1\IMG_2651.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2652.JPG to F:\\Billyn1\IMG_2652.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2653.JPG to F:\\Billyn1\IMG_2653.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2654.JPG to F:\\Billyn1\IMG_2654.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2655.JPG to F:\\Billyn1\IMG_2655.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2656.JPG to F:\\Billyn1\IMG_2656.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2657.JPG to F:\\Billyn1\IMG_2657.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2658.JPG to F:\\Billyn1\IMG_2658.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2659.JPG to F:\\Billyn1\IMG_2659.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2660.JPG to F:\\Billyn1\IMG_2660.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2661.JPG to F:\\Billyn1\IMG_2661.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2662.JPG to F:\\Billyn1\IMG_2662.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2663.JPG to F:\\Billyn1\IMG_2663.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2664.JPG to F:\\Billyn1\IMG_2664.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2665.JPG to F:\\Billyn1\IMG_2665.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2666.JPG to F:\\Billyn1\IMG_2666.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2667.JPG to F:\\Billyn1\IMG_2667.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2668.JPG to F:\\Billyn1\IMG_2668.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2669.JPG to F:\\Billyn1\IMG_2669.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2670.JPG to F:\\Billyn1\IMG_2670.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2671.JPG to F:\\Billyn1\IMG_2671.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2672.JPG to F:\\Billyn1\IMG_2672.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2673.JPG to F:\\Billyn1\IMG_2673.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2674.JPG to F:\\Billyn1\IMG_2674.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2675.JPG to F:\\Billyn1\IMG_2675.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2676.JPG to F:\\Billyn1\IMG_2676.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2677.JPG to F:\\Billyn1\IMG_2677.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2678.JPG to F:\\Billyn1\IMG_2678.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2679.JPG to F:\\Billyn1\IMG_2679.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2680.JPG to F:\\Billyn1\IMG_2680.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2681.JPG to F:\\Billyn1\IMG_2681.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2682.JPG to F:\\Billyn1\IMG_2682.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2683.JPG to F:\\Billyn1\IMG_2683.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2684.JPG to F:\\Billyn1\IMG_2684.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2685.JPG to F:\\Billyn1\IMG_2685.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2686.JPG to F:\\Billyn1\IMG_2686.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2687.JPG to F:\\Billyn1\IMG_2687.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2688.JPG to F:\\Billyn1\IMG_2688.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2689.JPG to F:\\Billyn1\IMG_2689.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2690.JPG to F:\\Billyn1\IMG_2690.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2691.JPG to F:\\Billyn1\IMG_2691.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2692.JPG to F:\\Billyn1\IMG_2692.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2693.JPG to F:\\Billyn1\IMG_2693.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2694.JPG to F:\\Billyn1\IMG_2694.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2695.JPG to F:\\Billyn1\IMG_2695.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2696.JPG to F:\\Billyn1\IMG_2696.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2697.JPG to F:\\Billyn1\IMG_2697.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2698.JPG to F:\\Billyn1\IMG_2698.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2699.JPG to F:\\Billyn1\IMG_2699.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2700.JPG to F:\\Billyn1\IMG_2700.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2701.JPG to F:\\Billyn1\IMG_2701.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2702.JPG to F:\\Billyn1\IMG_2702.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2703.JPG to F:\\Billyn1\IMG_2703.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2704.JPG to F:\\Billyn1\IMG_2704.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2705.JPG to F:\\Billyn1\IMG_2705.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2706.JPG to F:\\Billyn1\IMG_2706.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2707.JPG to F:\\Billyn1\IMG_2707.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2708.JPG to F:\\Billyn1\IMG_2708.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2709.JPG to F:\\Billyn1\IMG_2709.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2710.JPG to F:\\Billyn1\IMG_2710.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2711.JPG to F:\\Billyn1\IMG_2711.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2712.JPG to F:\\Billyn1\IMG_2712.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2713.JPG to F:\\Billyn1\IMG_2713.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2714.JPG to F:\\Billyn1\IMG_2714.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2715.JPG to F:\\Billyn1\IMG_2715.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2716.JPG to F:\\Billyn1\IMG_2716.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2717.JPG to F:\\Billyn1\IMG_2717.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2718.JPG to F:\\Billyn1\IMG_2718.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2719.JPG to F:\\Billyn1\IMG_2719.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2720.JPG to F:\\Billyn1\IMG_2720.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2721.JPG to F:\\Billyn1\IMG_2721.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2722.JPG to F:\\Billyn1\IMG_2722.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2723.JPG to F:\\Billyn1\IMG_2723.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2724.JPG to F:\\Billyn1\IMG_2724.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2725.JPG to F:\\Billyn1\IMG_2725.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2726.JPG to F:\\Billyn1\IMG_2726.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2727.JPG to F:\\Billyn1\IMG_2727.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2728.JPG to F:\\Billyn1\IMG_2728.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2729.JPG to F:\\Billyn1\IMG_2729.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2730.JPG to F:\\Billyn1\IMG_2730.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2731.JPG to F:\\Billyn1\IMG_2731.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2732.JPG to F:\\Billyn1\IMG_2732.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2733.JPG to F:\\Billyn1\IMG_2733.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2734.JPG to F:\\Billyn1\IMG_2734.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2735.JPG to F:\\Billyn1\IMG_2735.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2736.JPG to F:\\Billyn1\IMG_2736.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2737.JPG to F:\\Billyn1\IMG_2737.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2738.JPG to F:\\Billyn1\IMG_2738.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2739.JPG to F:\\Billyn1\IMG_2739.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2740.JPG to F:\\Billyn1\IMG_2740.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2741.JPG to F:\\Billyn1\IMG_2741.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2742.JPG to F:\\Billyn1\IMG_2742.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2743.JPG to F:\\Billyn1\IMG_2743.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2744.JPG to F:\\Billyn1\IMG_2744.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2745.JPG to F:\\Billyn1\IMG_2745.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2746.JPG to F:\\Billyn1\IMG_2746.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2747.JPG to F:\\Billyn1\IMG_2747.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2748.JPG to F:\\Billyn1\IMG_2748.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2749.JPG to F:\\Billyn1\IMG_2749.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2750.JPG to F:\\Billyn1\IMG_2750.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2752.JPG to F:\\Billyn1\IMG_2752.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2753.JPG to F:\\Billyn1\IMG_2753.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2754.JPG to F:\\Billyn1\IMG_2754.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2755.JPG to F:\\Billyn1\IMG_2755.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2756.JPG to F:\\Billyn1\IMG_2756.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2757.JPG to F:\\Billyn1\IMG_2757.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2758.JPG to F:\\Billyn1\IMG_2758.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2759.JPG to F:\\Billyn1\IMG_2759.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2760.JPG to F:\\Billyn1\IMG_2760.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2761.JPG to F:\\Billyn1\IMG_2761.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2762.JPG to F:\\Billyn1\IMG_2762.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2763.JPG to F:\\Billyn1\IMG_2763.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2764.JPG to F:\\Billyn1\IMG_2764.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2766.JPG to F:\\Billyn1\IMG_2766.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2767.JPG to F:\\Billyn1\IMG_2767.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2768.JPG to F:\\Billyn1\IMG_2768.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2769.JPG to F:\\Billyn1\IMG_2769.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2770.JPG to F:\\Billyn1\IMG_2770.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2771.JPG to F:\\Billyn1\IMG_2771.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2772.JPG to F:\\Billyn1\IMG_2772.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2773.JPG to F:\\Billyn1\IMG_2773.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2774.JPG to F:\\Billyn1\IMG_2774.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2775.JPG to F:\\Billyn1\IMG_2775.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2776.JPG to F:\\Billyn1\IMG_2776.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2777.JPG to F:\\Billyn1\IMG_2777.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2778.JPG to F:\\Billyn1\IMG_2778.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2779.JPG to F:\\Billyn1\IMG_2779.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2780.JPG to F:\\Billyn1\IMG_2780.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2781.JPG to F:\\Billyn1\IMG_2781.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2782.JPG to F:\\Billyn1\IMG_2782.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2783.JPG to F:\\Billyn1\IMG_2783.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2784.JPG to F:\\Billyn1\IMG_2784.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2785.JPG to F:\\Billyn1\IMG_2785.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2786.JPG to F:\\Billyn1\IMG_2786.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2787.JPG to F:\\Billyn1\IMG_2787.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2788.JPG to F:\\Billyn1\IMG_2788.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2789.JPG to F:\\Billyn1\IMG_2789.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2790.JPG to F:\\Billyn1\IMG_2790.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2791.JPG to F:\\Billyn1\IMG_2791.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2792.JPG to F:\\Billyn1\IMG_2792.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2793.JPG to F:\\Billyn1\IMG_2793.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2794.JPG to F:\\Billyn1\IMG_2794.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2795.JPG to F:\\Billyn1\IMG_2795.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2796.JPG to F:\\Billyn1\IMG_2796.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2797.JPG to F:\\Billyn1\IMG_2797.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2798.JPG to F:\\Billyn1\IMG_2798.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2799.JPG to F:\\Billyn1\IMG_2799.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2800.JPG to F:\\Billyn1\IMG_2800.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2801.JPG to F:\\Billyn1\IMG_2801.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2802.JPG to F:\\Billyn1\IMG_2802.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2803.JPG to F:\\Billyn1\IMG_2803.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2804.JPG to F:\\Billyn1\IMG_2804.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2805.JPG to F:\\Billyn1\IMG_2805.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2806.JPG to F:\\Billyn1\IMG_2806.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2807.JPG to F:\\Billyn1\IMG_2807.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2808.JPG to F:\\Billyn1\IMG_2808.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2809.JPG to F:\\Billyn1\IMG_2809.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2810.JPG to F:\\Billyn1\IMG_2810.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2811.JPG to F:\\Billyn1\IMG_2811.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2812.JPG to F:\\Billyn1\IMG_2812.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2813.JPG to F:\\Billyn1\IMG_2813.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2816.JPG to F:\\Billyn1\IMG_2816.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2817.JPG to F:\\Billyn1\IMG_2817.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2818.JPG to F:\\Billyn1\IMG_2818.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2819.JPG to F:\\Billyn1\IMG_2819.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2820.JPG to F:\\Billyn1\IMG_2820.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2821.JPG to F:\\Billyn1\IMG_2821.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2822.JPG to F:\\Billyn1\IMG_2822.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2823.JPG to F:\\Billyn1\IMG_2823.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2826.JPG to F:\\Billyn1\IMG_2826.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2827.JPG to F:\\Billyn1\IMG_2827.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2828.JPG to F:\\Billyn1\IMG_2828.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2829.JPG to F:\\Billyn1\IMG_2829.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2830.JPG to F:\\Billyn1\IMG_2830.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2831.JPG to F:\\Billyn1\IMG_2831.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2832.JPG to F:\\Billyn1\IMG_2832.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2833.JPG to F:\\Billyn1\IMG_2833.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2834.JPG to F:\\Billyn1\IMG_2834.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2835.JPG to F:\\Billyn1\IMG_2835.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2836.JPG to F:\\Billyn1\IMG_2836.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2838.JPG to F:\\Billyn1\IMG_2838.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2840.JPG to F:\\Billyn1\IMG_2840.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2841.JPG to F:\\Billyn1\IMG_2841.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2842.JPG to F:\\Billyn1\IMG_2842.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2843.JPG to F:\\Billyn1\IMG_2843.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2844.JPG to F:\\Billyn1\IMG_2844.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2845.JPG to F:\\Billyn1\IMG_2845.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2846.JPG to F:\\Billyn1\IMG_2846.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2847.JPG to F:\\Billyn1\IMG_2847.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2848.JPG to F:\\Billyn1\IMG_2848.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2849.JPG to F:\\Billyn1\IMG_2849.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2850.JPG to F:\\Billyn1\IMG_2850.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2851.JPG to F:\\Billyn1\IMG_2851.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2852.JPG to F:\\Billyn1\IMG_2852.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2853.JPG to F:\\Billyn1\IMG_2853.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\IMG_2854.JPG to F:\\Billyn1\IMG_2854.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2633.AVI to F:\\Billyn1\MVI_2633.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2633.THM to F:\\Billyn1\MVI_2633.THM
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2634.AVI to F:\\Billyn1\MVI_2634.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2634.THM to F:\\Billyn1\MVI_2634.THM
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2635.AVI to F:\\Billyn1\MVI_2635.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2635.THM to F:\\Billyn1\MVI_2635.THM
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2636.AVI to F:\\Billyn1\MVI_2636.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2636.THM to F:\\Billyn1\MVI_2636.THM
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2637.AVI to F:\\Billyn1\MVI_2637.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\MVI_2637.THM to F:\\Billyn1\MVI_2637.THM
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Thumbs.db to F:\\Billyn1\Thumbs.db
+Copy Folder C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos to F:\\Billyn1\Martin photos
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023859.JPG to F:\\Billyn1\Martin photos\S5023859.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023860.JPG to F:\\Billyn1\Martin photos\S5023860.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023861.JPG to F:\\Billyn1\Martin photos\S5023861.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023862.JPG to F:\\Billyn1\Martin photos\S5023862.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023863.JPG to F:\\Billyn1\Martin photos\S5023863.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023864.JPG to F:\\Billyn1\Martin photos\S5023864.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023865.JPG to F:\\Billyn1\Martin photos\S5023865.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023866.JPG to F:\\Billyn1\Martin photos\S5023866.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023867.JPG to F:\\Billyn1\Martin photos\S5023867.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023868.JPG to F:\\Billyn1\Martin photos\S5023868.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023869.JPG to F:\\Billyn1\Martin photos\S5023869.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023870.JPG to F:\\Billyn1\Martin photos\S5023870.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023871.JPG to F:\\Billyn1\Martin photos\S5023871.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023872.JPG to F:\\Billyn1\Martin photos\S5023872.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023873.JPG to F:\\Billyn1\Martin photos\S5023873.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023874.JPG to F:\\Billyn1\Martin photos\S5023874.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023875.AVI to F:\\Billyn1\Martin photos\S5023875.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023876.JPG to F:\\Billyn1\Martin photos\S5023876.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023877.JPG to F:\\Billyn1\Martin photos\S5023877.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023878.JPG to F:\\Billyn1\Martin photos\S5023878.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023879.JPG to F:\\Billyn1\Martin photos\S5023879.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023880.JPG to F:\\Billyn1\Martin photos\S5023880.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023881.JPG to F:\\Billyn1\Martin photos\S5023881.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023882.JPG to F:\\Billyn1\Martin photos\S5023882.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023883.JPG to F:\\Billyn1\Martin photos\S5023883.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023884.JPG to F:\\Billyn1\Martin photos\S5023884.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023885.JPG to F:\\Billyn1\Martin photos\S5023885.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023886.JPG to F:\\Billyn1\Martin photos\S5023886.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023887.JPG to F:\\Billyn1\Martin photos\S5023887.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023888.JPG to F:\\Billyn1\Martin photos\S5023888.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023889.JPG to F:\\Billyn1\Martin photos\S5023889.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023890.JPG to F:\\Billyn1\Martin photos\S5023890.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023891.JPG to F:\\Billyn1\Martin photos\S5023891.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023892.JPG to F:\\Billyn1\Martin photos\S5023892.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023894.JPG to F:\\Billyn1\Martin photos\S5023894.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023895.JPG to F:\\Billyn1\Martin photos\S5023895.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023896.JPG to F:\\Billyn1\Martin photos\S5023896.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023897.JPG to F:\\Billyn1\Martin photos\S5023897.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023898.JPG to F:\\Billyn1\Martin photos\S5023898.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023899.JPG to F:\\Billyn1\Martin photos\S5023899.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023900.JPG to F:\\Billyn1\Martin photos\S5023900.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023901.JPG to F:\\Billyn1\Martin photos\S5023901.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023902.JPG to F:\\Billyn1\Martin photos\S5023902.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023903.JPG to F:\\Billyn1\Martin photos\S5023903.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023904.JPG to F:\\Billyn1\Martin photos\S5023904.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023905.JPG to F:\\Billyn1\Martin photos\S5023905.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023906.JPG to F:\\Billyn1\Martin photos\S5023906.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023907.JPG to F:\\Billyn1\Martin photos\S5023907.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023908.JPG to F:\\Billyn1\Martin photos\S5023908.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023909.JPG to F:\\Billyn1\Martin photos\S5023909.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023910.JPG to F:\\Billyn1\Martin photos\S5023910.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023911.JPG to F:\\Billyn1\Martin photos\S5023911.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023912.JPG to F:\\Billyn1\Martin photos\S5023912.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023913.JPG to F:\\Billyn1\Martin photos\S5023913.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023914.JPG to F:\\Billyn1\Martin photos\S5023914.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023915.JPG to F:\\Billyn1\Martin photos\S5023915.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023916.JPG to F:\\Billyn1\Martin photos\S5023916.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023917.JPG to F:\\Billyn1\Martin photos\S5023917.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023918.JPG to F:\\Billyn1\Martin photos\S5023918.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023919.JPG to F:\\Billyn1\Martin photos\S5023919.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023920.JPG to F:\\Billyn1\Martin photos\S5023920.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023921.JPG to F:\\Billyn1\Martin photos\S5023921.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023922.JPG to F:\\Billyn1\Martin photos\S5023922.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023923.JPG to F:\\Billyn1\Martin photos\S5023923.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023924.JPG to F:\\Billyn1\Martin photos\S5023924.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023925.JPG to F:\\Billyn1\Martin photos\S5023925.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023926.JPG to F:\\Billyn1\Martin photos\S5023926.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023927.JPG to F:\\Billyn1\Martin photos\S5023927.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023928.JPG to F:\\Billyn1\Martin photos\S5023928.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023929.JPG to F:\\Billyn1\Martin photos\S5023929.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023930.JPG to F:\\Billyn1\Martin photos\S5023930.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023931.JPG to F:\\Billyn1\Martin photos\S5023931.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023932.JPG to F:\\Billyn1\Martin photos\S5023932.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023933.JPG to F:\\Billyn1\Martin photos\S5023933.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023934.JPG to F:\\Billyn1\Martin photos\S5023934.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023935.JPG to F:\\Billyn1\Martin photos\S5023935.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023936.JPG to F:\\Billyn1\Martin photos\S5023936.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023937.JPG to F:\\Billyn1\Martin photos\S5023937.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023938.JPG to F:\\Billyn1\Martin photos\S5023938.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023939.JPG to F:\\Billyn1\Martin photos\S5023939.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023940.AVI to F:\\Billyn1\Martin photos\S5023940.AVI
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023941.JPG to F:\\Billyn1\Martin photos\S5023941.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023942.JPG to F:\\Billyn1\Martin photos\S5023942.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023943.JPG to F:\\Billyn1\Martin photos\S5023943.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023944.JPG to F:\\Billyn1\Martin photos\S5023944.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023945.JPG to F:\\Billyn1\Martin photos\S5023945.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023946.JPG to F:\\Billyn1\Martin photos\S5023946.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023947.JPG to F:\\Billyn1\Martin photos\S5023947.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023948.JPG to F:\\Billyn1\Martin photos\S5023948.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023949.JPG to F:\\Billyn1\Martin photos\S5023949.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023950.JPG to F:\\Billyn1\Martin photos\S5023950.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023951.JPG to F:\\Billyn1\Martin photos\S5023951.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023952.JPG to F:\\Billyn1\Martin photos\S5023952.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023953.JPG to F:\\Billyn1\Martin photos\S5023953.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023954.JPG to F:\\Billyn1\Martin photos\S5023954.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023955.JPG to F:\\Billyn1\Martin photos\S5023955.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023957.JPG to F:\\Billyn1\Martin photos\S5023957.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023958.JPG to F:\\Billyn1\Martin photos\S5023958.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023959.JPG to F:\\Billyn1\Martin photos\S5023959.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023960.JPG to F:\\Billyn1\Martin photos\S5023960.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023961.JPG to F:\\Billyn1\Martin photos\S5023961.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023962.JPG to F:\\Billyn1\Martin photos\S5023962.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023963.JPG to F:\\Billyn1\Martin photos\S5023963.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023964.JPG to F:\\Billyn1\Martin photos\S5023964.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023966.JPG to F:\\Billyn1\Martin photos\S5023966.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023967.JPG to F:\\Billyn1\Martin photos\S5023967.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023968.JPG to F:\\Billyn1\Martin photos\S5023968.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023969.JPG to F:\\Billyn1\Martin photos\S5023969.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023970.JPG to F:\\Billyn1\Martin photos\S5023970.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023971.JPG to F:\\Billyn1\Martin photos\S5023971.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023972.JPG to F:\\Billyn1\Martin photos\S5023972.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023973.JPG to F:\\Billyn1\Martin photos\S5023973.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023974.JPG to F:\\Billyn1\Martin photos\S5023974.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023975.JPG to F:\\Billyn1\Martin photos\S5023975.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023976.JPG to F:\\Billyn1\Martin photos\S5023976.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023977.JPG to F:\\Billyn1\Martin photos\S5023977.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023978.JPG to F:\\Billyn1\Martin photos\S5023978.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023979.JPG to F:\\Billyn1\Martin photos\S5023979.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023980.JPG to F:\\Billyn1\Martin photos\S5023980.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023981.JPG to F:\\Billyn1\Martin photos\S5023981.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023982.JPG to F:\\Billyn1\Martin photos\S5023982.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023983.JPG to F:\\Billyn1\Martin photos\S5023983.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023984.JPG to F:\\Billyn1\Martin photos\S5023984.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023985.JPG to F:\\Billyn1\Martin photos\S5023985.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023986.JPG to F:\\Billyn1\Martin photos\S5023986.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023987.JPG to F:\\Billyn1\Martin photos\S5023987.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023988.JPG to F:\\Billyn1\Martin photos\S5023988.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023989.JPG to F:\\Billyn1\Martin photos\S5023989.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023990.JPG to F:\\Billyn1\Martin photos\S5023990.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023991.JPG to F:\\Billyn1\Martin photos\S5023991.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023992.JPG to F:\\Billyn1\Martin photos\S5023992.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023993.JPG to F:\\Billyn1\Martin photos\S5023993.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023994.JPG to F:\\Billyn1\Martin photos\S5023994.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023995.JPG to F:\\Billyn1\Martin photos\S5023995.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023996.JPG to F:\\Billyn1\Martin photos\S5023996.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023997.JPG to F:\\Billyn1\Martin photos\S5023997.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023998.JPG to F:\\Billyn1\Martin photos\S5023998.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5023999.JPG to F:\\Billyn1\Martin photos\S5023999.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024000.JPG to F:\\Billyn1\Martin photos\S5024000.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024001.JPG to F:\\Billyn1\Martin photos\S5024001.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024002.JPG to F:\\Billyn1\Martin photos\S5024002.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024003.JPG to F:\\Billyn1\Martin photos\S5024003.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024004.JPG to F:\\Billyn1\Martin photos\S5024004.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024005.JPG to F:\\Billyn1\Martin photos\S5024005.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024006.JPG to F:\\Billyn1\Martin photos\S5024006.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024007.JPG to F:\\Billyn1\Martin photos\S5024007.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024008.JPG to F:\\Billyn1\Martin photos\S5024008.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024009.JPG to F:\\Billyn1\Martin photos\S5024009.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024010.JPG to F:\\Billyn1\Martin photos\S5024010.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024011.JPG to F:\\Billyn1\Martin photos\S5024011.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024012.JPG to F:\\Billyn1\Martin photos\S5024012.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024013.JPG to F:\\Billyn1\Martin photos\S5024013.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024014.JPG to F:\\Billyn1\Martin photos\S5024014.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024015.JPG to F:\\Billyn1\Martin photos\S5024015.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Iceland\Martin photos\S5024017.JPG to F:\\Billyn1\Martin photos\S5024017.JPG
+Copy Folder C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Photos1 to F:\\Billyn2
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Photos1\DSCF9553.JPG to F:\\Billyn2\DSCF9553.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\Photos1\DSCF9556.JPG to F:\\Billyn2\DSCF9556.JPG
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\DSCF9553.JPG to F:\\Billyn0.temp
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\DSCF9554.JPG to F:\\Billyn1.temp
+Copy File C:\Users\Pirororor\Desktop\[Team5][V0.9]\Test1\DSCF9555.JPG to F:\\Billyn2.temp
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSync-Team9-V0.9\CleanSync_V0.9_executable\_cs_job_data\JobsList\Billy.jInfo
+Delete File F:\\_cs_job_data\incompleteJobs\Billy.jUSBInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File hahahaha.jInfo
+Export PC Job to File hahahaha.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Photos1 to F:\\hahahahan0
+Copy File C:\Users\Pirororor\Desktop\Test2\Photos1\DSCF9553.JPG to F:\\hahahahan0\DSCF9553.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Photos1\DSCF9556.JPG to F:\\hahahahan0\DSCF9556.JPG
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSync-Team9-V0.9\CleanSync_V0.9_executable\_cs_job_data\JobsList\hahahaha.jInfo
+Delete File F:\\_cs_job_data\incompleteJobs\hahahaha.jUSBInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File haah.jInfo
+Export PC Job to File haah.jInfo
+Copy File C:\Users\Pirororor\Desktop\Test2\Photos1\DSCF9553.JPG to F:\\haahn0.temp
+Copy File C:\Users\Pirororor\Desktop\Test2\Photos1\DSCF9556.JPG to F:\\haahn1.temp
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSync-Team9-V0.9\CleanSync_V0.9_executable\_cs_job_data\JobsList\haah.jInfo
+Delete File F:\\_cs_job_data\incompleteJobs\haah.jUSBInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File asd.jInfo
+Export PC Job to File asd.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\Team 6\GameAnywhere\SyncFolder to F:\\asdn0
+Copy Folder C:\Users\Pirororor\Desktop\Team 6\GameAnywhere\SyncFolder\Warcraft 3 to F:\\asdn0\Warcraft 3
+Copy Folder C:\Users\Pirororor\Desktop\Team 6\GameAnywhere\SyncFolder\Warcraft 3\savedGame to F:\\asdn0\Warcraft 3\savedGame
+Copy Folder C:\Users\Pirororor\Desktop\Team 6\GameAnywhere\SyncFolder\Warcraft 3\savedGame\Save to F:\\asdn0\Warcraft 3\savedGame\Save
+Copy File C:\Users\Pirororor\Desktop\Team 6\GameAnywhere\GameAnywhere.exe to F:\\asdn0.temp
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSync-Team9-V0.9\CleanSync_V0.9_executable\_cs_job_data\JobsList\asd.jInfo
+Delete File F:\\_cs_job_data\incompleteJobs\asd.jUSBInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export USB Job to File Job Kamen Rider QQQ Lideli Hakouden.jInfo
+Export PC Job to File fFf.jInfo
+Export PC Job to File fFf.jInfo
+Copy File C:\Users\Pirororor\Desktop\Team2\[Team2][V0.9]DeveloperGuide.pdf to F:\\fFfn0.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\[Team2][V0.9]Homepage.pdf to F:\\fFfn1.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\[Team2][V0.9]UserGuide.pdf to F:\\fFfn2.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\log.xml to F:\\fFfn3.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\logstyle.css to F:\\fFfn4.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\Microsoft.Expression.Interactions.dll to F:\\fFfn5.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\Sync_Butler_Program_v0.9.zip to F:\\fFfn6.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\SyncButler.dll to F:\\fFfn7.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\SyncButler_Generated_API _295.zip to F:\\fFfn8.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\SyncButlerUI.butler to F:\\fFfn9.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\SyncButlerUI.exe to F:\\fFfn10.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\System.Windows.Interactivity.dll to F:\\fFfn11.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\v0.9_Sync_Butler_Source_Code.zip to F:\\fFfn12.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\v0.9_Sync_Butler_User_Guide.pdf to F:\\fFfn13.temp
+Copy File C:\Users\Pirororor\Desktop\Team2\WPFToolkit.dll to F:\\fFfn14.temp
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSync-Team9-V0.9\CleanSync_V0.9_executable\_cs_job_data\JobsList\fFf.jInfo
+Delete File F:\\_cs_job_data\incompleteJobs\fFf.jUSBInfo
