@@ -1,0 +1,1 @@
+u have to remove wpfnotifyicon from the solution and re-add it in. And add reference to this project in references.
