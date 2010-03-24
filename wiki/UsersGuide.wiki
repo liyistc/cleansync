@@ -55,3 +55,19 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
 After viewing the changes that will happen from USB to PC and from PC to USB, click on “Start Sync” to start synchronization. 
 
 [http://cleansync.googlecode.com/files/synchronizing.jpg]
+
+= Conflicts =
+During analyzing, in the event of conflicts, i.e files to be copied from USB to PC has already been modified on the PC, a conflict window will appear:
+
+[http://cleansync.googlecode.com/files/conflicts.jpg]
+
+Check on either the “PC Update” box to use the PC’s file as the latest file, or the “USB Update” box to keep the USB’s latest file. Not checking on either of the box will result in neither file being synchronized over. 
+
+Note: In version 0.9, checking both boxes causes the USB update to be copied over to the PC but not vice versa.
+
+= Deleting a job =
+To delete a job, select the job you want to delete and click on “Remove Job”.
+
+[http://cleansync.googlecode.com/files/remove_job.jpg]
+
+If the USB device is not plugged in, the data on the USB device will be deleted the next time the USB device is plugged in. To delete the job on the other computer, just plug in the USB into the other computer.
