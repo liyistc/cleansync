@@ -34,6 +34,16 @@
             <GradientStop Offset="1"
 										Color="Transparent"/>
         </LinearGradientBrush-->
+        <DataTemplate x:Key="usbSelectionList">
+            <StackPanel Orientation="Horizontal">
+                <Image Height ="18" Width="18" Source="Pic/Drive-USB-icon.png">
+                    
+                </Image>
+                <Label Content="{Binding}" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    
+                </Label>
+            </StackPanel>
+        </DataTemplate>
         
         <DataTemplate x:Key="CheckboxCell1">
             <StackPanel Orientation="Horizontal">
@@ -166,7 +176,7 @@
                                 <ImageBrush ImageSource="Pic/Folderopenpc.png"></ImageBrush>
                             </Button.Background>
                         </Button>
-                        <ListBox  ItemsSource="{Binding}" Width="150" HorizontalAlignment="Left" Margin="300,35,0,0" Name="FolderSelection2" AllowDrop="True" Grid.Row="2">
+                        <ListBox  ItemsSource="{Binding}" ItemTemplate="{StaticResource usbSelectionList}"  Width="150" HorizontalAlignment="Left" Margin="300,35,0,0" Name="FolderSelection2" AllowDrop="True" Grid.Row="2">
                             <ListBox.Background>
                                 <ImageBrush ImageSource="Pic/Folderopenusb.png"></ImageBrush>
                             </ListBox.Background>

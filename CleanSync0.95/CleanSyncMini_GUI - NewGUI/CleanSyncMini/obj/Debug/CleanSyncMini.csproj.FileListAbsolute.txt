@@ -139,3 +139,22 @@ C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSy
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.exe
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\bin\Debug\CleanSnycMini.exe
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\bin\Debug\CleanSnycMini.pdb
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\Window1.baml
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.g.resources
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSnycMini.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSyncMini.USBDetection.resources
+C:\Documents and Settings\Li Yi\Desktop\CS3215\CleanSync0.95\CleanSyncMini_GUI - NewGUI\CleanSyncMini\obj\Debug\CleanSyncMini.csproj.GenerateResource.Cache

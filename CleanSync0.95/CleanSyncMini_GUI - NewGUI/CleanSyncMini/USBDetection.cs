@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Management;
+using System.Collections.ObjectModel;
 
 namespace CleanSyncMini
 {
@@ -16,12 +17,16 @@ namespace CleanSyncMini
     {
         //GUI userInterface;
         BackgroundWorker bgWorker;
-        public List<string> drives;
+        private List<string> drives;
+        public ObservableCollection<string> usbDriveList;
 
         public USBDetection()
         {
             InitializeComponent();
             drives = new List<string>();
+            usbDriveList = new ObservableCollection<string>();
+            SetDrives();
+
         }
 
         public void addBackgroundWorker(BackgroundWorker bgWorker)
@@ -64,14 +69,14 @@ namespace CleanSyncMini
                                     vol = (DEV_BROADCAST_VOLUME)
                                     Marshal.PtrToStructure(m.LParam, typeof(DEV_BROADCAST_VOLUME));
                                     
-                                    SetDrives();
+                                    //SetDrives();
                                     bgWorker.ReportProgress(0);
                                 }
                             }
                             break;
                         case DBT_DEVICEREMOVECOMPLETE:
                             //MessageBox.Show("Removal");
-                            SetDrives();
+                            //SetDrives();
                             bgWorker.ReportProgress(1);
                             break;
                     }
@@ -81,9 +86,10 @@ namespace CleanSyncMini
             base.WndProc(ref m);
         }
 
-        private void SetDrives()
+        public void SetDrives()
         {
             drives.Clear();
+            usbDriveList.Clear();
 
             foreach (ManagementObject drive in new ManagementObjectSearcher(
                         "select * from Win32_DiskDrive where InterfaceType='USB'").Get())
@@ -103,6 +109,11 @@ namespace CleanSyncMini
                     }
                 }
 
+            }
+
+            foreach (string drive in drives)
+            {
+                usbDriveList.Add(drive);
             }
 
         }
