@@ -1595,3 +1595,12 @@ Export USB Job to File balloon.jInfo
 Export USB Job to File balloon.jInfo
 Export USB Job to File balloon.jInfo
 Export USB Job to File balloon.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\testJob.jUSBInfo
+Delete File F:\\_cs_job_data\incompleteJobs\test2.jUSBInfo
+Delete File H:\\_cs_job_data\incompleteJobs\test3.jUSBInfo
+Delete File H:\\_cs_job_data\incompleteJobs\testfirsttime.jUSBInfo
+Export PC Job to File new job.jInfo
+Export USB Job to File new job.jInfo
+Delete File I:\\_cs_job_data\incompleteJobs\new job.jUSBInfo
+Export USB Job to File new job.jInfo
+Export USB Job to File new job.jInfo

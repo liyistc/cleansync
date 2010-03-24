@@ -230,7 +230,9 @@ namespace CleanSyncMini
                     UpdateJobList();
                     JobList.SelectedIndex = JobList.Items.Count - 1;
                 }
-                
+
+                usbDetector.SetDrives();
+
                 detectionSemaphore.Release();
             };
 
@@ -444,7 +446,7 @@ namespace CleanSyncMini
             UpdateJobList();
             ShowMainFrame();
             JobList.SelectedIndex = JobList.Items.Count - 1;
-            FolderSelection2.DataContext = usbDetector.drives;
+            FolderSelection2.DataContext = usbDetector.usbDriveList;
             
         }
 
