@@ -6,13 +6,19 @@ Frequently need to work on the same files and folders on 2 different computers? 
 
 CLEANSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CLEANSync utilizes our new technology, Clean Synchronization that allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately.
 
+
+
 = Installation Details =
 ----
 Unzip CLEANSync_v0.9.zip to any directory in your computer. A folder “CLEANSync v0.9” will be created in that directory.
 
+
+
 = Starting CLEANSync =
 ----
 To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
+
+
 
 = Creating a new CLEANSync job =
 ----
@@ -29,6 +35,9 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
  * Creating a job on this PC is now complete!
  * Now you can plug the USB into another computer for the other computer to accept the CLEANSync job.
 `*` Version 0.9: Please select an empty folder on the USB drive.
+
+
+
 =Accepting a CLEANSync Job=
 ----
 [http://cleansync.googlecode.com/files/accept_job.jpg]
@@ -37,6 +46,8 @@ To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
  * An incomplete job will be listed with the colour red. 
  * To accept, select the incomplete job, select a folder to synchronize on and click on “Accept”.
  * Accepting a CLEANSync job is now complete!
+
+
 
 = Synchronizing a job =
 ----
@@ -56,7 +67,10 @@ After viewing the changes that will happen from USB to PC and from PC to USB, cl
 
 [http://cleansync.googlecode.com/files/synchronizing.jpg]
 
+
+
 = Conflicts =
+----
 During analyzing, in the event of conflicts, i.e files to be copied from USB to PC has already been modified on the PC, a conflict window will appear:
 
 [http://cleansync.googlecode.com/files/conflicts.jpg]
@@ -65,7 +79,10 @@ Check on either the “PC Update” box to use the PC’s file as the latest fil
 
 Note: In version 0.9, checking both boxes causes the USB update to be copied over to the PC but not vice versa.
 
+
+
 = Deleting a job =
+----
 To delete a job, select the job you want to delete and click on “Remove Job”.
 
 [http://cleansync.googlecode.com/files/remove_job.jpg]
