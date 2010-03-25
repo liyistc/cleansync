@@ -208,6 +208,7 @@ namespace CleanSyncMini
             bgWorker.ProgressChanged += (s2, e2) =>
             {
                 detectionSemaphore.WaitOne();
+                usbDetector.SetDrives();
                 if (e2.ProgressPercentage == 0)
                 {
                     List<string> drives = usbDetector.GetDrives();
@@ -231,7 +232,7 @@ namespace CleanSyncMini
                     JobList.SelectedIndex = JobList.Items.Count - 1;
                 }
 
-                usbDetector.SetDrives();
+       
 
                 detectionSemaphore.Release();
             };
