@@ -1734,3 +1734,39 @@ Copy File C:\Documents and Settings\Li Yi\Desktop\[Team9][V0.9]\CleanSyncFullOne
 Copy File C:\Documents and Settings\Li Yi\Desktop\[Team9][V0.9]\CleanSyncFullOne-xiaoq\CleanSyncMini\Properties\Settings.settings to I:\CleanSync\jj\jjn0\CleanSyncMini\Properties\Settings.settings
 Export USB Job to File jj.jInfo
 Export PC Job to File jj.jInfo
+Export USB Job to File empty.jInfo
+Export USB Job to File empty.jInfo
+Export USB Job to File empty.jInfo
+Export USB Job to File empty.jInfo
+Export PC Job to File asdasd.jInfo
+Export PC Job to File asdasd.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\TEST\hohoho to K:\CleanSync\asdasd\asdasdn0
+Copy Folder C:\Users\Pirororor\Desktop\TEST\New folder to K:\CleanSync\asdasd\asdasdn1
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk to K:\CleanSync\asdasd\asdasdn2
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\CleanSync\asdasd\asdasdn2\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\CleanSync\asdasd\asdasdn2\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\SyncDesk.exe to K:\CleanSync\asdasd\asdasdn2\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\SyncDesk.exe.config to K:\CleanSync\asdasd\asdasdn2\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\SyncDesk.pdb to K:\CleanSync\asdasd\asdasdn2\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\System.Data.SQLite.dll to K:\CleanSync\asdasd\asdasdn2\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\System.Data.SQLite.xml to K:\CleanSync\asdasd\asdasdn2\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\database to K:\CleanSync\asdasd\asdasdn2\database
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\database\Syncdesk to K:\CleanSync\asdasd\asdasdn2\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\images to K:\CleanSync\asdasd\asdasdn2\images
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\arrow_down.png to K:\CleanSync\asdasd\asdasdn2\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\arrow_up.png to K:\CleanSync\asdasd\asdasdn2\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\edit.png to K:\CleanSync\asdasd\asdasdn2\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\remove.png to K:\CleanSync\asdasd\asdasdn2\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\sync.png to K:\CleanSync\asdasd\asdasdn2\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\syncing.png to K:\CleanSync\asdasd\asdasdn2\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\images\white.png to K:\CleanSync\asdasd\asdasdn2\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\Tasks to K:\CleanSync\asdasd\asdasdn2\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\Tasks\1 to K:\CleanSync\asdasd\asdasdn2\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\Tasks\1\Files to K:\CleanSync\asdasd\asdasdn2\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\TEST\SyncDesk\Tasks\1\Files\Game 1 to K:\CleanSync\asdasd\asdasdn2\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\TEST\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\CleanSync\asdasd\asdasdn2\Tasks\1\Files\Game 1\DSCF9510.JPG
+Copy File C:\Users\Pirororor\Desktop\TEST\autorun.inf to K:\CleanSync\asdasd\asdasdn0.temp
+Copy File C:\Users\Pirororor\Desktop\TEST\New Microsoft Office Word Document.docx to K:\CleanSync\asdasd\asdasdn1.temp
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSyncV0.98\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\asdasd.jInfo
+Delete File K:\\CleanSync\_cs_job_data\incompleteJobs\asdasd.jUSBInfo
+Delete Folder K:\CleanSync\asdasd
