@@ -190,20 +190,14 @@ namespace CleanSync
             }
             try
             {
-                bool readOnly = false;
                 if (File.Exists(destination))
                 {
                     FileInfo di = new FileInfo(destination);
                     if ((di.Attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
                     {
                         di.Attributes = FileAttributes.Normal;
-                        readOnly = true;
                     }
                     File.Copy(source, destination, true);
-                    if (readOnly)
-                    {
-                        di.Attributes = FileAttributes.ReadOnly;
-                    }
                 }
                 else
                 {
