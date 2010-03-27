@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Diagnostics;
+using System.Linq;
 using System.Text;
 using CleanSync;
 
@@ -13,7 +13,6 @@ namespace DirectoryInformation
 
         private double onePercentSize;
         private long totalSize;
-        //private int operationCount;
 
         public SyncLogic()
         {
@@ -21,22 +20,44 @@ namespace DirectoryInformation
             onePercentSize = 0;
         }
 
+        #region Entry Method
+        /// <summary>
+        /// Do a clean synchronization
+        /// </summary>
+        /// <param name="comparisonResult">The comparison result after comparison</param>
+        /// <param name="pcJob">pcJob of the computer to be synchronized</param>
+        /// <param name="worker">worker to update the progress bar of the GUI</param>
+        public void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+        {
+
+            this.bgWorker = worker;
+            initializeTotalSize(comparisonResult);
+
+            if (pcJob.PCID == pcJob.GetUsbJob().MostRecentPCID) //this is the most recent PC to sync, so do a re-synchronization
+            {
+                CleanSyncReSync(comparisonResult, pcJob);
+            }
+            else NormalCleanSync(comparisonResult, pcJob);  //the other PC was the most recent PC to sync, so do a normal synchronization
+
+            pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;  //update most recent PC 
+            this.bgWorker = null;
+        }
+        #endregion
+
+        #region Check size to copy
+
         private void initializeTotalSize(ComparisonResult comparisonResult)
         {
-            totalSize = 0;
+            totalSize = 0;   //reset totalSize
 
             updateFileSize(comparisonResult.PCDifferences.getNewFileList());
-            //updateFileSize(comparisonResult.PCDifferences.getDeletedFileList());
             updateFileSize(comparisonResult.PCDifferences.getModifiedFileList());
-           
+
             updateFileSize(comparisonResult.USBDifferences.getNewFileList());
-            //updateFileSize(comparisonResult.USBDifferences.getDeletedFileList());
             updateFileSize(comparisonResult.USBDifferences.getModifiedFileList());
 
             updateFolderSize(comparisonResult.PCDifferences.getNewFolderList());
-            //updateFolderSize(comparisonResult.PCDifferences.getDeletedFolderList());
             updateFolderSize(comparisonResult.USBDifferences.getNewFolderList());
-            //updateFolderSize(comparisonResult.USBDifferences.getDeletedFolderList());
 
             onePercentSize = totalSize / 100;
         }
@@ -59,22 +80,9 @@ namespace DirectoryInformation
                 totalSize += file.Size;
             }
         }
+        #endregion
 
-        public void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
-        {
-            this.bgWorker = worker;
-            initializeTotalSize(comparisonResult);
-
-            if (pcJob.PCID == pcJob.GetUsbJob().MostRecentPCID)
-            {
-               CleanSyncReSync(comparisonResult, pcJob);
-            }
-            else NormalCleanSync(comparisonResult, pcJob);
-
-            pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
-            this.bgWorker = null;
-        }
-
+        #region Normal Synchronization
         private void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)
         {
             Debug.Assert(comparisonResult != null);
@@ -86,7 +94,7 @@ namespace DirectoryInformation
             Debug.Assert(PCToUSB != null);
 
             SyncUSBToPC(USBToPC, pcJob);
-            
+
             SyncPCToUSB(PCToUSB, pcJob);
 
             pcJob.GetUsbJob().diff = PCToUSB;
@@ -96,10 +104,175 @@ namespace DirectoryInformation
 
         }
 
-        private void AcceptJobSync(ComparisonResult comparisonResult, PCJob pcJob)
+        public void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)
         {
+            List<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
+            List<FileMeta> newFileList = PCToUSB.getNewFileList();
+            List<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
+            Debug.Assert(newFolderList != null);
+            Debug.Assert(newFileList != null);
+            Debug.Assert(modifiedFileList != null);
+            SyncPCToUSBNewFolder(pcJob, newFolderList);
+            SyncPCToUSBNewFile(pcJob, newFileList);
+            SyncPCToUSBModifiedFile(pcJob, modifiedFileList);
+
+            pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
         }
 
+        public void SyncPCToUSB(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+        {
+            this.bgWorker = worker;
+
+            this.totalSize = 0;
+            this.onePercentSize = 0;
+
+            //updateFileSize(PCToUSB.getDeletedFileList());
+            updateFileSize(PCToUSB.getNewFileList());
+            updateFileSize(PCToUSB.getModifiedFileList());
+
+            updateFolderSize(PCToUSB.getNewFolderList());
+            //updateFolderSize(PCToUSB.getDeletedFolderList());
+
+            onePercentSize = totalSize / 100;
+
+            SyncPCToUSB(PCToUSB, pcJob);
+
+            this.bgWorker = null;
+        }
+
+        public void SyncPCToUSBModifiedFile(PCJob pcJob, List<FileMeta> modifiedFileList)
+        {
+            int i = 0;
+            foreach (FileMeta modifiedFile in modifiedFileList)
+            {
+                Debug.Assert(modifiedFile != null);
+                Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
+                ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
+
+                i++;
+            }
+        }
+
+        public void SyncPCToUSBNewFile(PCJob pcJob, List<FileMeta> newFileList)
+        {
+            int i = 0;
+            foreach (FileMeta newFile in newFileList)
+            {
+                Debug.Assert(newFile != null);
+                Debug.Assert(newFile.Path != null && newFile.Name != null);
+                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
+
+                i++;
+            }
+        }
+
+        public void SyncPCToUSBNewFolder(PCJob pcJob, List<FolderMeta> newFolderList)
+        {
+            int i = 0;
+            foreach (FolderMeta newFolder in newFolderList)
+            {
+                Debug.Assert(newFolder != null);
+                Debug.Assert(newFolder.Path != null & newFolder.Name != null);
+                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, bgWorker, onePercentSize);
+
+                i++;
+            }
+        }
+
+
+        public void SyncUSBToPC(Differences USBToPC, PCJob pcJob)
+        {
+            Debug.Assert(USBToPC != null);
+            Debug.Assert(pcJob != null);
+            Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
+            List<FolderMeta> newFolderList = USBToPC.getNewFolderList();
+            List<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
+            List<FileMeta> newFileList = USBToPC.getNewFileList();
+            List<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
+            List<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
+            Debug.Assert(newFolderList != null);
+            Debug.Assert(newFileList != null);
+            Debug.Assert(modifiedFileList != null);
+            Debug.Assert(deletedFileList != null);
+            Debug.Assert(deletedFolderList != null);
+
+            SyncUSBToPCNewFolder(pcJob, newFolderList);
+            SyncUSBtoPCDeleteFolder(pcJob, deletedFolderList);
+            SyncUSbToPCNewFile(pcJob, newFileList);
+            SyncUSBToPCModifiedFile(pcJob, modifiedFileList);
+            SyncUSBToPCDeleteFile(pcJob, deletedFileList);
+
+            //Delete usb temp folders and files
+            // ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
+        }
+
+        public void SyncUSBToPCDeleteFile(PCJob pcJob, List<FileMeta> deletedFileList)
+        {
+            foreach (FileMeta deletedFile in deletedFileList)
+            {
+                Debug.Assert(deletedFile != null);
+                Debug.Assert(deletedFile.Name != null);
+                Debug.Assert(deletedFile.Path != null);
+                ReadAndWrite.DeleteFile(pcJob.PCPath + deletedFile.Path + deletedFile.Name);
+
+            }
+        }
+
+        public void SyncUSBToPCModifiedFile(PCJob pcJob, List<FileMeta> modifiedFileList)
+        {
+            int i = 0;
+            foreach (FileMeta modifiedFile in modifiedFileList)
+            {
+                Debug.Assert(modifiedFile != null);
+                Debug.Assert(modifiedFile.Name != null && modifiedFile.Path != null);
+                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, bgWorker, onePercentSize);
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
+
+                i++;
+            }
+        }
+
+        public void SyncUSbToPCNewFile(PCJob pcJob, List<FileMeta> newFileList)
+        {
+            int i = 0;
+            foreach (FileMeta newFile in newFileList)
+            {
+                Debug.Assert(newFile != null);
+                Debug.Assert(newFile.Path != null && newFile.Name != null);
+                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name, bgWorker, onePercentSize);
+                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
+
+                i++;
+            }
+        }
+
+        public void SyncUSBtoPCDeleteFolder(PCJob pcJob, List<FolderMeta> deleteFolderList)
+        {
+            foreach (FolderMeta deletedFolder in deleteFolderList)
+            {
+                Debug.Assert(deletedFolder != null);
+                Debug.Assert(deletedFolder.Name != null && deletedFolder.Path != null);
+                ReadAndWrite.DeleteFolder(pcJob, deletedFolder);
+
+            }
+        }
+
+        public void SyncUSBToPCNewFolder(PCJob pcJob, List<FolderMeta> newFolderList)
+        {
+            int i = 0;
+            foreach (FolderMeta newFolder in newFolderList)
+            {
+                Debug.Assert(newFolder != null);
+                Debug.Assert(newFolder.Name != null && newFolder.Path != null);
+                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name, bgWorker, onePercentSize);
+                ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
+
+                i++;
+            }
+        }
+        #endregion
+
+        #region Re-Synchronization methods
         private void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)
         {
             Debug.Assert(comparisonResult != null);
@@ -111,7 +284,7 @@ namespace DirectoryInformation
             Debug.Assert(newDifferences != null);
 
             ReSyncFolders(oldDifferences, newDifferences, pcJob);
-            
+
             ReSyncFiles(oldDifferences, newDifferences, pcJob);
 
             pcJob.GetUsbJob().diff = oldDifferences;
@@ -153,7 +326,7 @@ namespace DirectoryInformation
             foreach (FileMeta newFile in newFilesNew)
             {
                 oldDifferences.AddNewFileDifference(newFile);
-                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
+                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
                 i++;
             }
         }
@@ -169,7 +342,7 @@ namespace DirectoryInformation
                     {
                         newFilesOld[i] = modifiedFile;
                         ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
+                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
                         found = true;
                     }
                 }
@@ -179,13 +352,13 @@ namespace DirectoryInformation
                     {
                         modifiedFilesOld[i] = modifiedFile;
                         ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp",bgWorker,onePercentSize);
+                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
                         found = true;
                     }
                 }
                 if (!found)
                 {
-                    ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + modifiedFilesOld.Count + ".temp",bgWorker,onePercentSize);
+                    ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + modifiedFilesOld.Count + ".temp", bgWorker, onePercentSize);
                     oldDifferences.AddModifiedFileDifference(modifiedFile);
                 }
             }
@@ -210,7 +383,7 @@ namespace DirectoryInformation
                 {
                     if ((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
                     {
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName +"m" + i + ".temp");
+                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
                         modifiedFilesOld[i] = null;
                         oldDifferences.AddDeletedFileDifference(deletedFile);
                         found = true;
@@ -227,7 +400,7 @@ namespace DirectoryInformation
             foreach (FolderMeta newFolder in newFoldersNew)
             {
                 oldDifferences.AddNewFolderDifference(newFolder);
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + j,bgWorker,onePercentSize);
+                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + j, bgWorker, onePercentSize);
                 j++;
             }
         }
@@ -251,6 +424,8 @@ namespace DirectoryInformation
             }
         }
 
+
+
         private void RemoveNullComponentsFiles(PCJob pcJob, List<FileMeta> files, string listType)
         {
             int lastFreeIndex = 0;
@@ -272,7 +447,6 @@ namespace DirectoryInformation
             while (lastFreeIndex < files.Count && files[lastFreeIndex] != null) lastFreeIndex++;
             while (lastFreeIndex < files.Count)
             {
-              //  if(files[lastFreeIndex] != null) Console.wr
                 files.RemoveAt(lastFreeIndex);
             }
         }
@@ -295,178 +469,13 @@ namespace DirectoryInformation
                 }
                 else rearranging = false;
             }
-            while(lastFreeIndex< folders.Count && folders[lastFreeIndex] != null) lastFreeIndex++;
+            while (lastFreeIndex < folders.Count && folders[lastFreeIndex] != null) lastFreeIndex++;
             while (lastFreeIndex < folders.Count)
             {
                 folders.RemoveAt(lastFreeIndex);
             }
         }
+        #endregion
 
-        public void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)
-        {
-            List<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
-            List<FileMeta> newFileList = PCToUSB.getNewFileList();
-            List<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
-            Debug.Assert(newFolderList != null);
-            Debug.Assert(newFileList != null);
-            Debug.Assert(modifiedFileList != null);
-            SyncPCToUSBNewFolder(pcJob, newFolderList);
-            SyncPCToUSBNewFile(pcJob, newFileList);
-            SyncPCToUSBModifiedFile(pcJob, modifiedFileList);
-
-            pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
-        }
-
-        public void SyncPCToUSB(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
-        {
-            this.bgWorker = worker;
-
-            this.totalSize = 0;
-            this.onePercentSize = 0;
-
-            //updateFileSize(PCToUSB.getDeletedFileList());
-            updateFileSize(PCToUSB.getNewFileList());
-            updateFileSize(PCToUSB.getModifiedFileList());
-           
-            updateFolderSize(PCToUSB.getNewFolderList());
-            //updateFolderSize(PCToUSB.getDeletedFolderList());
-
-            onePercentSize = totalSize / 100;
-
-            SyncPCToUSB(PCToUSB, pcJob);
-
-            this.bgWorker = null;
-        }
-
-        public void SyncPCToUSBModifiedFile(PCJob pcJob, List<FileMeta> modifiedFileList)
-        {
-            int i = 0;
-            foreach (FileMeta modifiedFile in modifiedFileList)
-            {
-                Debug.Assert(modifiedFile != null);
-                Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
-                ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp",bgWorker,onePercentSize);
-
-                i++;
-            }
-        }
-
-        public void SyncPCToUSBNewFile(PCJob pcJob, List<FileMeta> newFileList)
-        {
-            int i = 0;
-            foreach (FileMeta newFile in newFileList)
-            {
-                Debug.Assert(newFile != null);
-                Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp",bgWorker,onePercentSize);
-
-                i++;
-            }
-        }
-
-        public void SyncPCToUSBNewFolder(PCJob pcJob, List<FolderMeta> newFolderList)
-        {
-            int i = 0;
-            foreach (FolderMeta newFolder in newFolderList)
-            {
-                Debug.Assert(newFolder != null);
-                Debug.Assert(newFolder.Path != null & newFolder.Name != null);
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i,bgWorker,onePercentSize);
-
-                i++;
-            }
-        }
-
-
-        public void SyncUSBToPC(Differences USBToPC, PCJob pcJob)
-        {
-            Debug.Assert(USBToPC != null);
-            Debug.Assert(pcJob != null);
-            Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
-            List<FolderMeta> newFolderList = USBToPC.getNewFolderList();
-            List<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
-            List<FileMeta> newFileList = USBToPC.getNewFileList();
-            List<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
-            List<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
-            Debug.Assert(newFolderList != null);
-            Debug.Assert(newFileList != null);
-            Debug.Assert(modifiedFileList != null);
-            Debug.Assert(deletedFileList != null);
-            Debug.Assert(deletedFolderList != null);
-
-            SyncUSBToPCNewFolder(pcJob, newFolderList);
-            SyncUSBtoPCDeleteFolder(pcJob, deletedFolderList);
-            SyncUSbToPCNewFile(pcJob, newFileList);
-            SyncUSBToPCModifiedFile(pcJob, modifiedFileList);
-            SyncUSBToPCDeleteFile(pcJob, deletedFileList);
-
-            //Delete usb temp folders and files
-           // ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-        }
-
-        public void SyncUSBToPCDeleteFile(PCJob pcJob, List<FileMeta> deletedFileList)
-        {
-            foreach (FileMeta deletedFile in deletedFileList)
-            {
-                Debug.Assert(deletedFile != null);
-                Debug.Assert(deletedFile.Name != null);
-                Debug.Assert(deletedFile.Path != null);
-                ReadAndWrite.DeleteFile(pcJob.PCPath + deletedFile.Path + deletedFile.Name);
-
-            }
-        }
-
-        public void SyncUSBToPCModifiedFile(PCJob pcJob, List<FileMeta> modifiedFileList)
-        {
-            int i = 0;
-            foreach (FileMeta modifiedFile in modifiedFileList)
-            {
-                Debug.Assert(modifiedFile != null);
-                Debug.Assert(modifiedFile.Name != null && modifiedFile.Path != null);
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
-
-                i++;
-            }
-        }
-
-        public void SyncUSbToPCNewFile(PCJob pcJob, List<FileMeta> newFileList)
-        {
-            int i = 0;
-            foreach (FileMeta newFile in newFileList)
-            {
-                Debug.Assert(newFile != null);
-                Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
-
-                i++;
-            }
-        }
-
-        public void SyncUSBtoPCDeleteFolder(PCJob pcJob, List<FolderMeta> deleteFolderList)
-        {
-            foreach (FolderMeta deletedFolder in deleteFolderList)
-            {
-                Debug.Assert(deletedFolder != null);
-                Debug.Assert(deletedFolder.Name != null && deletedFolder.Path != null);
-                ReadAndWrite.DeleteFolder(pcJob,deletedFolder);
-
-            }
-        }
-
-        public void SyncUSBToPCNewFolder(PCJob pcJob, List<FolderMeta> newFolderList)
-        {
-            int i = 0;
-            foreach (FolderMeta newFolder in newFolderList)
-            {
-                Debug.Assert(newFolder != null);
-                Debug.Assert(newFolder.Name != null && newFolder.Path != null);
-                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName +"n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name,bgWorker,onePercentSize);
-                ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
-
-                i++;
-            }
-        }
     }
 }
