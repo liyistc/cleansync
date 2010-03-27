@@ -30,12 +30,15 @@ namespace CleanSync
             if (!haveDifference && folders.Count > 0) haveDifference = true;
             foreach (FolderMeta folder in folders)
             {
-                folder.FolderType = type;
-                string[] parents = Regex.Split(folder.Path, SPLITTER);
-                FolderMeta currentFolder = root;
-                string currentPath = @"\";
-                GetToDirectParentFolder(parents, ref currentFolder, ref currentPath);
-                currentFolder.AddFolder(new FolderMeta(folder));
+                if (folder != null)
+                {
+                    folder.FolderType = type;
+                    string[] parents = Regex.Split(folder.Path, SPLITTER);
+                    FolderMeta currentFolder = root;
+                    string currentPath = @"\";
+                    GetToDirectParentFolder(parents, ref currentFolder, ref currentPath);
+                    currentFolder.AddFolder(new FolderMeta(folder));
+                }
             }
             return haveDifference;
         }
@@ -45,12 +48,15 @@ namespace CleanSync
             if (!haveDifference && files.Count > 0) haveDifference = true;
             foreach (FileMeta file in files)
             {
-                file.FileType = type; 
-                string[] parents = Regex.Split(file.Path, SPLITTER);
-                FolderMeta currentFolder = root;
-                string currentPath = @"\";
-                GetToDirectParentFolder(parents, ref currentFolder, ref currentPath);
-                currentFolder.AddFile(new FileMeta(file));
+                if (file != null)
+                {
+                    file.FileType = type;
+                    string[] parents = Regex.Split(file.Path, SPLITTER);
+                    FolderMeta currentFolder = root;
+                    string currentPath = @"\";
+                    GetToDirectParentFolder(parents, ref currentFolder, ref currentPath);
+                    currentFolder.AddFile(new FileMeta(file));
+                }
             }
             return haveDifference;
         }
