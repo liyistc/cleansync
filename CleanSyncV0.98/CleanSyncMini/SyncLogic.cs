@@ -140,9 +140,6 @@ namespace DirectoryInformation
             List<FolderMeta> newFolderList = PCToUSB.getNewFolderList();
             List<FileMeta> newFileList = PCToUSB.getNewFileList();
             List<FileMeta> modifiedFileList = PCToUSB.getModifiedFileList();
-            Debug.Assert(newFolderList != null);
-            Debug.Assert(newFileList != null);
-            Debug.Assert(modifiedFileList != null);
             SyncPCToUSBNewFolder(pcJob, newFolderList);
             SyncPCToUSBNewFile(pcJob, newFileList);
             SyncPCToUSBModifiedFile(pcJob, modifiedFileList);
@@ -155,8 +152,6 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
             {
-                Debug.Assert(modifiedFile != null);
-                Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
                 ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
 
                 i++;
@@ -168,9 +163,7 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta newFile in newFileList)
             {
-                Debug.Assert(newFile != null);
-                Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
+                      ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
 
                 i++;
             }
@@ -181,8 +174,6 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FolderMeta newFolder in newFolderList)
             {
-                Debug.Assert(newFolder != null);
-                Debug.Assert(newFolder.Path != null & newFolder.Name != null);
                 ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, bgWorker, onePercentSize);
 
                 i++;
@@ -192,39 +183,23 @@ namespace DirectoryInformation
 
         private void SyncUSBToPC(Differences USBToPC, PCJob pcJob)
         {
-            Debug.Assert(USBToPC != null);
-            Debug.Assert(pcJob != null);
-            Debug.Assert(pcJob.PCPath != null && pcJob.AbsoluteUSBPath != null);
             List<FolderMeta> newFolderList = USBToPC.getNewFolderList();
             List<FolderMeta> deletedFolderList = USBToPC.getDeletedFolderList();
             List<FileMeta> newFileList = USBToPC.getNewFileList();
             List<FileMeta> deletedFileList = USBToPC.getDeletedFileList();
             List<FileMeta> modifiedFileList = USBToPC.getModifiedFileList();
-            Debug.Assert(newFolderList != null);
-            Debug.Assert(newFileList != null);
-            Debug.Assert(modifiedFileList != null);
-            Debug.Assert(deletedFileList != null);
-            Debug.Assert(deletedFolderList != null);
-
             SyncUSBToPCNewFolder(pcJob, newFolderList);
             SyncUSBtoPCDeleteFolder(pcJob, deletedFolderList);
             SyncUSbToPCNewFile(pcJob, newFileList);
             SyncUSBToPCModifiedFile(pcJob, modifiedFileList);
             SyncUSBToPCDeleteFile(pcJob, deletedFileList);
-
-            //Delete usb temp folders and files
-            // ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
         }
 
         private void SyncUSBToPCDeleteFile(PCJob pcJob, List<FileMeta> deletedFileList)
         {
             foreach (FileMeta deletedFile in deletedFileList)
             {
-                Debug.Assert(deletedFile != null);
-                Debug.Assert(deletedFile.Name != null);
-                Debug.Assert(deletedFile.Path != null);
                 ReadAndWrite.DeleteFile(pcJob.PCPath + deletedFile.Path + deletedFile.Name);
-
             }
         }
 
@@ -233,8 +208,6 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
             {
-                Debug.Assert(modifiedFile != null);
-                Debug.Assert(modifiedFile.Name != null && modifiedFile.Path != null);
                 ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, bgWorker, onePercentSize);
                 ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
 
@@ -247,9 +220,8 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta newFile in newFileList)
             {
-                Debug.Assert(newFile != null);
-                Debug.Assert(newFile.Path != null && newFile.Name != null);
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name, bgWorker, onePercentSize);
+
+                if(newFile != null) ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", pcJob.PCPath + newFile.Path + newFile.Name, bgWorker, onePercentSize);
                 ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
 
                 i++;
@@ -260,8 +232,6 @@ namespace DirectoryInformation
         {
             foreach (FolderMeta deletedFolder in deleteFolderList)
             {
-                Debug.Assert(deletedFolder != null);
-                Debug.Assert(deletedFolder.Name != null && deletedFolder.Path != null);
                 ReadAndWrite.DeleteFolder(pcJob, deletedFolder);
 
             }
@@ -272,9 +242,7 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FolderMeta newFolder in newFolderList)
             {
-                Debug.Assert(newFolder != null);
-                Debug.Assert(newFolder.Name != null && newFolder.Path != null);
-                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name, bgWorker, onePercentSize);
+                if(newFolder != null) ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name, bgWorker, onePercentSize);
                 ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
 
                 i++;
