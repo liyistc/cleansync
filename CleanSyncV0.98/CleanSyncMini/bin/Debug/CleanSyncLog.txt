@@ -354,3 +354,9 @@ Export USB Job to File job2.jInfo
 Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\job1.jInfo
 Export USB Job to File job1.jInfo
 Delete File C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\lahib.jInfo
+Export USB Job to File hohoho power rangers!.jInfo
+Export PC Job to File ssss.jInfo
+Export PC Job to File ssss.jInfo
+Delete File C:\Users\Pirororor\Desktop\CS3215\CleanSyncV0.98\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\ssss.jInfo
+Delete File K:\\CleanSync\_cs_job_data\incompleteJobs\ssss.jUSBInfo
+Delete Folder K:\CleanSync\ssss
