@@ -102,7 +102,7 @@ namespace CleanSync
             }
             foreach (FolderMeta subFolder in folder.folders)
             {
-                DeleteFolder(pcJob.PCPath + subFolder.Path + subFolder.Name);
+                DeleteFolder(pcJob,subFolder);
             }
             if (Directory.GetFiles(pcJob.PCPath + folder.Path + folder.Name).Length == 0 && Directory.GetDirectories(pcJob.PCPath + folder.Path + folder.Name).Length == 0)
                 Directory.Delete(pcJob.PCPath + folder.Path + folder.Name);
