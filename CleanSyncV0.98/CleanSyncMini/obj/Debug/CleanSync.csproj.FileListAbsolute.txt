@@ -17,3 +17,5 @@ C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSy
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.exe
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CS3215\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\CS3215\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.pdb
