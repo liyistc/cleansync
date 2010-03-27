@@ -96,6 +96,7 @@ namespace CleanSync
              }
              usbJob.AbsoluteUSBPath = drive + usbJob.RelativeUSBPath;
              ReadAndWrite.DeleteFile(ReadAndWrite.GetIncompleteUSBFilePath(usbJob));
+             ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
          }
 
          internal PCJob CreateJob(USBJob jobUSB, string PCPath)
