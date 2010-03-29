@@ -379,6 +379,20 @@
             </Style.Resources>
         </Style>
 
+        <!--Conflict ComboBox Items Source-->
+        <ObjectDataProvider x:Key="ConflictResolveCombo" MethodName="GetValues" ObjectType="{x:Type local:AutoConflictOption}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:AutoConflictOption" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+        <!--Automation ComboBox Items Source-->
+        <ObjectDataProvider x:Key="AutomationCombo" MethodName="GetValues" ObjectType="{x:Type local:AutoSyncOption}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:AutoSyncOption" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
 
         <!--Something-->
         <DataTemplate x:Key="usbSelectionList">
@@ -493,17 +507,12 @@
                 </GroupBox>
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,200,0,0" Background="Transparent">
                     <Grid>
-                        <ComboBox Foreground="WhiteSmoke" Height="30" HorizontalAlignment="Left" Margin="50,40,0,0" Name="Automation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
+                        <ComboBox ItemsSource="{Binding Source={StaticResource AutomationCombo}}" SelectedValue="{Binding SyncConfig}" Foreground="WhiteSmoke" Height="30" HorizontalAlignment="Left" Margin="50,40,0,0" Name="Automation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
                             
-                            <ComboBoxItem>&lt;Automation&gt;</ComboBoxItem>
-                            <ComboBoxItem>On</ComboBoxItem>
+                            
                         </ComboBox>
-                        <ComboBox Foreground="WhiteSmoke" Height="30" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,80,0,0" Name="ConflictRes" SelectedIndex="0" Width="150" VerticalAlignment="Top" >
-                            <ComboBoxItem>&lt;Conflict Resolve&gt;</ComboBoxItem>
-                            <ComboBoxItem>Keep Local Items</ComboBoxItem>
-                            <ComboBoxItem>Keep Remote Items</ComboBoxItem>
-                            <ComboBoxItem>Keep Both Items</ComboBoxItem>
-                            <ComboBoxItem>Ignore All Conflicts</ComboBoxItem>
+                        <ComboBox ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" SelectedValue="{Binding ConflictConfig}" Foreground="WhiteSmoke" Height="30" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,80,0,0" Name="ConflictRes" SelectedIndex="0" Width="150" VerticalAlignment="Top" >
+                            
                         </ComboBox>
                     </Grid>
                 </GroupBox>
@@ -543,16 +552,11 @@
                 </GroupBox>
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,270,0,0" Height="100" Background="Transparent">
                     <Grid>
-                        <ComboBox Foreground="WhiteSmoke" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="50,20,0,0" Name="NewJobAutomation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
-                            <ComboBoxItem>&lt;Automation&gt;</ComboBoxItem>
-                            <ComboBoxItem>On</ComboBoxItem>
+                        <ComboBox ItemsSource="{Binding Source={StaticResource AutomationCombo}}" Foreground="WhiteSmoke" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="50,20,0,0" Name="NewJobAutomation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
+                            
                         </ComboBox>
-                        <ComboBox Foreground="WhiteSmoke" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,60,0,0" Name="NewJobConflictRes" SelectedIndex="0" Width="150" Height="20" VerticalAlignment="Top">
-                            <ComboBoxItem>&lt;Conflict Resolve&gt;</ComboBoxItem>
-                            <ComboBoxItem>Keep Local Items</ComboBoxItem>
-                            <ComboBoxItem>Keep Remote Items</ComboBoxItem>
-                            <ComboBoxItem>Keep Both Items</ComboBoxItem>
-                            <ComboBoxItem>Ignore All Conflicts</ComboBoxItem>
+                        <ComboBox ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" Foreground="WhiteSmoke" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,60,0,0" Name="NewJobConflictRes" SelectedIndex="0" Width="150" Height="20" VerticalAlignment="Top">
+                            
                         </ComboBox>
                     </Grid>
                 </GroupBox>
