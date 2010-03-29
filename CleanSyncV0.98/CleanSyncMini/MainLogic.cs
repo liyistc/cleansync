@@ -140,7 +140,7 @@ namespace CleanSync
                 {
                     jobLogic.USBPlugIn(drive, pcID);
 
-                    if (Directory.Exists(ReadAndWrite.GetIncompleteUSBFolderLocation(drive)))
+                    if (Directory.Exists(ReadAndWrite.GetIncompleteUSBFolderPath(drive)))
                     {
                         List<USBJob> temp = ReadAndWrite.GetIncompleteUSBJobList(drive);
                         foreach (USBJob usbJob in temp)
@@ -289,12 +289,12 @@ namespace CleanSync
             return true;
         }
 
-        public bool CheckUSBDiskSpace(PCJob pcJob)
+        public bool CheckUSBDiskSpace(string pcPath,string usbPath)
         {
-            pcJob.FolderInfo = ReadAndWrite.BuildTree(pcJob.PCPath);
+            
             CompareLogic compLogic = new CompareLogic();
-            Differences pcToUSBDiff = compLogic.ConvertFolderMetaToDifferences(pcJob.FolderInfo);
-            long usbFreeSpace = GetFreeDiskSpace(ReadAndWrite.GetRootPath(pcJob.AbsoluteUSBPath));
+            Differences pcToUSBDiff = compLogic.ConvertFolderMetaToDifferences(ReadAndWrite.BuildTree(pcPath));
+            long usbFreeSpace = GetFreeDiskSpace(ReadAndWrite.GetRootPath(usbPath));
             if (usbFreeSpace < pcToUSBDiff.GetRequireSpace())
                 return false;
             return true;
