@@ -176,7 +176,7 @@ namespace CleanSync
             else return OTHER;
         }
 
-        internal PCJob CreateJob(string jobName, string PCPath, string AbsoluteUSBPath, string PCID)
+        internal PCJob CreateJob(string jobName, string PCPath, string AbsoluteUSBPath, string PCID, JobConfig config)
         {
             if (CheckNameConflict(jobName,AbsoluteUSBPath)) return null;
 
@@ -184,7 +184,7 @@ namespace CleanSync
                 ReadAndWrite.CreateDirectory(AbsoluteUSBPath);*/
             try
             {
-                PCJob pcJob = new PCJob(jobName, PCPath, AbsoluteUSBPath, PCID);
+                PCJob pcJob = new PCJob(jobName, PCPath, AbsoluteUSBPath, PCID,config);
                 
                 InsertJob(pcJob);
                 
