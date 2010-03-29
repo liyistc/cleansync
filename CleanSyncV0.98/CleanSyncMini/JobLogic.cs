@@ -180,8 +180,8 @@ namespace CleanSync
         {
             if (CheckNameConflict(jobName,AbsoluteUSBPath)) return null;
 
-            if (!Directory.Exists(AbsoluteUSBPath))
-                ReadAndWrite.CreateDirectory(AbsoluteUSBPath);
+            /*if (!Directory.Exists(AbsoluteUSBPath))
+                ReadAndWrite.CreateDirectory(AbsoluteUSBPath);*/
             try
             {
                 PCJob pcJob = new PCJob(jobName, PCPath, AbsoluteUSBPath, PCID);
@@ -243,9 +243,9 @@ namespace CleanSync
                     if (pcJob.JobName.Equals(JobName)) return true;
                 foreach (USBJob usbJob in USBJobs)
                     if (usbJob.JobName.Equals(JobName)) return true;
-                //string[] incomplete = ReadAndWrite.GetDirectoryFiles(ReadAndWrite.GetIncompleteUSBFolderLocation(usbPath));
-                //foreach (string incompleteName in incomplete)
-                //    if (JobName.Equals(incompleteName)) return true;
+                string[] incomplete = ReadAndWrite.GetDirectoryFiles(ReadAndWrite.GetIncompleteUSBFolderPath(usbPath));
+                foreach (string incompleteName in incomplete)
+                    if (JobName.Equals(Path.GetFileNameWithoutExtension(incompleteName))) return true;
             }
             catch (ArgumentNullException)
             {
