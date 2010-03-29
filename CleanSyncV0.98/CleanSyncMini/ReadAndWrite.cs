@@ -309,6 +309,23 @@ namespace CleanSync
             }
         }
 
+        public static void CopyFolder(string source, PCJob pcJob, FolderMeta folder)
+        {
+            string destination = pcJob.PCPath + folder.Path + folder.Name;
+            CreateDirectory(destination);
+            LogFile.FolderCopy(source, destination);
+            foreach (FileMeta file in folder.files)
+            {
+                if (file != null)
+                    CopyFile(source + @"\" + file.Name, destination + @"\" + file.Name);
+            }
+            foreach (FolderMeta subFolder in folder.folders)
+            {
+                if (subFolder != null)
+                    CopyFolder(source + @"\" + subFolder.Name, pcJob, subFolder);
+            }
+        }
+
         public static void RenameFile(string source, string destination)
         {
             try
