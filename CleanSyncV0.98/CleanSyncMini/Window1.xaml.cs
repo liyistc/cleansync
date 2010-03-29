@@ -1071,12 +1071,7 @@ namespace CleanSync
         {
             if (Control.validate_path(AttachDropBox1.Text) && Control.validate_path(AttachDropBox2.Text) && !NewJobName.Text.Equals(string.Empty))
             {
-                Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, System.IO.Path.GetPathRoot(AttachDropBox2.Text));
-                UpdateJobList();
-                AttachDropBox.Text = string.Empty;
-
-                selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
-                if (!Control.CheckUSBDiskSpace(selectedPCJob))
+                if (!Control.CheckUSBDiskSpace(AttachDropBox1.Text,AttachDropBox2.Text))
                 {
                     Balloon InfoBalloon = new Balloon();
                     InfoBalloon.BallonContent.Text = "Not enough space on Removable Device. First Time Synchronization Fails";
@@ -1085,6 +1080,13 @@ namespace CleanSync
                     //MessageBox.Show("Not enough space on Removable Device.First Sync failed.");
                     return;
                 }
+                if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, System.IO.Path.GetPathRoot(AttachDropBox2.Text)) == null)
+                    return;
+                UpdateJobList();
+                AttachDropBox.Text = string.Empty;
+
+                selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
+                
                 FirstSyncProgressBar.Visibility = Visibility.Visible;
                 BarLabel.Visibility = Visibility.Visible;
                 FirstSyncProgressBar.Value = 0;
