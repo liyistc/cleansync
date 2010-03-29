@@ -1767,3 +1767,5 @@ Export PC Job to File eg.jInfo
 Export PC Job to File eg.jInfo
 Copy Folder C:\Users\Gu Yang\Desktop\New folder\New folder to I:\CleanSync\eg\egn0
 Export PC Job to File eg.jInfo
+Delete File I:\\CleanSync\_cs_job_data\usbJobsList\testjob.jInfo
+Delete Folder I:\CleanSync\testjob
