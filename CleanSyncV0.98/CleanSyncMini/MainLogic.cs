@@ -40,9 +40,9 @@ namespace CleanSync
         {
             jobLogic.InitializePCJobInfo();
         }
-         internal PCJob CreateJob(string JobName,string PCPath, string pathName )
+         internal PCJob CreateJob(string JobName,string PCPath, string pathName, JobConfig config)
          {
-             return jobLogic.CreateJob(JobName,PCPath, pathName+@"CleanSync\"+JobName, thisPCID);
+             return jobLogic.CreateJob(JobName,PCPath, pathName+@"CleanSync\"+JobName, thisPCID, config);
          }
          internal void FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
          {
@@ -228,11 +228,20 @@ namespace CleanSync
             jobLogic.CheckJobStatus();
         }
 
-        public Boolean validate_path(String path)
+        public bool ValidatePath(string path)
         {
             Regex fileRegex = new Regex(@"^[a-zA-Z]:(\\[^\""\?\\\/\:\*\<\>\|]+)*\\?$");
             Match match = fileRegex.Match(path);
             if (match.Success && path.Length <= 255)
+                return true;
+            else return false;
+        }
+
+        public bool ValidateJobName(string name)
+        {
+            Regex nameRegex = new Regex(@"[^\""\?\\\/\:\*\<\>\|]+");
+            Match match = nameRegex.Match(name);
+            if (match.Success && name.Length <= 100)
                 return true;
             else return false;
         }
@@ -289,9 +298,8 @@ namespace CleanSync
             return true;
         }
 
-        public bool CheckUSBDiskSpace(string pcPath,string usbPath)
-        {
-            
+        public bool CheckUSBDiskSpace(string pcPath, string usbPath)
+        {            
             CompareLogic compLogic = new CompareLogic();
             Differences pcToUSBDiff = compLogic.ConvertFolderMetaToDifferences(ReadAndWrite.BuildTree(pcPath));
             long usbFreeSpace = GetFreeDiskSpace(ReadAndWrite.GetRootPath(usbPath));
