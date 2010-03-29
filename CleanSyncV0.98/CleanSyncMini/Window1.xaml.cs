@@ -31,13 +31,13 @@ namespace CleanSync
     public partial class GUI : Window
     {
         private MainLogic Control;
-        private BackgroundWorker backgroundWorker2;
-        private BackgroundWorker backgroundWorker1;
+        private BackgroundWorker FirstSyncProc;
+        private BackgroundWorker CleanSyncProc;
         ComparisonResult result;
         PCJob cmpJob;
         private USBDetection usbDetector;
         private List<PCJob> GUIJobList;
-        private BackgroundWorker bgWorker;
+        private BackgroundWorker RemovableDiskDetect;
         private PCJob selectedPCJob;
 
         private System.Threading.Semaphore detectionSemaphore;
@@ -188,7 +188,7 @@ namespace CleanSync
             this.usbDetector = new USBDetection();
             usbDetectionThread();
             
-            backgroundWorker2 = new BackgroundWorker();
+            FirstSyncProc = new BackgroundWorker();
             InitializeBackgroundWorker();
             detectionSemaphore = new System.Threading.Semaphore(1, 1);
 
@@ -198,17 +198,17 @@ namespace CleanSync
         #region USB Detection Background Thread
         private void usbDetectionThread()
         {
-            bgWorker = new BackgroundWorker();
-            bgWorker.WorkerReportsProgress = true;
-            bgWorker.WorkerSupportsCancellation = true;
-            bgWorker.DoWork += (s2, e2) =>
+            RemovableDiskDetect = new BackgroundWorker();
+            RemovableDiskDetect.WorkerReportsProgress = true;
+            RemovableDiskDetect.WorkerSupportsCancellation = true;
+            RemovableDiskDetect.DoWork += (s2, e2) =>
             {
                 //this.usbDetector = new USBDetection();
-                this.usbDetector.addBackgroundWorker(bgWorker);
+                this.usbDetector.addBackgroundWorker(RemovableDiskDetect);
                 this.usbDetector.runDetection(this.usbDetector);
 
             };
-            bgWorker.ProgressChanged += (s2, e2) =>
+            RemovableDiskDetect.ProgressChanged += (s2, e2) =>
             {
                 detectionSemaphore.WaitOne();
                 usbDetector.SetDrives();
@@ -244,7 +244,7 @@ namespace CleanSync
                 detectionSemaphore.Release();
             };
 
-            bgWorker.RunWorkerAsync();
+            RemovableDiskDetect.RunWorkerAsync();
 
         }
         #endregion
@@ -256,8 +256,8 @@ namespace CleanSync
             Differences pcDifferences = result.PCDifferences;
             CompareLogic compareLogic = new CompareLogic();
             FolderMeta root = cmpJob.FolderInfo;
-            backgroundWorker1 = new BackgroundWorker();
-            InitializeBackgroundWorker1();
+            CleanSyncProc = new BackgroundWorker();
+            InitializeCleanSyncProc();
 
             if (root == null)
             {
@@ -337,20 +337,20 @@ namespace CleanSync
         #endregion
 
         #region Analyse Sync Background Thread
-        private void InitializeBackgroundWorker1()
+        private void InitializeCleanSyncProc()
         {
-            backgroundWorker1.WorkerReportsProgress = true;
-            backgroundWorker1.DoWork +=
-                new DoWorkEventHandler(backgroundWorker1_DoWork);
-            backgroundWorker1.RunWorkerCompleted +=
+            CleanSyncProc.WorkerReportsProgress = true;
+            CleanSyncProc.DoWork +=
+                new DoWorkEventHandler(CleanSyncProc_DoWork);
+            CleanSyncProc.RunWorkerCompleted +=
                 new RunWorkerCompletedEventHandler(
-            backgroundWorker1_RunWorkerCompleted);
-            backgroundWorker1.ProgressChanged +=
+            CleanSyncProc_RunWorkerCompleted);
+            CleanSyncProc.ProgressChanged +=
                 new ProgressChangedEventHandler(
-            backgroundWorker1_ProgressChanged);
+            CleanSyncProc_ProgressChanged);
         }
 
-        private void backgroundWorker1_DoWork(object sender,
+        private void CleanSyncProc_DoWork(object sender,
             DoWorkEventArgs e)
         {
             BackgroundWorker worker = sender as BackgroundWorker;
@@ -407,14 +407,14 @@ namespace CleanSync
             }
         }
 
-        private void backgroundWorker1_ProgressChanged(object sender,
+        private void CleanSyncProc_ProgressChanged(object sender,
             ProgressChangedEventArgs e)
         {
             SyncProgressBar.Value += (double)e.ProgressPercentage / 100000;
             SyncBarLabel.Content = (string)e.UserState;
         }
 
-        private void backgroundWorker1_RunWorkerCompleted(
+        private void CleanSyncProc_RunWorkerCompleted(
             object sender, RunWorkerCompletedEventArgs e)
         {
             if (e.Error != null)
@@ -446,18 +446,18 @@ namespace CleanSync
         #region First Time Sync Background Thread
         private void InitializeBackgroundWorker()
         {
-            backgroundWorker2.WorkerReportsProgress = true;
-            backgroundWorker2.DoWork +=
-                new DoWorkEventHandler(backgroundWorker2_DoWork);
-            backgroundWorker2.RunWorkerCompleted +=
+            FirstSyncProc.WorkerReportsProgress = true;
+            FirstSyncProc.DoWork +=
+                new DoWorkEventHandler(FirstSyncProc_DoWork);
+            FirstSyncProc.RunWorkerCompleted +=
                 new RunWorkerCompletedEventHandler(
-            backgroundWorker2_RunWorkerCompleted);
-            backgroundWorker2.ProgressChanged +=
+            FirstSyncProc_RunWorkerCompleted);
+            FirstSyncProc.ProgressChanged +=
                 new ProgressChangedEventHandler(
-            backgroundWorker2_ProgressChanged);
+            FirstSyncProc_ProgressChanged);
         }
 
-        private void backgroundWorker2_DoWork(object sender,
+        private void FirstSyncProc_DoWork(object sender,
            DoWorkEventArgs e)
         {
             BackgroundWorker worker = sender as BackgroundWorker;
@@ -513,14 +513,14 @@ namespace CleanSync
                 return;
             }
         }
-        private void backgroundWorker2_ProgressChanged(object sender,
+        private void FirstSyncProc_ProgressChanged(object sender,
            ProgressChangedEventArgs e)
         {
             this.FirstSyncProgressBar.Value += (double)e.ProgressPercentage / 100000;
             this.BarLabel.Content = (string)e.UserState;
         }
 
-        private void backgroundWorker2_RunWorkerCompleted(
+        private void FirstSyncProc_RunWorkerCompleted(
            object sender, RunWorkerCompletedEventArgs e)
         {
             if (e.Error != null)
@@ -548,7 +548,7 @@ namespace CleanSync
                 CancelCreat.IsEnabled = true;
                 ShowMainFrame();
                 AttachDropBox1.Clear();
-                AttachDropBox2.Clear();
+                AttachDropBox2.Content="";
                 NewJobName.Clear();
                 FirstSyncProgressBar.Visibility = Visibility.Hidden;
                 BarLabel.Visibility = Visibility.Hidden;
@@ -820,6 +820,7 @@ namespace CleanSync
                 name.Height = 30;
                 name.Width = 150;
                 name.Content = Job.JobName;
+                name.Foreground = Brushes.WhiteSmoke;
                 name.VerticalAlignment = VerticalAlignment.Center;
                 name.HorizontalAlignment = HorizontalAlignment.Left;
                 name.VerticalContentAlignment = VerticalAlignment.Center;
@@ -842,7 +843,7 @@ namespace CleanSync
 
                 if (Job.JobState.Equals(JobStatus.NotReady))
                 {
-                    tag.Source = new BitmapImage(new Uri(@"Pic/yellow.png", UriKind.Relative));
+                    tag.Source = new BitmapImage(new Uri(@"Pic/black.png", UriKind.Relative));
                     pic.Children.Add(name);
                     pic.Children.Add(tag);
                     JobList.Items.Add(pic);
@@ -926,10 +927,7 @@ namespace CleanSync
 
         private void NewJob_Click(object sender, RoutedEventArgs e)
         {
-            MainFrameInfor.Visibility = Visibility.Hidden;
-            MainFrameGridButtons.Visibility = Visibility.Hidden;
-            NewJobFrameInfor.Visibility = Visibility.Visible;
-            NewJobFrameGridButtons.Visibility = Visibility.Visible;
+            ShowNewJobFrame();
 
         }
 
@@ -1069,37 +1067,53 @@ namespace CleanSync
 
         private void FirstSync_Click(object sender, RoutedEventArgs e)
         {
-            if (Control.validate_path(AttachDropBox1.Text) && Control.validate_path(AttachDropBox2.Text) && !NewJobName.Text.Equals(string.Empty))
+            if (Control.ValidatePath(AttachDropBox1.Text) && FolderSelection2.SelectedIndex!=-1 && !NewJobName.Text.Equals(string.Empty))
             {
-                if (!Control.CheckUSBDiskSpace(AttachDropBox1.Text,AttachDropBox2.Text))
+                
+                MessageBoxResult conf = MessageBox.Show(this, "Job Name: " + NewJobName.Text + "\nLocal Path: " + AttachDropBox1.Text + "\nRemovable Path: " + (string)FolderSelection2.SelectedItem + "\nStart First Synchronization?", "Confirmation", MessageBoxButton.OKCancel);
+                if (conf == MessageBoxResult.OK)
                 {
-                    Balloon InfoBalloon = new Balloon();
-                    InfoBalloon.BallonContent.Text = "Not enough space on Removable Device. First Time Synchronization Fails";
-                    InfoBalloon.BalloonText = "CleanSync";
-                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                    //MessageBox.Show("Not enough space on Removable Device.First Sync failed.");
-                    return;
-                }
-                if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, System.IO.Path.GetPathRoot(AttachDropBox2.Text)) == null)
-                    return;
-                UpdateJobList();
-                AttachDropBox.Text = string.Empty;
+                    if (!Control.CheckUSBDiskSpace(AttachDropBox1.Text, (string)FolderSelection2.SelectedItem))
+                    {
+                        Balloon InfoBalloon = new Balloon();
+                        InfoBalloon.BallonContent.Text = "Not enough space on Removable Device. First Time Synchronization Fails";
+                        InfoBalloon.BalloonText = "CleanSync";
+                        CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                        //MessageBox.Show("Not enough space on Removable Device.First Sync failed.");
+                        return;
+                    }
 
-                selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
-                
-                FirstSyncProgressBar.Visibility = Visibility.Visible;
-                BarLabel.Visibility = Visibility.Visible;
-                FirstSyncProgressBar.Value = 0;
-                //Balloon InfoBalloonS = new Balloon();
-                //InfoBalloonS.BalloonText = "CleanSync";
-                //InfoBalloonS.BallonContent.Text = "First Time Synchronization Starts.";
-                //CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                
-                //Disable buttons
-                FirstSync.IsEnabled = false;
-                CancelCreat.IsEnabled = false;
-                //JobList.IsEnabled = false;
-                backgroundWorker2.RunWorkerAsync();
+                    if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, (string)FolderSelection2.SelectedItem,new JobConfig()) == null)
+                    {
+                        // Warning Message: Same Job Name
+                        return;
+                    }
+                    UpdateJobList();
+                    AttachDropBox.Text = string.Empty;
+
+                    selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
+                    
+                    FirstSyncProgressBar.Visibility = Visibility.Visible;
+                    BarLabel.Visibility = Visibility.Visible;
+                    FirstSyncProgressBar.Value = 0;
+                    //Balloon InfoBalloonS = new Balloon();
+                    //InfoBalloonS.BalloonText = "CleanSync";
+                    //InfoBalloonS.BallonContent.Text = "First Time Synchronization Starts.";
+                    //CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+
+                    //Disable buttons
+                    FirstSync.IsEnabled = false;
+                    CancelCreat.IsEnabled = false;
+                    //JobList.IsEnabled = false;
+                    FirstSyncProc.RunWorkerAsync();
+                }
+                else
+                {
+                    AttachDropBox1.Clear();
+                    AttachDropBox2.Content = "";
+                    NewJobName.Clear();
+                    ShowMainFrame();
+                }
             }
             else
             {
@@ -1112,7 +1126,7 @@ namespace CleanSync
 
         private void Accept_Click(object sender, RoutedEventArgs e)
         {
-            if (!Control.validate_path(AttachDropBox.Text))
+            if (!Control.ValidatePath(AttachDropBox.Text))
             {
                 //Show Message
                 return;
@@ -1181,8 +1195,18 @@ namespace CleanSync
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
-            Hide();
-            Close();
+            MessageBoxResult result = MessageBox.Show("CleanSync will now close.", "", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+            if (result == MessageBoxResult.OK)
+            {
+                // Export PC Jobs to harddisk
+                foreach (PCJob job in Control.GetPCJobs())
+                {
+                    ReadAndWrite.ExportPCJob(job);
+                }
+
+                Hide();
+                Close();
+            }
         }
 
         private void minmize_Click(object sender, RoutedEventArgs e)
@@ -1285,7 +1309,7 @@ namespace CleanSync
             //InfoBalloonS.BallonContent.Text = "Clean Synchronization Starts";
             //InfoBalloonS.BalloonText = "CleanSync";
             //CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-            backgroundWorker1.RunWorkerAsync();
+            CleanSyncProc.RunWorkerAsync();
         }
 
         private void ConflictConfirm_Click(object sender, RoutedEventArgs e)
@@ -1310,18 +1334,18 @@ namespace CleanSync
 
         }
 
-        private void FolderSelection2_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            AttachDropBox2.Text = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
-        }
+        //private void FolderSelection2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        //{
+        //    AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
+        //}
 
-        private void NewJobName_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            if (FolderSelection2.SelectedIndex != -1)
-            {
-                AttachDropBox2.Text = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
-            }
-        }
+        //private void NewJobName_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+        //    if (FolderSelection2.SelectedIndex != -1)
+        //    {
+        //        AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
+        //    }
+        //}
 
         private void ConflictLeftSelectAll(object sender, RoutedEventArgs e)
         {
