@@ -188,6 +188,7 @@ namespace CleanSync
             this.usbDetector = new USBDetection();
             usbDetectionThread();
             
+            
             FirstSyncProc = new BackgroundWorker();
             InitializeBackgroundWorker();
             detectionSemaphore = new System.Threading.Semaphore(1, 1);
@@ -1004,7 +1005,6 @@ namespace CleanSync
             ShowMainFrame();
             JobList.SelectedIndex = JobList.Items.Count - 1;
             FolderSelection2.DataContext = usbDetector.usbDriveList;
-            
         }
 
         private void JobList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -1013,11 +1013,17 @@ namespace CleanSync
             {
                 PCJob pcJob;
                 USBJob usbJob;
+
                 if (JobList.SelectedIndex < Control.GetPCJobs().Count)
                 {
 
                     //ShowMainFrame();
+                    //selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
                     pcJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
+
+                    ConflictRes.DataContext = pcJob.JobSetting;
+                    Automation.DataContext = pcJob.JobSetting;
+
                     if (pcJob.JobState.Equals(JobStatus.Complete))
                     {
                         if (pcJob.PCPath.Equals(pcJob.GetUsbJob().PCOnePath))
@@ -1083,7 +1089,7 @@ namespace CleanSync
                         return;
                     }
 
-                    if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, (string)FolderSelection2.SelectedItem,new JobConfig()) == null)
+                    if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, (string)FolderSelection2.SelectedItem, new JobConfig((AutoConflictOption)NewJobConflictRes.SelectedValue, (AutoSyncOption)NewJobAutomation.SelectedValue)) == null)
                     {
                         // Warning Message: Same Job Name
                         return;
@@ -1203,7 +1209,7 @@ namespace CleanSync
                 {
                     ReadAndWrite.ExportPCJob(job);
                 }
-
+                
                 Hide();
                 Close();
             }

@@ -61,7 +61,7 @@
                                   SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                             <TextBlock x:Name="textBlock"
                                Opacity="0.5"
-                               Text="  Select Target Folder Path."
+                               Text="  Select Target Folder."
                                TextWrapping="Wrap"
                                Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         </Grid>

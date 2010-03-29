@@ -108,6 +108,7 @@ namespace CleanSync
             FolderInfo = null;
             this.PCID = PCID;
             usbJob = jobOnUSB;
+            this.JobSetting = new JobConfig();
         }
     }
 
