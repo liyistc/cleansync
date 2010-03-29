@@ -332,16 +332,7 @@ namespace CleanSync
             return GetDiskSpaceMB(usbRequiredSpace);
         }
 
-        public bool CheckUSBDiskSpace(string pcPath, string usbPath)
-        {
-
-            CompareLogic compLogic = new CompareLogic();
-            Differences pcToUSBDiff = compLogic.ConvertFolderMetaToDifferences(ReadAndWrite.BuildTree(pcPath));
-            long usbFreeSpace = GetFreeDiskSpace(ReadAndWrite.GetRootPath(usbPath));
-            if (usbFreeSpace < pcToUSBDiff.GetRequireSpace())
-                return false;
-            return true;
-        }
+        
 
         public bool Resync(PCJob pcJob)
         {
