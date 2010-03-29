@@ -46,7 +46,12 @@ namespace CleanSync
 
         public static string[] GetDirectoryFiles(string sourceDir)
         {
-            string[] fileEntries;
+            string[] fileEntries ;
+            if (!Directory.Exists(sourceDir))
+            {
+                fileEntries = new string[0];
+                return fileEntries;
+            }
             try
             {
                 fileEntries = Directory.GetFiles(sourceDir);
@@ -413,10 +418,10 @@ namespace CleanSync
             return GetUSBRootPath(AbsoluteUSBPath) + @"\incompleteJobs";
         }
 
-        internal static string GetIncompleteUSBFolderLocation(string usbRoot)
+        /*internal static string GetIncompleteUSBFolderLocation(string usbRoot)
         {
             return GetUSBRootPath(usbRoot) + @"\incompleteJobs";
-        }
+        }*/
 
         internal static List<USBJob> GetIncompleteUSBJobList(string USBRoot)
         {
