@@ -1201,18 +1201,17 @@ namespace CleanSync
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("CleanSync will now close.", "", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
-            if (result == MessageBoxResult.OK)
+            //MessageBoxResult result = MessageBox.Show("CleanSync will now close.", "", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
+
+            // Export PC Jobs to harddisk
+            foreach (PCJob job in Control.GetPCJobs())
             {
-                // Export PC Jobs to harddisk
-                foreach (PCJob job in Control.GetPCJobs())
-                {
-                    ReadAndWrite.ExportPCJob(job);
-                }
-                
-                Hide();
-                Close();
+                ReadAndWrite.ExportPCJob(job);
             }
+
+            Hide();
+            Close();
+
         }
 
         private void minmize_Click(object sender, RoutedEventArgs e)
