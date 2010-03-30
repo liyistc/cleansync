@@ -267,7 +267,10 @@ namespace DirectoryInformation
             ReSyncFiles(oldDifferences, newDifferences, pcJob);
 
             pcJob.GetUsbJob().diff = oldDifferences;
-            ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
+            if (!pcJob.GetUsbJob().JobState.Equals(JobStatus.Incomplete))
+                ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
+            else
+                ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
             pcJob.FolderInfo = ReadAndWrite.BuildTree(pcJob.PCPath);
             ReadAndWrite.ExportPCJob(pcJob);
         }
