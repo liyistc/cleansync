@@ -340,5 +340,10 @@ namespace CleanSync
                 return true;
             return false;
         }
+
+        public ComparisonResult AutoConflictResolve(PCJob pcJob, ComparisonResult result)
+        {
+            return jobLogic.AutoConflictResolve(pcJob, result);
+        }
     }
 }

@@ -469,5 +469,36 @@ namespace CleanSync
             }
         }
 
+
+        internal ComparisonResult AutoConflictResolve(PCJob pcJob, ComparisonResult result)
+        {
+            switch (pcJob.JobSetting.ConflictConfig)
+            {
+                case AutoConflictOption.IgnoreBoth:
+                    SetConflictUserChoice(result.conflictList, false, false);
+                    break;
+                case AutoConflictOption.KeepPCItems:
+                    SetConflictUserChoice(result.conflictList, true, false);
+                    break;
+                case AutoConflictOption.KeepUSBItems:
+                    SetConflictUserChoice(result.conflictList, false, true);
+                    break;
+                case AutoConflictOption.KeepBoth:
+                    // To be implemented.
+                    // conflict rename
+                    SetConflictUserChoice(result.conflictList, false, false);
+                    break;
+            }
+            return HandleConflicts(result);
+        }
+
+        private void SetConflictUserChoice(List<Conflicts> conflictList, bool pc, bool usb)
+        {
+            foreach (Conflicts conflict in conflictList)
+            {
+                conflict.PCSelected = pc;
+                conflict.USBSelected = usb;
+            }
+        }
     }
 }
