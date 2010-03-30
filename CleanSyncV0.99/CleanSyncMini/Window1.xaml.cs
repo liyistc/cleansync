@@ -1396,5 +1396,58 @@ namespace CleanSync
             }
         }
         #endregion
+
+        private void Synchronize_Click(object sender, RoutedEventArgs e)
+        {
+            DirectSync();
+        }
+
+        private void DirectSync()
+        {
+            if (JobList.SelectedIndex!=-1)
+                cmpJob = Control.GetPCJobs()[JobList.SelectedIndex];
+            else
+            {
+                //Status.Content = "No Job Selected";
+                return;
+            }
+            if (cmpJob.JobState.Equals(JobStatus.NotReady) || cmpJob.JobState.Equals(JobStatus.Incomplete))
+            {
+                //Status.Content = "Job Not Ready";
+                return;
+            }
+
+            result = Control.Compare(cmpJob);
+
+            if (result.conflictList.Count != 0 && !Control.Resync(cmpJob))
+            {
+                //ConflictPanel.Visibility = Visibility.Visible;
+                if (cmpJob.JobSetting.Equals(AutoConflictOption.Off))
+                {
+                    ShowConflictFrame();
+
+                    ConflictList.Items.Clear();
+                    for (int i = 0; i < result.conflictList.Count; i++)
+                    {
+                        ConflictList.Items.Add(result.conflictList.ElementAt(i));
+                    }
+                    return;
+                }
+            }
+
+            if (!Control.CheckUSBDiskSpace(result, cmpJob) || !Control.CheckPCDiskSpace(result, cmpJob))
+            {
+                Balloon InfoBalloon = new Balloon();
+                InfoBalloon.BallonContent.Text = "Not Enough Space On Disk. No Synchronization Is Done.";
+                InfoBalloon.BalloonText = "CleanSync";
+                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                //MessageBox.Show("Not Enough Space on Disk.No Sync is done.");
+                return;
+            }
+
+            CleanSyncProc = new BackgroundWorker();
+            InitializeCleanSyncProc();
+            CleanSyncProc.RunWorkerAsync();
+        }
     }
 }
