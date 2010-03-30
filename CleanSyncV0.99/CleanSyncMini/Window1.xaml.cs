@@ -1460,12 +1460,12 @@ namespace CleanSync
 
             CleanSyncProc = new BackgroundWorker();
             InitializeCleanSyncProc();
-            AnalyseProgressBar.Visibility = Visibility.Visible;
+            //AnalyseProgressBar.Visibility = Visibility.Visible;
 
-            //Balloon Background = new Balloon();
-            //Background.BallonContent.Text = "Synchronization Job: "+cmpJob.JobName+" is working in background.";
-            //Background.BalloonText = "CleanSync";
-            //CleanSyncNotifyIcon.ShowCustomBalloon(Background, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+            Balloon Background = new Balloon();
+            Background.BallonContent.Text = "Synchronization Job: " + cmpJob.JobName + " is working in background.";
+            Background.BalloonText = "CleanSync";
+            CleanSyncNotifyIcon.ShowCustomBalloon(Background, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
 
             CleanSyncProc.RunWorkerAsync();
         }
