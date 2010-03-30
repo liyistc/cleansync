@@ -185,6 +185,8 @@ namespace CleanSync
             try
             {
                 PCJob pcJob = new PCJob(jobName, PCPath, AbsoluteUSBPath, PCID,config);
+
+                pcJob.JobState = JobStatus.Complete;
                 
                 InsertJob(pcJob);
                 
@@ -408,6 +410,10 @@ namespace CleanSync
                 if (pcJob.JobName.Equals(usbJob.JobName))
                 {
                     //pcJob.ToggleStatus(pcJob.JobState);
+                    if (pcJob.PCID.Equals(usbJob.PCOneID) && !pcJob.PCPath.Equals(usbJob.PCOnePath))
+                        continue;
+                    if (pcJob.PCID.Equals(usbJob.PCTwoID) && !pcJob.PCPath.Equals(usbJob.PCTwoPath))
+                        continue;
                     pcJob.JobState = JobStatus.Complete;
                     pcJob.SetUsbJob(usbJob);
                     pcJob.AbsoluteUSBPath = usbJob.AbsoluteUSBPath;
