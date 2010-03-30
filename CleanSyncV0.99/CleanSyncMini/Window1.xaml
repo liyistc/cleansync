@@ -663,7 +663,7 @@
                                 </ToolTip>
                             </Button.ToolTip>
                             Analyse</Button>
-                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,30,0,0" Width="80" Height="30" Name="Synchronize">
+                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,30,0,0" Width="80" Height="30" Name="Synchronize" Click="Synchronize_Click">
                             <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
