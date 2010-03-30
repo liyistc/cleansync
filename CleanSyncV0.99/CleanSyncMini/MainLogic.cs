@@ -148,6 +148,16 @@ namespace CleanSync
                             if (usbJob.PCOneID.Equals(pcID))
                             {
                                 CheckIncompleteDeletion(usbJob, pcID, drive);
+                                foreach (PCJob pcJob in jobLogic.PCJobs)
+                                {
+                                    if (usbJob.JobName.Equals(pcJob.JobName) && usbJob.PCOnePath.Equals(pcJob.PCPath))
+                                    {
+                                        usbJob.AbsoluteUSBPath = drive + usbJob.RelativeUSBPath;
+                                        pcJob.AbsoluteUSBPath = usbJob.AbsoluteUSBPath;
+                                        pcJob.SetUsbJob(usbJob);
+                                        pcJob.ToggleStatus(pcJob.JobState);
+                                    }
+                                }
                                 continue;
                             }
 
