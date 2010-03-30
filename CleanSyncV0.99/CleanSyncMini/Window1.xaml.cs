@@ -1067,8 +1067,11 @@ namespace CleanSync
             }
             else
             {
-                ConflictRes.SelectedIndex = -1;
-                Automation.SelectedIndex = -1;
+                if (Control.GetPCJobs().Count == 0)
+                {
+                    ConflictRes.SelectedIndex = -1;
+                    Automation.SelectedIndex = -1;
+                }
                 RemotePathDisplay.Content = "";
                 USBPathDisplay.Content = "";
                 JobNameDisplay.Content = "";
