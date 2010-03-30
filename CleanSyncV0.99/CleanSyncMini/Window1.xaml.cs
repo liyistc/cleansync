@@ -1447,6 +1447,7 @@ namespace CleanSync
 
             CleanSyncProc = new BackgroundWorker();
             InitializeCleanSyncProc();
+            AnalyseProgressBar.Visibility = Visibility.Visible;
             CleanSyncProc.RunWorkerAsync();
         }
     }
