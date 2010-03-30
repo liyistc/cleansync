@@ -22,7 +22,6 @@ using System.Windows.Interop;
 using System.Windows.Media.Animation;
 
 
-
 namespace CleanSync
 {
     /// <summary>
@@ -967,11 +966,16 @@ namespace CleanSync
             ShowAnalyseFrame();
             CompareResultLeft.Items.Clear();
             CompareResultRight.Items.Clear();
-            //modify
-            
-           
+            //modify                      
             
             result = Control.Compare(cmpJob);
+
+            //Auto Conflict Handle
+            if (!cmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
+            {
+                result = Control.AutoConflictResolve(cmpJob, result);
+            }
+
             PCFreeSpace.Content = "Free : " + Control.GetPCFreeSpace(cmpJob);
             RDFreeSpace.Content = "Free : " + Control.GetUSBFreeSpace(cmpJob);
             PCRequiredSpace.Content = "Required : " + Control.GetPCRequiredSpace(result);
@@ -1063,6 +1067,8 @@ namespace CleanSync
             }
             else
             {
+                ConflictRes.SelectedIndex = -1;
+                Automation.SelectedIndex = -1;
                 RemotePathDisplay.Content = "";
                 USBPathDisplay.Content = "";
                 JobNameDisplay.Content = "";
@@ -1422,7 +1428,7 @@ namespace CleanSync
             if (result.conflictList.Count != 0 && !Control.Resync(cmpJob))
             {
                 //ConflictPanel.Visibility = Visibility.Visible;
-                if (cmpJob.JobSetting.Equals(AutoConflictOption.Off))
+                if (cmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
                 {
                     ShowConflictFrame();
 
@@ -1432,6 +1438,10 @@ namespace CleanSync
                         ConflictList.Items.Add(result.conflictList.ElementAt(i));
                     }
                     return;
+                }
+                else
+                {
+                    result = Control.AutoConflictResolve(cmpJob, result);
                 }
             }
 
@@ -1448,6 +1458,12 @@ namespace CleanSync
             CleanSyncProc = new BackgroundWorker();
             InitializeCleanSyncProc();
             AnalyseProgressBar.Visibility = Visibility.Visible;
+
+            //Balloon Background = new Balloon();
+            //Background.BallonContent.Text = "Synchronization Job: "+cmpJob.JobName+" is working in background.";
+            //Background.BalloonText = "CleanSync";
+            //CleanSyncNotifyIcon.ShowCustomBalloon(Background, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+
             CleanSyncProc.RunWorkerAsync();
         }
     }

@@ -10,6 +10,8 @@
     </Window.Background>
 
     <Window.Resources>
+        
+        
 
         <!-- Fill Brushes -->
 
@@ -174,6 +176,82 @@
             <Border x:Name="PART_ContentHost" Focusable="False" Background="{TemplateBinding Background}" />
         </ControlTemplate>
 
+
+        <!--Override ListView Style-->
+        <Style x:Key="{x:Type GridViewColumnHeader}"
+       TargetType="GridViewColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Foreground"
+          Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="GridViewColumnHeader">
+                        <Grid>
+                            <Border Name="HeaderBorder"
+            BorderThickness="0,1,0,1"
+            BorderBrush="{StaticResource NormalBorderBrush}"
+            Background="{StaticResource LightBrush}"
+            Padding="2,0,2,0">
+                                <ContentPresenter Name="HeaderContent"
+              Margin="0,0,0,1"
+              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+              RecognizesAccessKey="True"
+              SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter TargetName="HeaderBorder"
+                    Property="Background" Value="{StaticResource NormalBrush}"/>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="true">
+                                <Setter TargetName="HeaderBorder"
+                    Property="Background" Value="{StaticResource PressedBrush}"/>
+                                <Setter TargetName="HeaderContent"
+                    Property="Margin" Value="1,1,0,0"/>
+                            </Trigger>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground"
+                    Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="Role" Value="Floating">
+                    <Setter Property="Opacity" Value="0.7"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="GridViewColumnHeader">
+                                <Canvas Name="PART_FloatingHeaderCanvas">
+                                    <Rectangle Fill="#60000000"
+                Width="{TemplateBinding ActualWidth}"
+                Height="{TemplateBinding ActualHeight}"/>
+                                </Canvas>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+                <Trigger Property="Role" Value="Padding">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="GridViewColumnHeader">
+                                <Border Name="HeaderBorder"
+              BorderThickness="0,1,0,1"
+              BorderBrush="{StaticResource NormalBorderBrush}"
+              Background="{StaticResource LightBrush}"/>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        
+        <!--Combo Box Style-->
         <Style x:Key="{x:Type ComboBox}" TargetType="ComboBox">
             <Setter Property="SnapsToDevicePixels" Value="true"/>
             <Setter Property="OverridesDefaultStyle" Value="true"/>
@@ -695,7 +773,7 @@
                     <ListView Foreground="WhiteSmoke" Name="ConflictList" ItemsSource="{Binding Conflicts}" Background="Transparent" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
 
                         <ListView.View>
-                            <GridView>
+                            <GridView AllowsColumnReorder="False">
                                 <GridViewColumn CellTemplate="{StaticResource ConflictCell1}" >
                                     <CheckBox Name="PCSelectAll" Checked="ConflictLeftSelectAll" Unchecked="ConflictLeftUnselecteAll"></CheckBox>
                                 </GridViewColumn>
