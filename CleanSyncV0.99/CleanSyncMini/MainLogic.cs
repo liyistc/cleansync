@@ -155,7 +155,8 @@ namespace CleanSync
                                         usbJob.AbsoluteUSBPath = drive + usbJob.RelativeUSBPath;
                                         pcJob.AbsoluteUSBPath = usbJob.AbsoluteUSBPath;
                                         pcJob.SetUsbJob(usbJob);
-                                        pcJob.ToggleStatus(pcJob.JobState);
+                                        pcJob.JobState = JobStatus.Complete;
+                                        //pcJob.ToggleStatus(pcJob.JobState);
                                     }
                                 }
                                 continue;

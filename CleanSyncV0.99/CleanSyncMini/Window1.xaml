@@ -541,7 +541,15 @@
         <Grid Name="JobListHost" Width="200" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,45,0,0" Background="Transparent" Visibility="Visible">
             <GroupBox Foreground="WhiteSmoke" Name="JobListHostBox" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Job List" FontFamily="Times New Roman" FontSize="14" Background="Transparent">
             </GroupBox>
-            <ListBox Foreground="WhiteSmoke" MouseUp="JobList_MouseUp" Name="JobList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="Transparent" BorderBrush="Transparent" SelectionChanged="JobList_SelectionChanged"></ListBox>
+            <ListBox Foreground="WhiteSmoke" MouseUp="JobList_MouseUp" Name="JobList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="Transparent" BorderBrush="Transparent" SelectionChanged="JobList_SelectionChanged">
+                <!--<ListBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="Synchronize"></MenuItem>
+                        <MenuItem Header="Analyse"></MenuItem>
+                        <MenuItem Header="Remove"></MenuItem>
+                    </ContextMenu>
+                </ListBox.ContextMenu>-->
+            </ListBox>
         </Grid>
         <Grid Name="JobStateIndicator" Width="200" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,450,0,0" Background="Transparent" Visibility="Visible">
             <StackPanel Orientation="Horizontal" Name="JobState1" Height="30" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,0,0" Background="Transparent">
