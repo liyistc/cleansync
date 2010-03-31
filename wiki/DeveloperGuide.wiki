@@ -5,20 +5,12 @@ CleanSync is a one stop user-friendly and file synchronization software that fac
 ----
 ==Functionality Features==
 See: [http://code.google.com/p/cleansync/wiki/FunctionalityFeatures Functionality Features]
-
-Below are some of the main features that is implemented by CleanSync:
-
-Clean Synchronization 
-
-Preview feature
-
-Conflict Handling 
-
-Folder/File renaming
-
-External drive Plug-in Plug-out detection
-
-Automation	
+ * Clean Synchronization 
+ * Preview feature
+ * Conflict Handling 
+ * Folder/File renaming
+ * External drive Plug-in Plug-out detection
+ * Automation	
 
 ==Development Platform==
 
