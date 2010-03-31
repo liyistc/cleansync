@@ -39,6 +39,7 @@ namespace CleanSync
         private BackgroundWorker RemovableDiskDetect;
         private PCJob selectedPCJob;
 
+        private List<PCJob> autosyncedJob;
         private System.Threading.Semaphore detectionSemaphore;
 
         #region float window
@@ -172,6 +173,7 @@ namespace CleanSync
             this.Control = new MainLogic();
             Control.InitializePCJobInfo();
             GUIJobList = Control.GetPCJobs();
+            autosyncedJob = new List<PCJob>();
          
             string[] logicDrives = System.Environment.GetLogicalDrives();
             List<string> drives = new List<string>();
@@ -181,6 +183,7 @@ namespace CleanSync
             }
 
             List<USBJob> incompleteJobList = Control.USBPlugIn(drives);
+            AutoSync();
             UpdateIncompletedJobList(incompleteJobList);
             Control.CheckJobStatus();
             
@@ -218,7 +221,7 @@ namespace CleanSync
                     List<string> drives = usbDetector.GetDrives();
 
                     List<USBJob> incomplete = Control.USBPlugIn(drives);
-
+                    AutoSync();
                     UpdateIncompletedJobList(incomplete);
                     UpdateJobList();
                     JobList.SelectedIndex = JobList.Items.Count - 1;
@@ -234,7 +237,14 @@ namespace CleanSync
                     UpdateIncompletedJobList(Control.USBPlugIn(drives));
                     UpdateJobList();
                     JobList.SelectedIndex = JobList.Items.Count - 1;
-
+                    for (int i = 0; i < autosyncedJob.Count; i++)
+                    {
+                        if (!autosyncedJob[i].JobState.Equals(JobStatus.Complete))
+                        {
+                            autosyncedJob.RemoveAt(i);
+                            i--;
+                        }
+                    }
                     if (AcceptFrameInfor.IsVisible)
                     {
                         ShowMainFrame();
@@ -1408,18 +1418,19 @@ namespace CleanSync
 
         private void Synchronize_Click(object sender, RoutedEventArgs e)
         {
-            DirectSync();
-        }
-
-        private void DirectSync()
-        {
-            if (JobList.SelectedIndex!=-1)
+            if (JobList.SelectedIndex != -1)
                 cmpJob = Control.GetPCJobs()[JobList.SelectedIndex];
             else
             {
                 //Status.Content = "No Job Selected";
                 return;
             }
+            DirectSync(cmpJob);
+        }
+
+        private void DirectSync(PCJob cmpJob)
+        {
+            
             if (cmpJob.JobState.Equals(JobStatus.NotReady) || cmpJob.JobState.Equals(JobStatus.Incomplete))
             {
                 //Status.Content = "Job Not Ready";
@@ -1469,5 +1480,21 @@ namespace CleanSync
 
             CleanSyncProc.RunWorkerAsync();
         }
+
+        private void AutoSync()
+        {
+            foreach (PCJob pcJob in Control.GetPCJobs())
+            {
+                if (pcJob.JobState.Equals(JobStatus.Complete) && pcJob.JobSetting.SyncConfig.Equals(AutoSyncOption.On))
+                {
+                    if (autosyncedJob.Contains(pcJob)) continue;
+                    cmpJob = pcJob;
+                    DirectSync(pcJob);
+                    autosyncedJob.Add(pcJob);
+                }
+            }
+        }
     }
+
+    
 }
