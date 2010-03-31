@@ -1,0 +1,9 @@
+C:\Users\Sanji\Desktop\Testcases\AcceptSyncWithEmptyDestination\
+pcone
+pctwo
+original\pcone
+original\pctwo
+cleansynclog.txt
+D:\
+Test
+script.txt
