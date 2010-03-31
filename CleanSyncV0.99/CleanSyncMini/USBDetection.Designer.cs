@@ -37,7 +37,7 @@
             this.ClientSize = new System.Drawing.Size(0, 0);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "USBDetection";
-            this.Opacity = 0.2;
+            this.Opacity = 0;
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.Text = "USBDetection";
