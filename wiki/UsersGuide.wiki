@@ -4,21 +4,31 @@
 ----
 Frequently need to work on the same files and folders on 2 different computers? Having trouble ensuring both sets of files and folders are updated? Let CLEANSync handle that for you!
 
-CLEANSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CLEANSync utilizes our new technology, Clean Synchronization that allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately.
+[http://cleansync.googlecode.com/files/cs3215Sync%20copy.png] 
 
+Consider this scenario: You have to ensure that files and folders in a certain folder are the same in Computer A and Computer B. If the directory contains hundreds of files and folders, how will you keep track of updates, deletes and modifications to any of the files and folders in both computers? It is possible to copy every file and folder into the removable device, but this takes up unnecessary space. CleanSync monitors updates to your files and folders for you, and ensures minimum disk usage on the external hard disk.
 
-
-= Installation Details =
+=Clean Synchronization=
 ----
-Unzip CLEANSync_v0.9.zip to any directory in your computer. A folder “CLEANSync v0.9” will be created in that directory.
+So, how does CleanSync work? CleanSync does synchronization through a process called Clean Synchronization. Through Clean Synchronization, synchronizing folders in Computer A and B is done in 2 easy steps:
 
+*Step 1*: Synchronize with Computer A. Assuming that Computer A has a new file(File3.txt), a modified file (File5.txt) and File4.txt has been deleted since the last synchronization. All these information will be acknowledged by the removable device.
 
+[http://cleansync.googlecode.com/files/syncPCA.png]
 
+*Step 2:* Unplug the removable device, and synchronize with Computer B. CleanSync will automatically copy File3.txt, modify File5.txt over to Computer B and delete File4.txt. It will also repeat Step 1 on Computer B, to synchronize Computer B’s updates to Computer A.
+
+[http://cleansync.googlecode.com/files/syncPCB.png]
+
+That’s it! Through Clean Synchronization, synchronization is easy, quick and efficient. 
+= Installing CleanSync=
+----
+Unzip CleanSync_v1.0.zip to any directory in your computer`*`. A folder “CleanSync v1.0” will be created in that directory. No installation is necessary.
+
+`*` Do not unzip to a directory on an removable device or CleanSync will not run properly.
 = Starting CLEANSync =
 ----
-To start, click on CleanSync.exe located  inside the CLEANSync v0.9 folder.
-
-
+To start, click on CleanSync.exe located inside the CleanSync v1.0 folder.
 
 = Creating a new CLEANSync job =
 ----
