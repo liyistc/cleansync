@@ -32,9 +32,12 @@ To start, click on CleanSync.exe located inside the CleanSync v1.0 folder.
 
 = Creating a new CLEANSync job =
 ----
+CleanSync keeps track of the folders to be synchronized through CleanSync jobs. A CleanSync job stores the data of the folders to be synchronized in both computers and the removable device used to synchronize the two computers. 
+
 [http://cleansync.googlecode.com/files/select_new_job.jpg]
 
- * From the main screen, click on "new job" to create a new job. 
+From the main screen
+ * Click on "new job" to create a new job
 
 [http://cleansync.googlecode.com/files/new_job_screen.jpg]
 
