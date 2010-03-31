@@ -41,34 +41,36 @@ From the main screen
 
 [http://cleansync.googlecode.com/files/new_job_screen.jpg]
 
- * Enter a name for the job, and select the folder to synchronize. 
- * Select a folder on the USB drive to store the data on the USB drive.
- * You are ready to do a first time synchronization! 
- * Click on "FirstSync" to copy all the files from the PC folder to the USB folder. 
- * Creating a job on this PC is now complete!
- * Now you can plug the USB into another computer for the other computer to accept the CLEANSync job.
-`*` Version 0.9: Please select an empty folder on the USB drive.
+You will now be at the screen for creating a CleanSync job
+ * Enter a name for the job.
+ * Select the directory on this computer to synchronize. Note: You can only synchronize folders on the computer. Synchronizing folders on external devices are not allowed.
+ * Select the drive to the removable device to be the intermediary device. A folder “_CleanSync_Data_” will be created on the root directory of the device if it does not exist. Inside this folder, another folder with the name of this job will be created, and files and folders to be transferred over to the other computer is stored within this folder.
+ * You can choose the option to enable automation. When automation is enabled, the job will synchronize automatically whenever the removable device is plugged into this computer while CleanSync is running, and whenever CleanSync starts up with the removable device plugged in.
+ * You can also choose to let CleanSync handle any conflicts found during synchronization by specifying to always write in this computer over the other computer or vice versa. By default any conflicts found will be handled manually. Conflicts will be explained in detail below.
+All the information required to create the job on this computer is done. 
 
-
+[http://cleansync.googlecode.com/files/Confirm_Create_job.jpg]
+ * Click on “Create”. A pop-up window will prompt for confirmation to create this job. Check the details of the job. 
+ * Click on “Ok” to create the job. CleanSync will then proceed to synchronize the directory with the removable device for the first time.
+After synchronization is done, creating a job on this PC is complete! You can now plug the removable device into another computer with CleanSync installed for the other computer to accept this CleanSync job.
 
 =Accepting a CLEANSync Job=
 ----
 [http://cleansync.googlecode.com/files/accept_job.jpg]
 
- * From the main screen, if a USB drive with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CLEANSync job.
- * An incomplete job will be listed with the colour red. 
- * To accept, select the incomplete job, select a folder to synchronize on and click on “Accept”.
- * Accepting a CLEANSync job is now complete!
-
-
+Now that the CleanSync job has been created, the job is not complete yet as the other computer is yet to know of this CleanSync job. Now plug in the removable device into the other computer with CleanSync and start the program from there.
+ * From the main screen, if a removable device with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CleanSync job. 
+ * To accept, select the incomplete job, select the folder on the computer to synchronize with and click on “Accept”.
+ * Accepting a CleanSync job is now complete! Now that CleanSync has information about both computers and their folders to synchronize, the CleanSync job is complete.
 
 = Synchronizing a job =
 ----
 [http://cleansync.googlecode.com/files/analyse.jpg]
 
  * From the main screen, select the job you want to synchronize. 
- * Only jobs with their USB drives plugged in are allowed to be synchronized (i.e jobs listed with the colour green). 
- * Click on Analyse to view the impending changes
+ * Only complete jobs with their removable devices plugged in are allowed to be synchronized. 
+ * Click on “Analyse” to view the impending changes, or click on “Synchronize” to synchronize immediately without viewing the impending changes.
+
   * [http://cleansync.googlecode.com/files/New_diff.jpg]denotes a new file/folder to be copied over
   * [http://cleansync.googlecode.com/files/mod_diff.jpg]denotes a modified file or a folder whose contents have been changed.
   * [http://cleansync.googlecode.com/files/del_diff.jpg]denotes a deleted file or folder.
