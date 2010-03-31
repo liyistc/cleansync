@@ -13,7 +13,7 @@ See: [http://code.google.com/p/cleansync/wiki/FunctionalityFeatures Functionalit
  * Automation	
 ----
 ==Glossary of Terms==
-See: 
+See: [http://code.google.com/p/cleansync/wiki/GlossaryTerms Glossary of Terms]
 ==Development Platform==
 
 CLEANSync is developed using .NET Visual C#. 
