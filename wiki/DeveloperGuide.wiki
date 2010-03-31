@@ -11,7 +11,9 @@ See: [http://code.google.com/p/cleansync/wiki/FunctionalityFeatures Functionalit
  * Folder/File renaming
  * External drive Plug-in Plug-out detection
  * Automation	
-
+----
+==Glossary of Terms==
+See: 
 ==Development Platform==
 
 CLEANSync is developed using .NET Visual C#. 
