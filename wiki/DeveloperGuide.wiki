@@ -1,5 +1,9 @@
 #CLEANSync developers' guide
 
+==Introduction==
+CleanSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CleanSync utilizes our new technology, Clean Synchronization, which allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately.
+
+
 ==Development Platform==
 
 CLEANSync is developed using .NET Visual C#. 
