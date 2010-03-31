@@ -1,0 +1,14 @@
+#Glossary of terms
+=Glossary of Terms=
+
+*External Device/USB device*
+
+An external device, or the USB device are used interchangeably and refers to an external hard drive through which folders in 2 computers can be synchronized.
+
+*FileMeta / FolderMeta*
+
+FileMeta and FolderMeta are serializable classes used to store information about files and folders respectively. Using FileMeta and FolderMeta, a directory structure can be represented.
+
+*Job*
+
+A job stores the information of the directory on both computers and the external device. When the user wants to synchronize folders in 2 different computers, users create a job. In implementation, a job consists of 2 serializable PCJob classes which is stored in the computers and a serializable USBJob which is stored in the external device.
