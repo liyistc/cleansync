@@ -23,6 +23,7 @@ namespace CleanSync
         public USBDetection()
         {
             InitializeComponent();
+            this.Hide();
             drives = new List<string>();
             usbDriveList = new ObservableCollection<string>();
             SetDrives();
