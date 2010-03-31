@@ -78,11 +78,13 @@ Now that the CleanSync job has been created, the job is not complete yet as the 
 
 [http://cleansync.googlecode.com/files/start_sync.jpg]
 
-After viewing the changes that will happen from USB to PC and from PC to USB, click on “Start Sync” to start synchronization. 
+After viewing the changes that will happen from USB to PC and from PC to USB, click on “Synchronize” to start synchronization. 
 
 [http://cleansync.googlecode.com/files/synchronizing.jpg]
 
-
+= File/Folder renaming =
+----
+Files and folders copied to the USB will be renamed to prevent naming conflicts. They will be renamed back correctly when copied back to the PC.
 
 = Conflicts =
 ----
@@ -90,16 +92,35 @@ During analyzing, in the event of conflicts, i.e files to be copied from USB to 
 
 [http://cleansync.googlecode.com/files/conflicts.jpg]
 
-Check on either the “PC Update” box to use the PC’s file as the latest file, or the “USB Update” box to keep the USB’s latest file. Not checking on either of the box will result in neither file being synchronized over. 
+The status symbol on the left denotes the update on this computer, while the status symbol of the right shows the update from the other computer on the removable device.
 
-Note: In version 0.9, checking both boxes causes the USB update to be copied over to the PC but not vice versa.
+For version 1.0, checking the removable device’s update will cause the removable device’s update to be updated on the computer and not checking the removable device’s update will cause the computer’s update to be copied over to the removable device. Checking the computer update will have no effect on how conflict is handled.
 
 
 
 = Deleting a job =
 ----
-To delete a job, select the job you want to delete and click on “Remove Job”.
 
 [http://cleansync.googlecode.com/files/remove_job.jpg]
+To delete a job, select the job you want to delete and click on “Remove Job”.
 
-If the USB device is not plugged in, the data on the USB device will be deleted the next time the USB device is plugged in. To delete the job on the other computer, just plug in the USB into the other computer.
+[http://cleansync.googlecode.com/files/confirm_remove_job.jpg]
+
+Click on OK to confirm deletion of the job. If the removable device is not plugged in, the data on the removable device will be deleted the next time the removable device is plugged in. To delete the job on the other computer, just plug in the removable device into the other computer. 
+
+= About us =
+0110 consists of 6 members. Through CleanSync, we hope to channel our passion for software development to develop a product that is beneficial to the general public.
+
+Group Leader: 	Li Yi
+
+Group Members:	Gu Yang
+
+Li ZiChen
+
+Lu Wenhao
+
+Tso Shuk Yi
+
+Yu Qiqi
+
+Special thanks to Mr Damith for his mentorship and guidance, Mr Soo for his invaluable advice about CleanSync’s architecture, Ms Susu for pointers to improve our coding and everyone who gave us invaluable feedback on our product.
