@@ -102,6 +102,7 @@ For version 1.0, checking the removable device’s update will cause the removab
 ----
 
 [http://cleansync.googlecode.com/files/remove_job.jpg]
+
 To delete a job, select the job you want to delete and click on “Remove Job”.
 
 [http://cleansync.googlecode.com/files/confirm_remove_job.jpg]
