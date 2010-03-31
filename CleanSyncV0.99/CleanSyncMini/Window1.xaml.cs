@@ -32,16 +32,29 @@ namespace CleanSync
         private MainLogic Control;
         private BackgroundWorker FirstSyncProc;
         private BackgroundWorker CleanSyncProc;
-        ComparisonResult result;
-        PCJob cmpJob;
+        private PCJob cmpJob;
         private USBDetection usbDetector;
         private List<PCJob> GUIJobList;
         private BackgroundWorker RemovableDiskDetect;
-        private PCJob selectedPCJob;
 
         private List<PCJob> autosyncedJob;
         private System.Threading.Semaphore detectionSemaphore;
+        private System.Threading.Semaphore syncSemaphore;
 
+        private struct SyncJobInfo
+        {
+            public ComparisonResult Result
+            {
+                set;
+                get;
+            }
+            public PCJob CmpJob
+            {
+                set;
+                get;
+            }
+        }
+        private SyncJobInfo syncJobInfo;
         #region float window
         public enum HitTest : int
         {
@@ -165,7 +178,7 @@ namespace CleanSync
         }
         #endregion
 
-
+   
 
         public GUI()
         {
@@ -183,6 +196,8 @@ namespace CleanSync
             }
 
             List<USBJob> incompleteJobList = Control.USBPlugIn(drives);
+
+            syncSemaphore = new Semaphore(1, 1);
             AutoSync();
             UpdateIncompletedJobList(incompleteJobList);
             Control.CheckJobStatus();
@@ -193,8 +208,9 @@ namespace CleanSync
             
             FirstSyncProc = new BackgroundWorker();
             InitializeBackgroundWorker();
-            detectionSemaphore = new System.Threading.Semaphore(1, 1);
+            detectionSemaphore = new Semaphore(1, 1);
 
+            syncJobInfo = new SyncJobInfo();
         }
 
 
@@ -262,22 +278,22 @@ namespace CleanSync
         #region Analyse TreeView Display
         private void DisplayDifferencesTree(bool resync)
         {
-            Differences usbDifferences = result.USBDifferences;
-            Differences pcDifferences = result.PCDifferences;
+            Differences usbDifferences = syncJobInfo.Result.USBDifferences;
+            Differences pcDifferences = syncJobInfo.Result.PCDifferences;
             CompareLogic compareLogic = new CompareLogic();
-            FolderMeta root = cmpJob.FolderInfo;
+            FolderMeta root = syncJobInfo.CmpJob.FolderInfo;
             CleanSyncProc = new BackgroundWorker();
             InitializeCleanSyncProc();
 
             if (root == null)
             {
-                root = new FolderMeta(cmpJob.PCPath, cmpJob.PCPath);
+                root = new FolderMeta(syncJobInfo.CmpJob.PCPath, syncJobInfo.CmpJob.PCPath);
             }
             FolderMeta rootCopy1 = new FolderMeta(root);
             DifferenceToTreeConvertor convertOne = new DifferenceToTreeConvertor();
             rootCopy1 = convertOne.ConvertDifferencesToTreeStructure(pcDifferences);
             TreeViewItem jobTreeView2 = new TreeViewItem();
-            jobTreeView2.Header = "Current Job: " + cmpJob.JobName + " (Changes Made On Computer)";
+            jobTreeView2.Header = "Current Job: " + syncJobInfo.CmpJob.JobName + " (Changes Made On Computer)";
             try
             {
                 DrawTree(rootCopy1, jobTreeView2);
@@ -336,7 +352,7 @@ namespace CleanSync
                 DifferenceToTreeConvertor convertTwo = new DifferenceToTreeConvertor();
                 rootCopy = convertTwo.ConvertDifferencesToTreeStructure(usbDifferences);
                 TreeViewItem jobTreeView = new TreeViewItem();
-                jobTreeView.Header = "Current Job: " + cmpJob.JobName + " (Changes Made On Removable Device)";
+                jobTreeView.Header = "Current Job: " + syncJobInfo.CmpJob.JobName + " (Changes Made On Removable Device)";
                 DrawTree(rootCopy, jobTreeView);
                 CompareResultRight.Items.Add(jobTreeView);
             }
@@ -363,10 +379,12 @@ namespace CleanSync
         private void CleanSyncProc_DoWork(object sender,
             DoWorkEventArgs e)
         {
+            syncSemaphore.WaitOne();
             BackgroundWorker worker = sender as BackgroundWorker;
             try
             {
-                Control.CleanSync(result, cmpJob, worker);
+                SyncJobInfo jobInfo = (SyncJobInfo)e.Argument;
+                Control.CleanSync(jobInfo.Result, jobInfo.CmpJob, worker);
             }
             catch (UnauthorizedAccessException error)
             {
@@ -414,6 +432,10 @@ namespace CleanSync
                 MessageBox.Show(error.Message);
                 //this.Close();
                 return;
+            }
+            finally
+            {
+                syncSemaphore.Release();
             }
         }
 
@@ -473,7 +495,7 @@ namespace CleanSync
             BackgroundWorker worker = sender as BackgroundWorker;
             try
             {
-                Control.FirstTimeSync(selectedPCJob, worker);
+                Control.FirstTimeSync(cmpJob, worker);
             }
             catch (UnauthorizedAccessException error)
             {
@@ -960,13 +982,13 @@ namespace CleanSync
         private void Analyse_Click(object sender, RoutedEventArgs e)
         {
             if (JobList.SelectedIndex != -1)
-                cmpJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
+                syncJobInfo.CmpJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
             else
             {
                 //Status.Content = "No Job Selected";
                 return;
             }
-            if (cmpJob.JobState.Equals(JobStatus.NotReady)||cmpJob.JobState.Equals(JobStatus.Incomplete))
+            if (syncJobInfo.CmpJob.JobState.Equals(JobStatus.NotReady)||syncJobInfo.CmpJob.JobState.Equals(JobStatus.Incomplete))
             {
                 //Status.Content = "Job Not Ready";
                 return;
@@ -978,35 +1000,35 @@ namespace CleanSync
             CompareResultRight.Items.Clear();
             //modify                      
             
-            result = Control.Compare(cmpJob);
-
+            syncJobInfo.Result = Control.Compare(syncJobInfo.CmpJob);
+            
             //Auto Conflict Handle
-            if (!cmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
+            if (!syncJobInfo.CmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
             {
-                result = Control.AutoConflictResolve(cmpJob, result);
+                syncJobInfo.Result = Control.AutoConflictResolve(syncJobInfo.CmpJob, syncJobInfo.Result);
             }
 
-            PCFreeSpace.Content = "Free : " + Control.GetPCFreeSpace(cmpJob);
-            RDFreeSpace.Content = "Free : " + Control.GetUSBFreeSpace(cmpJob);
-            PCRequiredSpace.Content = "Required : " + Control.GetPCRequiredSpace(result);
-            RDRequiredSpace.Content = "Required : " + Control.GetUSBRequiredSpace(result);
+            PCFreeSpace.Content = "Free : " + Control.GetPCFreeSpace(syncJobInfo.CmpJob);
+            RDFreeSpace.Content = "Free : " + Control.GetUSBFreeSpace(syncJobInfo.CmpJob);
+            PCRequiredSpace.Content = "Required : " + Control.GetPCRequiredSpace(syncJobInfo.Result);
+            RDRequiredSpace.Content = "Required : " + Control.GetUSBRequiredSpace(syncJobInfo.Result);
 
 
-            if (result.conflictList.Count != 0 && !Control.Resync(cmpJob))
+            if (syncJobInfo.Result.conflictList.Count != 0 && !Control.Resync(syncJobInfo.CmpJob))
             {
                 //ConflictPanel.Visibility = Visibility.Visible;
                 ShowConflictFrame();
 
                 ConflictList.Items.Clear();
-                for (int i = 0; i < result.conflictList.Count; i++)
+                for (int i = 0; i < syncJobInfo.Result.conflictList.Count; i++)
                 {
-                     ConflictList.Items.Add(result.conflictList.ElementAt(i));
+                     ConflictList.Items.Add(syncJobInfo.Result.conflictList.ElementAt(i));
                 }
             }
             else
             {
                 //ShowAnalyseFrame();
-                DisplayDifferencesTree(Control.Resync(cmpJob));
+                DisplayDifferencesTree(Control.Resync(syncJobInfo.CmpJob));
             }
         }
 
@@ -1032,7 +1054,6 @@ namespace CleanSync
                 {
 
                     //ShowMainFrame();
-                    //selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
                     pcJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
 
                     ConflictRes.DataContext = pcJob.JobSetting;
@@ -1116,7 +1137,7 @@ namespace CleanSync
                     UpdateJobList();
                     AttachDropBox.Text = string.Empty;
 
-                    selectedPCJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
+                    cmpJob = (PCJob)Control.GetPCJobs().ElementAt(Control.GetPCJobs().Count - 1);
                     
                     FirstSyncProgressBar.Visibility = Visibility.Visible;
                     BarLabel.Visibility = Visibility.Visible;
@@ -1130,7 +1151,7 @@ namespace CleanSync
                     FirstSync.IsEnabled = false;
                     CancelCreat.IsEnabled = false;
                     //JobList.IsEnabled = false;
-                    FirstSyncProc.RunWorkerAsync();
+                    FirstSyncProc.RunWorkerAsync(syncJobInfo);
                 }
                 else
                 {
@@ -1316,8 +1337,9 @@ namespace CleanSync
 
         private void AnalyseStartSync_Click(object sender, RoutedEventArgs e)
         {
-            selectedPCJob = (PCJob)Control.GetPCJobs()[JobList.SelectedIndex];
-            if (!Control.CheckUSBDiskSpace(result, selectedPCJob) || !Control.CheckPCDiskSpace(result, selectedPCJob))
+            syncJobInfo.CmpJob = (PCJob)Control.GetPCJobs()[JobList.SelectedIndex];
+            
+            if (!Control.CheckUSBDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob) || !Control.CheckPCDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob))
             {
                 Balloon InfoBalloon = new Balloon();
                 InfoBalloon.BallonContent.Text = "Not Enough Space On Disk. No Synchronization Is Done.";
@@ -1333,12 +1355,12 @@ namespace CleanSync
             //InfoBalloonS.BallonContent.Text = "Clean Synchronization Starts";
             //InfoBalloonS.BalloonText = "CleanSync";
             //CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-            CleanSyncProc.RunWorkerAsync();
+            CleanSyncProc.RunWorkerAsync(syncJobInfo);
         }
 
         private void ConflictConfirm_Click(object sender, RoutedEventArgs e)
         {
-            result = Control.HandleConflicts(result);
+            syncJobInfo.Result = Control.HandleConflicts(syncJobInfo.Result);
 
             DisplayDifferencesTree(false);
         }
@@ -1375,7 +1397,7 @@ namespace CleanSync
         {
             for (int i = 0; i < this.ConflictList.Items.Count; i++)
             {
-                result.conflictList.ElementAt(i).PCSelected = true;
+                syncJobInfo.Result.conflictList.ElementAt(i).PCSelected = true;
             }
         }
 
@@ -1383,7 +1405,7 @@ namespace CleanSync
         {
             for (int i = 0; i < this.ConflictList.Items.Count; i++)
             {
-                result.conflictList.ElementAt(i).USBSelected = true;
+                syncJobInfo.Result.conflictList.ElementAt(i).USBSelected = true;
             }
         }
 
@@ -1391,7 +1413,7 @@ namespace CleanSync
         {
             for (int i = 0; i < this.ConflictList.Items.Count; i++)
             {
-                result.conflictList.ElementAt(i).PCSelected = false;
+                syncJobInfo.Result.conflictList.ElementAt(i).PCSelected = false;
             }
         }
 
@@ -1399,7 +1421,7 @@ namespace CleanSync
         {
             for (int i = 0; i < this.ConflictList.Items.Count; i++)
             {
-                result.conflictList.ElementAt(i).USBSelected = false;
+                syncJobInfo.Result.conflictList.ElementAt(i).USBSelected = false;
             }
         }
 
@@ -1419,47 +1441,47 @@ namespace CleanSync
         private void Synchronize_Click(object sender, RoutedEventArgs e)
         {
             if (JobList.SelectedIndex != -1)
-                cmpJob = Control.GetPCJobs()[JobList.SelectedIndex];
+                syncJobInfo.CmpJob = Control.GetPCJobs()[JobList.SelectedIndex];
             else
             {
                 //Status.Content = "No Job Selected";
                 return;
             }
-            DirectSync(cmpJob);
+            DirectSync();
         }
 
-        private void DirectSync(PCJob cmpJob)
+        private void DirectSync()
         {
             
-            if (cmpJob.JobState.Equals(JobStatus.NotReady) || cmpJob.JobState.Equals(JobStatus.Incomplete))
+            if (syncJobInfo.CmpJob.JobState.Equals(JobStatus.NotReady) || syncJobInfo.CmpJob.JobState.Equals(JobStatus.Incomplete))
             {
                 //Status.Content = "Job Not Ready";
                 return;
             }
 
-            result = Control.Compare(cmpJob);
+            syncJobInfo.Result = Control.Compare(syncJobInfo.CmpJob);
 
-            if (result.conflictList.Count != 0 && !Control.Resync(cmpJob))
+            if (syncJobInfo.Result.conflictList.Count != 0 && !Control.Resync(syncJobInfo.CmpJob))
             {
                 //ConflictPanel.Visibility = Visibility.Visible;
-                if (cmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
+                if (syncJobInfo.CmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
                 {
                     ShowConflictFrame();
 
                     ConflictList.Items.Clear();
-                    for (int i = 0; i < result.conflictList.Count; i++)
+                    for (int i = 0; i < syncJobInfo.Result.conflictList.Count; i++)
                     {
-                        ConflictList.Items.Add(result.conflictList.ElementAt(i));
+                        ConflictList.Items.Add(syncJobInfo.Result.conflictList.ElementAt(i));
                     }
                     return;
                 }
                 else
                 {
-                    result = Control.AutoConflictResolve(cmpJob, result);
+                    syncJobInfo.Result = Control.AutoConflictResolve(syncJobInfo.CmpJob, syncJobInfo.Result);
                 }
             }
 
-            if (!Control.CheckUSBDiskSpace(result, cmpJob) || !Control.CheckPCDiskSpace(result, cmpJob))
+            if (!Control.CheckUSBDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob) || !Control.CheckPCDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob))
             {
                 Balloon InfoBalloon = new Balloon();
                 InfoBalloon.BallonContent.Text = "Not Enough Space On Disk. No Synchronization Is Done.";
@@ -1474,11 +1496,11 @@ namespace CleanSync
             //AnalyseProgressBar.Visibility = Visibility.Visible;
 
             Balloon Background = new Balloon();
-            Background.BallonContent.Text = "Synchronization Job: " + cmpJob.JobName + " is working in background.";
+            Background.BallonContent.Text = "Synchronization Job: " + syncJobInfo.CmpJob.JobName + " is working in background.";
             Background.BalloonText = "CleanSync";
             CleanSyncNotifyIcon.ShowCustomBalloon(Background, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
 
-            CleanSyncProc.RunWorkerAsync();
+            CleanSyncProc.RunWorkerAsync(syncJobInfo);
         }
 
         private void AutoSync()
@@ -1488,8 +1510,8 @@ namespace CleanSync
                 if (pcJob.JobState.Equals(JobStatus.Complete) && pcJob.JobSetting.SyncConfig.Equals(AutoSyncOption.On))
                 {
                     if (autosyncedJob.Contains(pcJob)) continue;
-                    cmpJob = pcJob;
-                    DirectSync(pcJob);
+                    syncJobInfo.CmpJob = pcJob;
+                    DirectSync();
                     autosyncedJob.Add(pcJob);
                 }
             }
