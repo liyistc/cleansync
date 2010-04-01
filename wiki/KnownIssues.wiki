@@ -1,11 +1,8 @@
 #summary One-sentence summary of this page.
 
-Current version - 0.9
+Current version - 1.0
 = Known Issues=
 Currently, CLEANSync has a couple of known issues.
- * Users can currently set a folder from the PC’s drive as the USB folder. When this happens, the job can never be completed since the computer will always detect it as incomplete. Also, the next time it loads the USB’s job will not be detected as CLEANSync only scans external drives for USB job. This leads to a USB job lost on the hard disk.
- * An incomplete USBJob can be corrupted if it is plugged in after CLEANSync has started, and a new job is created with the same name as the USB job. Doing the first synchronization causes the USB job to be written over.
- * If the PC is the most recent PC to synchronize with the USB, analysis of comparison results does not detect and the preview window will display the wrong preview, as if it is a normal synchronization.
- * Re-synchronization with the computer after first synchronization before the other computer accepts the job is not possible.
- * Folder and file authorization is detected but is not handled. If a file or folder which is protected but is changed and CLEANSync attempts to modify or copy it, the program will crash.
- * Ａ rare bug may occur during conflicts resolving, between a deleted folder and a new subfolder in the computer. If the user chooses to delete the parent folder except for the new subfolder, the new subfolder will still be deleted in the other computer.
+CleanSync v1.0 currently has the following known issues:
+
+ * Currently, users can only choose to either keep one of the updates in the event of conflicts. Users can neither choose to execute both updates nor negate both updates.
