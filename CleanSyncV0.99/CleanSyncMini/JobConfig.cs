@@ -10,24 +10,24 @@ namespace CleanSync
     [TypeConverter(typeof(EnumTypeConverter))]
     public enum AutoConflictOption
     {
-        [EnumDisplayName("No Auto Conflict Handle")]
+        [EnumDisplayName("Handle Manually")]
         Off,
         [EnumDisplayName("Keep Local Copy")]
         KeepPCItems,
         [EnumDisplayName("Keep Remote Copy")]
         KeepUSBItems,
-        [EnumDisplayName("Keep Both Copies")]
-        KeepBoth,
-        [EnumDisplayName("Ignore Both Copies")]
-        IgnoreBoth
+        //[EnumDisplayName("Keep Both Copies")]
+        //KeepBoth,
+        //[EnumDisplayName("Ignore Both Copies")]
+        //IgnoreBoth
     }
 
     [TypeConverter(typeof(EnumTypeConverter))]
     public enum AutoSyncOption
     {
-        [EnumDisplayName("No Automation")]
+        [EnumDisplayName("OFF")]
         Off,
-        [EnumDisplayName("Enable Automation")]
+        [EnumDisplayName("ON")]
         On
     }
 

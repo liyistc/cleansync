@@ -31,14 +31,20 @@ namespace DirectoryInformation
         {
             foreach (FolderMeta folder in baseList)
             {
-                newList.Add(new FolderMeta(folder));
+                if (folder != null)
+                    newList.Add(new FolderMeta(folder));
+                else
+                    newList.Add(null);
             }
         }
         private void DuplicateFileList(List<FileMeta> newList, List<FileMeta> baseList)
         {
             foreach (FileMeta file in baseList)
             {
-                newList.Add(new FileMeta(file));
+                if (file != null)
+                    newList.Add(new FileMeta(file));
+                else
+                    newList.Add(null);
             }
         }
         private void LableSubFoldersAndFiles(FolderMeta rootFolder, ComponentMeta.Type type)
@@ -47,10 +53,12 @@ namespace DirectoryInformation
             List<FolderMeta> folderList = rootFolder.folders;
             foreach (FileMeta file in fileList)
             {
+                if (file == null) continue;
                 file.FileType = type;
             }
             foreach (FolderMeta folder in folderList)
             {
+                if (folder == null) continue;
                 folder.FolderType = type;
                 LableSubFoldersAndFiles(folder, type);
             }
@@ -126,33 +134,39 @@ namespace DirectoryInformation
            return RemoveFile(file, deletedFileDifference, "deletedFileList"); 
         }
 
-        private bool RemoveFile(FileMeta fileToBeRemoved, List<FileMeta> fileList,string info)
+        private bool RemoveFile(FileMeta fileToBeRemoved, List<FileMeta> fileList, string info)
         {
             bool deleted = false;
             string fileToBeRemovedInfo = fileToBeRemoved.Path + fileToBeRemoved.Name;
-            foreach (FileMeta file in fileList)
+            for (int i = 0; i < fileList.Count; i++)
             {
+                FileMeta file = fileList[i];
+                if (file == null)
+                    continue;
                 if (fileToBeRemovedInfo.Equals(file.Path + file.Name))
                 {
-                    fileList.Remove(file);
+                    //  fileList.Remove(file);
+                    fileList[i] = null;
                     deleted = true;
-                    Console.WriteLine("DDDDDDDDdeletingFile: " +info+":  " + file.AbsolutePath);
+                    //  Console.WriteLine("DDDDDDDDdeletingFile: " +info+":  " + file.AbsolutePath);
                     break;
                 }
             }
             return deleted;
         }
-        private bool RemoveFolder(FolderMeta folderToBeRemoved, List<FolderMeta> folderList,string info)
+        private bool RemoveFolder(FolderMeta folderToBeRemoved, List<FolderMeta> folderList, string info)
         {
             bool deleted = false;
             string folderToBeRemovedInfo = folderToBeRemoved.Path + folderToBeRemoved.Name;
-            foreach (FolderMeta folder in folderList)
+            for (int i = 0; i < folderList.Count; i++)
             {
+                FolderMeta folder = folderList[i];
                 if (folderToBeRemovedInfo.Equals(folder.Path + folder.Name))
                 {
-                    folderList.Remove(folder);
+                    //folderList.Remove(folder);
+                    folderList[i] = null;
                     deleted = true;
-                    Console.WriteLine("DDDDDDDDdeletingFolder: " +info+": " + folder.AbsolutePath);
+                    //Console.WriteLine("DDDDDDDDdeletingFolder: " + info + ": " + folder.AbsolutePath);
                     break;
                 }
             }
@@ -195,10 +209,13 @@ namespace DirectoryInformation
             long size = 0;
             foreach (FolderMeta folder in folders)
             {
-                if (folder.files != null)
-                    size += GetFileSize(folder.files);
-                if (folder.folders != null)
-                    size += GetFolderSize(folder.folders);
+                if (folder != null)
+                {
+                    if (folder.files != null)
+                        size += GetFileSize(folder.files);
+                    if (folder.folders != null)
+                        size += GetFolderSize(folder.folders);
+                }
             }
             return size;
         }
@@ -208,7 +225,8 @@ namespace DirectoryInformation
             long size = 0;
             foreach (FileMeta file in files)
             {
-                size += file.Size;
+                if (file != null)
+                    size += file.Size;
             }
             return size;
         }

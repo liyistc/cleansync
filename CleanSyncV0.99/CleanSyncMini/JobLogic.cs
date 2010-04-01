@@ -430,7 +430,7 @@ namespace CleanSync
             if (pcJob.GetUsbJob() != null)
             {
                     
-                if (pcJob.JobState.Equals(JobStatus.Incomplete))
+                if (pcJob.GetUsbJob().JobState.Equals(JobStatus.Incomplete))
                 {
                     ReadAndWrite.DeleteFile(ReadAndWrite.GetIncompleteUSBFilePath(pcJob.GetUsbJob()));
                     ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath);
@@ -480,20 +480,20 @@ namespace CleanSync
         {
             switch (pcJob.JobSetting.ConflictConfig)
             {
-                case AutoConflictOption.IgnoreBoth:
-                    SetConflictUserChoice(result.conflictList, false, false);
-                    break;
+                //case AutoConflictOption.IgnoreBoth:
+                //    SetConflictUserChoice(result.conflictList, false, false);
+                //    break;
                 case AutoConflictOption.KeepPCItems:
                     SetConflictUserChoice(result.conflictList, true, false);
                     break;
                 case AutoConflictOption.KeepUSBItems:
                     SetConflictUserChoice(result.conflictList, false, true);
                     break;
-                case AutoConflictOption.KeepBoth:
-                    // To be implemented.
-                    // conflict rename
-                    SetConflictUserChoice(result.conflictList, false, false);
-                    break;
+                //case AutoConflictOption.KeepBoth:
+                //    // To be implemented.
+                //    // conflict rename
+                //    SetConflictUserChoice(result.conflictList, false, false);
+                //    break;
             }
             return HandleConflicts(result);
         }

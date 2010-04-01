@@ -43,7 +43,10 @@ namespace CleanSync
             {
                 throw new Exception("Failed to load binary.");
             }
-            fileStream.Close();
+            finally
+            {
+                fileStream.Close();
+            }
             return dataObject;
         }
 
@@ -98,7 +101,10 @@ namespace CleanSync
 
                 throw new Exception("Failed to save binary.");
             }
-            fileStream.Close();
+            finally
+            {
+                fileStream.Close();
+            }
         }
     }
 }
