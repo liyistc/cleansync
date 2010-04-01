@@ -11,3 +11,4 @@ MetaData classes store various information used by CLEANSync to perform its oper
   * [http://code.google.com/p/cleansync/wiki/Differences Differences ]
   * ComparisonResult 
   * [http://code.google.com/p/cleansync/wiki/Conflict Conflict]
+  * [http://code.google.com/p/cleansync/wiki/JobConfig JobConfig]
