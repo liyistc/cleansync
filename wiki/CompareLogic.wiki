@@ -1,45 +1,5 @@
 = CompareLogic=
-
+==Introduction==
 CompareLogic handle comparison between two folders, given two root folders, it is able to tell what are the changes: "modified", "deleted" or "created". And return a comprehensive result to callers.
-----
-=Methods=
-CompareLogic currently handles three different jobs: Checking for differences between folders, checking for conflicts between 2 differences and converting the differences from list form to a tree form.
 
-==Checking for differences==
-===Public===
- * *Differences ConvertFolderMetaToDifferences(FolderMeta folderMeta)*
- * *Differences CompareDirectories(FolderMeta newTree, FolderMeta oldTree)*
-===Private===
- * *void CompareDirectories(FolderMeta newTree, FolderMeta oldTree, Differences differences)*
- * *void CompareFiles(FolderMeta newFolder, FolderMeta oldFolder, Differences differences)*
- * *void CompareFolders(FolderMeta newFolder, FolderMeta oldFolder, Differences differences)*
-==Checking for conflicts==
-===Public===
- * *List`<`Conflicts`>` ComparePCwithUSB(Differences USBFoldersAndFiles, Differences PCFoldersAndFiles)*
-===Private===
- * *void DetectDeletedFolderConflict(List`<`Conflicts`>` conflicts, List`<`FolderMeta`>` folderList, Differences differences, int PCorUSBIndex)*
- * *void DetectNewAndModifiedFileConflict(List`<`Conflicts`>` conflicts,Differences PCDifferences, Differences USBDifferences)*
- * *void DetectDeletedFileConflict(List`<`Conflicts`>` conflicts,Differences PCDifferences, Differences USBDifferences)*
- * *void DetectNewAndModifiedFileConflict(List`<`Conflicts`>` conflicts, List`<`FileMeta`>` fileList, Differences USBDifferences, Conflicts.ConflictType type)*
- * *void DetectNewFolderConflictWithDeletedFolderList(List`<`Conflicts`>` conflicts, List`<`FolderMeta`>` newFolderList, List`<`FolderMeta`>` deletedFolderList, int PCorUSBIndex)*
- * *void DetectFileConflictWithDeletedFolderList(List`<`Conflicts`>` conflicts,Conflicts.ConflictType type, List`<`FileMeta`>` fileList, List`<`FolderMeta`>` deletedFolderList, int PCorUSBIndex)*
- * *void DetectNewFolderConflictWithNewFolderList(List`<`Conflicts`>` conflicts, Differences PCDifferences, Differences USBDifferences)*
-==Converting list to tree==
-These methods are used for converting differences from list to tree form. As the differences consists of lists of ComponentMeta, these methods will use these ComponentMeta to construct a tree of folder and component meta which contains these differences only. 
-===Public===
- * *FolderMeta ConvertDifferencesToTreeStructure(FolderMeta root, Differences differences)*
- * *void AppendFileListToFileList(List`<`FileMeta`>` fileList, List`<`FileMeta`>` baseList)*
- * *void AppendFolderListToFolderList(List`<`FolderMeta`>` folderList, List`<`FolderMeta`>` baseList)*
-===Private===
- * *void RemoveFile(FileMeta fileToBeRemoved, List`<`FileMeta`>` fileList)*
- * *void RemoveFolder(FolderMeta folderToBeRemoved, List`<`FolderMeta`>` folderList)*
- * *FileMeta CheckFileInList(FileMeta fileToBeChecked, List`<`FileMeta`>` fileList)*
- * *FolderMeta CheckFolderInList(FolderMeta folderToBeChecked, List`<`FolderMeta`>` folderList)*
- * *void ConvertSubFolders(FolderMeta root, Differences differences, List`<`FolderMeta`>` subFolders)*
- * *void AddDeletedFilesToRootFileList(FolderMeta root, List`<`FileMeta`>` deletedFileList)*
- * *void RemoveUntouchedFilesFromRootFileList(FolderMeta root, Differences differences, List`<`FileMeta`>` subFiles)*
- * *static void ClearRootUnTouchedFolders(FolderMeta root)*
- * *void ClearFileList(FolderMeta root, List`<`FileMeta`>` fileList, ComponentMeta.Type type)*
- * *void ClearFolderList(FolderMeta root, List`<`FolderMeta`>` folderList, ComponentMeta.Type type)*
- * *bool checkFileExistence(FileMeta file, Differences differences)*
- * *bool checkFolderExistence(FolderMeta folder, Differences differences)*
+CompareLogic currently handles two different jobs: Checking for differences between folders and checking for conflicts between 2 differences. 
