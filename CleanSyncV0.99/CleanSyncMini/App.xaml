@@ -1,16 +1,16 @@
 ﻿<Application x:Class="CleanSyncMini.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    StartupUri="Window1.xaml">
+    StartupUri="CleanSyncGUI.xaml">
     <Application.Resources>
-        <Style TargetType="{x:Type Label}" BasedOn="{StaticResource {x:Type Label}}">
+        <!--Style TargetType="{x:Type Label}" BasedOn="{StaticResource {x:Type Label}}">
             <Setter Property="FontSize" Value="12" />
             <Setter Property="BitmapEffect">
                 <Setter.Value>
                     <OuterGlowBitmapEffect GlowColor="GhostWhite" GlowSize="2.2"></OuterGlowBitmapEffect>
                 </Setter.Value>
             </Setter>            
-        </Style>
+        </Style-->
         <Style x:Key="WaterMarkJobName"
        BasedOn="{StaticResource {x:Type TextBox}}"
        TargetType="{x:Type TextBox}">
@@ -24,7 +24,7 @@
                                   SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                             <TextBlock x:Name="textBlock"
                                Opacity="0.5"
-                               Text="  Enter Your Job Name Here."
+                               Text=" Enter Your Job Name"
                                TextWrapping="Wrap"
                                Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
@@ -61,7 +61,7 @@
                                   SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
                             <TextBlock x:Name="textBlock"
                                Opacity="0.5"
-                               Text="  Select Target Folder."
+                               Text=" Select Target Folder"
                                TextWrapping="Wrap"
                                Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         </Grid>

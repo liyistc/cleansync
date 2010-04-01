@@ -103,11 +103,13 @@ namespace CleanSync
         {
             foreach (FileMeta file in folder.files)
             {
-                DeleteFile(pcJob.PCPath + file.Path + file.Name);
+                if (file != null)
+                    DeleteFile(pcJob.PCPath + file.Path + file.Name);
             }
             foreach (FolderMeta subFolder in folder.folders)
             {
-                DeleteFolder(pcJob,subFolder);
+                if (subFolder != null)
+                    DeleteFolder(pcJob,subFolder);
             }
             if (Directory.GetFiles(pcJob.PCPath + folder.Path + folder.Name).Length == 0 && Directory.GetDirectories(pcJob.PCPath + folder.Path + folder.Name).Length == 0)
                 Directory.Delete(pcJob.PCPath + folder.Path + folder.Name);
@@ -309,7 +311,7 @@ namespace CleanSync
             }
         }
 
-        public static void CopyFolder(string source, PCJob pcJob, FolderMeta folder)
+        public static void CopyFolder(string source, PCJob pcJob, FolderMeta folder, System.ComponentModel.BackgroundWorker worker, double onePercentSize)
         {
             string destination = pcJob.PCPath + folder.Path + folder.Name;
             CreateDirectory(destination);
@@ -317,12 +319,29 @@ namespace CleanSync
             foreach (FileMeta file in folder.files)
             {
                 if (file != null)
-                    CopyFile(source + @"\" + file.Name, destination + @"\" + file.Name);
+                    CopyFile(source + @"\" + file.Name, destination + @"\" + file.Name,worker,onePercentSize);
             }
             foreach (FolderMeta subFolder in folder.folders)
             {
                 if (subFolder != null)
-                    CopyFolder(source + @"\" + subFolder.Name, pcJob, subFolder);
+                    CopyFolder(source + @"\" + subFolder.Name, pcJob, subFolder,worker,onePercentSize);
+            }
+        }
+
+        public static void CopyFolder(PCJob pcJob, FolderMeta folder, string destination, System.ComponentModel.BackgroundWorker worker, double onePercentSize)
+        {
+            string source = pcJob.PCPath + folder.Path + folder.Name;
+            CreateDirectory(destination);
+            LogFile.FolderCopy(source, destination);
+            foreach (FileMeta file in folder.files)
+            {
+                if (file != null)
+                    CopyFile(source + @"\" + file.Name, destination + @"\" + file.Name,worker,onePercentSize);
+            }
+            foreach (FolderMeta subFolder in folder.folders)
+            {
+                if (subFolder != null)
+                    CopyFolder(pcJob, subFolder, destination + @"\" + subFolder.Name,worker,onePercentSize);
             }
         }
 
@@ -524,7 +543,7 @@ namespace CleanSync
 
         internal static string GetUSBRootPath(USBJob usbJob)
         {
-            return GetRootPath(usbJob) + @"\CleanSync\_cs_job_data";
+            return GetRootPath(usbJob) + @"\_CleanSync_Data_\_cs_job_data";
         }
 
         private static string GetRootPath(USBJob usbJob)
@@ -541,7 +560,7 @@ namespace CleanSync
 
         internal static string GetUSBRootPath(string usbPath)
         {
-            return GetRootPath(usbPath) + @"\CleanSync\_cs_job_data";
+            return GetRootPath(usbPath) + @"\_CleanSync_Data_\_cs_job_data";
         }
 
         public static string GetRootPath(string usbPath)

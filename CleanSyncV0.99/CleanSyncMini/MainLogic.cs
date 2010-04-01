@@ -30,6 +30,9 @@ namespace CleanSync
             IncompleteList = new List<USBJob>();
         }
 
+        /// <summary>
+        /// Return the Current connected Drives
+        /// </summary>
         public List<string> GetCurrentDrives
         {
             get { return CurrentDrives; }
@@ -42,7 +45,7 @@ namespace CleanSync
         }
          internal PCJob CreateJob(string JobName,string PCPath, string pathName, JobConfig config)
          {
-             return jobLogic.CreateJob(JobName,PCPath, pathName+@"CleanSync\"+JobName, thisPCID, config);
+             return jobLogic.CreateJob(JobName,PCPath, pathName+@"_CleanSync_Data_\"+JobName, thisPCID, config);
          }
          internal void FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
          {
@@ -99,6 +102,13 @@ namespace CleanSync
              ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
          }
 
+        /// <summary>
+        /// Accept a Job from USB device and
+        /// create a Job on Local disk
+        /// </summary>
+        /// <param name="jobUSB"></param>
+        /// <param name="PCPath"></param>
+        /// <returns>PCJob</returns>
          internal PCJob CreateJob(USBJob jobUSB, string PCPath)
          {
              
@@ -108,12 +118,23 @@ namespace CleanSync
          }
 
 
+        /// <summary>
+        /// Compare old metadata with current metadata
+        /// </summary>
+        /// <param name="pcJob"></param>
+        /// <returns>ComparisonResult</returns>
          internal ComparisonResult Compare(PCJob pcJob)
          {
              ComparisonResult compResult = jobLogic.Compare(pcJob);
              return compResult;
          }
 
+        /// <summary>
+        /// Carry out normal clean synchronization
+        /// </summary>
+        /// <param name="comparisonResult"></param>
+        /// <param name="pcJob"></param>
+        /// <param name="worker"></param>
          internal void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
          {
              jobLogic.CleanSync(comparisonResult, pcJob, worker);
@@ -239,6 +260,11 @@ namespace CleanSync
             jobLogic.CheckJobStatus();
         }
 
+        /// <summary>
+        /// Validate a folder path
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns>bool</returns>
         public bool ValidatePath(string path)
         {
             Regex fileRegex = new Regex(@"^[a-zA-Z]:(\\[^\""\?\\\/\:\*\<\>\|]+)*\\?$");
@@ -248,11 +274,16 @@ namespace CleanSync
             else return false;
         }
 
+        /// <summary>
+        /// Validate a job name
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public bool ValidateJobName(string name)
         {
-            Regex nameRegex = new Regex(@"[^\""\?\\\/\:\*\<\>\|]+");
+            Regex nameRegex = new Regex(@"^[^\""\?\\\/\:\*\<\>\|]+$");
             Match match = nameRegex.Match(name);
-            if (match.Success && name.Length <= 100)
+            if (match.Success && name.Length <= 100 && !name.Trim().Equals(string.Empty))
                 return true;
             else return false;
         }

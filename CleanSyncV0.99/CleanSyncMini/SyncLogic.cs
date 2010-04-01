@@ -31,14 +31,17 @@ namespace DirectoryInformation
         {
 
             this.bgWorker = worker;
-            initializeTotalSize(comparisonResult);
 
             if (pcJob.PCID == pcJob.GetUsbJob().MostRecentPCID) //this is the most recent PC to sync, so do a re-synchronization
             {
+                initializeTotalSize(comparisonResult, true);
                 CleanSyncReSync(comparisonResult, pcJob);
             }
-            else NormalCleanSync(comparisonResult, pcJob);  //the other PC was the most recent PC to sync, so do a normal synchronization
-
+            else
+            {
+                initializeTotalSize(comparisonResult,false);
+                NormalCleanSync(comparisonResult, pcJob);  //the other PC was the most recent PC to sync, so do a normal synchronization
+            }
             pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;  //update most recent PC 
             this.bgWorker = null;
         }
@@ -53,7 +56,7 @@ namespace DirectoryInformation
         {
             this.bgWorker = worker;
             InitializeTotalSizeFirstTimeSynchronization(PCToUSB);
-
+            ReadAndWrite.CreateDirectory(pcJob.AbsoluteUSBPath);
             SyncPCToUSB(PCToUSB, pcJob);
 
             this.bgWorker = null;
@@ -63,18 +66,19 @@ namespace DirectoryInformation
 
         #region Check size to copy
 
-        private void initializeTotalSize(ComparisonResult comparisonResult)
+        private void initializeTotalSize(ComparisonResult comparisonResult,bool resync)
         {
             totalSize = 0;   //reset totalSize
 
+            if (!resync)
+            {
+                updateFileSize(comparisonResult.USBDifferences.getNewFileList());
+                updateFileSize(comparisonResult.USBDifferences.getModifiedFileList());
+                updateFolderSize(comparisonResult.USBDifferences.getNewFolderList());
+            }
             updateFileSize(comparisonResult.PCDifferences.getNewFileList());
             updateFileSize(comparisonResult.PCDifferences.getModifiedFileList());
-
-            updateFileSize(comparisonResult.USBDifferences.getNewFileList());
-            updateFileSize(comparisonResult.USBDifferences.getModifiedFileList());
-
             updateFolderSize(comparisonResult.PCDifferences.getNewFolderList());
-            updateFolderSize(comparisonResult.USBDifferences.getNewFolderList());
 
             onePercentSize = totalSize / 100;
         }
@@ -97,10 +101,13 @@ namespace DirectoryInformation
         {
             foreach (FolderMeta folder in folders)
             {
-                if (folder.files != null)
-                    updateFileSize(folder.files);
-                if (folder.folders != null)
-                    updateFolderSize(folder.folders);
+                if (folder != null)
+                {
+                    if (folder.files != null)
+                        updateFileSize(folder.files);
+                    if (folder.folders != null)
+                        updateFolderSize(folder.folders);
+                }
             }
         }
 
@@ -108,7 +115,8 @@ namespace DirectoryInformation
         {
             foreach (FileMeta file in files)
             {
-                totalSize += file.Size;
+                if (file != null)
+                    totalSize += file.Size;
             }
         }
         #endregion
@@ -125,6 +133,8 @@ namespace DirectoryInformation
             Debug.Assert(USBToPC != null);
             Debug.Assert(PCToUSB != null);
 
+            ClearNullEntry(PCToUSB);
+
             SyncUSBToPC(USBToPC, pcJob);
             SyncPCToUSB(PCToUSB, pcJob);
 
@@ -133,6 +143,45 @@ namespace DirectoryInformation
             pcJob.FolderInfo = ReadAndWrite.BuildTree(pcJob.PCPath);
             ReadAndWrite.ExportPCJob(pcJob);
 
+        }
+
+        private void ClearNullEntry(Differences differences)
+        {
+            ClearFolderList(differences.getNewFolderList());
+            ClearFolderList(differences.getDeletedFolderList());
+            ClearFileList(differences.getNewFileList());
+            ClearFileList(differences.getModifiedFileList());
+            ClearFileList(differences.getDeletedFileList());
+        }
+        private void ClearFolderList(List<FolderMeta> folderList)
+        {
+            for (int i = 0; i < folderList.Count; i++)
+            {
+                FolderMeta folder = folderList[i];
+                if (folder == null)
+                {
+                    folderList.Remove(folder);
+                    i--;
+                }
+                else
+                {
+                    ClearFolderList(folder.folders);
+                    ClearFileList(folder.files);
+                }
+
+            }
+        }
+        private void ClearFileList(List<FileMeta> fileList)
+        {
+            for (int i = 0; i < fileList.Count; i++)
+            {
+                FileMeta file = fileList[i];
+                if (file == null)
+                {
+                    fileList.Remove(file);
+                    i--;
+                }
+            }
         }
 
         private void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)
@@ -152,7 +201,8 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
             {
-                ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
+                if (modifiedFile != null) 
+                    ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
 
                 i++;
             }
@@ -163,7 +213,8 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta newFile in newFileList)
             {
-                      ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
+                if (newFile != null) 
+                    ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
 
                 i++;
             }
@@ -174,8 +225,9 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FolderMeta newFolder in newFolderList)
             {
-                ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, bgWorker, onePercentSize);
-
+                //ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, bgWorker, onePercentSize);
+                if (newFolder != null) 
+                    ReadAndWrite.CopyFolder(pcJob, newFolder, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i,bgWorker,onePercentSize);
                 i++;
             }
         }
@@ -199,7 +251,9 @@ namespace DirectoryInformation
         {
             foreach (FileMeta deletedFile in deletedFileList)
             {
-                ReadAndWrite.DeleteFile(pcJob.PCPath + deletedFile.Path + deletedFile.Name);
+
+                if (deletedFile != null) 
+                    ReadAndWrite.DeleteFile(pcJob.PCPath + deletedFile.Path + deletedFile.Name);
             }
         }
 
@@ -208,7 +262,8 @@ namespace DirectoryInformation
             int i = 0;
             foreach (FileMeta modifiedFile in modifiedFileList)
             {
-                ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, bgWorker, onePercentSize);
+                if (modifiedFile != null) 
+                    ReadAndWrite.CopyFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", pcJob.PCPath + modifiedFile.Path + modifiedFile.Name,bgWorker,onePercentSize);
                 ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
 
                 i++;
@@ -232,7 +287,8 @@ namespace DirectoryInformation
         {
             foreach (FolderMeta deletedFolder in deleteFolderList)
             {
-                ReadAndWrite.DeleteFolder(pcJob, deletedFolder);
+                if (deletedFolder != null) 
+                    ReadAndWrite.DeleteFolder(pcJob, deletedFolder);
 
             }
         }
@@ -243,7 +299,7 @@ namespace DirectoryInformation
             foreach (FolderMeta newFolder in newFolderList)
             {
                 if (newFolder != null) //ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob.PCPath + newFolder.Path + newFolder.Name, bgWorker, onePercentSize);
-                    ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob, newFolder);
+                    ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i, pcJob, newFolder,bgWorker,onePercentSize);
                 ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
 
                 i++;
@@ -312,10 +368,13 @@ namespace DirectoryInformation
                 int n = 0;
                 foreach (FolderMeta newFolderOld in oldDifferences.getNewFolderList())
                 {
-                    if (newFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                    if (newFolderOld != null)
                     {
-                        found = true;
-                        ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFile.Name);
+                        if (newFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                        {
+                            found = true;
+                            ReadAndWrite.CopyFile(pcJob.PCPath + newFile.Path + newFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFile.Name,bgWorker,onePercentSize);
+                        }
                     }
                     n++;
                     if (found) break;
@@ -338,44 +397,42 @@ namespace DirectoryInformation
                 int n = 0;
                 foreach (FolderMeta newFolderOld in oldDifferences.getNewFolderList())
                 {
-                    if (modifiedFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                    if (newFolderOld != null)
                     {
-                        found = true;
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + modifiedFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + modifiedFile.Name);
+                        if (modifiedFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                        {
+                            ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + modifiedFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + modifiedFile.Name,bgWorker,onePercentSize);
+                            found = true;
+                        }
                     }
                     n++;
                     if (found) break;
                 }
-
                 for (int i = 0; i < newFilesOld.Count && !found; i++)
                 {
-                    if ((modifiedFile.Path + modifiedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
+                    if (newFilesOld[i] != null)
                     {
-                        newFilesOld[i] = modifiedFile;
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
-                        found = true;
-                    }
-                }
-                for (int i = 0; i < newFilesOld.Count && !found; i++)
-                {
-                    if ((modifiedFile.Path + modifiedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
-                    {
-                        newFilesOld[i] = modifiedFile;
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
-                        found = true;
+                        if ((modifiedFile.Path + modifiedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
+                        {
+                            newFilesOld[i] = modifiedFile;
+                            ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
+                            ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp", bgWorker, onePercentSize);
+                            found = true;
+                        }
                     }
                 }
 
                 for (int i = 0; i < modifiedFilesOld.Count && !found; i++)
                 {
-                    if ((modifiedFile.Path + modifiedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
+                    if (modifiedFilesOld[i] != null)
                     {
-                        modifiedFilesOld[i] = modifiedFile;
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
-                        ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
-                        found = true;
+                        if ((modifiedFile.Path + modifiedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
+                        {
+                            modifiedFilesOld[i] = modifiedFile;
+                            ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
+                            ReadAndWrite.CopyFile(pcJob.PCPath + modifiedFile.Path + modifiedFile.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp", bgWorker, onePercentSize);
+                            found = true;
+                        }
                     }
                 }
                 if (!found)
@@ -394,33 +451,42 @@ namespace DirectoryInformation
                 bool found = false; int n = 0;
                 foreach (FolderMeta newFolderOld in oldDifferences.getNewFolderList())
                 {
-                    if (deletedFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                    if (newFolderOld != null)
                     {
-                        found = true;
-                        //string test =(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + deletedFile.Path.Substring(newFolderOld.Path.Length) + deletedFile.Name);
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + deletedFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + deletedFile.Name);
+                        if (deletedFile.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                        {
+                            found = true;
+                            //string test =(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + deletedFile.Path.Substring(newFolderOld.Path.Length) + deletedFile.Name);
+                            ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + deletedFile.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + deletedFile.Name);
 
+                        }
                     }
                     n++;
                     if (found) break;
                 }
                 for (int i = 0; i < newFilesOld.Count && !found; i++)
                 {
-                    if ((deletedFile.Path + deletedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
+                    if (newFilesOld[i] != null)
                     {
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
-                        newFilesOld[i] = null;
-                        found = true;
+                        if ((deletedFile.Path + deletedFile.Name).Equals(newFilesOld[i].Path + newFilesOld[i].Name))
+                        {
+                            ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + ".temp");
+                            newFilesOld[i] = null;
+                            found = true;
+                        }
                     }
                 }
                 for (int i = 0; i < modifiedFilesOld.Count && !found; i++)
                 {
-                    if ((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
+                    if (modifiedFilesOld[i] != null)
                     {
-                        ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
-                        modifiedFilesOld[i] = null;
-                        oldDifferences.AddDeletedFileDifference(deletedFile);
-                        found = true;
+                        if ((deletedFile.Path + deletedFile.Name).Equals(modifiedFilesOld[i].Path + modifiedFilesOld[i].Name))
+                        {
+                            ReadAndWrite.DeleteFile(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "m" + i + ".temp");
+                            modifiedFilesOld[i] = null;
+                            oldDifferences.AddDeletedFileDifference(deletedFile);
+                            found = true;
+                        }
                     }
                 }
                 if (!found) oldDifferences.AddDeletedFileDifference(deletedFile);
@@ -437,11 +503,14 @@ namespace DirectoryInformation
                 int n = 0;
                 foreach (FolderMeta newFolderOld in oldDifferences.getNewFolderList())
                 {
-                    if (newFolder.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                    if (newFolderOld != null)
                     {
-                        found = true;
-                        string test = pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFolder.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFolder.Name;
-                        ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFolder.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFolder.Name);
+                        if (newFolder.Path.IndexOf(newFolderOld.Path + newFolderOld.Name) == 0)
+                        {
+                            found = true;
+                            string test = pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFolder.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFolder.Name;
+                            ReadAndWrite.CopyFolder(pcJob.PCPath + newFolder.Path + newFolder.Name, pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + n + "\\" + newFolder.Path.Substring((newFolderOld.Path + newFolderOld.Name).Length) + newFolder.Name);
+                        }
                     }
                     n++;
                     if (found) break;
@@ -461,34 +530,41 @@ namespace DirectoryInformation
             foreach (FolderMeta deletedFolder in deletedFoldersNew)
             {
                 bool found = false;
+               
                 for (int i = 0; i < newFoldersOld.Count && !found; i++)
                 {
-                    if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
+                    if (newFoldersOld[i] != null)
                     {
-                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
-                        newFoldersOld[i] = null;
-                        found = true;
+                        if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
+                        {
+                            ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
+                            newFoldersOld[i] = null;
+                            found = true;
+                        }
                     }
                 }
                 for (int i = 0; i < newFoldersOld.Count && !found; i++)
                 {
-                    if ((deletedFolder.Path + deletedFolder.Name).IndexOf(newFoldersOld[i].Path + newFoldersOld[i].Name) == 0 &&
-                        (deletedFolder.Path + deletedFolder.Name).Length > (newFoldersOld[i].Path + newFoldersOld[i].Name).Length)
+                    if (newFoldersOld[i] != null)
                     {
-                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + deletedFolder.Path.Substring((newFoldersOld[i].Path + newFoldersOld[i].Name).Length) + deletedFolder.Name);
-                        found = true;
-                    }
-                    else if ((deletedFolder.Path + deletedFolder.Name).IndexOf(newFoldersOld[i].Path + newFoldersOld[i].Name) == 0 &&
-                        (deletedFolder.Path + deletedFolder.Name).Length < (newFoldersOld[i].Path + newFoldersOld[i].Name).Length)
-                    {
-                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
-                        newFoldersOld[i] = null;
-                    }
-                    else if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
-                    {
-                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
-                        newFoldersOld[i] = null;
-                        found = true;
+                        if ((deletedFolder.Path + deletedFolder.Name).IndexOf(newFoldersOld[i].Path + newFoldersOld[i].Name) == 0 &&
+                            (deletedFolder.Path + deletedFolder.Name).Length > (newFoldersOld[i].Path + newFoldersOld[i].Name).Length)
+                        {
+                            ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i + deletedFolder.Path.Substring((newFoldersOld[i].Path + newFoldersOld[i].Name).Length) + deletedFolder.Name);
+                            found = true;
+                        }
+                        else if ((deletedFolder.Path + deletedFolder.Name).IndexOf(newFoldersOld[i].Path + newFoldersOld[i].Name) == 0 &&
+                            (deletedFolder.Path + deletedFolder.Name).Length < (newFoldersOld[i].Path + newFoldersOld[i].Name).Length)
+                        {
+                            ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
+                            newFoldersOld[i] = null;
+                        }
+                        else if ((deletedFolder.Path + deletedFolder.Name).Equals(newFoldersOld[i].Path + newFoldersOld[i].Name))
+                        {
+                            ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath + "\\" + pcJob.JobName + "n" + i);
+                            newFoldersOld[i] = null;
+                            found = true;
+                        }
                     }
                 }
                 if (!found) oldDifferences.AddDeletedFolderDifference(deletedFolder);

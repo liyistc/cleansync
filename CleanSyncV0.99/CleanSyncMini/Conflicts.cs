@@ -238,9 +238,8 @@ namespace DirectoryInformation
         public Conflicts.UserChoice getUserChoice()
         {
             if (USBSelected) return Conflicts.UserChoice.KeepUSBUpdates;
-            else if (PCSelected) return Conflicts.UserChoice.KeepPCUpdates;
-            else return Conflicts.UserChoice.Untouched;
-        }
+            else return Conflicts.UserChoice.KeepPCUpdates;
+        } 
 
         private void setIconImage()
         {

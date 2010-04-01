@@ -368,7 +368,7 @@
             <Setter Property="OverridesDefaultStyle" Value="True"/>
             <Setter Property="Margin" Value="2"/>
             <Setter Property="FontFamily" Value="Times New Roman"/>
-            <Setter Property="FontSize" Value="12px"/>
+            <Setter Property="FontSize" Value="14px"/>
             <Setter Property="FontWeight" Value="Normal"/>
             <Setter Property="FocusVisualStyle" Value="{StaticResource MyFocusVisual}" />
             <Setter Property="Background" >
@@ -393,9 +393,9 @@
                                 <ContentPresenter HorizontalAlignment="Center" 
 	                           VerticalAlignment="Center" Name="contentShadow" 
 					Style="{StaticResource ShadowStyle}">
-                                    <ContentPresenter.RenderTransform>
+                                    <!--ContentPresenter.RenderTransform>
                                         <TranslateTransform X="1.0" Y="1.0" />
-                                    </ContentPresenter.RenderTransform>
+                                    </ContentPresenter.RenderTransform-->
                                 </ContentPresenter>
                                 <ContentPresenter HorizontalAlignment="Center" 
                             VerticalAlignment="Center" Name="content"/>
@@ -452,9 +452,23 @@
         <Style TargetType="ListBoxItem">
             <Style.Resources>
                 <!--SelectedItem with focus-->
-                <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="LightBlue" Opacity=".4"/>
-                <!--SelectedItem without focus-->
-                <SolidColorBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Color="LightBlue" Opacity=".4"/>
+                <LinearGradientBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Opacity=".4" StartPoint="0,0" EndPoint="0,1">
+                        <GradientBrush.GradientStops>
+                            <GradientStopCollection>
+                                <GradientStop Color="LightGray" Offset="0.0"/>
+                                <GradientStop Color="Black" Offset="1.0"/>
+                            </GradientStopCollection>
+                        </GradientBrush.GradientStops>
+                 </LinearGradientBrush>
+                    <!--SelectedItem without focus-->
+                <LinearGradientBrush x:Key="{x:Static SystemColors.ControlBrushKey}" Opacity=".4" StartPoint="0,0" EndPoint="0,1">
+                    <GradientBrush.GradientStops>
+                        <GradientStopCollection>
+                            <GradientStop Color="LightGray" Offset="0.0"/>
+                            <GradientStop Color="Black" Offset="1.0"/>
+                        </GradientStopCollection>
+                    </GradientBrush.GradientStops>
+                </LinearGradientBrush>
             </Style.Resources>
         </Style>
 
@@ -502,7 +516,7 @@
             <StackPanel HorizontalAlignment="Stretch"  Orientation="Horizontal">
 
                 <Image Height="18" Width="18" Source="{Binding Path=itemIconImage}"></Image>
-                <Label Content="{Binding Path=Name}" Width="450" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+                <Label Content="{Binding Path=Name}" Width="355" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
 
             </StackPanel>
         </DataTemplate>
@@ -524,9 +538,10 @@
         </DataTemplate>
     </Window.Resources>
     
-
+    <!--Frame-->
     <Grid Name="Frame" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
 
+        <!--Icon-->
         <Grid Name="IconFrame">
             <tb:TaskbarIcon x:Name="CleanSyncNotifyIcon" IconSource="Pic/icon1.ico" TrayMouseDoubleClick="CleanSyncNotifyIcon_TrayMouseDoubleClick">
                 <tb:TaskbarIcon.TrayToolTip>
@@ -537,9 +552,9 @@
             </tb:TaskbarIcon>
         </Grid>
 
-
+        <!--JobList-->
         <Grid Name="JobListHost" Width="200" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,45,0,0" Background="Transparent" Visibility="Visible">
-            <GroupBox Foreground="WhiteSmoke" Name="JobListHostBox" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Job List" FontFamily="Times New Roman" FontSize="14" Background="Transparent">
+            <GroupBox Foreground="WhiteSmoke" Name="JobListHostBox" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Job List" FontFamily="Times New Roman" FontSize="16" Background="Transparent">
             </GroupBox>
             <ListBox Foreground="WhiteSmoke" MouseUp="JobList_MouseUp" Name="JobList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="Transparent" BorderBrush="Transparent" SelectionChanged="JobList_SelectionChanged">
                 <!--<ListBox.ContextMenu>
@@ -551,6 +566,8 @@
                 </ListBox.ContextMenu>-->
             </ListBox>
         </Grid>
+        
+        <!--Job States Indicator-->
         <Grid Name="JobStateIndicator" Width="200" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,450,0,0" Background="Transparent" Visibility="Visible">
             <StackPanel Orientation="Horizontal" Name="JobState1" Height="30" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,0,0" Background="Transparent">
                 <Canvas Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Center">
@@ -558,7 +575,7 @@
                         <ImageBrush ImageSource="Pic/green.png"></ImageBrush>
                     </Canvas.Background>
                 </Canvas>
-                <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Ready" Margin="0,0,0,0" FontSize="10" Height="25"></Label>
+                <Label FontFamily="Times New Roman" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Ready" Margin="0,0,0,0" FontSize="10" Height="25"></Label>
             </StackPanel>
             <StackPanel Orientation="Horizontal" Name="JobState2" Height="30" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,30,0,0" Background="Transparent">
                 <Canvas Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Center">
@@ -566,7 +583,7 @@
                         <ImageBrush ImageSource="Pic/black.png"></ImageBrush>
                     </Canvas.Background>
                 </Canvas>
-                <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Not Connected" Margin="0,0,0,0" Height="25" FontSize="10"></Label>
+                <Label FontFamily="Times New Roman" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Not Connected" Margin="0,0,0,0" Height="25" FontSize="10"></Label>
 
             </StackPanel>
             <StackPanel Orientation="Horizontal" Name="JobState3" Height="30" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,60,0,0" Background="Transparent">
@@ -575,47 +592,78 @@
                         <ImageBrush ImageSource="Pic/red.png"></ImageBrush>
                     </Canvas.Background>
                 </Canvas>
-                <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Incomplete" Margin="0,0,0,0" Height="25" FontSize="10"></Label>
+                <Label FontFamily="Times New Roman" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Stretch" HorizontalContentAlignment="Left" Content="Incomplete" Margin="0,0,0,0" Height="25" FontSize="10"></Label>
             </StackPanel>
         </Grid>
+        
+        <!--Information-->
         <Grid Name="InforHost" Width="520" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,45,0,0" Background="Transparent">
+            
+            <!--Main Frame-->
             <Grid Name="MainFrameInfor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Visibility="Visible">
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,200" Background="Transparent">
                     <Grid>
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,20,0,0" Name="JobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Content="JobName :" BorderBrush="Transparent" BorderThickness="0" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,50,0,0" Name="LocalPath" Width="120" Height="30" Background="Transparent" Content="Local Path :" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Top" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,80,0,0" Name="RemotePath" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Content="Remote Path :" BorderBrush="Transparent" BorderThickness="0" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,110,0,0" Name="AbsoluteUSBPath" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Content="Removable Path :" BorderBrush="Transparent" BorderThickness="0" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" />
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,20,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="JobNameDisplay" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="LocalPathDisplay" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,80,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="RemotePathDisplay" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,110,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="USBPathDisplay" ></Label>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,20,0,0" Name="JobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Text="JobName :"  />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,50,0,0" Name="LocalPath" Width="120" Height="30" Background="Transparent" Text="Local Path :"  VerticalAlignment="Top" />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,80,0,0" Name="RemotePath" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Text="Remote Path :"  />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,110,0,0" Name="AbsoluteUSBPath" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Text="Removable Path :"/>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,20,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="JobNameDisplay" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,50,0,0" Width="300" TextWrapping="Wrap" TextAlignment="Justify" VerticalAlignment="Top" HorizontalAlignment="Left" Name="LocalPathDisplay" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,80,0,0" Width="300" TextWrapping="Wrap" TextAlignment="Justify" VerticalAlignment="Top" HorizontalAlignment="Left" Name="RemotePathDisplay" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,110,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Name="USBPathDisplay" ></TextBlock>
                     </Grid>
                 </GroupBox>
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,200,0,0" Background="Transparent">
                     <Grid>
-                        <ComboBox ItemsSource="{Binding Source={StaticResource AutomationCombo}}" SelectedValue="{Binding SyncConfig}" Foreground="WhiteSmoke" Height="30" HorizontalAlignment="Left" Margin="50,40,0,0" Name="Automation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">      
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,30,0,0" Height="30" Content="Enable Automation? " VerticalAlignment="Top">
+                            <Label.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Automation</TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Width="600">
+                                        This job will be synchronized automatically whenever CleanSync starts up and the removable device is plugged in
+                                        or whenever the removable device is plugged in when CleanSync is running
+                                        </TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Label.ToolTip>
+                        </Label>
+                        <ComboBox FontFamily="Times New Roman" FontSize="14" ItemsSource="{Binding Source={StaticResource AutomationCombo}}" SelectedValue="{Binding SyncConfig}" Foreground="WhiteSmoke" Height="30" HorizontalAlignment="Left" Margin="50,60,0,0" Name="Automation" VerticalAlignment="Top" Width="200" Background="Transparent" BorderBrush="Transparent">      
                         </ComboBox>
-                        <ComboBox ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" SelectedValue="{Binding ConflictConfig}" Foreground="WhiteSmoke" Height="30" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,80,0,0" Name="ConflictRes" SelectedIndex="0" Width="150" VerticalAlignment="Top" >
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,0,0,70" Height="30" Content="Resolve Conflicts:" VerticalAlignment="Bottom" >
+                            <Label.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Conflicts</TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Width="600">
+                                        A conflict occurs when changes are made on the same file or folder in the local directory and the remote directory
+                                        </TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Label.ToolTip>
+                        </Label>
+                        <ComboBox FontFamily="Times New Roman" FontSize="14" ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" SelectedValue="{Binding ConflictConfig}" Foreground="WhiteSmoke" Height="30" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,0,0,40" Name="ConflictRes" Width="200" VerticalAlignment="Bottom" >
                             
                         </ComboBox>
                     </Grid>
                 </GroupBox>
             </Grid>
 
-
+            <!--New Job Frame-->
             <Grid Name="NewJobFrameInfor" Visibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,0,0" Height="70" Background="Transparent">
                     <Grid>
-                        <TextBox HorizontalAlignment="Left" Margin="50,25,0,0" Name="NewJobName" Width="200" Height="20" VerticalAlignment="Top" Style="{StaticResource WaterMarkJobName}"/>
+                        <TextBox TextChanged="NewJobName_TextChanged" HorizontalContentAlignment="Left" Background="Snow" FontFamily="Times New Roman" FontSize="14" HorizontalAlignment="Left" Margin="50,25,0,0" Name="NewJobName" Width="200" Height="30" VerticalContentAlignment="Center"  VerticalAlignment="Top" Style="{StaticResource WaterMarkJobName}"/>
                     </Grid>
                 </GroupBox>
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,70,0,0" Height="200" Background="Transparent">
                     <Grid>
-                        <TextBox HorizontalAlignment="Left" Margin="50,35,0,0" Name="AttachDropBox1" Width="130" Height="20" VerticalAlignment="Top" Style="{StaticResource WaterMarkFolderSelection}"/>
-                        <Label Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="300,7,0,0" Name="AttachDropBox2" Width="150" Height="28" Content="Select Removable Drive" VerticalAlignment="Top" />
-                        <TextBlock Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50, 85,0,0" Width="160" Name="RemovableInfor" TextWrapping="Wrap" Text="A Folder Named CleanSync Will Be Created Under The Root of the Selected Removable Device If Not Existed."></TextBlock>
-                        <Button Style="{StaticResource InformButton}" Width="20" Height="20" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="180,35,0,0" Name="FolderSelection1" Click="FolderSelection_Click1">
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,20,0,0" Height="30" Content="Local Path:" VerticalAlignment="Top" />
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,100,0,0" Height="30" Content="Remote Path(Select From Right List):" VerticalAlignment="Top" />
+                        <TextBox  ToolTip="Please use the folder browser on the left to choose local path" TextChanged="AttachDropBox1_TextChanged" Background="Snow" FontFamily="Times New Roman" FontSize="14" HorizontalAlignment="Left" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top" Margin="50,60,0,0" Name="AttachDropBox1" Width="200" Height="30" Style="{StaticResource WaterMarkFolderSelection}" />
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="Black" Background="Snow" BorderBrush="Black" BorderThickness="1" Width="200" HorizontalAlignment="Left" Margin="50,140,0,0" Name="AttachDropBox2" Height="30" VerticalAlignment="Top" VerticalContentAlignment="Center" />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="300,20,0,0" Width="200" Name="RemovableInfor" TextWrapping="Wrap" Text="Select the Removable Device As Intermediary Device"></TextBlock>
+                        <Button FontSize="14" Style="{StaticResource InformButton}" Width="30" Height="30" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,60,0,0" Name="FolderSelection1" Click="FolderSelection_Click1">
                          <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
@@ -628,45 +676,86 @@
                                 <ImageBrush ImageSource="Pic/Folderopenpc.png"></ImageBrush>
                             </Button.Background-->
                         ...</Button>
-                        <ListBox ItemsSource="{Binding}" ItemTemplate="{StaticResource usbSelectionList}"  Width="150" HorizontalAlignment="Left" Margin="300,35,0,0" Name="FolderSelection2" AllowDrop="True" Grid.Row="2">
+
+
+                        <Label Name="NoRemDev" FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" VerticalContentAlignment="Bottom" Background="Transparent" HorizontalAlignment="Left" Margin="300,0,0,0" Height="30" Content="No Removable Device" VerticalAlignment="Bottom">
+                            <Label.Style>
+                                <Style TargetType="{x:Type Label}">
+                                    <Setter Property="Visibility" Value="Hidden" />
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding ElementName=FolderSelection2, Path=Items.Count}" Value="0">
+                                            <Setter Property="Visibility" Value="Visible" />
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Label.Style>
+                        </Label>
+                        <ListBox FontFamily="Times New Roman" FontSize="14" ItemsSource="{Binding}" ItemTemplate="{StaticResource usbSelectionList}"  Width="150" HorizontalAlignment="Left" Margin="300,55,0,0" Name="FolderSelection2" AllowDrop="True" Grid.Row="2" SourceUpdated="FolderSelection2_SourceUpdated" SelectionChanged="FolderSelection2_SelectionChanged">
                             <ListBox.Background>
-                                <ImageBrush ImageSource="Pic/Folderopenusb.png"></ImageBrush>
+                                <ImageBrush ImageSource="Pic/Folderopenusb.png" Opacity="0.4"></ImageBrush>
                             </ListBox.Background>
                         </ListBox>
                     </Grid>
                 </GroupBox>
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,270,0,0" Height="100" Background="Transparent">
                     <Grid>
-                        <ComboBox ItemsSource="{Binding Source={StaticResource AutomationCombo}}" Foreground="WhiteSmoke" Grid.Row="2" Height="20" HorizontalAlignment="Left" Margin="50,20,0,0" Name="NewJobAutomation" VerticalAlignment="Top" Width="150" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
-                            
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,15,0,0" Height="30" Content="Enable Automation?" VerticalAlignment="Top">
+                            <Label.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Automation</TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Width="600">
+                                        This job will be synchronized automatically whenever CleanSync starts up and the removable device is plugged in
+                                        or whenever the removable device is plugged in when CleanSync is running
+                                        </TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Label.ToolTip>
+                        </Label>
+                        <ComboBox FontFamily="Times New Roman" FontSize="14" ItemsSource="{Binding Source={StaticResource AutomationCombo}}" Foreground="WhiteSmoke" Grid.Row="2" Height="30" HorizontalAlignment="Left" Margin="200,15,0,0" Name="NewJobAutomation" VerticalAlignment="Top" Width="200" SelectedIndex="0" Background="Transparent" BorderBrush="Transparent">
+
                         </ComboBox>
-                        <ComboBox ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" Foreground="WhiteSmoke" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="50,60,0,0" Name="NewJobConflictRes" SelectedIndex="0" Width="150" Height="20" VerticalAlignment="Top">
+                        <Label  FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Background="Transparent" HorizontalAlignment="Left" Margin="50,0,0,15" Height="30" Content="Resolve Conflicts: " VerticalAlignment="Bottom">
+                            <Label.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Automation</TextBlock>
+                                        <TextBlock TextWrapping="Wrap" Width="600">
+                                        A conflict occurs when changes are made on the same file or folder in the local directory and the remote directory
+                                        </TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Label.ToolTip>
+                        </Label>
+                    <ComboBox FontFamily="Times New Roman" FontSize="14" ItemsSource="{Binding Source={StaticResource ConflictResolveCombo}}" Foreground="WhiteSmoke" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="200,0,0,15" Name="NewJobConflictRes" SelectedIndex="0" Width="200" Height="30" VerticalAlignment="Bottom">
                             
                         </ComboBox>
                     </Grid>
                 </GroupBox>
 
                 <ProgressBar Name="FirstSyncProgressBar" Height="30" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch" Visibility="Hidden"></ProgressBar>
-                <Label Name="BarLabel" Height="30" Margin="0,370,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Visibility="Hidden"></Label>
+                <Label FontFamily="Times New Roman" Name="BarLabel" Height="30" Margin="0,370,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Visibility="Hidden"></Label>
             </Grid>
-
+            
+            <!--Accept Frame-->
             <Grid Name="AcceptFrameInfor" Visibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,0,240" Background="Transparent">
                     <Grid>
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,20,0,0" Name="AcceptJobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Content="JobName :" BorderBrush="Transparent" BorderThickness="0" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,50,0,0" Name="AcceptLocalPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" Background="Transparent" Content="Local Path :" BorderBrush="Transparent" BorderThickness="0" VerticalAlignment="Top" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,80,0,0" Name="AcceptRemotePath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Content="Remote Path :" BorderBrush="Transparent" BorderThickness="0" />
-                        <Label Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,110,0,0" Name="AcceptUSBPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Content="Removable Path :" BorderBrush="Transparent" BorderThickness="0" />
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,20,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptJobNameDisplay" Width="200" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptLocalPathDisplay" Width="200" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,80,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptRemotePathDisplay" Width="200" ></Label>
-                        <Label Foreground="WhiteSmoke" Height="30" Margin="170,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Name="AcceptUSBPathDisplay"></Label>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,30,0,0" Name="AcceptJobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Text="JobName :" />
+                        <!--TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,50,0,0" Name="AcceptLocalPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" Background="Transparent" Text="Local Path :" -->
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,70,0,0" Name="AcceptRemotePath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Remote Path :" />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,110,0,0" Name="AcceptUSBPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Removable Path :" />
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptJobNameDisplay" Width="200" ></TextBlock>
+                        <!--TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptLocalPathDisplay" Width="200" ></TextBlock-->
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptRemotePathDisplay" Width="200" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Name="AcceptUSBPathDisplay"></TextBlock>
                     </Grid>
                 </GroupBox>
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,160,0,0" Background="Transparent">
                     <Grid>
-                        <TextBox HorizontalAlignment="Left" Margin="50,0,0,0" Name="AttachDropBox" Width="150" Height="20" VerticalAlignment="Center" Style="{StaticResource WaterMarkFolderSelection}"/>
-                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" Height="20" Width="20" HorizontalAlignment="Left" Margin="200,0,0,0" Name="FolderSelection" VerticalAlignment="Center" AllowDrop="True" Click="FolderSelection_Click">
+                        <Label FontFamily="Times New Roman" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,70,0,0" Width="150" Height="30" Content="Local Path Selection:" Foreground="WhiteSmoke" Background="Transparent"/>
+                        <TextBox Background="Snow" FontFamily="Times New Roman" FontSize="14" HorizontalAlignment="Left" Margin="50,0,0,0" Name="AttachDropBox" VerticalContentAlignment="Center" Width="250" Height="30" VerticalAlignment="Center" Style="{StaticResource WaterMarkFolderSelection}"/>
+                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" Height="30" Width="30" HorizontalAlignment="Left" Margin="300,0,0,0" Name="FolderSelection" VerticalAlignment="Center" AllowDrop="True" Click="FolderSelection_Click">
                             <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
@@ -686,7 +775,10 @@
 
         </Grid> 
         
+        <!--Buttons-->
         <Grid Name="ButtonsHost" Width="520" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,450,0,0" Background="Transparent">
+            
+            <!--Buttons On New Job Frame-->
             <Grid Name="NewJobFrameGridButtons" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" Visibility="Hidden" >
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                     <Grid>
@@ -716,6 +808,7 @@
                 </GroupBox>
             </Grid>
             
+            <!--Buttons On Main Frame-->
             <Grid Name="MainFrameGridButtons" Visibility="Visible" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                     <Grid>
@@ -763,18 +856,38 @@
                 </GroupBox>
             </Grid>
             
+            <!--Buttons On Accept Frame-->
             <Grid Name="AcceptFrameGridButtons" Visibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                     <Grid>
-                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Width="80" Name="Accept" Click="Accept_Click">
+                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="160,30,0,0" Height="30" Width="80" Name="Accept" Click="Accept_Click">
+                            <Button.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Accept Job</TextBlock>
+                                        <TextBlock>Accept the synchronized job on your other PC</TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Button.ToolTip>
                             Accept</Button>
-                        <!--Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,30,160,0" Height="30" Width="80" Name="CancelAccept" Click="CancelAccept_Click">
-                            Cancel</Button-->
+                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,30,160,0" Height="30" Width="80" Name="CancelAccept" Click="CancelAccept_Click">
+                            <Button.ToolTip>
+                                <ToolTip>
+                                    <StackPanel>
+                                        <TextBlock FontWeight="Bold">Cancel Acceopt</TextBlock>
+                                        <TextBlock>Not to accept this job by clicking cancel</TextBlock>
+                                    </StackPanel>
+                                </ToolTip>
+                            </Button.ToolTip>
+                            Cancel</Button>
                     </Grid>
                 </GroupBox>
             </Grid>
 
         </Grid>
+        
+        
+        <!--Conflict Frame-->
         <Grid Name="Conflict" Width="720" Height="400" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden">
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                 <Grid>
@@ -785,13 +898,13 @@
                                 <GridViewColumn CellTemplate="{StaticResource ConflictCell1}" >
                                     <CheckBox Name="PCSelectAll" Checked="ConflictLeftSelectAll" Unchecked="ConflictLeftUnselecteAll"></CheckBox>
                                 </GridViewColumn>
-                                <GridViewColumn Header="PC Updates" CellTemplate="{StaticResource ConflictCell2}">
+                                <GridViewColumn Header="Updates on Computer" CellTemplate="{StaticResource ConflictCell2}">
 
                                 </GridViewColumn>
                                 <GridViewColumn Header="Conflict File Paths"  CellTemplate="{StaticResource ConflictCell3}">
 
                                 </GridViewColumn>
-                                <GridViewColumn Header="USB Updates" CellTemplate="{StaticResource ConflictCell4}">
+                                <GridViewColumn Header="Updates on Remote Path" CellTemplate="{StaticResource ConflictCell4}">
 
                                 </GridViewColumn>
                                 <GridViewColumn CellTemplate="{StaticResource ConflictCell5}">
@@ -806,6 +919,8 @@
                 </Grid>                
             </GroupBox>
         </Grid>
+        
+        <!--Buttons On Conflict Frame-->
         <Grid Name="ConflictButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden">
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                 <Grid>
@@ -814,6 +929,8 @@
                 </Grid>
             </GroupBox>
         </Grid>
+        
+        <!--Analyser Frame-->
         <Grid Name="Analyser" Width="720" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden">
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,360,30" Background="Transparent">
                 <Grid>
@@ -871,11 +988,14 @@
             </GroupBox>
             
         </Grid>
+        
+        <!--Analyse Progress Bar Grid-->
         <Grid Name="AnalyseProgressBar" Width="720" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,425,0,0" Background="Transparent" Visibility="Hidden">
             <ProgressBar Name="SyncProgressBar" Height="30" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></ProgressBar>
             <Label Name="SyncBarLabel" Height="30" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"></Label>
         </Grid>
         
+        <!--Buttons On Analyser Frame-->
         <Grid Name="AnalyseButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden">
             <Grid Name="AnalyseFrameGridButtons" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">

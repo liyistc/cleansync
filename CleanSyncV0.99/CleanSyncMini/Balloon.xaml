@@ -63,7 +63,7 @@
       HorizontalAlignment="Stretch"
       Margin="5,5,5,5"
       BorderThickness="1,1,1,1"
-      BorderBrush="#FF997137">
+      BorderBrush="Transparent">
             <Border.Effect>
                 <DropShadowEffect Color="#FF747474"/>
             </Border.Effect>
@@ -89,7 +89,7 @@
         <TextBlock Name="BallonContent"
       Margin="72,49.2,10,0"
       VerticalAlignment="Top"
-      Foreground="#FFECAD25"
+      Foreground="WhiteSmoke"
       TextWrapping="Wrap"></TextBlock>
         <Path
       Fill="#FFFFFFFF"
@@ -103,15 +103,15 @@
           EndPoint="0.973,0.5"
           StartPoint="0.005,0.5">
                     <GradientStop
-            Color="#00ECAD25"
+            Color="Transparent"
             Offset="1" />
                     <GradientStop
-            Color="#87ECAD25"
+            Color="WhiteSmoke"
             Offset="0" />
                 </LinearGradientBrush>
             </Path.Stroke>
         </Path>
-        <TextBlock Margin="72,10,10,0" VerticalAlignment="Top" Height="23.2" Text="{Binding Path=BalloonText, ElementName=me, Mode=Default}" TextWrapping="Wrap" Foreground="#FFECAD25" FontWeight="Bold"/>
+        <TextBlock Foreground="WhiteSmoke" Margin="72,10,10,0" VerticalAlignment="Top" Height="23.2" Text="{Binding Path=BalloonText, ElementName=me, Mode=Default}" TextWrapping="Wrap" FontWeight="Bold"/>
         <Image HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="16" Height="16" Source="Pic/Close.png" Stretch="Fill" Opacity="0.4" ToolTip="Close Balloon" x:Name="imgClose" MouseDown="imgClose_MouseDown"/>
 
     </Grid>

@@ -32,7 +32,7 @@ namespace CleanSync
         private MainLogic Control;
         private BackgroundWorker FirstSyncProc;
         private BackgroundWorker CleanSyncProc;
-        private PCJob cmpJob;
+        PCJob cmpJob;
         private USBDetection usbDetector;
         private List<PCJob> GUIJobList;
         private BackgroundWorker RemovableDiskDetect;
@@ -178,7 +178,7 @@ namespace CleanSync
         }
         #endregion
 
-   
+
 
         public GUI()
         {
@@ -196,7 +196,6 @@ namespace CleanSync
             }
 
             List<USBJob> incompleteJobList = Control.USBPlugIn(drives);
-
             syncSemaphore = new Semaphore(1, 1);
             AutoSync();
             UpdateIncompletedJobList(incompleteJobList);
@@ -466,12 +465,21 @@ namespace CleanSync
                 SyncProgressBar.Value = 100;
                 Balloon InfoBalloon = new Balloon();
                 InfoBalloon.BalloonText = "CleanSync";
-                InfoBalloon.BallonContent.Text = "Clean Synchroniztion Succeeds.";
+                InfoBalloon.BallonContent.Text = "Clean Synchroniztion Successful";
                 CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 AnalyseStartSync.IsEnabled = true;
                 AnalyseCancel.IsEnabled = true;
-                ShowMainFrame();
+                if (Analyser.IsVisible)
+                {
+                    ShowMainFrame();
+                }
+                SyncProgressBar.Value = 0;
             }
+
+            Synchronize.IsEnabled = true;
+            Analyse.IsEnabled = true;
+            NewJob.IsEnabled = true;
+            RemoveJob.IsEnabled = true;
         }
         #endregion
 
@@ -573,7 +581,7 @@ namespace CleanSync
                 FirstSyncProgressBar.Value = 100;
                 //MessageBox.Show("First Time Sync Finished.");
                 Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = "First Time Synchroniztion Succeeds.";
+                InfoBalloon.BallonContent.Text = "First Time Synchroniztion Successful";
                 InfoBalloon.BalloonText = "CleanSync";
                 CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 FirstSync.IsEnabled = true;
@@ -585,6 +593,7 @@ namespace CleanSync
                 FirstSyncProgressBar.Visibility = Visibility.Hidden;
                 BarLabel.Visibility = Visibility.Hidden;
                 JobList.SelectedIndex = JobList.Items.Count - 1;
+                FirstSyncProgressBar.Value = 0;
             }
         }
         #endregion
@@ -841,6 +850,7 @@ namespace CleanSync
             JobList.Items.Clear();
             foreach (PCJob Job in Control.GetPCJobs())
             {
+                FontFamilyConverter conv = new FontFamilyConverter();
                 System.Windows.Controls.Image tag = new System.Windows.Controls.Image();
                 tag.Width = 20;
                 tag.Height = 20;
@@ -851,6 +861,8 @@ namespace CleanSync
                 Label name = new Label();
                 name.Height = 30;
                 name.Width = 150;
+                name.FontFamily = (FontFamily)conv.ConvertFromString("Times New Roman");
+                name.FontSize = 14;
                 name.Content = Job.JobName;
                 name.Foreground = Brushes.WhiteSmoke;
                 name.VerticalAlignment = VerticalAlignment.Center;
@@ -960,23 +972,32 @@ namespace CleanSync
         private void NewJob_Click(object sender, RoutedEventArgs e)
         {
             ShowNewJobFrame();
+            AttachDropBox2.Content =(string)FolderSelection2.SelectedItem+@"_CleanSync_Data_\"+NewJobName.Text;
 
         }
 
         private void CancelCreat_Click(object sender, RoutedEventArgs e)
         {
-            NewJobFrameInfor.Visibility = Visibility.Hidden;
-            NewJobFrameGridButtons.Visibility = Visibility.Hidden;
-            MainFrameGridButtons.Visibility = Visibility.Visible;
-            MainFrameInfor.Visibility = Visibility.Visible;
+            SolidColorBrush myBrushblack = new SolidColorBrush();
+            myBrushblack = SetBlack();
+            NewJobName.Foreground = myBrushblack;
+            AttachDropBox1.Foreground = myBrushblack;
+            AttachDropBox2.Foreground = myBrushblack;
+            ShowMainFrame();
+            NewJobName.Clear();
+            AttachDropBox1.Clear();
+            FolderSelection2.SelectedIndex = -1;
+            NewJobConflictRes.SelectedIndex = 0;
+            NewJobAutomation.SelectedIndex = 0;
         }
 
         private void CancelAccept_Click(object sender, RoutedEventArgs e)
         {
-            AcceptFrameInfor.Visibility = Visibility.Hidden;
-            AcceptFrameGridButtons.Visibility = Visibility.Hidden;
-            MainFrameGridButtons.Visibility = Visibility.Visible;
-            MainFrameInfor.Visibility = Visibility.Visible;
+            SolidColorBrush myBrushblack = new SolidColorBrush();
+            myBrushblack = SetBlack();
+            AttachDropBox.Foreground = myBrushblack;
+            ShowMainFrame();
+            AttachDropBox.Clear();
         }
 
         private void Analyse_Click(object sender, RoutedEventArgs e)
@@ -985,11 +1006,19 @@ namespace CleanSync
                 syncJobInfo.CmpJob = (PCJob)Control.GetPCJobs().ElementAt(JobList.SelectedIndex);
             else
             {
+                Balloon InfoBalloon= new Balloon();
+                InfoBalloon.BallonContent.Text = "No Job Selected";
+                InfoBalloon.BalloonText = "CleanSync";
+                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 //Status.Content = "No Job Selected";
                 return;
             }
             if (syncJobInfo.CmpJob.JobState.Equals(JobStatus.NotReady)||syncJobInfo.CmpJob.JobState.Equals(JobStatus.Incomplete))
             {
+                Balloon InfoBalloon = new Balloon();
+                InfoBalloon.BallonContent.Text = "Job Not Ready";
+                InfoBalloon.BalloonText = "CleanSync";
+                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 //Status.Content = "Job Not Ready";
                 return;
             }
@@ -1001,7 +1030,7 @@ namespace CleanSync
             //modify                      
             
             syncJobInfo.Result = Control.Compare(syncJobInfo.CmpJob);
-            
+
             //Auto Conflict Handle
             if (!syncJobInfo.CmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
             {
@@ -1062,26 +1091,26 @@ namespace CleanSync
                     if (pcJob.JobState.Equals(JobStatus.Complete))
                     {
                         if (pcJob.PCPath.Equals(pcJob.GetUsbJob().PCOnePath))
-                            RemotePathDisplay.Content = pcJob.GetUsbJob().PCTwoPath;
+                            RemotePathDisplay.Text = pcJob.GetUsbJob().PCTwoPath;
                         else
-                            RemotePathDisplay.Content = pcJob.GetUsbJob().PCOnePath;
-                        USBPathDisplay.Content = pcJob.AbsoluteUSBPath;
+                            RemotePathDisplay.Text = pcJob.GetUsbJob().PCOnePath;
+                        USBPathDisplay.Text = pcJob.AbsoluteUSBPath;
                     }
 
                     else if (pcJob.JobState.Equals(JobStatus.NotReady))
                     {
-                        RemotePathDisplay.Content = "Removable Device Not Ready";
-                        USBPathDisplay.Content = "Removable Device Not Ready";
+                        RemotePathDisplay.Text = "Removable Device Not Ready";
+                        USBPathDisplay.Text = "Removable Device Not Ready";
                     }
 
                     else
                     {
-                        RemotePathDisplay.Content = "Not Fully Setup";
-                        USBPathDisplay.Content = "Not Fully Setup";
+                        RemotePathDisplay.Text = "Not Fully Setup";
+                        USBPathDisplay.Text = "Not Fully Setup";
                     }
 
-                    JobNameDisplay.Content = pcJob.JobName;
-                    LocalPathDisplay.Content = pcJob.PCPath;
+                    JobNameDisplay.Text = pcJob.JobName;
+                    LocalPathDisplay.Text = pcJob.PCPath;
 
                 }
                 else
@@ -1091,9 +1120,9 @@ namespace CleanSync
                         ShowAcceptFrame();
                     }
                     usbJob = (USBJob)Control.IncompleteList.ElementAt(JobList.SelectedIndex - Control.GetPCJobs().Count);
-                    AcceptJobNameDisplay.Content = usbJob.JobName;
-                    AcceptUSBPathDisplay.Content = usbJob.AbsoluteUSBPath;
-                    AcceptRemotePathDisplay.Content = usbJob.PCOnePath;
+                    AcceptJobNameDisplay.Text = usbJob.JobName;
+                    AcceptUSBPathDisplay.Text = usbJob.AbsoluteUSBPath;
+                    AcceptRemotePathDisplay.Text = usbJob.PCOnePath;
                 }
             }
             else
@@ -1103,34 +1132,63 @@ namespace CleanSync
                     ConflictRes.SelectedIndex = -1;
                     Automation.SelectedIndex = -1;
                 }
-                RemotePathDisplay.Content = "";
-                USBPathDisplay.Content = "";
-                JobNameDisplay.Content = "";
-                LocalPathDisplay.Content = "";
+                RemotePathDisplay.Text = "";
+                USBPathDisplay.Text = "";
+                JobNameDisplay.Text = "";
+                LocalPathDisplay.Text = "";
             }       
         }
 
+       
 
         private void FirstSync_Click(object sender, RoutedEventArgs e)
         {
+            SolidColorBrush myBrusherror = new SolidColorBrush();
+            SolidColorBrush myBrushblack = new SolidColorBrush();
+            myBrusherror = SetErrorEffect();
+            myBrushblack = SetBlack();
+            
+            
+
             if (Control.ValidatePath(AttachDropBox1.Text) && FolderSelection2.SelectedIndex!=-1 && !NewJobName.Text.Equals(string.Empty))
             {
-                
-                MessageBoxResult conf = MessageBox.Show(this, "Job Name: " + NewJobName.Text + "\nLocal Path: " + AttachDropBox1.Text + "\nRemovable Path: " + (string)FolderSelection2.SelectedItem + "\nStart First Synchronization?", "Confirmation", MessageBoxButton.OKCancel);
+                if (!Control.ValidateJobName(NewJobName.Text))
+                {
+                    ShowBalloon("Invalid Job Name");
+                    return;
+                }
+                if (usbDetector.GetDrives().Contains(System.IO.Path.GetPathRoot(AttachDropBox1.Text)))
+                {
+                    ShowBalloon("Please Select Target Folder on a Local Hard Disk");
+                    return;
+                }
+                if (!Directory.Exists(AttachDropBox1.Text))
+                {
+                    ShowBalloon("The Folder Selected Does Not Exist, Please Validate the Path");
+                    return;
+                }
+
+
+                NewJobName.Foreground = myBrushblack;
+                AttachDropBox1.Foreground = myBrushblack;
+                AttachDropBox2.Foreground = myBrushblack;
+                MessageBoxResult conf = MessageBox.Show(this, "CleanSync will now synchronize the folder.\n\n"+"Job Name: " + NewJobName.Text + "\nLocal Path: " + AttachDropBox1.Text + "\nRemovable Path: " + AttachDropBox2.Content , "Confirmation", MessageBoxButton.OKCancel);
                 if (conf == MessageBoxResult.OK)
                 {
                     if (!Control.CheckUSBDiskSpace(AttachDropBox1.Text, (string)FolderSelection2.SelectedItem))
                     {
-                        Balloon InfoBalloon = new Balloon();
-                        InfoBalloon.BallonContent.Text = "Not enough space on Removable Device. First Time Synchronization Fails";
-                        InfoBalloon.BalloonText = "CleanSync";
-                        CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                        ShowBalloon("Not enough space on Removable Device. First Time Synchronization Failed");
                         //MessageBox.Show("Not enough space on Removable Device.First Sync failed.");
                         return;
                     }
 
                     if (Control.CreateJob(NewJobName.Text, AttachDropBox1.Text, (string)FolderSelection2.SelectedItem, new JobConfig((AutoConflictOption)NewJobConflictRes.SelectedValue, (AutoSyncOption)NewJobAutomation.SelectedValue)) == null)
                     {
+                        Balloon InfoBalloon = new Balloon();
+                        InfoBalloon.BallonContent.Text =@"There is already a job named """ + NewJobName.Text + @""" existing. Please choose another name.";  
+                        InfoBalloon.BalloonText = "CleanSync";
+                        CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                        
                         // Warning Message: Same Job Name
                         return;
                     }
@@ -1155,90 +1213,110 @@ namespace CleanSync
                 }
                 else
                 {
-                    AttachDropBox1.Clear();
-                    AttachDropBox2.Content = "";
-                    NewJobName.Clear();
-                    ShowMainFrame();
+                    return;
                 }
             }
             else
             {
-                //Message
-                return;
+               
+                if (NewJobName.Text.Equals(string.Empty))
+                    NewJobName.Foreground = myBrusherror;
+                else
+                    NewJobName.Foreground = myBrushblack;
+                if (!Control.ValidatePath(AttachDropBox1.Text))
+                    AttachDropBox1.Foreground = myBrusherror;
+                else
+                    AttachDropBox1.Foreground = myBrushblack;
+                if (FolderSelection2.SelectedIndex == -1)
+                    AttachDropBox2.Foreground = myBrusherror;
+                else
+                    AttachDropBox2.Foreground = myBrushblack;
             }
         }
 
-     
+        private void ShowBalloon(string s)
+        {
+            Balloon InfoBalloon = new Balloon();
+            InfoBalloon.BallonContent.Text = s;
+            InfoBalloon.BalloonText = "CleanSync";
+            CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+        }
+
+
 
         private void Accept_Click(object sender, RoutedEventArgs e)
         {
+            SolidColorBrush myBrusherror = new SolidColorBrush();
+            SolidColorBrush myBrushblack = new SolidColorBrush();
+            myBrusherror = SetErrorEffect();
+            myBrushblack = SetBlack();
             if (!Control.ValidatePath(AttachDropBox.Text))
+                AttachDropBox.Foreground = myBrusherror;
+            else
             {
-                //Show Message
-                return;
-            }
-            try
-            {
-                Control.CreateJob((USBJob)(Control.IncompleteList.ElementAt(JobList.SelectedIndex - Control.GetPCJobs().Count)), AttachDropBox.Text);
-            }
-            catch (UnauthorizedAccessException error)
-            {
-                Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message+"\nPlease Make Sure You Have Write Control Over The Disks.";
-                InfoBalloon.BalloonText = "CleanSync";
-                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                //MessageBox.Show(error.Message + "\nPlease Make Sure You Have Write Control Over The Disks.");
-                return;
-            }
-            catch (ArgumentNullException error)
-            {
-                Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message;
-                InfoBalloon.BalloonText = "CleanSync";
-                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                //MessageBox.Show(error.Message);
-                return;
-            }
-            
-            catch (ArgumentOutOfRangeException error)
-            {
-                Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message;
-                InfoBalloon.BalloonText = "CleanSync";
-                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                //MessageBox.Show(error.Message);
-                return;
-            }
-            catch (ArgumentException error)
-            {
-                Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message;
-                InfoBalloon.BalloonText = "CleanSync";
-                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                //MessageBox.Show(error.Message);
-                return;
-            }
-            catch (Exception error)
-            {
-                Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message;
-                InfoBalloon.BalloonText = "CleanSync";
-                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-                //MessageBox.Show(error.Message);
-                this.Close();
-            }
-            Balloon InfoBalloonS = new Balloon();
-            InfoBalloonS.BallonContent.Text = "Accept Job Succeed"; ;
-            InfoBalloonS.BalloonText = "CleanSync";
-            CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
-            //MessageBox.Show("Accept Job Finished");
-            ShowMainFrame();
-            UpdateJobList();
-            AttachDropBox.Clear();
-            JobList.SelectedIndex = JobList.Items.Count - 1;
+                try
+                {
+                    AttachDropBox.Foreground = SetBlack();
+                    Control.CreateJob((USBJob)(Control.IncompleteList.ElementAt(JobList.SelectedIndex - Control.GetPCJobs().Count)), AttachDropBox.Text);
+                }
+                catch (UnauthorizedAccessException error)
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = error.Message + "\nPlease Make Sure You Have Write Control Over The Disks.";
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show(error.Message + "\nPlease Make Sure You Have Write Control Over The Disks.");
+                    return;
+                }
+                catch (ArgumentNullException error)
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = error.Message;
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show(error.Message);
+                    return;
+                }
 
+                catch (ArgumentOutOfRangeException error)
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = error.Message;
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show(error.Message);
+                    return;
+                }
+                catch (ArgumentException error)
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = error.Message;
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show(error.Message);
+                    return;
+                }
+                catch (Exception error)
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = error.Message;
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show(error.Message);
+                    this.Close();
+                }
+                Balloon InfoBalloonS = new Balloon();
+                InfoBalloonS.BallonContent.Text = "Accept Job Succeed"; ;
+                InfoBalloonS.BalloonText = "CleanSync";
+                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                //MessageBox.Show("Accept Job Finished");
+                ShowMainFrame();
+                UpdateJobList();
+                AttachDropBox.Clear();
+                JobList.SelectedIndex = JobList.Items.Count - 1;
+
+            }
         }
-
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             //MessageBoxResult result = MessageBox.Show("CleanSync will now close.", "", MessageBoxButton.OKCancel, MessageBoxImage.Warning);
@@ -1272,6 +1350,10 @@ namespace CleanSync
             if (JobList.SelectedIndex == -1)
             {
                 //Status.Content = "No Job Selected";
+                Balloon InfoBalloon = new Balloon();
+                InfoBalloon.BallonContent.Text = "No Job Selected";
+                InfoBalloon.BalloonText = "CleanSync";
+                CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 return;
             }
             try
@@ -1380,19 +1462,6 @@ namespace CleanSync
 
         }
 
-        //private void FolderSelection2_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        //{
-        //    AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
-        //}
-
-        //private void NewJobName_TextChanged(object sender, TextChangedEventArgs e)
-        //{
-        //    if (FolderSelection2.SelectedIndex != -1)
-        //    {
-        //        AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"CleanSync\" + NewJobName.Text;
-        //    }
-        //}
-
         private void ConflictLeftSelectAll(object sender, RoutedEventArgs e)
         {
             for (int i = 0; i < this.ConflictList.Items.Count; i++)
@@ -1444,6 +1513,7 @@ namespace CleanSync
                 syncJobInfo.CmpJob = Control.GetPCJobs()[JobList.SelectedIndex];
             else
             {
+                ShowBalloon("No Job Selected");
                 //Status.Content = "No Job Selected";
                 return;
             }
@@ -1455,9 +1525,13 @@ namespace CleanSync
             
             if (syncJobInfo.CmpJob.JobState.Equals(JobStatus.NotReady) || syncJobInfo.CmpJob.JobState.Equals(JobStatus.Incomplete))
             {
-                //Status.Content = "Job Not Ready";
+                ShowBalloon("Job Not Ready");
                 return;
             }
+            Synchronize.IsEnabled = false;
+            Analyse.IsEnabled = false;
+            NewJob.IsEnabled = false;
+            RemoveJob.IsEnabled = false;
 
             syncJobInfo.Result = Control.Compare(syncJobInfo.CmpJob);
 
@@ -1502,21 +1576,100 @@ namespace CleanSync
 
             CleanSyncProc.RunWorkerAsync(syncJobInfo);
         }
-
         private void AutoSync()
-        {
-            foreach (PCJob pcJob in Control.GetPCJobs())
-            {
-                if (pcJob.JobState.Equals(JobStatus.Complete) && pcJob.JobSetting.SyncConfig.Equals(AutoSyncOption.On))
                 {
-                    if (autosyncedJob.Contains(pcJob)) continue;
-                    syncJobInfo.CmpJob = pcJob;
-                    DirectSync();
-                    autosyncedJob.Add(pcJob);
+                    foreach (PCJob pcJob in Control.GetPCJobs())
+                    {
+                        if (pcJob.JobState.Equals(JobStatus.Complete) && pcJob.JobSetting.SyncConfig.Equals(AutoSyncOption.On))
+                        {
+                            if (autosyncedJob.Contains(pcJob)) continue;
+                            syncJobInfo.CmpJob = pcJob;
+                            DirectSync();
+                            autosyncedJob.Add(pcJob);
+                        }
+                    }
                 }
+            
+
+            
+        
+
+        private SolidColorBrush SetErrorEffect()
+        {
+            SolidColorBrush myBrush = new SolidColorBrush();
+            myBrush.Color = Colors.Blue;
+
+            ColorAnimation myColorAnimation = new ColorAnimation();
+            myColorAnimation.From = Colors.White;
+            myColorAnimation.To = Colors.Red;
+            myColorAnimation.Duration = new Duration(TimeSpan.FromMilliseconds(300));
+            myColorAnimation.AccelerationRatio = 1;
+            myColorAnimation.AutoReverse = true;
+            myColorAnimation.RepeatBehavior = new RepeatBehavior(TimeSpan.FromMilliseconds(2700));
+
+            // Apply the animation to the brush's Color property.
+            myBrush.BeginAnimation(SolidColorBrush.ColorProperty, myColorAnimation);
+            return myBrush;
+        }
+        private SolidColorBrush SetBlack()
+        {
+            SolidColorBrush myBrush = new SolidColorBrush();
+            myBrush.Color = Colors.Black;
+            return myBrush;
+        }
+
+        private void NewJobName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!NewJobName.Text.Equals(string.Empty))
+            {
+                SolidColorBrush myBrush = new SolidColorBrush();
+                myBrush.Color = Colors.Black;
+                NewJobName.Foreground = myBrush;
+                AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"_CleanSync_Data_\" + NewJobName.Text;
+            }
+            else
+            {
+                AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"_CleanSync_Data_\";
             }
         }
-    }
 
-    
+        private void AttachDropBox1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!AttachDropBox1.Text.Equals(string.Empty))
+            {
+                SolidColorBrush myBrush = new SolidColorBrush();
+                myBrush.Color = Colors.Black;
+                AttachDropBox1.Foreground = myBrush;
+            }
+        }
+
+        private void FolderSelection2_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SolidColorBrush myBrush = new SolidColorBrush();
+            myBrush.Color = Colors.Black;
+            AttachDropBox2.Foreground = myBrush;
+            AttachDropBox2.Content = (string)FolderSelection2.SelectedItem + @"_CleanSync_Data_\" + NewJobName.Text;
+        }
+
+        private void AttachDropBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!AttachDropBox.Text.Equals(string.Empty))
+            {
+                SolidColorBrush myBrush = new SolidColorBrush();
+                myBrush.Color = Colors.Black;
+                AttachDropBox.Foreground = myBrush;
+            }
+        }
+
+        private void FolderSelection2_SourceUpdated(object sender, DataTransferEventArgs e)
+        {
+            if (FolderSelection2.Items.IsEmpty)
+            {
+                NoRemDev.Visibility = Visibility.Visible;
+            }
+
+        }
+
+        
+}
 }
