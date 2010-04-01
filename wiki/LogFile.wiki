@@ -1,19 +1,3 @@
 = Introduction =
 
 LogFile is in charge of logging. The path to the file is specified and every subsequent log is written to that file.
-----
-= Attributes =
-== Private ==
- * *static string LogFilePath = Directory.GetCurrentDirectory()+@"\CleanSyncLog.txt"*
-= Methods =
-== Public ==
- * *static void FileDeletion(string path)*
- * *static void FolderDeletion(string path)*
- * *static void FileCreation(string path)*
- * *static void FolderCreation(string path)*
- * *static void FileCopy(string source, string destination)*
- * *static void FolderCopy(string source, string destination)*
- * *static void NewLine()*
- * *static void ExportToPC(string path)*
- * *static void ExportToUSB(string path)*
- * *static void ReportSolvedConflicts(string type, string PCpath, string AbsoluteUSBPath, string userChoicePath)*
