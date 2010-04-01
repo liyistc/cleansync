@@ -1,34 +1,7 @@
 = Introduction =
 MainLogic handles request from the GUI and distributes the work to the various classes in the logic component. 
 ----
-= Attributes =
-== Public ==
- * *List`<`string`>` GetCurrentDrives*
-== Private ==
- * *JobLogic jobLogic*
- * *string thisPCID*
- * *List`<`string`>` CurrentDrives*
- * *List`<`USBJob`>` IncompleteList*
-
-= Constructors =
- * *MainLogic()*
-
-= Methods =
-==Public==
- * *void InitializePCJobInfo()*
- * *PCJob CreateJob(string JobName,string PCPath, string pathName )*
- * *bool FirstTimeSync(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
- * *List`<`USBJob`>` AcceptJob(List`<`string`>` drives)*
-  * This method searches all USB drives connected to the computer for incomplete jobs. If there is an incomplete job, check if this computer is the computer that created the job. If it is not, it will return it as an incomplete USB job available to be accepted by this computer.
- * *PCJob CreateJob(USBJob jobUSB, string PCPath)*
- * *ComparisonResult Compare(PCJob pcJob)*
- * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
- * *void setUSBJobList(List`<`USBJob`>` usbJobs)*
- * *void USBPlugIn(List`<`string`>` drives)*
- * *void USBRemoved(string[] drives)*
- * *List`<`PCJob`>` GetPCJobs()*
- * *List`<`USBJob`>` GetUSBJobs()*
- * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
- * *void DeleteJob(PCJob pcJob)*
- * *string GetPCID()*
-  * Uses the MAC address of this computer as the PCID.
+ * List<USBJob> USBPlugIn(List<string> drives)
+  * This method searches all USB drives connected to the computer for incomplete jobs. If there is an incomplete job, check if this computer is the computer that created the job. If it is not, it will return it as an incomplete USB job available to be accepted by this computer. 
+ * string GetPCID() 
+  * Uses the MAC address of this computer as the PCID. 
