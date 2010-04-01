@@ -1,0 +1,2 @@
+=JobConfig=
+JobConfig is stored in every PCJob, and stores the configurations of the job on this PC. 2 configurations are currently handled: automation and auto-conflict resolving. Automation enables the job to be synchronized automatically whenever it’s removable device is plugged in or whenever CleanSync starts up with the removable device plugged in. Conflict resolving allows user to specify the job to always copy either the computer or the removable device’s files and folders to the other.
