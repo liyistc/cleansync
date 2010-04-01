@@ -1,17 +1,2 @@
 = ConflictHandler =
 This method handles any conflicts found. Based on the job setting, different conflicts will be handled differently.
-----
-== Methods==
-===Public===
- * *public ComparisonResult HandleConflicts(ComparisonResult comparisonResult)*
-===Private===
- * *void HandleFileConflict(Differences PCDifferences,Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void HandleFolderConflict(Differences PCDifferences,Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void HandleFolderVSSubFolderConflict(Differences PCDifferences, Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void HandleSubFolderVSFolderConflict(Differences PCDifferences, Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void HandleFileVSFolderConflict(Differences PCDifferences, Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void HandleFolderVSFileConflict(Differences PCDifferences, Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)*
- * *void DeleteFolderFromRootFolder(FolderMeta folderToBeDeleted, FolderMeta baseFolder)*
- * *void DeleteFileFromRootFolder(FileMeta fileToBeDeleted, FolderMeta baseFolder)*
- * *void DeleteDifferencesFileEntry(Conflicts.ConflictType conflictType,FileMeta FileToBeUpdated, Differences differencesToBeUpdated)*
- * *void DeleteDifferencesFolderEntry(Conflicts.ConflictType conflictType,FolderMeta FolderToBeUpdated, Differences differencesToBeUpdated)*
