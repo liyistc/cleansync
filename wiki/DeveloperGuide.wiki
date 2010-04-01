@@ -36,6 +36,8 @@ The logics component form the underlying engine of CLEANSync. This component is 
 See: [http://code.google.com/p/cleansync/wiki/MetaDataComponent MetaData Component]
 
 MetaData classes store various information used by CLEANSync to perform its operations. 
+----
+==Implementation Details==
 
 ----
 ==Known Issues==
