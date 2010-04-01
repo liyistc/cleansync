@@ -1,0 +1,7 @@
+=Re-Synchronization=
+Re-Synchronization is invoked when synchronizing the computer to the USB successively. Instead of a normal synchronization where updates on both sides are updated, re-synchronization only checks what updates from the computer are to be copied over to the USB. A few cases of updates exists which is handled by SyncLogic:
+ * If a file or folder is created in a previously new folder, the file or folder will just be copied over to the new directory.
+ * If a file or folder is deleted in a previously new folder, the file or folder will just be deleted from the USB.
+ * If a file which is previously new is modified, it’s metadata In the difference list will be updated and the modified file will be regarded as the new file to be copied over to the other computer.
+ * If a file which is previously new or modified, or a folder which is previously new is deleted, it will delete its data from its previous difference list, and the temporary file or folder will also be deleted.
+ * In all other cases, the updates found in the computer will be propagated to the removable device.
