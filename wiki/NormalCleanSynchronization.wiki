@@ -1,0 +1,3 @@
+=NormalCleanSynchronization=
+
+Normal Clean Synchronization is invoked during synchronization when this PC is not the most recent PC to do a synchronization. In this mode, SyncLogic will first synchronize the differences on the removable device, then the differences on the PC. For synchronizing from the removable device to the computer, every temporary file will be deleted immediately upon being copied over to the computer.
