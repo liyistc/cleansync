@@ -23,6 +23,7 @@ CLEANSync is developed using .NET Visual C#.
 [http://cleansync.googlecode.com/files/CLEANSync%20components.jpg]
 ===GUI===
 See: [http://code.google.com/p/cleansync/wiki/GUIComponent]
+
 GUI is implemented using WPF. It consists of the main class GUI, which is the main window for CleanSync, and several GUI helper classes.
 
 ===Logics===
