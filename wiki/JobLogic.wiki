@@ -1,46 +1,7 @@
 = Introduction =
 JobLogic handles all requests for job-related work. It manages the jobs in the system and delegates the work further to CompareLogic and SyncLogic.
 
-
-= Attributes =
-==Private==
- * *List`<`string`>` StoredPCJobInfoPaths;*
- * *List`<`string`>` StoredUSBJobInfoPaths;*
- * *SyncLogic sync;*
- * *CompareLogic compareLogic;*
-
-==Internal==
- * *List`<`PCJob`>` PCJobs*
- * *List`<`USBJob`>` USBJobs*
-
-= Constructors =
- * *JobLogic()*
-
-= Methods =
-==Public==
- * *void InitializePCJobInfo()*
-  * Loads all pcJob found on the PC
- * *void InitializeUSBJobInfo(string usbRoot,string pcID)*
-  * Searches and Loads all usbJob found on the USB drives and mount them to the respective pcJobs.
- * *PCJob CreateJob(string jobName, string PCPath, string AbsoluteUSBPath, string PCID)*
- * *PCJob CreateJob(USBJob jobUSB, string PCPath, string PCID)*
- * *bool CheckNameConflict(string JobName)*
- * *void InsertJob(USBJob usbJob)*
- * *void InsertJob(PCJob pcJob)*
- * *bool setupJob(PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
- * *string GetFullFolderPath(PCJob pcJob, FolderMeta folderInfo)*
- * *void WriteIncompleteFileInfoOnUSB(USBJob usbJob)*
- * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob,  System.ComponentModel.BackgroundWorker worker)*
- * *ComparisonResult Compare(PCJob pcJob)*
- * *void USBPlugIn(string drive, string pcID)*
- * *void USBRemoved()*
- * *ComparisonResult handleConflicts(ComparisonResult comparisonResult, int[] userChoice)*
- * *PCJob ConnectUSBJobwithPCJob(USBJob usbJob)*
- * *void DeleteJob(PCJob pcJob,string pcID)*
-==Private==
- * *int CheckPCTwoDelete(int i, USBJob usbJob)*
- * *int CheckPCOneDelete(int i, USBJob usbJob)*
- * *int GetPCNumber(USBJob usbJob,string pcID)*
- * *void WriteIncompleteFileInfoOnUSB(USBJob usbJob)*
- * *void RemovePCJob(PCJob pcJob)*
- * *void RemoveUSBJob(USBJob usbJob)*
+ * void InitializePCJobInfo() 
+  * Loads all pcJob found on the PC 
+ * void InitializeUSBJobInfo(string usbRoot,string pcID) 
+  * Searches and Loads all usbJob found on the USB drives and mount them to the respective pcJobs. 
