@@ -1022,6 +1022,13 @@ namespace CleanSync
                 //Status.Content = "Job Not Ready";
                 return;
             }
+            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath))
+            {
+                MessageBox.Show("Could Not Find the Specified Path of the Current Job. The Job Will Be Removed.");
+                Control.DeleteJob(syncJobInfo.CmpJob);
+                UpdateJobList();
+                return;
+            }
 
 
             ShowAnalyseFrame();
@@ -1515,6 +1522,13 @@ namespace CleanSync
             {
                 ShowBalloon("No Job Selected");
                 //Status.Content = "No Job Selected";
+                return;
+            }
+            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath))
+            {
+                MessageBox.Show("Could Not Find the Specified Path of the Current Job. The Job Will Be Removed.");
+                Control.DeleteJob(syncJobInfo.CmpJob);
+                UpdateJobList();
                 return;
             }
             DirectSync();
