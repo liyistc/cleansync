@@ -1,0 +1,50 @@
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\bin\Release\Sample Project.exe
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\bin\Release\Sample Project.pdb
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyToolTip.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyBalloon.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyPopup.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Main.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\01 - Declaration\NotifyIconResourceDictionary.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\01 - Declaration\SimpleWindowWithNotifyIcon.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\SimpleUserControl.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\InlineToolTipWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\03 - Popups\InlinePopupWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\04 - ContextMenus\InlineContextMenuWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\07 - Events\EventVisualizerWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\05 - Balloons\BalloonSampleWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\08 - DataBinding\DataBoundToolTipWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\WelcomeBalloon.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\App.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyToolTip.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyBalloon.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\FancyPopup.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Main.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\UserControlToolTipWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\01 - Declaration\SimpleWindowWithNotifyIcon.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\SimpleUserControl.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\InlineToolTipWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\03 - Popups\InlinePopupWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\04 - ContextMenus\InlineContextMenuWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\06 - Commands\CommandWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\07 - Events\EventVisualizerWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\05 - Balloons\BalloonSampleWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\08 - DataBinding\DataBoundToolTipWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\WelcomeBalloon.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\ShowcaseWindow.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\App.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project_MarkupCompile.cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project_MarkupCompile.lref
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\NotifyIconResources.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\02 - ToolTips\UserControlToolTipWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Tutorials\06 - Commands\CommandWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Showcase\ShowcaseWindow.baml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project.g.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Samples.Properties.Resources.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project.csproj.GenerateResource.Cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project.exe
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\Sample Project\obj\Release\Sample Project.pdb

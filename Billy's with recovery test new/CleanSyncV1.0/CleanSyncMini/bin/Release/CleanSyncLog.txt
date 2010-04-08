@@ -1,0 +1,998 @@
+Export PC Job to File Bil.jInfo
+Export PC Job to File Bil.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Bil\autorun.inf
+Export PC Job to File Bil.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Bil.jInfo
+Export PC Job to File aaaa.jInfo
+Export PC Job to File aaaa.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\aaaa.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\aaaa.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\aaaa
+Export PC Job to File bumi.jInfo
+Export PC Job to File bumi.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\bumi\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\bumi\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\bumi\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\bumi\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\bumi\IMG_0401.JPG
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\bumi.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\bumi.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\bumi
+Export PC Job to File a.jInfo
+Export PC Job to File a.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\a\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\a\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\a\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\a\IMG_0400.JPG
+Export PC Job to File a.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\a.jInfo
+Export PC Job to File aaa.jInfo
+Export PC Job to File aaa.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\aaa\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\aaa\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\aaa\IMG_0398.JPG
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\aaa.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Delete File C:\Users\Pirororor\Desktop\Billy's new\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Export PC Job to File sdhfcjhvx.jInfo
+Export PC Job to File sdhfcjhvx.jInfo
+Export PC Job to File sdhfcjhvx.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\sdhfcjhvx.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\sdhfcjhvx.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\sdhfcjhvx
+Export PC Job to File dsadasda.jInfo
+Export PC Job to File dsadasda.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\dsadasda.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\dsadasda.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\dsadasda
+Export PC Job to File dasdasd.jInfo
+Export PC Job to File dasdasd.jInfo
+Export PC Job to File dasdasd.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\dasdasd.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\dasdasd.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\dasdasd
+Export PC Job to File dsdsds.jInfo
+Export PC Job to File dsdsds.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\dsdsds.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\dsdsds.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\dsdsds
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\Billy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\_CleanSync_Data_\Billy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\_CleanSync_Data_\Billy\IMG_0403.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\_CleanSync_Data_\Billy\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\_CleanSync_Data_\Billy\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0406.JPG to K:\_CleanSync_Data_\Billy\IMG_0406.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\_CleanSync_Data_\Billy\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\_CleanSync_Data_\Billy\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\_CleanSync_Data_\Billy\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\_CleanSync_Data_\Billy\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\_CleanSync_Data_\Billy\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\_CleanSync_Data_\Billy\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\_CleanSync_Data_\Billy\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\_CleanSync_Data_\Billy\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\_CleanSync_Data_\Billy\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\_CleanSync_Data_\Billy\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\_CleanSync_Data_\Billy\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\_CleanSync_Data_\Billy\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\_CleanSync_Data_\Billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\_CleanSync_Data_\Billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\_CleanSync_Data_\Billy\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\_CleanSync_Data_\Billy\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\_CleanSync_Data_\Billy\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\_CleanSync_Data_\Billy\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\_CleanSync_Data_\Billy\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\_CleanSync_Data_\Billy\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\_CleanSync_Data_\Billy\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\_CleanSync_Data_\Billy\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\_CleanSync_Data_\Billy\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\_CleanSync_Data_\Billy\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\_CleanSync_Data_\Billy\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\_CleanSync_Data_\Billy\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\_CleanSync_Data_\Billy\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\_CleanSync_Data_\Billy\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Billy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Billy
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\Billy\IMG_0401.JPG
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Billy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Billy
+Export PC Job to File ssss.jInfo
+Export PC Job to File ssss.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\ssss\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\ssss\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\ssss\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\ssss\IMG_0400.JPG
+Export PC Job to File ssss.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\ssss.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\ssss.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\ssss
+Export PC Job to File jojojo.jInfo
+Export PC Job to File jojojo.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\jojojo\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\jojojo\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\jojojo\IMG_0398.JPG
+Export PC Job to File jojojo.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\jojojo.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\jojojo.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\jojojo
+Export PC Job to File Goal.jInfo
+Export PC Job to File Goal.jInfo
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           Export PC Job to File Goal.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Goal.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Goal.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Goal
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\Billy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\_CleanSync_Data_\Billy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\_CleanSync_Data_\Billy\IMG_0403.JPG
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy Folder K:\_CleanSync_Data_\Billy to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy
+Copy File K:\_CleanSync_Data_\Billy\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\autorun.inf
+Copy File K:\_CleanSync_Data_\Billy\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0403.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0403.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0404.JPG
+Export USB Job to File Billy.jInfo
+Delete Folder C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\backup\Billy\4-7-2010 9-05-11 PM
+Copy Folder K:\_CleanSync_Data_\Billy to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy
+Copy File K:\_CleanSync_Data_\Billy\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\autorun.inf
+Copy File K:\_CleanSync_Data_\Billy\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0403.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0403.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0404.JPG
+Export USB Job to File Billy.jInfo
+Delete Folder C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\backup\Billy\4-7-2010 9-05-41 PM
+Copy Folder K:\_CleanSync_Data_\Billy to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy
+Copy File K:\_CleanSync_Data_\Billy\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\autorun.inf
+Copy File K:\_CleanSync_Data_\Billy\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0403.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0403.JPG
+Copy File K:\_CleanSync_Data_\Billy\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Billy\IMG_0404.JPG
+Export USB Job to File Billy.jInfo
+Delete Folder C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\backup\Billy\4-7-2010 9-05-45 PM
+Export PC Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Billy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Billy
+Export PC Job to File Tso.jInfo
+Export PC Job to File Tso.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Tso\autorun.inf
+Export PC Job to File Tso.jInfo
+Export PC Job to File Tso.jInfo
+Export USB Job to File Billy.jInfo
+Export PC Job to File Tso.jInfo
+Export USB Job to File Billy.jInfo
+Copy Folder K:\_CleanSync_Data_\Tso to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tso
+Copy File K:\_CleanSync_Data_\Tso\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tso\autorun.inf
+Export USB Job to File Tso.jInfo
+Delete Folder C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\backup\Tso\4-7-2010 9-11-52 PM
+Copy Folder K:\_CleanSync_Data_\Tso to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tso
+Copy File K:\_CleanSync_Data_\Tso\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tso\autorun.inf
+Export USB Job to File Tso.jInfo
+Delete Folder C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\backup\Tso\4-7-2010 9-13-03 PM
+Export USB Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Tso.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Tso.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Tso
+Export PC Job to File Blaablaa.jInfo
+Export PC Job to File Blaablaa.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\Blaablaa\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0403.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0406.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0406.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\_CleanSync_Data_\Blaablaa\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\_CleanSync_Data_\Blaablaa\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\_CleanSync_Data_\Blaablaa\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\_CleanSync_Data_\Blaablaa\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\_CleanSync_Data_\Blaablaa\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\_CleanSync_Data_\Blaablaa\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\_CleanSync_Data_\Blaablaa\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\_CleanSync_Data_\Blaablaa\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\_CleanSync_Data_\Blaablaa\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\_CleanSync_Data_\Blaablaa\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\_CleanSync_Data_\Blaablaa\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\_CleanSync_Data_\Blaablaa\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\_CleanSync_Data_\Blaablaa\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\_CleanSync_Data_\Blaablaa\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\_CleanSync_Data_\Blaablaa\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Blaablaa.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Blaablaa.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Blaablaa
+Export PC Job to File billy.jInfo
+Export PC Job to File billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\billy\IMG_0400.JPG
+Export PC Job to File billy.jInfo
+Export PC Job to File billy.jInfo
+Export PC Job to File billy.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Tso.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0403.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0406.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0406.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export PC Job to File billy.jInfo
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\autorun.inf to K:\_CleanSync_Data_\billy\autorun.inf
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0397.JPG to K:\_CleanSync_Data_\billy\IMG_0397.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0398.JPG to K:\_CleanSync_Data_\billy\IMG_0398.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0400.JPG to K:\_CleanSync_Data_\billy\IMG_0400.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0401.JPG to K:\_CleanSync_Data_\billy\IMG_0401.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0402.JPG to K:\_CleanSync_Data_\billy\IMG_0402.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0403.JPG to K:\_CleanSync_Data_\billy\IMG_0403.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0404.JPG to K:\_CleanSync_Data_\billy\IMG_0404.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0405.JPG to K:\_CleanSync_Data_\billy\IMG_0405.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0406.JPG to K:\_CleanSync_Data_\billy\IMG_0406.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0407.JPG to K:\_CleanSync_Data_\billy\IMG_0407.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0408.JPG to K:\_CleanSync_Data_\billy\IMG_0408.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0409.JPG to K:\_CleanSync_Data_\billy\IMG_0409.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0410.JPG to K:\_CleanSync_Data_\billy\IMG_0410.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0411.JPG to K:\_CleanSync_Data_\billy\IMG_0411.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0412.JPG to K:\_CleanSync_Data_\billy\IMG_0412.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\IMG_0413.JPG to K:\_CleanSync_Data_\billy\IMG_0413.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\billy\New Microsoft Office Word Document.docx to K:\_CleanSync_Data_\billy\New Microsoft Office Word Document.docx
+Export PC Job to File billy.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Tso.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\billy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\billy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\billy
+Export PC Job to File jojo.jInfo
+Export PC Job to File jojo.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\_CleanSync_Data_\jojo\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\_CleanSync_Data_\jojo\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\_CleanSync_Data_\jojo\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\_CleanSync_Data_\jojo\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\_CleanSync_Data_\jojo\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\_CleanSync_Data_\jojo\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\_CleanSync_Data_\jojo\IMG_0403.JPG
+Export PC Job to File jojo.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Tso.jInfo
+Delete File K:\_CleanSync_Data_\jojo\autorun.inf
+Delete File K:\_CleanSync_Data_\jojo\IMG_0397.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0398.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0400.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0401.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0402.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0403.JPG
+Delete File K:\_CleanSync_Data_\jojo\IMG_0404.JPG
+Export USB Job to File Billy.jInfo
+Export USB Job to File Tso.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\jojo.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\jojo.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\jojo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0403.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0406.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0406.JPG
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export USB Job to File Billy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0403.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0403.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0406.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0406.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export PC Job to File Billy.jInfo
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\autorun.inf to K:\_CleanSync_Data_\Billy\autorun.inf
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0397.JPG to K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0398.JPG to K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0400.JPG to K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0401.JPG to K:\_CleanSync_Data_\Billy\IMG_0401.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0402.JPG to K:\_CleanSync_Data_\Billy\IMG_0402.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0403.JPG to K:\_CleanSync_Data_\Billy\IMG_0403.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0404.JPG to K:\_CleanSync_Data_\Billy\IMG_0404.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0405.JPG to K:\_CleanSync_Data_\Billy\IMG_0405.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0406.JPG to K:\_CleanSync_Data_\Billy\IMG_0406.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0407.JPG to K:\_CleanSync_Data_\Billy\IMG_0407.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0408.JPG to K:\_CleanSync_Data_\Billy\IMG_0408.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0409.JPG to K:\_CleanSync_Data_\Billy\IMG_0409.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0410.JPG to K:\_CleanSync_Data_\Billy\IMG_0410.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0411.JPG to K:\_CleanSync_Data_\Billy\IMG_0411.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0412.JPG to K:\_CleanSync_Data_\Billy\IMG_0412.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\IMG_0413.JPG to K:\_CleanSync_Data_\Billy\IMG_0413.JPG
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\New Microsoft Office Word Document.docx to K:\_CleanSync_Data_\Billy\New Microsoft Office Word Document.docx
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Delete File K:\_CleanSync_Data_\Billy\IMG_0403.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0406.JPG
+Export PC Job to File Billy.jInfo
+Delete Folder K:\_CleanSync_Data_\Billy\hohoho
+Delete Folder K:\_CleanSync_Data_\Billy\New folder
+Delete Folder K:\_CleanSync_Data_\Billy\SyncDesk
+Delete File K:\_CleanSync_Data_\Billy\autorun.inf
+Delete File K:\_CleanSync_Data_\Billy\IMG_0397.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0398.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0400.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0401.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0402.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0404.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0405.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0407.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0408.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0409.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0410.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0411.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0412.JPG
+Delete File K:\_CleanSync_Data_\Billy\IMG_0413.JPG
+Delete File K:\_CleanSync_Data_\Billy\New Microsoft Office Word Document.docx
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1929.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\DSC_1929.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1930.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\DSC_1930.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1931.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\DSC_1931.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1932.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Billy\DSC_1932.JPG
+Export PC Job to File Billy.jInfo
+Export PC Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Billy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Billy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Billy
+Export PC Job to File Killy.jInfo
+Export PC Job to File Killy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1929.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1929.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1930.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1930.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1931.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1931.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1932.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1932.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export PC Job to File Killy.jInfo
+Export PC Job to File Killy.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Killy.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1929.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1929.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1930.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1930.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1931.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1931.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1932.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_1932.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2057.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Killy\DSC_2057.JPG
+Export PC Job to File Killy.jInfo
+Export USB Job to File Billy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Killy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Killy.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\Killy
+Export PC Job to File hh.jInfo
+Export PC Job to File hh.jInfo
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00241.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00241.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00242.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00242.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00257.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00257.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00563.jpg to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00563.jpg
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00568.jpg to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00568.jpg
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00622.jpg to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00622.jpg
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00674.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00674.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00709.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00709.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00724.jpg to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00724.jpg
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00737.jpg to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00737.jpg
+Copy File C:\Users\Pirororor\Desktop\haha\DSC00763.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC00763.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\DSC01795.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\DSC01795.JPG
+Copy File C:\Users\Pirororor\Desktop\haha\sees.txt to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\sees.txt
+Copy File C:\Users\Pirororor\Desktop\haha\test.txt to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\test.txt
+Copy File C:\Users\Pirororor\Desktop\haha\tetetetet.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\tetetetet.docx
+Copy File C:\Users\Pirororor\Desktop\haha\xzcv.txt to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\xzcv.txt
+Copy Folder C:\Users\Pirororor\Desktop\haha\MyTest to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\MyTest
+Copy File C:\Users\Pirororor\Desktop\haha\MyTest\ga.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\MyTest\ga.docx
+Copy Folder C:\Users\Pirororor\Desktop\haha\MyTest\adsda to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\MyTest\adsda
+Copy Folder C:\Users\Pirororor\Desktop\haha\MyTest\adsda\MyTest to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\MyTest\adsda\MyTest
+Copy File C:\Users\Pirororor\Desktop\haha\MyTest\adsda\MyTest\ga.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\hh\MyTest\adsda\MyTest\ga.docx
+Export PC Job to File hh.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Killy.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Killy.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\hh.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\hh.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\hh
+Export PC Job to File JOJOJO.jInfo
+Export PC Job to File JOJOJO.jInfo
+Copy File C:\Users\Pirororor\Desktop\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1929.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_1929.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1930.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_1930.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1931.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_1931.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_1932.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_1932.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2057.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2057.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2058.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2058.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2059.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2059.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2060.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2060.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0407.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0408.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0409.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0410.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0411.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0412.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\IMG_0413.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\New Microsoft Office Word Document.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Backup\hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Backup\New folder\josepht to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.exe.config to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\SyncDesk.pdb to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\System.Data.SQLite.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\database to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\database\Syncdesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\images to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_down.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\arrow_up.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\edit.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\remove.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\sync.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\syncing.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\images\white.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export PC Job to File JOJOJO.jInfo
+Delete File K:\_CleanSync_Data_\JOJOJO\DSC_2057.JPG
+Delete File K:\_CleanSync_Data_\JOJOJO\DSC_2058.JPG
+Delete File K:\_CleanSync_Data_\JOJOJO\DSC_2059.JPG
+Delete File K:\_CleanSync_Data_\JOJOJO\DSC_2060.JPG
+Export PC Job to File JOJOJO.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Killy.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2057.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2057.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2057.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2058.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2058.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2059.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2059.JPG
+Copy File C:\Users\Pirororor\Desktop\Backup\DSC_2060.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\JOJOJO\DSC_2060.JPG
+Export PC Job to File JOJOJO.jInfo
+Export PC Job to File JOJOJO.jInfo
+Export USB Job to File Billy.jInfo
+Export USB Job to File Killy.jInfo
+Export PC Job to File JOJOJO.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\JOJOJO.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\kill.jUSBInfo
+Copy Folder K:\_CleanSync_Data_\kill to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill
+Copy File K:\_CleanSync_Data_\kill\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\autorun.inf
+Copy File K:\_CleanSync_Data_\kill\DSC_1929.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1929.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1930.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1930.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1931.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1931.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1932.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1932.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2057.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2057.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2058.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2058.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2059.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2059.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2060.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2060.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0404.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0405.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0405.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0407.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0407.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0408.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0408.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0409.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0409.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0410.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0410.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0411.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0411.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0412.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0412.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0413.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0413.JPG
+Copy File K:\_CleanSync_Data_\kill\New Microsoft Office Word Document.docx to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New Microsoft Office Word Document.docx
+Copy Folder K:\_CleanSync_Data_\kill\hohoho to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\hohoho
+Copy Folder K:\_CleanSync_Data_\kill\New folder to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder
+Copy Folder K:\_CleanSync_Data_\kill\New folder\josepht to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder\josepht
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe.config to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe.config
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.pdb to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.pdb
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.xml
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\database to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\database\Syncdesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database\Syncdesk
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\images to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_down.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_down.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_up.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_up.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\edit.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\edit.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\remove.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\remove.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\sync.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\sync.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\syncing.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\syncing.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\white.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\white.png
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\hohoho
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\New folder
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\SyncDesk
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\autorun.inf
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1929.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1930.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1931.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1932.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2057.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2058.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2059.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2060.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0397.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0398.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0400.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0401.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0402.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0404.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0405.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0407.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0408.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0409.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0410.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0411.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0412.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0413.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\New Microsoft Office Word Document.docx
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Copy File C:\Users\Pirororor\Desktop\Test2\weweqeqeqwe.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\weweqeqeqwe.docx
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\weweqeqeqwe.docx to K:\_CleanSync_Data_\kill\weweqeqeqwe.docx
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\autorun.inf to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\autorun.inf
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_1929.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_1929.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_1930.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_1930.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_1931.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_1931.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_1932.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_1932.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_2057.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_2057.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_2058.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_2058.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_2059.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_2059.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\DSC_2060.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\DSC_2060.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0397.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0397.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0398.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0398.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0400.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0400.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0401.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0401.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0402.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0402.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0404.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0404.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0405.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0405.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0407.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0407.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0408.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0408.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0409.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0409.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0410.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0410.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0411.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0411.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0412.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0412.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\IMG_0413.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\IMG_0413.JPG
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\New Microsoft Office Word Document.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\New Microsoft Office Word Document.docx
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\hohoho to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\hohoho
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\New folder to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\New folder
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\New folder\josepht to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\New folder\josepht
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\SyncDesk.exe to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\SyncDesk.exe
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\SyncDesk.exe.config to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\SyncDesk.exe.config
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\SyncDesk.pdb to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\SyncDesk.pdb
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\System.Data.SQLite.dll to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\System.Data.SQLite.dll
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\System.Data.SQLite.xml to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\System.Data.SQLite.xml
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\database to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\database
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\database\Syncdesk to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\database\Syncdesk
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\arrow_down.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\arrow_down.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\arrow_up.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\arrow_up.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\edit.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\edit.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\remove.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\remove.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\sync.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\sync.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\syncing.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\syncing.png
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\images\white.png to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\images\white.png
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Tasks to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Tasks
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Tasks\1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Tasks\1
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Tasks\1\Files to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Tasks\1\Files
+Copy Folder C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Tasks\1\Files\Game 1 to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Tasks\1\Files\Game 1
+Copy File C:\Users\Pirororor\Desktop\Test2\Hohoho\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\Hohoho\Backup\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Delete Folder K:\_CleanSync_Data_\kill\Hohoho\Backup
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File Tester.jInfo
+Export USB Job to File Tester.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\Tester.jUSBInfo
+Copy Folder K:\_CleanSync_Data_\Tester to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tester
+Copy File K:\_CleanSync_Data_\Tester\doll.docx to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tester\doll.docx
+Copy Folder K:\_CleanSync_Data_\Tester\New Folder to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tester\New Folder
+Copy File K:\_CleanSync_Data_\Tester\New Folder\no;;.docx to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\Tester\New Folder\no;;.docx
+Export USB Job to File Tester.jInfo
+Export USB Job to File Tester.jInfo
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\doll.docx
+Export PC Job to File Tester.jInfo
+Export USB Job to File Tester.jInfo
+Copy File C:\Users\Pirororor\Desktop\New folder\New Folder\no;;.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\no;;.docx
+Copy Folder C:\Users\Pirororor\Desktop\New folder\New Folder\kokoko to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\kokoko
+Copy File C:\Users\Pirororor\Desktop\New folder\New Folder\kokoko\nashhaaa.docx to K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\kokoko\nashhaaa.docx
+Export USB Job to File Tester.jInfo
+Export PC Job to File Tester.jInfo
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\no;;.docx to K:\_CleanSync_Data_\Tester\New Folder\no;;.docx
+Copy Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\kokoko to K:\_CleanSync_Data_\Tester\New Folder\kokoko
+Copy File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\Tester\New Folder\kokoko\nashhaaa.docx to K:\_CleanSync_Data_\Tester\New Folder\kokoko\nashhaaa.docx
+Export USB Job to File Tester.jInfo
+Export PC Job to File Tester.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\Tester.jInfo
+Delete Folder K:\_CleanSync_Data_\Tester
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\Tester.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\kill.jUSBInfo
+Copy Folder K:\_CleanSync_Data_\kill to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill
+Copy File K:\_CleanSync_Data_\kill\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\autorun.inf
+Copy File K:\_CleanSync_Data_\kill\DSC_1929.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1929.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1930.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1930.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1931.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1931.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1932.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1932.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2057.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2057.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2058.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2058.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2059.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2059.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2060.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2060.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0404.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0405.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0405.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0407.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0407.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0408.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0408.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0409.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0409.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0410.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0410.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0411.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0411.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0412.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0412.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0413.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0413.JPG
+Copy File K:\_CleanSync_Data_\kill\New Microsoft Office Word Document.docx to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New Microsoft Office Word Document.docx
+Copy Folder K:\_CleanSync_Data_\kill\hohoho to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\hohoho
+Copy Folder K:\_CleanSync_Data_\kill\New folder to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder
+Copy Folder K:\_CleanSync_Data_\kill\New folder\josepht to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder\josepht
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe.config to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe.config
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.pdb to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.pdb
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.xml
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\database to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\database\Syncdesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database\Syncdesk
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\images to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_down.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_down.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_up.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_up.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\edit.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\edit.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\remove.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\remove.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\sync.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\sync.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\syncing.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\syncing.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\white.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\white.png
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export PC Job to File kill.jInfo
+Delete File C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\JobsList\kill.jInfo
+Export USB Job to File kill.jInfo
+Export PC Job to File kill.jInfo
+Export USB Job to File kill.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\kill.jUSBInfo
+Copy Folder K:\_CleanSync_Data_\kill to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill
+Copy File K:\_CleanSync_Data_\kill\autorun.inf to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\autorun.inf
+Copy File K:\_CleanSync_Data_\kill\DSC_1929.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1929.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1930.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1930.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1931.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1931.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_1932.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_1932.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2057.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2057.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2058.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2058.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2059.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2059.JPG
+Copy File K:\_CleanSync_Data_\kill\DSC_2060.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\DSC_2060.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0397.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0397.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0398.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0398.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0400.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0400.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0401.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0401.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0402.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0402.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0404.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0404.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0405.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0405.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0407.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0407.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0408.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0408.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0409.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0409.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0410.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0410.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0411.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0411.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0412.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0412.JPG
+Copy File K:\_CleanSync_Data_\kill\IMG_0413.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\IMG_0413.JPG
+Copy File K:\_CleanSync_Data_\kill\New Microsoft Office Word Document.docx to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New Microsoft Office Word Document.docx
+Copy Folder K:\_CleanSync_Data_\kill\hohoho to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\hohoho
+Copy Folder K:\_CleanSync_Data_\kill\New folder to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder
+Copy Folder K:\_CleanSync_Data_\kill\New folder\josepht to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\New folder\josepht
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Microsoft.VisualBasic.PowerPacks.Vs.xml
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.exe.config to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.exe.config
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\SyncDesk.pdb to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\SyncDesk.pdb
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.dll to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.dll
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\System.Data.SQLite.xml to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\System.Data.SQLite.xml
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\database to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\database\Syncdesk to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\database\Syncdesk
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\images to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_down.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_down.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\arrow_up.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\arrow_up.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\edit.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\edit.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\remove.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\remove.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\sync.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\sync.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\syncing.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\syncing.png
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\images\white.png to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\images\white.png
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files
+Copy Folder K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1 to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1
+Copy File K:\_CleanSync_Data_\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG to C:\Users\Pirororor\Desktop\Billy's with recovery test\CleanSyncV1.0\CleanSyncMini\bin\Release\_cs_job_data\temp folders\kill\SyncDesk\Tasks\1\Files\Game 1\DSCF9510.JPG
+Export USB Job to File kill.jInfo
+Copy File C:\Users\Pirororor\Desktop\New folder\no;;.docx to K:\_CleanSync_Data_\kill\no;;.docx
+Copy Folder C:\Users\Pirororor\Desktop\New folder\kokoko to K:\_CleanSync_Data_\kill\kokoko
+Copy File C:\Users\Pirororor\Desktop\New folder\kokoko\nashhaaa.docx to K:\_CleanSync_Data_\kill\kokoko\nashhaaa.docx
+Export USB Job to File kill.jInfo
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\hohoho
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\New folder
+Delete Folder K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\SyncDesk
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\autorun.inf
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1929.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1930.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1931.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_1932.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2057.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2058.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2059.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\DSC_2060.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0397.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0398.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0400.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0401.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0402.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0404.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0405.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0407.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0408.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0409.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0410.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0411.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0412.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\IMG_0413.JPG
+Delete File K:\\_CleanSync_Data_\_cs_job_data\usbJobsList\temp folders\kill\New Microsoft Office Word Document.docx
+Export PC Job to File kill.jInfo
+Export PC Job to File kill.jInfo
