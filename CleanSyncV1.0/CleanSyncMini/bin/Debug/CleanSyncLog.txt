@@ -1,0 +1,72 @@
+Export PC Job to File 1.jInfo
+Export PC Job to File 1.jInfo
+Export PC Job to File 2.jInfo
+Export PC Job to File 2.jInfo
+Export PC Job to File 3.jInfo
+Export PC Job to File 3.jInfo
+Export PC Job to File 4.jInfo
+Export PC Job to File 4.jInfo
+Export PC Job to File 5.jInfo
+Export PC Job to File 5.jInfo
+Export PC Job to File 6.jInfo
+Export PC Job to File 6.jInfo
+Export PC Job to File 7.jInfo
+Export PC Job to File 7.jInfo
+Export PC Job to File 8.jInfo
+Export PC Job to File 8.jInfo
+Export PC Job to File 9.jInfo
+Export PC Job to File 9.jInfo
+Export PC Job to File 10.jInfo
+Export PC Job to File 10.jInfo
+Export PC Job to File 11.jInfo
+Export PC Job to File 11.jInfo
+Export PC Job to File 12.jInfo
+Export PC Job to File 12.jInfo
+Export PC Job to File 1.jInfo
+Export PC Job to File 2.jInfo
+Export PC Job to File 3.jInfo
+Export PC Job to File 4.jInfo
+Export PC Job to File 5.jInfo
+Export PC Job to File 6.jInfo
+Export PC Job to File 7.jInfo
+Export PC Job to File 8.jInfo
+Export PC Job to File 9.jInfo
+Export PC Job to File 10.jInfo
+Export PC Job to File 11.jInfo
+Export PC Job to File 12.jInfo
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\1.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\1.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\1
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\6.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\6.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\6
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\5.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\5.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\5
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\9.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\9.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\9
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\10.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\10.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\10
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\11.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\11.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\11
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\12.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\12.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\12
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\3.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\3.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\3
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\8.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\8.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\8
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\4.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\4.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\4
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\7.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\7.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\7
+Delete File G:\Module\Sem6\CS3215\CleanSyncV1.0\CleanSyncMini\bin\Debug\_cs_job_data\JobsList\2.jInfo
+Delete File K:\\_CleanSync_Data_\_cs_job_data\incompleteJobs\2.jUSBInfo
+Delete Folder K:\_CleanSync_Data_\2
