@@ -7,14 +7,6 @@ using System.Diagnostics;
 
 namespace CleanSync
 {
-    public class ComparisonResultNullException : Exception
-    {
-        public ComparisonResultNullException(string message)
-            : base(message)
-        {
-        }        
-    }
-
    public class ConflictHandler
     {
         public ConflictHandler()

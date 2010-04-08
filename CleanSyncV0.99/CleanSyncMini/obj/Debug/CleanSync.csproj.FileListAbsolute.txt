@@ -97,3 +97,25 @@ C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\C
 C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
 C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+G:\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+G:\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb

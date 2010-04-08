@@ -874,7 +874,7 @@
                             <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
-                                        <TextBlock FontWeight="Bold">Cancel Acceopt</TextBlock>
+                                        <TextBlock FontWeight="Bold">Cancel Accept</TextBlock>
                                         <TextBlock>Not to accept this job by clicking cancel</TextBlock>
                                     </StackPanel>
                                 </ToolTip>

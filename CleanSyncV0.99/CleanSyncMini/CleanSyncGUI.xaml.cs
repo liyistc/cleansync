@@ -40,6 +40,8 @@ namespace CleanSync
         private List<PCJob> autosyncedJob;
         private System.Threading.Semaphore detectionSemaphore;
         private System.Threading.Semaphore syncSemaphore;
+        //private System.Threading.Semaphore conflictFrameSemaphore;
+        private bool conflictFlag;
 
         private struct SyncJobInfo
         {
@@ -196,20 +198,22 @@ namespace CleanSync
             }
 
             List<USBJob> incompleteJobList = Control.USBPlugIn(drives);
-            syncSemaphore = new Semaphore(1, 1);
-            AutoSync();
+            
             UpdateIncompletedJobList(incompleteJobList);
             Control.CheckJobStatus();
             
             this.usbDetector = new USBDetection();
             usbDetectionThread();
-            
+            syncJobInfo = new SyncJobInfo();
             
             FirstSyncProc = new BackgroundWorker();
             InitializeBackgroundWorker();
             detectionSemaphore = new Semaphore(1, 1);
+            //conflictFrameSemaphore = new Semaphore(1, 1);
+            syncSemaphore = new Semaphore(1, 1);
 
-            syncJobInfo = new SyncJobInfo();
+            conflictFlag = false;
+            
         }
 
 
@@ -281,8 +285,6 @@ namespace CleanSync
             Differences pcDifferences = syncJobInfo.Result.PCDifferences;
             CompareLogic compareLogic = new CompareLogic();
             FolderMeta root = syncJobInfo.CmpJob.FolderInfo;
-            CleanSyncProc = new BackgroundWorker();
-            InitializeCleanSyncProc();
 
             if (root == null)
             {
@@ -384,6 +386,7 @@ namespace CleanSync
             {
                 SyncJobInfo jobInfo = (SyncJobInfo)e.Argument;
                 Control.CleanSync(jobInfo.Result, jobInfo.CmpJob, worker);
+				e.Result = jobInfo.CmpJob;
             }
             catch (UnauthorizedAccessException error)
             {
@@ -469,12 +472,14 @@ namespace CleanSync
                 CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 AnalyseStartSync.IsEnabled = true;
                 AnalyseCancel.IsEnabled = true;
-                if (Analyser.IsVisible)
+                if ((Conflict.IsVisible || Analyser.IsVisible)&& !conflictFlag)
                 {
                     ShowMainFrame();
                 }
                 SyncProgressBar.Value = 0;
             }
+
+            
 
             Synchronize.IsEnabled = true;
             Analyse.IsEnabled = true;
@@ -594,6 +599,12 @@ namespace CleanSync
                 BarLabel.Visibility = Visibility.Hidden;
                 JobList.SelectedIndex = JobList.Items.Count - 1;
                 FirstSyncProgressBar.Value = 0;
+                //Clean new job frame
+                NewJobName.Clear();
+                AttachDropBox1.Clear();
+                FolderSelection2.SelectedIndex = -1;
+                NewJobConflictRes.SelectedIndex = 0;
+                NewJobAutomation.SelectedIndex = 0;
             }
         }
         #endregion
@@ -841,6 +852,8 @@ namespace CleanSync
             ConflictButtons.Visibility = Visibility.Visible;
             JobListHost.Visibility = Visibility.Hidden;
             JobStateIndicator.Visibility = Visibility.Hidden;
+
+            //conflictFrameSemaphore.WaitOne();
         }
         #endregion
 
@@ -997,6 +1010,7 @@ namespace CleanSync
             myBrushblack = SetBlack();
             AttachDropBox.Foreground = myBrushblack;
             ShowMainFrame();
+            JobList.SelectedIndex = Control.GetPCJobs().Count - 1;
             AttachDropBox.Clear();
         }
 
@@ -1022,7 +1036,7 @@ namespace CleanSync
                 //Status.Content = "Job Not Ready";
                 return;
             }
-            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath))
+            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath)||!Directory.Exists(syncJobInfo.CmpJob.AbsoluteUSBPath))
             {
                 MessageBox.Show("Could Not Find the Specified Path of the Current Job. The Job Will Be Removed.");
                 Control.DeleteJob(syncJobInfo.CmpJob);
@@ -1077,6 +1091,8 @@ namespace CleanSync
             ShowMainFrame();
             JobList.SelectedIndex = JobList.Items.Count - 1;
             FolderSelection2.DataContext = usbDetector.usbDriveList;
+
+            AutoSync();
         }
 
         private void JobList_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -1139,6 +1155,7 @@ namespace CleanSync
                     ConflictRes.SelectedIndex = -1;
                     Automation.SelectedIndex = -1;
                 }
+                
                 RemotePathDisplay.Text = "";
                 USBPathDisplay.Text = "";
                 JobNameDisplay.Text = "";
@@ -1217,6 +1234,8 @@ namespace CleanSync
                     CancelCreat.IsEnabled = false;
                     //JobList.IsEnabled = false;
                     FirstSyncProc.RunWorkerAsync(syncJobInfo);
+
+                    
                 }
                 else
                 {
@@ -1393,10 +1412,10 @@ namespace CleanSync
                 return;
             }
 
-            catch (ArgumentOutOfRangeException error)
+            catch (ArgumentOutOfRangeException)
             {
                 Balloon InfoBalloon = new Balloon();
-                InfoBalloon.BallonContent.Text = error.Message;
+                InfoBalloon.BallonContent.Text = "Could not delete an incomplete job.";
                 InfoBalloon.BalloonText = "CleanSync";
                 CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
                 //MessageBox.Show(error.Message);
@@ -1444,6 +1463,8 @@ namespace CleanSync
             //InfoBalloonS.BallonContent.Text = "Clean Synchronization Starts";
             //InfoBalloonS.BalloonText = "CleanSync";
             //CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloonS, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+            CleanSyncProc = new BackgroundWorker();
+            InitializeCleanSyncProc();
             CleanSyncProc.RunWorkerAsync(syncJobInfo);
         }
 
@@ -1451,12 +1472,55 @@ namespace CleanSync
         {
             syncJobInfo.Result = Control.HandleConflicts(syncJobInfo.Result);
 
-            DisplayDifferencesTree(false);
+            //conflictFrameSemaphore.Release();
+            if (!conflictFlag)
+            {
+                DisplayDifferencesTree(false);
+            }
+            else
+            {
+                if (!Control.CheckUSBDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob) || !Control.CheckPCDiskSpace(syncJobInfo.Result, syncJobInfo.CmpJob))
+                {
+                    Balloon InfoBalloon = new Balloon();
+                    InfoBalloon.BallonContent.Text = "Not Enough Space On Disk. No Synchronization Is Done.";
+                    InfoBalloon.BalloonText = "CleanSync";
+                    CleanSyncNotifyIcon.ShowCustomBalloon(InfoBalloon, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
+                    //MessageBox.Show("Not Enough Space on Disk.No Sync is done.");
+
+                    Synchronize.IsEnabled = true;
+                    Analyse.IsEnabled = true;
+                    NewJob.IsEnabled = true;
+                    RemoveJob.IsEnabled = true;
+                    ShowMainFrame();
+
+                    conflictFlag = false;
+                    AutoSync();
+
+                    return;
+                }
+
+                CleanSyncProc = new BackgroundWorker();
+                InitializeCleanSyncProc();
+                CleanSyncProc.RunWorkerAsync(syncJobInfo);
+                if (conflictFlag)
+                {
+                    conflictFlag = false;
+                    AutoSync();
+                }
+            }
         }
 
         private void ConflictCancel_Click(object sender, RoutedEventArgs e)
         {
+            //conflictFrameSemaphore.Release();
+            Synchronize.IsEnabled = true;
+            Analyse.IsEnabled = true;
+            NewJob.IsEnabled = true;
+            RemoveJob.IsEnabled = true;
             ShowMainFrame();
+
+            conflictFlag = false;
+            AutoSync();
         }
 
         private void CleanSyncNotifyIcon_TrayMouseDoubleClick(object sender, RoutedEventArgs e)
@@ -1524,7 +1588,7 @@ namespace CleanSync
                 //Status.Content = "No Job Selected";
                 return;
             }
-            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath))
+            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath)||!Directory.Exists(syncJobInfo.CmpJob.AbsoluteUSBPath))
             {
                 MessageBox.Show("Could Not Find the Specified Path of the Current Job. The Job Will Be Removed.");
                 Control.DeleteJob(syncJobInfo.CmpJob);
@@ -1555,6 +1619,7 @@ namespace CleanSync
                 if (syncJobInfo.CmpJob.JobSetting.ConflictConfig.Equals(AutoConflictOption.Off))
                 {
                     ShowConflictFrame();
+                    conflictFlag = true;
 
                     ConflictList.Items.Clear();
                     for (int i = 0; i < syncJobInfo.Result.conflictList.Count; i++)
@@ -1579,8 +1644,7 @@ namespace CleanSync
                 return;
             }
 
-            CleanSyncProc = new BackgroundWorker();
-            InitializeCleanSyncProc();
+            
             //AnalyseProgressBar.Visibility = Visibility.Visible;
 
             Balloon Background = new Balloon();
@@ -1588,16 +1652,31 @@ namespace CleanSync
             Background.BalloonText = "CleanSync";
             CleanSyncNotifyIcon.ShowCustomBalloon(Background, System.Windows.Controls.Primitives.PopupAnimation.Slide, 4000);
 
+            CleanSyncProc = new BackgroundWorker();
+            InitializeCleanSyncProc();
             CleanSyncProc.RunWorkerAsync(syncJobInfo);
         }
+
         private void AutoSync()
                 {
-                    foreach (PCJob pcJob in Control.GetPCJobs())
+                    for (int i = 0; i < Control.GetPCJobs().Count; i++ )
                     {
+                        PCJob pcJob = Control.GetPCJobs()[i];
                         if (pcJob.JobState.Equals(JobStatus.Complete) && pcJob.JobSetting.SyncConfig.Equals(AutoSyncOption.On))
                         {
+                            if (conflictFlag)
+                                break;
+
                             if (autosyncedJob.Contains(pcJob)) continue;
                             syncJobInfo.CmpJob = pcJob;
+                            if (!Directory.Exists(syncJobInfo.CmpJob.PCPath) || !Directory.Exists(syncJobInfo.CmpJob.AbsoluteUSBPath))
+                            {
+                                MessageBox.Show("Could Not Find the Specified Path of the Current Job. The Job Will Be Removed.");
+                                Control.DeleteJob(syncJobInfo.CmpJob);
+                                UpdateJobList();
+                                i--; 
+                                continue;
+                            }
                             DirectSync();
                             autosyncedJob.Add(pcJob);
                         }

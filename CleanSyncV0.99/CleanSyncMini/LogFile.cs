@@ -49,7 +49,16 @@ namespace CleanSync
 
         public static void ExportToPC(string path)
         {
-            File.AppendAllText(LogFilePath, "Export PC Job to File " + Path.GetFileName(path)+"\n");
+           try
+            {
+                File.AppendAllText(LogFilePath, "Export PC Job to File " + Path.GetFileName(path) + "\n");
+            }
+            catch (Exception)
+            {
+                
+                System.Threading.Thread.Sleep(10);
+                ExportToPC(path);
+            }
         }
 
         public static void ExportToUSB(string path)
