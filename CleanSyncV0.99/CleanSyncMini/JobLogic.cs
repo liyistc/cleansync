@@ -41,12 +41,12 @@ namespace CleanSync
             //num = n;
         }
 
-        internal void InitializePCJobInfo()
+        internal void InitializePCJobInfo(string pcID)
         {
-            if (!Directory.Exists(ReadAndWrite.GetStoredFolderOnPC()))
+            if (!Directory.Exists(ReadAndWrite.GetStoredFolderOnPC(pcID)))
                 return;
             
-            string[] storedPCJobs = Directory.GetFiles(ReadAndWrite.GetStoredFolderOnPC());
+            string[] storedPCJobs = Directory.GetFiles(ReadAndWrite.GetStoredFolderOnPC(pcID));
             
             if (storedPCJobs.Length == 0) return;
             try
@@ -141,6 +141,8 @@ namespace CleanSync
             {
                 usbJob.PCOneDeleted = true;
                 ReadAndWrite.ExportUSBJob(usbJob);
+				if (Directory.Exists(usbJob.AbsoluteUSBPath))
+                    ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
             }
             return i;
         }
@@ -163,6 +165,8 @@ namespace CleanSync
             {
                 usbJob.PCTwoDeleted = true;
                 ReadAndWrite.ExportUSBJob(usbJob);
+				if (Directory.Exists(usbJob.AbsoluteUSBPath))
+                    ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
             }
             return i;
         }
@@ -220,6 +224,8 @@ namespace CleanSync
 
                 InsertJob(jobUSB);
                 ReadAndWrite.RemoveIncompleteUSBJob(jobUSB);
+
+                ReadAndWrite.CreateTempStorageFolder(pcJob);
 
                 return pcJob;
             }
@@ -314,6 +320,8 @@ namespace CleanSync
        
             usbJob.diff = compareLogic.ConvertFolderMetaToDifferences(pcJob.FolderInfo);
 
+            ReadAndWrite.CreateTempStorageFolder(pcJob);
+
             sync.SyncPCToUSB(usbJob.diff, pcJob, worker);
             
             WriteIncompleteFileInfoOnUSB(usbJob);
@@ -386,6 +394,14 @@ namespace CleanSync
                         ReadAndWrite.ExportPCJob(pcJob);
                     }
                 }
+				for (int i = 0; i < USBJobs.Count; i++)
+                {
+                    if (!Directory.Exists(USBJobs[i].AbsoluteUSBPath))
+                    {
+                        USBJobs.RemoveAt(i);
+                        i--;
+                    }
+                }
             }
             catch (ArgumentNullException)
             {
@@ -442,6 +458,8 @@ namespace CleanSync
                 else
                     usbJob.PCTwoDeleted = true;
                 ReadAndWrite.ExportUSBJob(usbJob);
+				if (Directory.Exists(usbJob.AbsoluteUSBPath))
+                    ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
             }
 
         }
@@ -449,9 +467,9 @@ namespace CleanSync
         private void RemovePCJob(PCJob pcJob)
         {
             
-
             PCJobs.Remove(pcJob);
             ReadAndWrite.DeleteFile(ReadAndWrite.GetStoredPathOnPC(pcJob));
+            ReadAndWrite.DeleteFolder(ReadAndWrite.GetTempStorageFolder(pcJob));
         }
 
         private void RemoveUSBJob(USBJob usbJob)
@@ -461,8 +479,9 @@ namespace CleanSync
             USBJobs.Remove(usbJob);
 
             ReadAndWrite.DeleteFile(ReadAndWrite.GetStoredPathOnUSB(usbJob));
-
-            ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
+			
+			if (Directory.Exists(usbJob.AbsoluteUSBPath))
+            	ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
 
         }
 

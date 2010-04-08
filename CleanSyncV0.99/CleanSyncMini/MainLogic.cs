@@ -41,7 +41,7 @@ namespace CleanSync
 
         internal void InitializePCJobInfo()
         {
-            jobLogic.InitializePCJobInfo();
+            jobLogic.InitializePCJobInfo(thisPCID);
         }
          internal PCJob CreateJob(string JobName,string PCPath, string pathName, JobConfig config)
          {

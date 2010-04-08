@@ -99,21 +99,7 @@ namespace CleanSync
             LogFile.FileDeletion(path);
         }
 
-        public static void DeleteFolder(PCJob pcJob, FolderMeta folder)
-        {
-            foreach (FileMeta file in folder.files)
-            {
-                if (file != null)
-                    DeleteFile(pcJob.PCPath + file.Path + file.Name);
-            }
-            foreach (FolderMeta subFolder in folder.folders)
-            {
-                if (subFolder != null)
-                    DeleteFolder(pcJob,subFolder);
-            }
-            if (Directory.GetFiles(pcJob.PCPath + folder.Path + folder.Name).Length == 0 && Directory.GetDirectories(pcJob.PCPath + folder.Path + folder.Name).Length == 0)
-                Directory.Delete(pcJob.PCPath + folder.Path + folder.Name);
-        }
+       
 
         public static void DeleteFolder(string path)
         {
@@ -122,7 +108,7 @@ namespace CleanSync
                 ClearFolderAttributes(path);
                 Directory.Delete(path, true);
             }
-            catch (ArgumentNullException)
+            /*catch (ArgumentNullException)
             {
                 throw new ArgumentNullException("The Directory " + path + " cannot be null.");
             }
@@ -133,10 +119,12 @@ namespace CleanSync
             catch (UnauthorizedAccessException)
             {
                 throw new UnauthorizedAccessException("Access to: " + path + " denied!");
-            }
+            }*/
             catch (Exception)
             {
                 throw new Exception("Cannot delete folder: " + path);
+				System.Threading.Thread.Sleep(20);
+                DeleteFolder(path);
             }
             LogFile.FolderDeletion(path);
         }
@@ -165,6 +153,83 @@ namespace CleanSync
             {
                 fi.Attributes = FileAttributes.Normal;
             }
+        }
+		public static void DeleteFolder(PCJob pcJob, FolderMeta folder)
+        {
+           
+            for (int i = 0; i < folder.files.Count; i++)
+                {
+                    FileMeta file = folder.files[i];
+                    if (file != null)
+                    {
+
+                        DeleteFile(pcJob.PCPath + file.Path + file.Name);
+                        folder.files[i] = null;
+
+                    }
+                }
+                for (int i = 0; i < folder.folders.Count; i++)
+                {
+                    FolderMeta subFolder = folder.folders[i];
+                    if (subFolder != null)
+                    {
+
+                        DeleteFolder(pcJob, subFolder);
+                        folder.folders[i] = null;
+                    }
+                }
+                string path = pcJob.PCPath + folder.Path + folder.Name;
+                System.Threading.Thread.Sleep(30);
+
+                //bool empty = CheckFolderEmpty(folder);
+                //if (CheckFolderEmpty(folder))
+                //{
+            try{
+                string[] list1 = Directory.GetFiles(path);
+                string[] list2 = Directory.GetDirectories(path);
+                //for (int i = 0; i < list1.Length; i++)
+                //{
+                //    Console.WriteLine("file" + list1[i]);
+                //}
+                //for (int i = 0; i < list2.Length; i++)
+                //{
+                //    Console.WriteLine("folder" + list2[i]);
+                //}
+                if (Directory.GetFiles(path).Length != 0 || Directory.GetDirectories(path).Length != 0)
+                {
+                    LogFile.FolderDeletion(path);
+                    return;
+                }
+                    Directory.Delete(path, false);
+                    LogFile.FolderDeletion(path);
+                    folder = null;
+
+                //}
+
+                //problem caused by the Directory class in C#. (c# bug)
+                //not sure whethere canbe used --->"getFiles()&& getDirectories()".
+                //if (Directory.GetDirectories(path).Length ==0  && Directory.GetFiles(path).Length ==0)
+                //{
+                //    Directory.Delete(path, false);
+                //   // LogFile.FolderDeletion(path);
+                //    //folder = null;
+                //}
+            }
+            catch (ArgumentNullException)
+            {
+                throw new ArgumentNullException("The Directory cannot be null.");
+            }
+            //catch (IOException)
+            //{
+            //    return;
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("Exception in delete folderMeta");
+            //    DeleteFolder(pcJob, folder);
+            //}
+          //  LogFile.FolderDeletion(pcJob.PCPath + folder.Path + folder.Name);
+           
         }
 
         public static void DeleteFolderContent(string path)
@@ -413,13 +478,13 @@ namespace CleanSync
         internal static void ExportPCJob(PCJob pcJob)
         {
     
-            CreateDataFolder(GetPCRootPath());
+            CreateDataFolder(GetPCRootPath(pcJob.PCID));
 
-            ReSetPCFolderAccess();
+            ReSetPCFolderAccess(pcJob);
             
             DataInputOutput<PCJob>.SaveToBinary(GetStoredPathOnPC(pcJob),pcJob);
 
-            SetPCFolderAccess();
+            SetPCFolderAccess(pcJob);
             LogFile.ExportToPC(GetStoredPathOnPC(pcJob));
         }
         internal static void ExportIncompleteJobToUSB(USBJob incompleteUSBJob)
@@ -437,7 +502,7 @@ namespace CleanSync
         internal static string GetStoredPathOnPC(PCJob pcJob)
         {
             
-            return GetPCRootPath() + @"\JobsList\" + pcJob.JobName + ".jInfo";
+            return GetPCRootPath(pcJob.PCID) + @"\JobsList\" + pcJob.JobName + ".jInfo";
         }
 
         
@@ -523,9 +588,9 @@ namespace CleanSync
             return GetUSBRootPath(usbPath) + @"\usbJobsList";
         }
 
-        internal static string GetStoredFolderOnPC()
+        internal static string GetStoredFolderOnPC(string thisPCID)
         {
-            return GetPCRootPath() + @"\JobsList";
+            return GetPCRootPath(thisPCID) + @"\JobsList";
         }
         
         
@@ -575,9 +640,9 @@ namespace CleanSync
             }
         }
 
-        public static string GetPCRootPath()
+        public static string GetPCRootPath(string thisPCID)
         {
-            return GetCurrentDirectory() + @"\_cs_job_data";
+            return GetCurrentDirectory() + @"\_cs_job_data_"+thisPCID.Replace(@":","");
         }
 
         private static string GetCurrentDirectory()
@@ -638,13 +703,13 @@ namespace CleanSync
 
         
 
-        private static void ReSetPCFolderAccess()
+        private static void ReSetPCFolderAccess(PCJob pcJob)
         {
-            if (!Directory.Exists(GetPCRootPath()))
+            if (!Directory.Exists(GetPCRootPath(pcJob.PCID)))
                 return;
             try
             {
-                DirectoryInfo di = new DirectoryInfo(GetPCRootPath());
+                DirectoryInfo di = new DirectoryInfo(GetPCRootPath(pcJob.PCID));
 
                 di.Attributes = FileAttributes.Normal;
             }
@@ -662,13 +727,13 @@ namespace CleanSync
             }
         }
 
-        private static void SetPCFolderAccess()
+        private static void SetPCFolderAccess(PCJob pcJob)
         {
-            if (!Directory.Exists(GetPCRootPath()))
+            if (!Directory.Exists(GetPCRootPath(pcJob.PCID)))
                 return;
             try
             {
-                DirectoryInfo di = new DirectoryInfo(GetPCRootPath());
+                DirectoryInfo di = new DirectoryInfo(GetPCRootPath(pcJob.PCID));
 
                 di.Attributes = FileAttributes.Directory | FileAttributes.Hidden | FileAttributes.System;
             }
@@ -746,7 +811,23 @@ namespace CleanSync
    
         }
 
+        public static string GetTempStorageFolder(PCJob pcJob)
+        {
+            return GetTempStorageFolderRoot(pcJob) + @"\"+ pcJob.JobName;
+        }
+
+        public static string GetTempStorageFolderRoot(PCJob pcJob)
+        {
+            return Directory.GetCurrentDirectory() + @"\_cs_recent_deleted_files_"+pcJob.PCID.Replace(":","");
+        }
         
+        public static void CreateTempStorageFolder(PCJob pcJob)
+        {
+            if (!Directory.Exists(GetTempStorageFolderRoot(pcJob)))
+                CreateDirectory(GetTempStorageFolderRoot(pcJob));
+            if (!Directory.Exists(GetTempStorageFolder(pcJob)))
+                CreateDirectory(GetTempStorageFolder(pcJob));
+        }
         
     }
 }
