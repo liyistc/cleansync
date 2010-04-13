@@ -7,14 +7,7 @@ using System.Diagnostics;
 
 namespace CleanSync
 {
-    public class ComparisonResultNullException : Exception
-    {
-        public ComparisonResultNullException(string message)
-            : base(message)
-        {
-        }        
-    }
-
+    
    public class ConflictHandler
     {
         public ConflictHandler()
@@ -51,8 +44,15 @@ namespace CleanSync
            {
                case Conflicts.UserChoice.KeepPCUpdates:
                    if (conflict.PCFolderFileType != Conflicts.ConflictType.New || conflict.USBFolderFileType != Conflicts.ConflictType.New)
+                   {
                        deleted = DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
-                   else
+                       if (conflict.PCFolderFileType == Conflicts.ConflictType.Modified && conflict.USBFolderFileType == Conflicts.ConflictType.Deleted)
+                       {
+                           DeleteDifferencesFileEntry(conflict.PCFolderFileType, conflict.CurrentPCFile, PCDifferences);
+                           PCDifferences.AddNewFileDifference(conflict.CurrentPCFile);
+                       }
+                   }
+                   else if (conflict.PCFolderFileType == Conflicts.ConflictType.New && conflict.USBFolderFileType == Conflicts.ConflictType.New)
                    {
                        bool pcDeleted = false;
                        deleted = DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
@@ -75,12 +75,35 @@ namespace CleanSync
                        Debug.Assert(pcFolder != null);
                        DeleteFileFromRootFolder(conflict.CurrentPCFile, pcFolder);
                        ClearEmptyFolder(pcFolder, PCDifferences.getNewFolderList());
-                       PCDifferences.AddModifiedFileDifference(conflict.USBFile);
+					   ClearEmptyFolder(usbFolder, USBDifferences.getNewFolderList());
+                       PCDifferences.AddModifiedFileDifference(conflict.CurrentPCFile);
                    }
                    break;
                case Conflicts.UserChoice.KeepUSBUpdates:
                    deleted = DeleteDifferencesFileEntry(conflict.PCFolderFileType, conflict.CurrentPCFile, PCDifferences);
-                   if (!deleted) DeleteFileFromRootFolder(conflict.CurrentPCFile, FindFileRootFolder(conflict.CurrentPCFile, PCDifferences.getNewFolderList()));
+				   if (deleted && conflict.PCFolderFileType == Conflicts.ConflictType.Deleted && conflict.USBFolderFileType == Conflicts.ConflictType.Modified)
+                   {
+                           DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
+                           USBDifferences.AddNewFileDifference(conflict.USBFile);
+                   }
+                   if (deleted && conflict.PCFolderFileType == Conflicts.ConflictType.New && conflict.USBFolderFileType == Conflicts.ConflictType.New)
+                   {
+                       DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
+                       USBDifferences.AddModifiedFileDifference(conflict.USBFile);
+                   }
+                   if (!deleted) 
+                   {
+                       FolderMeta usbFolder = FindFileRootFolder(conflict.USBFile, USBDifferences.getNewFolderList());
+                       Debug.Assert(usbFolder != null);
+                       DeleteFileFromRootFolder(conflict.USBFile, usbFolder);
+                       FolderMeta pcFolder = FindFileRootFolder(conflict.CurrentPCFile, PCDifferences.getNewFolderList());
+                       Debug.Assert(pcFolder != null);
+                       DeleteFileFromRootFolder(conflict.CurrentPCFile, pcFolder);
+					   ClearEmptyFolder(pcFolder, PCDifferences.getNewFolderList());
+                       ClearEmptyFolder(usbFolder, USBDifferences.getNewFolderList());
+                       USBDifferences.AddModifiedFileDifference(conflict.USBFile);
+                       //DeleteFileFromRootFolder(conflict.CurrentPCFile, FindFileRootFolder(conflict.CurrentPCFile, PCDifferences.getNewFolderList())); 
+                   }
                    break;
                case Conflicts.UserChoice.Untouched:
                    deleted = DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
@@ -137,7 +160,7 @@ namespace CleanSync
            foreach (FolderMeta folder in folderList)
            {
                if (folder == null) continue;
-               if (fileInfo.Contains(folder.Path + folder.Name))
+               if (fileInfo.Contains(folder.Path + folder.Name+@"\"))
                {                  
                    resultFolder = folder;
                    break;
@@ -166,7 +189,12 @@ namespace CleanSync
            switch (userChoice)
            {
                case Conflicts.UserChoice.KeepUSBUpdates: DeleteDifferencesFileEntry(conflict.PCFolderFileType, conflict.CurrentPCFile, PCDifferences); break;
-               case Conflicts.UserChoice.KeepPCUpdates: DeleteFileFromRootFolder(conflict.CurrentPCFile, conflict.USBFolder, USBDifferences.getDeletedFolderList()); break;
+               case Conflicts.UserChoice.KeepPCUpdates:
+                  
+                       DeleteFileFromRootFolder(conflict.CurrentPCFile, conflict.USBFolder, USBDifferences.getDeletedFolderList());
+                       DeleteDifferencesFileEntry(conflict.PCFolderFileType, conflict.CurrentPCFile, PCDifferences);
+                       PCDifferences.AddNewFileDifference(conflict.CurrentPCFile); break;
+                   
            }
        }
        private void HandleFolderVSFileConflict(Differences PCDifferences, Differences USBDifferences, Conflicts conflict, Conflicts.UserChoice userChoice)
@@ -174,7 +202,11 @@ namespace CleanSync
            switch (userChoice)
            {
                case Conflicts.UserChoice.KeepPCUpdates: DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences); break;
-               case Conflicts.UserChoice.KeepUSBUpdates: DeleteFileFromRootFolder(conflict.USBFile, conflict.CurrentPCFolder, PCDifferences.getDeletedFolderList()); break;
+               case Conflicts.UserChoice.KeepUSBUpdates:
+                   DeleteFileFromRootFolder(conflict.USBFile, conflict.CurrentPCFolder, PCDifferences.getDeletedFolderList());
+                   DeleteDifferencesFileEntry(conflict.USBFolderFileType, conflict.USBFile, USBDifferences);
+                   USBDifferences.AddNewFileDifference(conflict.USBFile);
+                   break;
            }
        }
        private void DeleteFolderFromRootFolder(FolderMeta folderToBeDeleted, FolderMeta baseFolder, List<FolderMeta> baseList, Differences differences)

@@ -32,6 +32,12 @@ namespace CleanSync
             get;
             set;
         }
+
+        public bool Synchronizing
+        {
+            get;
+            set;
+        }
         
 
         [NonSerialized]
@@ -60,6 +66,7 @@ namespace CleanSync
             this.PCID = PCID;
             usbJob = null;
             this.JobSetting = config;
+            Synchronizing = false;
         }
 
         public PCJob(USBJob jobOnUSB, string pathOnPC, string PCID)
@@ -70,6 +77,7 @@ namespace CleanSync
             this.PCID = PCID;
             usbJob = jobOnUSB;
             this.JobSetting = new JobConfig();
+            Synchronizing = false;
         }
     }
 }

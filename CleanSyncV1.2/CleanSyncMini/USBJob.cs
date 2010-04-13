@@ -9,6 +9,17 @@ namespace CleanSync
     [Serializable]
     public class USBJob : JobDefinition
     {
+		public bool MovingOldDiffToTemp
+        {
+            get;
+            set;
+        }
+
+        public bool MovingTempToOldDiff
+        {
+            get;
+            set;
+        }
         const string PCONE = "";
         const string INVALID = "INVALID";
 
@@ -60,6 +71,37 @@ namespace CleanSync
             set;
         }
 
+		/*Bily's new code*/
+        public bool Synchronizing
+        {
+            get;
+            set;
+        }
+
+        public bool SynchronizingPcToUSB
+        {
+            get;
+            set;
+        }
+
+        public bool SynchronizingUSBToPC
+        {
+            get;
+            set;
+        }
+
+        public bool ReSynchronizing
+        {
+            get;
+            set;
+        }
+
+        public bool RecoveryPossible
+        {
+            get;
+            set;
+        }
+
         public USBJob():base()
         {
         }
@@ -69,12 +111,18 @@ namespace CleanSync
         {
             PCOnePath = jobOnPC.PCPath;
             PCTwoPath = "";
-            diff = null;
+            Synchronizing = false;
+            SynchronizingPcToUSB = false;
+            SynchronizingUSBToPC = true;
+            ReSynchronizing = false;
+            RecoveryPossible = true;
+            diff = new Differences();
             PCOneID = jobOnPC.PCID;
             PCTwoID = INVALID;
             MostRecentPCID = INVALID;
+            MovingOldDiffToTemp = false;
+            MovingTempToOldDiff = false;
             //DeletePCID = null;
         }
-
     }
 }

@@ -63,6 +63,12 @@ namespace CleanSync
              usbJob.AbsoluteUSBPath = drive + usbJob.RelativeUSBPath;
              ReadAndWrite.DeleteFile(ReadAndWrite.GetIncompleteUSBFilePath(usbJob));
              ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
+             if (Directory.Exists(ReadAndWrite.GetUSBResyncDirectory(usbJob)))
+                 ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncDirectory(usbJob));
+             if (Directory.Exists(ReadAndWrite.GetUSBTempFolder(usbJob)))
+                 ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBTempFolder(usbJob));
+             if (Directory.Exists(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob)))
+                 ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob));
          }
 
         /// <summary>
