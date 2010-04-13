@@ -109,7 +109,10 @@ namespace CleanSync
         public void ToggleStatus(JobStatus state)
         {
             if (state.Equals(JobStatus.Complete))
+            {
                 JobState = JobStatus.NotReady;
+                this.isSynced = false;
+            }
             else if (state.Equals(JobStatus.NotReady))
                 JobState = JobStatus.Complete;
         }

@@ -28,7 +28,7 @@ namespace DirectoryInformation
         {
             set;
             get;
-        }
+        }     
 
         public FolderMeta() :base()
         {
@@ -54,10 +54,52 @@ namespace DirectoryInformation
             //updateFolderSize();
         }
 
+		#region ClearingListSpaces
+        public static void ClearFolderList(List<FolderMeta> folderList)
+        {
+            for (int i = 0; i < folderList.Count; i++)
+            {
+                FolderMeta folder = folderList[i];
+                if (folder == null)
+                {
+                    folderList.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+        public static void ClearFileList(List<FileMeta> fileList)
+        {
+            for (int i = 0; i < fileList.Count; i++)
+            {
+                FileMeta file = fileList[i];
+                if (file == null)
+                {
+                    fileList.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+        #endregion     
+        public void sortComponents()
+        {
+            ClearFileList(files);
+            files.Sort(delegate(FileMeta one, FileMeta two)
+            {
+                return one.Name.CompareTo(two.Name);
+            }
+            );
+
+            ClearFolderList(folders);
+            folders.Sort(delegate(FolderMeta one, FolderMeta two) { return one.Name.CompareTo(two.Name); });
+            foreach (FolderMeta folder in folders)
+            {
+                folder.sortComponents();
+            }
+        }
 
 
         public FolderMeta(FolderMeta root)
-            : base(root.AbsolutePath, root.rootDir)
+            : base(root)
         {
             folders = new List<FolderMeta>();
             files = new List<FileMeta>();

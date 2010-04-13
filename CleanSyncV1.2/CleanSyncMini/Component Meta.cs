@@ -63,15 +63,49 @@ namespace DirectoryInformation
             if (Path.IndexOf('\\') != 0) Path = @"\" + Path;
             //Console.WriteLine(Path + "\n" + Name);
         }
+		public ComponentMeta(ComponentMeta root)
+        {
+            this.Name = root.Name;
+            this.Path = root.Path;
+            this.AbsolutePath = root.AbsolutePath;
+            this.rootDir = root.rootDir;
+        }
+
+        #region ClearingListSpaces
+        public static void ClearFolderList(List<FolderMeta> folderList)
+        {
+            for (int i = 0; i < folderList.Count; i++)
+            {
+                FolderMeta folder = folderList[i];
+                if (folder == null)
+                {
+                    folderList.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+        public static void ClearFileList(List<FileMeta> fileList)
+        {
+            for (int i = 0; i < fileList.Count; i++)
+            {
+                FileMeta file = fileList[i];
+                if (file == null)
+                {
+                    fileList.RemoveAt(i);
+                    i--;
+                }
+            }
+        }
+        #endregion
 
         public static bool operator >(ComponentMeta first, ComponentMeta second)
         {
-            return first.Name.CompareTo(second.Name) > 0;
+            return first.Name.ToLower().CompareTo(second.Name.ToLower()) > 0;
         }
 
         public static bool operator <(ComponentMeta first, ComponentMeta second)
         {
-            return first.Name.CompareTo(second.Name) < 0;
+            return first.Name.ToLower().CompareTo(second.Name.ToLower()) < 0;
         }
 
     }

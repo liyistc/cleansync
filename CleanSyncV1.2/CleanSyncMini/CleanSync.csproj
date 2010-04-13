@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{BDC39D65-F9C6-43BC-84DD-06C46107982C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -130,13 +130,13 @@
     <Compile Include="DataInuptOutput.cs" />
     <Compile Include="Differences.cs" />
     <Compile Include="DifferenceToTreeConvertor.cs" />
+    <Compile Include="Exceptions.cs" />
     <Compile Include="FileMeta.cs" />
     <Compile Include="FolderMeta.cs" />
     <Compile Include="IconExtractor.cs" />
     <Compile Include="JobConfig.cs" />
     <Compile Include="JobDefinition.cs" />
     <Compile Include="JobLogic.cs" />
-    <Compile Include="LogFile.cs" />
     <Compile Include="MainLogic.cs" />
     <Compile Include="PCJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -161,6 +161,7 @@
       <DependentUpon>USBDetection.cs</DependentUpon>
     </Compile>
     <Compile Include="USBJob.cs" />
+    <Compile Include="VisiblityAnimation.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -169,33 +170,76 @@
     <EmbeddedResource Include="USBDetection.resx">
       <DependentUpon>USBDetection.cs</DependentUpon>
     </EmbeddedResource>
-    <Resource Include="Pic\Background.png" />
-    <Resource Include="Pic\Cancel.png" />
-    <Resource Include="Pic\Close.png" />
-    <Resource Include="Pic\Computer.png" />
-    <Resource Include="Pic\Confirm.png" />
-    <Resource Include="Pic\Conform.png" />
-    <Resource Include="Pic\Create.png" />
-    <Resource Include="Pic\Delete.png" />
-    <Resource Include="Pic\Drive-USB-icon.png" />
-    <Resource Include="Pic\FolderBro.png" />
-    <Resource Include="Pic\Folderopen.png" />
-    <Resource Include="Pic\Folderopenpc.png" />
-    <Resource Include="Pic\Folderopenusb.png" />
-    <Resource Include="Pic\green.png" />
-    <Resource Include="Pic\Info.png" />
-    <Resource Include="Pic\JobsBac1.png" />
-    <Resource Include="Pic\JobsBac2.png" />
-    <Resource Include="Pic\JobsBac3.png" />
-    <Resource Include="Pic\Modify.png" />
-    <Resource Include="Pic\New Job.png" />
-    <Resource Include="Pic\new.png" />
-    <Resource Include="Pic\red.png" />
-    <Resource Include="Pic\Removejob.png" />
-    <Resource Include="Pic\StartSyn.png" />
-    <Resource Include="Pic\Sync.png" />
-    <Resource Include="Pic\USB.png" />
-    <Resource Include="Pic\yellow.png" />
+    <None Include="Pic\.svn\all-wcprops" />
+    <None Include="Pic\.svn\entries" />
+    <None Include="Pic\.svn\prop-base\Accept.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Analyse.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Background.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\black.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Cancel.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\checkmark.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Close.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Computer.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Confirm.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Conform.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Create.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Delete.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Drive-USB-icon.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\FolderBro.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Folderopen.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Folderopenpc.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Folderopenusb.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\green.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\icon.ico.svn-base" />
+    <None Include="Pic\.svn\prop-base\icon.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\icon1.ico.svn-base" />
+    <None Include="Pic\.svn\prop-base\Info.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\JobsBac1.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\JobsBac2.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\JobsBac3.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Modify.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\New Job.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\new.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\red.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Removejob.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\StartSyn.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\Sync.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\USB.png.svn-base" />
+    <None Include="Pic\.svn\prop-base\yellow.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Accept.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Analyse.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Background.png.svn-base" />
+    <None Include="Pic\.svn\text-base\black.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Cancel.png.svn-base" />
+    <None Include="Pic\.svn\text-base\checkmark.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Close.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Computer.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Confirm.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Conform.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Create.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Delete.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Drive-USB-icon.png.svn-base" />
+    <None Include="Pic\.svn\text-base\FolderBro.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Folderopen.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Folderopenpc.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Folderopenusb.png.svn-base" />
+    <None Include="Pic\.svn\text-base\green.png.svn-base" />
+    <None Include="Pic\.svn\text-base\icon.ico.svn-base" />
+    <None Include="Pic\.svn\text-base\icon.png.svn-base" />
+    <None Include="Pic\.svn\text-base\icon1.ico.svn-base" />
+    <None Include="Pic\.svn\text-base\Info.png.svn-base" />
+    <None Include="Pic\.svn\text-base\JobsBac1.png.svn-base" />
+    <None Include="Pic\.svn\text-base\JobsBac2.png.svn-base" />
+    <None Include="Pic\.svn\text-base\JobsBac3.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Modify.png.svn-base" />
+    <None Include="Pic\.svn\text-base\New Job.png.svn-base" />
+    <None Include="Pic\.svn\text-base\new.png.svn-base" />
+    <None Include="Pic\.svn\text-base\red.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Removejob.png.svn-base" />
+    <None Include="Pic\.svn\text-base\StartSyn.png.svn-base" />
+    <None Include="Pic\.svn\text-base\Sync.png.svn-base" />
+    <None Include="Pic\.svn\text-base\USB.png.svn-base" />
+    <None Include="Pic\.svn\text-base\yellow.png.svn-base" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -238,15 +282,43 @@
   <ItemGroup>
     <Resource Include="Pic\Accept.png" />
     <Resource Include="Pic\Analyse.png" />
-    <Resource Include="Pic\icon.ico" />
-    <Resource Include="Pic\icon.png" />
-    <Resource Include="Pic\icon1.ico" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Pic\Background.png" />
     <Resource Include="Pic\black.png" />
+    <Resource Include="Pic\Cancel.png" />
+    <Resource Include="Pic\checkmark.png" />
+    <Resource Include="Pic\CleanSync.ico" />
+    <Resource Include="Pic\Close.png" />
+    <Resource Include="Pic\Computer.png" />
+    <Resource Include="Pic\Confirm.png" />
+    <Resource Include="Pic\Conform.png" />
+    <Resource Include="Pic\Create.png" />
+    <Resource Include="Pic\Delete.png" />
+    <Resource Include="Pic\Drive-USB-icon.png" />
+    <Resource Include="Pic\FolderBro.png" />
+    <Resource Include="Pic\Folderopen.png" />
+    <Resource Include="Pic\Folderopenpc.png" />
+    <Resource Include="Pic\Folderopenusb.png" />
+    <Resource Include="Pic\green.png" />
+    <Resource Include="Pic\icon.png" />
+    <Resource Include="Pic\Info.png" />
+    <Resource Include="Pic\JobsBac1.png" />
+    <Resource Include="Pic\JobsBac2.png" />
+    <Resource Include="Pic\JobsBac3.png" />
+    <Resource Include="Pic\Modify.png" />
+    <Resource Include="Pic\New Job.png" />
+    <Resource Include="Pic\new.png" />
+    <Resource Include="Pic\red.png" />
+    <Resource Include="Pic\Removejob.png" />
+    <Resource Include="Pic\StartSyn.png" />
+    <Resource Include="Pic\Sync.png" />
+    <Resource Include="Pic\USB.png" />
+    <Resource Include="Pic\yellow.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Pic\checkmark.png" />
+    <Folder Include="Pic\.svn\props\" />
+    <Folder Include="Pic\.svn\tmp\prop-base\" />
+    <Folder Include="Pic\.svn\tmp\props\" />
+    <Folder Include="Pic\.svn\tmp\text-base\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

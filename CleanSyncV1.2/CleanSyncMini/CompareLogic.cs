@@ -217,10 +217,10 @@ namespace CleanSync
             DetectFileConflictInList(conflicts, PCDifferences.getModifiedFileList(), USBDifferences.getDeletedFileList(), Conflicts.ConflictType.Modified, Conflicts.ConflictType.Deleted);
             DetectFileConflictInList(conflicts, PCDifferences.getModifiedFileList(), USBDifferences.getModifiedFileList(), Conflicts.ConflictType.Modified, Conflicts.ConflictType.Modified);
             DetectFileConflictInList(conflicts, PCDifferences.getNewFileList(), USBDifferences.getNewFileList(), Conflicts.ConflictType.New, Conflicts.ConflictType.New);
-            DetectFileConflictInList(conflicts, PCDifferences.getNewFileList(), USBDifferences.getDeletedFileList(), Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted);
-            DetectFileConflictInList(conflicts, PCDifferences.getDeletedFileList(), USBDifferences.getNewFileList(), Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New);
-            DetectFileConflictInList(conflicts, PCDifferences.getNewFileList(), USBDifferences.getModifiedFileList(), Conflicts.ConflictType.New, Conflicts.ConflictType.Modified);
-            DetectFileConflictInList(conflicts, PCDifferences.getModifiedFileList(), USBDifferences.getNewFileList(), Conflicts.ConflictType.Modified, Conflicts.ConflictType.New);
+            //DetectFileConflictInList(conflicts, PCDifferences.getNewFileList(), USBDifferences.getDeletedFileList(), Conflicts.ConflictType.New, Conflicts.ConflictType.Deleted);
+            //DetectFileConflictInList(conflicts, PCDifferences.getDeletedFileList(), USBDifferences.getNewFileList(), Conflicts.ConflictType.Deleted, Conflicts.ConflictType.New);
+           //DetectFileConflictInList(conflicts, PCDifferences.getNewFileList(), USBDifferences.getModifiedFileList(), Conflicts.ConflictType.New, Conflicts.ConflictType.Modified);
+            //DetectFileConflictInList(conflicts, PCDifferences.getModifiedFileList(), USBDifferences.getNewFileList(), Conflicts.ConflictType.Modified, Conflicts.ConflictType.New);
             DetectFileConflictInList(conflicts, PCDifferences.getDeletedFileList(), USBDifferences.getDeletedFileList(), Conflicts.ConflictType.Deleted, Conflicts.ConflictType.Deleted);
         }
         private void DetectFileConflictInList(List<Conflicts> conflicts, List<FileMeta> fileList, List<FileMeta> baseList, Conflicts.ConflictType fileType, Conflicts.ConflictType baseFileType)
@@ -295,8 +295,29 @@ namespace CleanSync
             return folder;
         }
 
-       
-        private void DetectFileConflictWithFolderList(List<Conflicts> conflicts,Conflicts.ConflictType type, List<FileMeta> fileList, List<FolderMeta> deletedFolderList, Conflicts.FolderFileType folderFileType)
+        private bool CheckFileInFolder(FileMeta file, FolderMeta folder)
+        {
+            string key = file.Path + file.Name;
+            foreach (FileMeta fileToBeChecked in folder.files)
+            {
+                if (fileToBeChecked == null) continue;
+                if (key.Equals(fileToBeChecked.Path + fileToBeChecked.Name))
+                {
+                    return true;
+                }
+            }
+            foreach (FolderMeta subFolder in folder.folders)
+            {
+                if (subFolder == null) continue;
+                if (CheckFileInFolder(file, subFolder))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }//end of new method
+        //xiaoQ modified method
+        private void DetectFileConflictWithFolderList(List<Conflicts> conflicts, Conflicts.ConflictType type, List<FileMeta> fileList, List<FolderMeta> deletedFolderList, Conflicts.FolderFileType folderFileType)
         {
             for (int i = 0; i < fileList.Count; i++)
             {
@@ -306,21 +327,22 @@ namespace CleanSync
                 FolderMeta folder = null;
                 foreach (FolderMeta deletedFolder in deletedFolderList)
                 {
-                    if (deletedFolder== null) continue;
-                    string deletedFolderKey = deletedFolder.Path + deletedFolder.Name+@"\";
+                    if (deletedFolder == null) continue;
+                    string deletedFolderKey = deletedFolder.Path + deletedFolder.Name + @"\";
                     if (fileKey.Contains(deletedFolderKey)) //conflict---- creating new folder inside a deleted folder
                     {
                         folder = deletedFolder;
                         break;
                     }
                 }
-                if (folder != null && type != Conflicts.ConflictType.Deleted)
+                if (folder != null && type == Conflicts.ConflictType.Modified)
                 {
+                    if (!CheckFileInFolder(file, folder)) return;
                     switch (folderFileType)
                     {
-
                         case Conflicts.FolderFileType.FileVSFolderConflict:
                             conflicts.Add(new Conflicts(Conflicts.FolderFileType.FileVSFolderConflict, file, folder, type, Conflicts.ConflictType.Deleted));
+
                             break;
                         case Conflicts.FolderFileType.FolderVSFileConflict:
                             conflicts.Add(new Conflicts(Conflicts.FolderFileType.FolderVSFileConflict, folder, file, Conflicts.ConflictType.Deleted, type));
@@ -329,10 +351,10 @@ namespace CleanSync
                 }
                 else if (folder != null && type == Conflicts.ConflictType.Deleted)
                 {
-                     RemoveFileFromDeletedListAndDeletedFolder(fileList, file, folder);
+                    RemoveFileFromDeletedListAndDeletedFolder(fileList, file, folder);
                 }
             }
-        }
+        }//end of modified method
         private void RemoveFileFromDeletedListAndDeletedFolder(List<FileMeta>fileList, FileMeta file, FolderMeta folder)
         {
            // bool removed = false;

@@ -44,7 +44,10 @@ namespace CleanSync
         internal void InitializePCJobInfo(string pcID)
         {
             if (!Directory.Exists(ReadAndWrite.GetStoredFolderOnPC(pcID)))
+            {
+                PCJobs = new List<PCJob>();
                 return;
+            }
             
             string[] storedPCJobs = Directory.GetFiles(ReadAndWrite.GetStoredFolderOnPC(pcID));
             
@@ -143,6 +146,12 @@ namespace CleanSync
                 ReadAndWrite.ExportUSBJob(usbJob);
 				if (Directory.Exists(usbJob.AbsoluteUSBPath))
                     ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncDirectory(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBTempFolder(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBTempFolder(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob));
             }
             return i;
         }
@@ -167,6 +176,12 @@ namespace CleanSync
                 ReadAndWrite.ExportUSBJob(usbJob);
 				if (Directory.Exists(usbJob.AbsoluteUSBPath))
                     ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncDirectory(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBTempFolder(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBTempFolder(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob));
             }
             return i;
         }
@@ -189,6 +204,9 @@ namespace CleanSync
             try
             {
                 PCJob pcJob = new PCJob(jobName, PCPath, AbsoluteUSBPath, PCID,config);
+
+                ReadAndWrite.CreatePCBackUpDirectory(pcJob);
+                ReadAndWrite.CreatePCTempDirectory(pcJob);
 
                 pcJob.JobState = JobStatus.Complete;
                 
@@ -220,12 +238,16 @@ namespace CleanSync
                 jobUSB.JobState = JobStatus.Complete;
                 jobUSB.PCTwoID = PCID;
                 //jobUSB.MostRecentPCID = PCID;
+
+                ReadAndWrite.CreatePCBackUpDirectory(pcJob);
+                ReadAndWrite.CreatePCTempDirectory(pcJob);
+
                 InsertJob(pcJob);
 
                 InsertJob(jobUSB);
                 ReadAndWrite.RemoveIncompleteUSBJob(jobUSB);
 
-                ReadAndWrite.CreateTempStorageFolder(pcJob);
+                //ReadAndWrite.CreateTempStorageFolder(pcJob);
 
                 return pcJob;
             }
@@ -248,12 +270,12 @@ namespace CleanSync
             try
             {
                 foreach (PCJob pcJob in PCJobs)
-                    if (pcJob.JobName.Equals(JobName)) return true;
+                    if (pcJob.JobName.Equals(JobName,StringComparison.OrdinalIgnoreCase)) return true;
                 foreach (USBJob usbJob in USBJobs)
-                    if (usbJob.JobName.Equals(JobName)) return true;
+                    if (usbJob.JobName.Equals(JobName, StringComparison.OrdinalIgnoreCase)) return true;
                 string[] incomplete = ReadAndWrite.GetDirectoryFiles(ReadAndWrite.GetIncompleteUSBFolderPath(usbPath));
                 foreach (string incompleteName in incomplete)
-                    if (JobName.Equals(Path.GetFileNameWithoutExtension(incompleteName))) return true;
+                    if (JobName.Equals(Path.GetFileNameWithoutExtension(incompleteName),StringComparison.OrdinalIgnoreCase)) return true;
             }
             catch (ArgumentNullException)
             {
@@ -316,13 +338,24 @@ namespace CleanSync
 
             USBJob usbJob = new USBJob(pcJob);
 
+            ReadAndWrite.CreateUSBTempDirectory(usbJob);
+            ReadAndWrite.CreateUSBResyncDirectory(usbJob);
+            ReadAndWrite.CreateUSBResyncBackUpDirectory(usbJob);
+
             pcJob.SetUsbJob(usbJob);
        
             usbJob.diff = compareLogic.ConvertFolderMetaToDifferences(pcJob.FolderInfo);
 
-            ReadAndWrite.CreateTempStorageFolder(pcJob);
+            //ReadAndWrite.CreateTempStorageFolder(pcJob);
 
-            sync.SyncPCToUSB(usbJob.diff, pcJob, worker);
+            try
+            {
+                sync.SyncPCToUSB(usbJob.diff, pcJob, worker);
+            }
+            catch (UnauthorizedAccessException e)
+            {
+                throw e;
+            }
             
             WriteIncompleteFileInfoOnUSB(usbJob);
             
@@ -345,6 +378,8 @@ namespace CleanSync
         {
             try
             {
+                pcJob.Synchronizing = true;
+                ReadAndWrite.ExportPCJob(pcJob);
                 sync.CleanSync(comparisonResult, pcJob, worker);
             }
             catch (ArgumentNullException)
@@ -448,8 +483,10 @@ namespace CleanSync
                     
                 if (pcJob.GetUsbJob().JobState.Equals(JobStatus.Incomplete))
                 {
-                    ReadAndWrite.DeleteFile(ReadAndWrite.GetIncompleteUSBFilePath(pcJob.GetUsbJob()));
-                    ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath);
+                    if (File.Exists(ReadAndWrite.GetIncompleteUSBFilePath(pcJob.GetUsbJob()))) 
+                        ReadAndWrite.DeleteFile(ReadAndWrite.GetIncompleteUSBFilePath(pcJob.GetUsbJob()));
+                    if (Directory.Exists(pcJob.AbsoluteUSBPath))
+                        ReadAndWrite.DeleteFolder(pcJob.AbsoluteUSBPath);
                     return;
                 }
                 USBJob usbJob = pcJob.GetUsbJob();
@@ -460,6 +497,12 @@ namespace CleanSync
                 ReadAndWrite.ExportUSBJob(usbJob);
 				if (Directory.Exists(usbJob.AbsoluteUSBPath))
                     ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncDirectory(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBTempFolder(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBTempFolder(usbJob));
+                if (Directory.Exists(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob)))
+                    ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob));
             }
 
         }
@@ -468,8 +511,14 @@ namespace CleanSync
         {
             
             PCJobs.Remove(pcJob);
-            ReadAndWrite.DeleteFile(ReadAndWrite.GetStoredPathOnPC(pcJob));
-            ReadAndWrite.DeleteFolder(ReadAndWrite.GetTempStorageFolder(pcJob));
+            if (File.Exists(ReadAndWrite.GetStoredPathOnPC(pcJob)))
+                ReadAndWrite.DeleteFile(ReadAndWrite.GetStoredPathOnPC(pcJob));
+            if (Directory.Exists(ReadAndWrite.GetPCTempFolder(pcJob)))
+                ReadAndWrite.DeleteFolder(ReadAndWrite.GetPCTempFolder(pcJob));
+            if (Directory.Exists(ReadAndWrite.GetPCBackUpFolder(pcJob)))
+                ReadAndWrite.DeleteFolder(ReadAndWrite.GetPCBackUpFolder(pcJob));
+            
+            //ReadAndWrite.DeleteFolder(ReadAndWrite.GetTempStorageFolder(pcJob));
         }
 
         private void RemoveUSBJob(USBJob usbJob)
@@ -482,7 +531,12 @@ namespace CleanSync
 			
 			if (Directory.Exists(usbJob.AbsoluteUSBPath))
             	ReadAndWrite.DeleteFolder(usbJob.AbsoluteUSBPath);
-
+            if (Directory.Exists(ReadAndWrite.GetUSBResyncDirectory(usbJob)))
+                ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncDirectory(usbJob));
+            if (Directory.Exists(ReadAndWrite.GetUSBTempFolder(usbJob)))
+                ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBTempFolder(usbJob));
+            if (Directory.Exists(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob)))
+                ReadAndWrite.DeleteFolder(ReadAndWrite.GetUSBResyncBackUpDirectory(usbJob));
         }
 
         public void CheckJobStatus()

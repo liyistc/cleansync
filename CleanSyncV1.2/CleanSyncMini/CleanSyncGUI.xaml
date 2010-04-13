@@ -4,6 +4,7 @@
     xmlns:local="clr-namespace:CleanSync"
     xmlns:custom="clr-namespace:Samples.Controls"
     xmlns:tb="http://www.hardcodet.net/taskbar"
+    xmlns:animate ="clr-namespace:CleanSync.Animation"
     Title="CleanSync" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Icon="Pic\icon.png" AllowsTransparency="False" Opacity="5" Loaded="Window_Loaded"  >
     <Window.Background>
         <ImageBrush ImageSource="Pic/Background.png" Opacity="1.0"></ImageBrush>
@@ -501,8 +502,11 @@
         
         <DataTemplate x:Key="ConflictCell1">
             <StackPanel Orientation="Horizontal">
-                <CheckBox IsChecked="{Binding Path=PCSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center">
-                </CheckBox>
+                <!--CheckBox IsChecked="{Binding Path=PCSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center">
+                </CheckBox-->
+                <RadioButton IsChecked="{Binding Path=PCSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" GroupName="{Binding Path=Name}" VerticalAlignment="Center">
+                    
+                </RadioButton>
             </StackPanel>
         </DataTemplate>
         
@@ -532,7 +536,8 @@
         
         <DataTemplate x:Key="ConflictCell5">
             <StackPanel Orientation="Horizontal">
-                <CheckBox IsChecked="{Binding Path=USBSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"></CheckBox>
+                <!--CheckBox IsChecked="{Binding Path=USBSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"></CheckBox-->
+                <RadioButton GroupName="{Binding Path=Name}" IsChecked="{Binding Path=USBSelected,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" VerticalAlignment="Center"></RadioButton>
             </StackPanel>
         </DataTemplate>
         
@@ -554,7 +559,7 @@
 
         <!--Icon-->
         <Grid Name="IconFrame">
-            <tb:TaskbarIcon x:Name="CleanSyncNotifyIcon" IconSource="Pic/icon1.ico" TrayMouseDoubleClick="CleanSyncNotifyIcon_TrayMouseDoubleClick">
+            <tb:TaskbarIcon x:Name="CleanSyncNotifyIcon" IconSource="Pic/CleanSync.ico" TrayMouseDoubleClick="CleanSyncNotifyIcon_TrayMouseDoubleClick">
                 <tb:TaskbarIcon.TrayToolTip>
                     <Border Background="White" BorderBrush="Black" BorderThickness="2" CornerRadius="4" Opacity="0.8" Width="160" Height="40">
                     <TextBlock Text="Welcome to CleanSync" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -564,7 +569,7 @@
         </Grid>
 
         <!--JobList-->
-        <Grid Name="JobListHost" Width="200" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,45,0,0" Background="Transparent" Visibility="Visible">
+        <Grid Name="JobListHost" Width="200" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,45,0,0" Background="Transparent" Visibility="Visible" animate:VisibilityAnimation.AnimationType="Fade">
             <GroupBox Foreground="WhiteSmoke" Name="JobListHostBox" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Content="Job List" FontFamily="Times New Roman" FontSize="16" Background="Transparent">
             </GroupBox>
             <ListBox ItemTemplate="{StaticResource JobListItem}" Foreground="WhiteSmoke" MouseUp="JobList_MouseUp" Name="JobList" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,20,0,0" Background="Transparent" BorderBrush="Transparent" SelectionChanged="JobList_SelectionChanged">
@@ -572,7 +577,7 @@
         </Grid>
         
         <!--Job States Indicator-->
-        <Grid Name="JobStateIndicator" Width="200" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,450,0,0" Background="Transparent" Visibility="Visible">
+        <Grid Name="JobStateIndicator" Width="200" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="40,450,0,0" Background="Transparent" Visibility="Visible" animate:VisibilityAnimation.AnimationType="Fade">
             <StackPanel Orientation="Horizontal" Name="JobState1" Height="30" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,0,0" Background="Transparent">
                 <Canvas Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Center">
                     <Canvas.Background>
@@ -601,10 +606,11 @@
         </Grid>
         
         <!--Information-->
-        <Grid Name="InforHost" Width="520" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,45,0,0" Background="Transparent">
+        <Grid Name="InforHost" Width="520" Height="400" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,45,0,0" Background="Transparent" animate:VisibilityAnimation.AnimationType="Fade">
             
             <!--Main Frame-->
-            <Grid Name="MainFrameInfor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Visibility="Visible">
+            <!--Grid Name="MainFrameInfor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Visibility="Visible" animate:VisibilityAnimation.AnimationType="Fade"-->
+            <Grid Name="MainFrameInfor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent" Visibility="Visible" >    
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,200" Background="Transparent">
                     <Grid>
                         <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,20,0,0" Name="JobName" Width="120" Height="30" VerticalAlignment="Top" Background="Transparent" Text="JobName :"  />
@@ -654,7 +660,7 @@
             </Grid>
 
             <!--New Job Frame-->
-            <Grid Name="NewJobFrameInfor" Visibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <Grid Name="NewJobFrameInfor" Visibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" animate:VisibilityAnimation.AnimationType="Fade">
                 <GroupBox HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="0,0,0,0" Height="70" Background="Transparent">
                     <Grid>
                         <TextBox TextChanged="NewJobName_TextChanged" HorizontalContentAlignment="Left" Background="Snow" FontFamily="Times New Roman" FontSize="14" HorizontalAlignment="Left" Margin="50,25,0,0" Name="NewJobName" Width="200" Height="30" VerticalContentAlignment="Center"  VerticalAlignment="Top" Style="{StaticResource WaterMarkJobName}"/>
@@ -749,10 +755,10 @@
                         <!--TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,50,0,0" Name="AcceptLocalPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" Background="Transparent" Text="Local Path :" -->
                         <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,70,0,0" Name="AcceptRemotePath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Remote Path :" />
                         <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="50,110,0,0" Name="AcceptUSBPath" Width="120" Height="30" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Background="Transparent" Text="Removable Path :" />
-                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptJobNameDisplay" Width="200" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" TextWrapping="Wrap" Height="30" Margin="170,30,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptJobNameDisplay" Width="200" ></TextBlock>
                         <!--TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptLocalPathDisplay" Width="200" ></TextBlock-->
-                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptRemotePathDisplay" Width="200" ></TextBlock>
-                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" Height="30" Margin="170,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Name="AcceptUSBPathDisplay"></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" TextWrapping="Wrap" Height="30" Margin="170,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Name="AcceptRemotePathDisplay" Width="300" ></TextBlock>
+                        <TextBlock FontFamily="Times New Roman" FontSize="14" Foreground="WhiteSmoke" TextWrapping="Wrap" Height="30" Margin="170,110,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300" Name="AcceptUSBPathDisplay"></TextBlock>
                     </Grid>
                 </GroupBox>
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,160,0,0" Background="Transparent">
@@ -780,18 +786,18 @@
         </Grid> 
         
         <!--Buttons-->
-        <Grid Name="ButtonsHost" Width="520" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,450,0,0" Background="Transparent">
+        <Grid Name="ButtonsHost" Width="520" Height="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="245,450,0,0" Background="Transparent" animate:VisibilityAnimation.AnimationType="Fade">
             
             <!--Buttons On New Job Frame-->
-            <Grid Name="NewJobFrameGridButtons" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" Visibility="Hidden" >
+            <Grid Name="NewJobFrameGridButtons" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                     <Grid>
                         <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="30" Margin="160,30,0,0" Name="FirstSync" Click="FirstSync_Click" >
                             <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
-                                        <TextBlock FontWeight="Bold">First Sync</TextBlock>
-                                        <TextBlock>Comfirm and synchronize your job for the first time.</TextBlock>
+                                        <TextBlock FontWeight="Bold">Create a new job</TextBlock>
+                                        <TextBlock>Create a new job and synchronize to your removable device.</TextBlock>
                                     </StackPanel>
                                 </ToolTip>
                             </Button.ToolTip>
@@ -802,7 +808,7 @@
                                 <ToolTip>
                                     <StackPanel>
                                         <TextBlock FontWeight="Bold">Cancel</TextBlock>
-                                        <TextBlock>Cancel job creation.</TextBlock>
+                                        <TextBlock>Stop the job creation process.</TextBlock>
                                     </StackPanel>
                                 </ToolTip>
                             </Button.ToolTip>
@@ -836,7 +842,7 @@
                                 </ToolTip>
                             </Button.ToolTip>
                             Remove Job</Button>
-                        <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" Margin="280,30,0,0" VerticalAlignment="Top" Width="80" Height="30" Name="Analyse" HorizontalAlignment="Left" Click="Analyse_Click">
+                        <Button x:Name="Analyse" Style="{StaticResource InformButton}" Foreground="WhiteSmoke" Margin="280,30,0,0" VerticalAlignment="Top" Width="80" Height="30"  HorizontalAlignment="Left" Click="Analyse_Click">
                             <Button.ToolTip>
                                 <ToolTip>
                                     <StackPanel>
@@ -892,7 +898,7 @@
         
         
         <!--Conflict Frame-->
-        <Grid Name="Conflict" Width="720" Height="400" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden">
+        <Grid Name="Conflict" Width="720" Height="400" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                 <Grid>
                     <ListView Foreground="WhiteSmoke" Name="ConflictList" ItemsSource="{Binding Conflicts}" Background="Transparent" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
@@ -900,7 +906,8 @@
                         <ListView.View>
                             <GridView AllowsColumnReorder="False">
                                 <GridViewColumn CellTemplate="{StaticResource ConflictCell1}" >
-                                    <CheckBox Name="PCSelectAll" Checked="ConflictLeftSelectAll" Unchecked="ConflictLeftUnselecteAll"></CheckBox>
+                                    <!--CheckBox Name="PCSelectAll" Checked="ConflictLeftSelectAll" Unchecked="ConflictLeftUnselecteAll"></CheckBox-->
+                                    <Button Name="PCSelectAll" Click="ConflictLeftSelectAll">All</Button>
                                 </GridViewColumn>
                                 <GridViewColumn Header="Updates on Computer" CellTemplate="{StaticResource ConflictCell2}">
 
@@ -912,20 +919,18 @@
 
                                 </GridViewColumn>
                                 <GridViewColumn CellTemplate="{StaticResource ConflictCell5}">
-                                    <CheckBox Name="USBSelectAll" Checked="ConflictRightSelectAll" Unchecked="ConflictRightUnselectAll"></CheckBox>
+                                    <!--CheckBox Name="USBSelectAll" Checked="ConflictRightSelectAll" Unchecked="ConflictRightUnselectAll"></CheckBox-->
+                                    <Button Name="USBSelectAll" Click="ConflictRightSelectAll">All</Button>
                                 </GridViewColumn>
                             </GridView>
                         </ListView.View>
-
-
                     </ListView>
-
                 </Grid>                
             </GroupBox>
         </Grid>
         
         <!--Buttons On Conflict Frame-->
-        <Grid Name="ConflictButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden">
+        <Grid Name="ConflictButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                 <Grid>
                     <Button Style="{StaticResource InformButton}" Foreground="WhiteSmoke" HorizontalAlignment="Left" VerticalAlignment="Top" Name="Confirm" Height="30" Width="80" Margin="260,30,0,0" Click="ConflictConfirm_Click">Confirm</Button>
@@ -935,7 +940,8 @@
         </Grid>
         
         <!--Analyser Frame-->
-        <Grid Name="Analyser" Width="720" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden">
+        <Grid Name="Analyser" Width="720" Height="380" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,45,0,0" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
+            
             <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="0,0,360,30" Background="Transparent">
                 <Grid>
                     <TreeView Foreground="WhiteSmoke" Name="CompareResultLeft" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
@@ -994,13 +1000,13 @@
         </Grid>
         
         <!--Analyse Progress Bar Grid-->
-        <Grid Name="AnalyseProgressBar" Width="720" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,425,0,0" Background="Transparent" Visibility="Hidden">
+        <Grid Name="AnalyseProgressBar" Width="720" Height="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,425,0,0" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
             <ProgressBar Name="SyncProgressBar" Height="30" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" ></ProgressBar>
             <Label Name="SyncBarLabel" Height="30" Margin="0,0,0,0" VerticalAlignment="Bottom" HorizontalAlignment="Stretch"></Label>
         </Grid>
         
         <!--Buttons On Analyser Frame-->
-        <Grid Name="AnalyseButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden">
+        <Grid Name="AnalyseButtons" Width="720" Height="90" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,450,0,0" Background="Transparent" Visibility="Hidden" animate:VisibilityAnimation.AnimationType="Fade">
             <Grid Name="AnalyseFrameGridButtons" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Transparent">
                 <GroupBox VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent">
                     <Grid>
