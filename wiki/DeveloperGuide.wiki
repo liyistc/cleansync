@@ -1,4 +1,4 @@
-#CLEANSync developers' guide
+#CleanSync developers' guide
 
 ==Introduction==
 CleanSync is a one stop user-friendly and file synchronization software that facilitates the daily back-up and synchronization needs of Users who have to bring home the files from the office to continue their work at home and thus have to ensure that the two sets of files at both locations are synchronized. Other than conventional synchronization between 2 folders, CleanSync utilizes our new technology, Clean Synchronization, which allows users to sync two computers using a third USB device, while keeping disk space usage on the external device, to a minimum. With Clean Synchronization, users can synchronize between workstations using an external device without keeping track of two separate synchronization jobs of the external drive to each of the computers separately.
@@ -17,7 +17,7 @@ See: [http://code.google.com/p/cleansync/wiki/GlossaryTerms Glossary of Terms]
 ----
 ==Development Platform==
 
-CLEANSync is developed using .NET Visual C#. 
+CleanSync is developed using .NET Visual C#. 
 ----
 ==Components==
 [http://cleansync.googlecode.com/files/CLEANSync%20components.jpg]
@@ -29,13 +29,13 @@ GUI is implemented using WPF. It consists of the main class GUI, which is the ma
 ===Logics===
 See: [http://code.google.com/p/cleansync/wiki/LogicComponents Logics Component]
 
-The logics component form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
+The logics component form the underlying engine of CleanSync. This component is in charge of handling all calculation and work.
 
 
 ===MetaData===
 See: [http://code.google.com/p/cleansync/wiki/MetaDataComponent MetaData Component]
 
-MetaData classes store various information used by CLEANSync to perform its operations. 
+MetaData classes store various information used by CleanSync to perform its operations. 
 ----
 ==Implementation Details==
 [http://code.google.com/p/cleansync/wiki/NormalCleanSynchronization Normal Clean Synchronization]
