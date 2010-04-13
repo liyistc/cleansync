@@ -1,8 +1,8 @@
-#User's Guide to using CLEANSync
+#User's Guide to using CleanSync
 
 = Introduction =
 ----
-Frequently need to work on the same files and folders on 2 different computers? Having trouble ensuring both sets of files and folders are updated? Let CLEANSync handle that for you!
+Frequently need to work on the same files and folders on 2 different computers? Having trouble ensuring both sets of files and folders are updated? Let CleanSync handle that for you!
 
 [http://cleansync.googlecode.com/files/cs3215Sync%20copy.png] 
 
@@ -26,11 +26,11 @@ That’s it! Through Clean Synchronization, synchronization is easy, quick and e
 Unzip CleanSync_v1.0.zip to any directory in your computer`*`. A folder “CleanSync v1.0” will be created in that directory. No installation is necessary.
 
 `*` Do not unzip to a directory on an removable device or CleanSync will not run properly.
-= Starting CLEANSync =
+= Starting CleanSync =
 ----
 To start, click on CleanSync.exe located inside the CleanSync v1.0 folder.
 
-= Creating a new CLEANSync job =
+= Creating a new CleanSync job =
 ----
 CleanSync keeps track of the folders to be synchronized through CleanSync jobs. A CleanSync job stores the data of the folders to be synchronized in both computers and the removable device used to synchronize the two computers. 
 
@@ -54,7 +54,7 @@ All the information required to create the job on this computer is done.
  * Click on “Ok” to create the job. CleanSync will then proceed to synchronize the directory with the removable device for the first time.
 After synchronization is done, creating a job on this PC is complete! You can now plug the removable device into another computer with CleanSync installed for the other computer to accept this CleanSync job.
 
-=Accepting a CLEANSync Job=
+=Accepting a CleanSync Job=
 ----
 [http://cleansync.googlecode.com/files/accept_job.jpg]
 
