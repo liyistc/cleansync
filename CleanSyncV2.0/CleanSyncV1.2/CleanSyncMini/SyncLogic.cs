@@ -552,6 +552,7 @@ namespace DirectoryInformation
                             case ComponentMeta.Type.Deleted: //originally was deleted, now re-created a folder with the same name
                                 folderOld.FolderType = ComponentMeta.Type.Modified; //no longer deleted, now it's just modified.
                                 ReadAndWrite.CreateDirectory(ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                ReadAndWrite.CreateDirectory(destinationDirectory + folderNew.Path + folderNew.Name);
                                 ReSynchronizeFolders(folderOld, folderNew, sourceDirectory, destinationDirectory, pcToUSBDone);
                                 break;
                         }
