@@ -1,0 +1,112 @@
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\CS3215\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\[Team9][V1.0]Source Code\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\New folder\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+E:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+E:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+E:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+K:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+K:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\u0706992\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Wenhao\Desktop\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\wpf-notifyicon\NotifyIconWpf\obj\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
