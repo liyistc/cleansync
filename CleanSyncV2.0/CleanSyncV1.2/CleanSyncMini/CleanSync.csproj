@@ -138,6 +138,7 @@
     <Compile Include="JobConfig.cs" />
     <Compile Include="JobDefinition.cs" />
     <Compile Include="JobLogic.cs" />
+    <Compile Include="JobsRestoreLogic.cs" />
     <Compile Include="MainLogic.cs" />
     <Compile Include="PCJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
