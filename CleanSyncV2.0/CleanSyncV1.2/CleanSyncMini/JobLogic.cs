@@ -391,9 +391,9 @@ namespace CleanSync
         {
             try
             {
-                if (pcJob.Synchronizing) sync.RestoreInterruptedPCJobPCChanges(pcJob);
-                if (pcJob.GetUsbJob().Synchronizing) sync.RestoreInterruptedUSB(pcJob);
-                if (pcJob.GetUsbJob().ReSynchronizing) sync.RestoreReSyncUSB(pcJob);
+                if (pcJob.Synchronizing) JobsRestoreLogic.RestoreInterruptedPCJobPCChanges(pcJob);
+                if (pcJob.GetUsbJob().Synchronizing) JobsRestoreLogic.RestoreInterruptedUSB(pcJob);
+                if (pcJob.GetUsbJob().ReSynchronizing) JobsRestoreLogic.RestoreReSyncUSB(pcJob);
 
                 FolderMeta currentFolderMeta = ReadAndWrite.BuildTree(pcJob.PCPath);
                 FolderMeta storedFolderMeta = pcJob.FolderInfo;
