@@ -1,0 +1,42 @@
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Gu Yang\Desktop\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Billy's with recovery test new\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+K:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.xml
+K:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.dll
+K:\Booo\wpf-notifyicon\NotifyIconWpf\bin\Release\Hardcodet.Wpf.TaskbarNotification.pdb
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\ResolveAssemblyReference.cache
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.g.resources
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\NotifyIconWpf.csproj.GenerateResource.Cache
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.dll
+K:\Booo\wpf-notifyicon\NotifyIconWpf\obj\Release\Hardcodet.Wpf.TaskbarNotification.pdb
