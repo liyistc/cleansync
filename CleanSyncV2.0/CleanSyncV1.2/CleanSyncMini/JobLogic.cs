@@ -350,7 +350,7 @@ namespace CleanSync
 
             try
             {
-                sync.SyncPCToUSB(usbJob.diff, pcJob, worker,eArg);
+                sync.InitializationSynchronize(usbJob.diff, pcJob, worker,eArg);
             }
             catch (UnauthorizedAccessException e)
             {
