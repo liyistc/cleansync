@@ -17,10 +17,10 @@ namespace DirectoryInformation
         private double onePercentSize;
         private long totalSize;
         private string backupDirectory;
-        private string ReSyncTempUsb;
+        private string tempUSBForUSBContent;
         private string tempPC;
-        private string tempUSB;
-        private string reSyncTempUsbBackup;
+        private string tempUSBForPCContent;
+        private string USBTempReSync;
 
         private DifferenceToTreeConvertor convertor;
 
@@ -29,10 +29,10 @@ namespace DirectoryInformation
             totalSize = 0;
             onePercentSize = 0;
             backupDirectory = "";
-            ReSyncTempUsb = "";
+            tempUSBForUSBContent = "";
             tempPC = "";
-            tempUSB = "";
-            reSyncTempUsbBackup = "";
+            tempUSBForPCContent = "";
+            USBTempReSync = "";
             convertor = new DifferenceToTreeConvertor();
         }
 
@@ -50,28 +50,15 @@ namespace DirectoryInformation
             this.eArg = e;
             try
             {
-                //CreateTempFolders(pcJob);
                 SetTempFolderPaths(pcJob);
                 SetBackupFolder(pcJob);
-                //if (pcJob.Synchronizing)
-                //{
-                //    RestoreInterruptedPCJobPCChanges(pcJob);
-                //}
-                //if (pcJob.GetUsbJob().Synchronizing)
-                //{
-                //    RestoreInterruptedUSB(pcJob.GetUsbJob());
-                //}
-                //if (pcJob.GetUsbJob().ReSynchronizing)
-                //{
-                //    RestoreReSyncUSB(pcJob);
-                //}
-                //else
-                //{
+
+                {
                     ReadAndWrite.DeleteFolderContent(tempPC);
-                    ReadAndWrite.DeleteFolderContent(tempUSB);
-                    ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
-                    ReadAndWrite.DeleteFolderContent(reSyncTempUsbBackup);
-                //}
+                    ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
+                    ReadAndWrite.DeleteFolderContent(USBTempReSync);
+                }
 
                 pcJob.Synchronizing = true;
                 ReadAndWrite.ExportPCJob(pcJob);
@@ -108,13 +95,13 @@ namespace DirectoryInformation
         }
 
         /// <summary>
-        /// Do a fist time synchronization
+        /// Do a synchronization for the first time
         /// </summary>
-        /// <param name="PCToUSB">The difference to use to copy</param>
+        /// <param name="PCToUSB">File structure of the folder to be copied over to USB</param>
         /// <param name="pcJob">pcJob of the computer to be synchronized</param>
         /// <param name="worker">worker to update the progress bar of the GUI</param>
         [MethodImpl(MethodImplOptions.Synchronized)]
-        public void SyncPCToUSB(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker,System.ComponentModel.DoWorkEventArgs e)
+        public void InitializationSynchronize(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker,System.ComponentModel.DoWorkEventArgs e)
         {
             /*TestingCode*/
 
@@ -144,9 +131,9 @@ namespace DirectoryInformation
                 ReadAndWrite.CreateDirectory(pcJob.AbsoluteUSBPath);
                 FolderMeta root = convertor.ConvertDifferencesToTreeStructure(PCToUSB);
 
-                NormalCleanSyncFolderPcToUsb(root, pcJob.PCPath, tempUSB, pcToUSBDone);
+                NormalCleanSyncFolderPcToUsb(root, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone);
 
-                ReadAndWrite.MoveFolderContents(tempUSB, pcJob.AbsoluteUSBPath);
+                ReadAndWrite.MoveFolderContents(tempUSBForPCContent, pcJob.AbsoluteUSBPath);
                 pcJob.GetUsbJob().diff = PCToUSB;
                 pcJob.GetUsbJob().Synchronizing = false;
                 ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
@@ -171,6 +158,11 @@ namespace DirectoryInformation
         
         #region normalSync
 
+        /// <summary>
+        /// This method does a normal synchronization, taking care of backups too.
+        /// </summary>
+        /// <param name="comparisonResult"></param>
+        /// <param name="pcJob"></param>
         private void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)
         {
             DifferenceToTreeConvertor convertor = new DifferenceToTreeConvertor();
@@ -185,19 +177,19 @@ namespace DirectoryInformation
 
             try
             {
-                //Sync PC -> USB temp folder
+                // PC to USB temp folder
                 pcJob.GetUsbJob().SynchronizingPcToUSB = true;
                 pcJob.GetUsbJob().Synchronizing = true;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
-                NormalCleanSyncFolderPcToUsb(pcToUsb, pcJob.PCPath, tempUSB, pcToUSBDone);
-
-                //Sync USB -> PC 
+                NormalCleanSyncFolderPcToUsb(pcToUsb, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone);
+                
                 pcJob.GetUsbJob().SynchronizingPcToUSB = false;
                 pcJob.GetUsbJob().SynchronizingUSBToPC = true;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
-
-                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, tempPC, bgWorker, onePercentSize,eArg);
-                NormalCleanSyncFolderUsbToPC(usbToPc, tempPC, pcJob.PCPath, usbToPcDone);
+                
+                // USB to PC 
+                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, tempPC, bgWorker, onePercentSize,eArg);  //copy folder to temp folder
+                NormalCleanSyncFolderUsbToPC(usbToPc, tempPC, pcJob.PCPath, usbToPcDone);  //Synchronize to PC
 
                 pcJob.GetUsbJob().SynchronizingUSBToPC = false;
                 pcJob.GetUsbJob().MovingOldDiffToTemp = true;
@@ -209,14 +201,14 @@ namespace DirectoryInformation
                 if (pcJob.GetUsbJob().SynchronizingUSBToPC)
                 {
                     FolderMeta doneChanges = convertor.ConvertDifferencesToTreeStructure(usbToPcDone);
-                    RestoreIncompletePCChanges(doneChanges, pcJob.PCPath);
+                    RestoreIncompletePCChanges(doneChanges, pcJob.PCPath);  //restore changes on the PC
                     ReadAndWrite.DeleteFolderContent(backupDirectory);
                 }
                 pcJob.Synchronizing = false;
                 ReadAndWrite.ExportPCJob(pcJob);
                 try
                 {
-                    ReadAndWrite.DeleteFolderContent(tempUSB);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                     pcJob.GetUsbJob().Synchronizing = false;
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
                 }
@@ -226,8 +218,8 @@ namespace DirectoryInformation
             }
             try
             {
-                //move USB temp folder to the correct folder
-                ReadAndWrite.MoveFolderContents(pcJob.AbsoluteUSBPath, ReSyncTempUsb); 
+                //move the original USB path to a temporary folder
+                ReadAndWrite.MoveFolderContents(pcJob.AbsoluteUSBPath, tempUSBForUSBContent); 
                 pcJob.GetUsbJob().MovingOldDiffToTemp = false;
                 pcJob.GetUsbJob().MovingTempToOldDiff = true;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
@@ -241,8 +233,8 @@ namespace DirectoryInformation
                 ReadAndWrite.ExportPCJob(pcJob);
                 try
                 {
-                    ReadAndWrite.MoveFolderContentWithReplace(ReSyncTempUsb, pcJob.AbsoluteUSBPath);
-                    ReadAndWrite.DeleteFolderContent(tempUSB);
+                    ReadAndWrite.MoveFolderContentWithReplace(tempUSBForUSBContent, pcJob.AbsoluteUSBPath);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                     pcJob.GetUsbJob().Synchronizing = false;
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
                 }
@@ -252,7 +244,8 @@ namespace DirectoryInformation
             }
             try
             {
-                ReadAndWrite.MoveFolderContents(tempUSB, pcJob.AbsoluteUSBPath);
+                //move the content from the temp folder containing the PC's copied files to the correct path
+                ReadAndWrite.MoveFolderContents(tempUSBForPCContent, pcJob.AbsoluteUSBPath);
 
                 pcJob.GetUsbJob().MovingTempToOldDiff = false;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
@@ -282,14 +275,14 @@ namespace DirectoryInformation
                 try
                 {
                     ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-                    ReadAndWrite.MoveFolderContentWithReplace(ReSyncTempUsb, pcJob.AbsoluteUSBPath);
+                    ReadAndWrite.MoveFolderContentWithReplace(tempUSBForUSBContent, pcJob.AbsoluteUSBPath);
 
                     pcJob.GetUsbJob().diff = comparisonResult.PCDifferences;
                     pcJob.GetUsbJob().Synchronizing = false;
                     pcJob.GetUsbJob().MostRecentPCID = prevPCID;
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
-                    ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
-                    ReadAndWrite.DeleteFolderContent(tempUSB);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 }
                 catch (Exception)
                 { throw new SyncInterruptedException(); }
@@ -297,15 +290,23 @@ namespace DirectoryInformation
             }
             try
             {
-                ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
-                ReadAndWrite.DeleteFolderContent(tempUSB);
+                ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
+                ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 ReadAndWrite.DeleteFolderContent(tempPC);
             }
             catch (Exception)
             {
-                return;
+                return; 
             }
         }
+
+        /// <summary>
+        /// Extracts required files and folders on the PC over to the USB
+        /// </summary>
+        /// <param name="pcToUsb"></param>
+        /// <param name="originDirectoryRoot"></param>
+        /// <param name="destinationDirectoryRoot"></param>
+        /// <param name="pcToUsbDone"></param>
         private void NormalCleanSyncFolderPcToUsb(FolderMeta pcToUsb, string originDirectoryRoot, string destinationDirectoryRoot, Differences pcToUsbDone)
         {
             try
@@ -341,6 +342,14 @@ namespace DirectoryInformation
                 throw;
             }
         }
+
+        /// <summary>
+        /// Synchronizes the PC with changes from the USB
+        /// </summary>
+        /// <param name="usbToPC"></param>
+        /// <param name="originDirectoryRoot"></param>
+        /// <param name="destinationDirectoryRoot"></param>
+        /// <param name="usbToPCDone"></param>
         private void NormalCleanSyncFolderUsbToPC(FolderMeta usbToPC, string originDirectoryRoot, string destinationDirectoryRoot, Differences usbToPCDone)
         {
             try
@@ -389,13 +398,18 @@ namespace DirectoryInformation
         #endregion
 
         #region ReSync
+        /// <summary>
+        /// Does a resynchronization. The old changes made by this PC will be merged and updated with the new changes.
+        /// </summary>
+        /// <param name="comparisonResult"></param>
+        /// <param name="pcJob"></param>
         private void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)
         {
 
             FolderMeta oldDifferencesRoot = convertor.ConvertDifferencesToTreeStructure(comparisonResult.USBDifferences);
             FolderMeta newDifferencesRoot = convertor.ConvertDifferencesToTreeStructure(comparisonResult.PCDifferences);
            
-            ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, reSyncTempUsbBackup, bgWorker, onePercentSize,eArg); // Backup
+            ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, USBTempReSync, bgWorker, onePercentSize,eArg); // Backup
             
             FolderMeta oldDifferencesOriginal = new FolderMeta(oldDifferencesRoot);
             Differences pcToUSBDone = new Differences();
@@ -410,18 +424,18 @@ namespace DirectoryInformation
                     ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
 
                 //Copy files to USB
-                NormalCleanSyncFolderPcToUsb(newDifferencesRoot, pcJob.PCPath, tempUSB, pcToUSBDone);
+                NormalCleanSyncFolderPcToUsb(newDifferencesRoot, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone);
 
-                ReSynchronizeFolders(oldDifferencesOriginal, newDifferencesRoot, tempUSB, pcJob.AbsoluteUSBPath, pcToUSBDone);
+                ReSynchronizeFolders(oldDifferencesOriginal, newDifferencesRoot, tempUSBForPCContent, pcJob.AbsoluteUSBPath, pcToUSBDone);
 
             }
             catch (Exception)
             {
 
-                ReadAndWrite.DeleteFolderContent(tempUSB);
-                ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
+                ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
+                ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
                 ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-                ReadAndWrite.MoveFolderContentWithReplace(reSyncTempUsbBackup, pcJob.AbsoluteUSBPath);
+                ReadAndWrite.MoveFolderContentWithReplace(USBTempReSync, pcJob.AbsoluteUSBPath);
                 try
                 {
                     pcJob.GetUsbJob().ReSynchronizing = false;
@@ -457,10 +471,10 @@ namespace DirectoryInformation
                 pcJob.Synchronizing = false;
                 ReadAndWrite.ExportPCJob(pcJob);
 
-                ReadAndWrite.DeleteFolderContent(tempUSB);
-                ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
+                ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
+                ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
                 ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-                ReadAndWrite.MoveFolderContentWithReplace(reSyncTempUsbBackup, pcJob.AbsoluteUSBPath); 
+                ReadAndWrite.MoveFolderContentWithReplace(USBTempReSync, pcJob.AbsoluteUSBPath); 
 
                 try
                 {
@@ -475,7 +489,7 @@ namespace DirectoryInformation
                 { throw new SyncInterruptedException(); }
                 throw;
             }
-            ReadAndWrite.DeleteFolderContent(reSyncTempUsbBackup);
+            ReadAndWrite.DeleteFolderContent(USBTempReSync);
         }
         private void ReSynchronizeFolders(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceDirectory, string destinationDirectory, Differences pcToUSBDone)
         {
@@ -523,11 +537,11 @@ namespace DirectoryInformation
                                 switch (folderNew.FolderType)
                                 {
                                     //folderOld: new, folderNew: deleted
-                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFolder(destinationDirectory + folderOld.Path + folderOld.Name, ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFolder(destinationDirectory + folderOld.Path + folderOld.Name, tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                         foldersOld[oldIndex] = null;
                                         break;
                                     //folderOld: new, folderNew: modified
-                                    case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                    case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                         ReSynchronizeToNewFolder(folderOld, folderNew, sourceDirectory, destinationDirectory);
                                         break;
                                 }
@@ -536,7 +550,7 @@ namespace DirectoryInformation
                                 switch (folderNew.FolderType)
                                 {
                                     //folderOld: modified, folderNew: deleted
-                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFolder(destinationDirectory + folderOld.Path + folderOld.Name, ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFolder(destinationDirectory + folderOld.Path + folderOld.Name, tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                         folderNew.sortComponents();
                                         folderOld.sortComponents();
                                         CompareNewDeletedWithOldModifiedFolders(folderNew, folderOld);
@@ -544,14 +558,14 @@ namespace DirectoryInformation
                                         foldersOld[oldIndex] = folderNew;
                                         break;
                                     //folderOld: modified, folderNew: modified
-                                    case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                    case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                         ReSynchronizeFolders(folderOld, folderNew, sourceDirectory, destinationDirectory, pcToUSBDone);
                                         break;
                                 }
                                 break;
                             case ComponentMeta.Type.Deleted: //originally was deleted, now re-created a folder with the same name
                                 folderOld.FolderType = ComponentMeta.Type.Modified; //no longer deleted, now it's just modified.
-                                ReadAndWrite.CreateDirectory(ReSyncTempUsb + folderOld.Path + folderOld.Name);
+                                ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                 ReadAndWrite.CreateDirectory(destinationDirectory + folderNew.Path + folderNew.Name);
                                 ReSynchronizeFolders(folderOld, folderNew, sourceDirectory, destinationDirectory, pcToUSBDone);
                                 break;
@@ -706,9 +720,9 @@ namespace DirectoryInformation
                         switch (folderNew.FolderType)
                         {
                             case ComponentMeta.Type.Deleted: foldersOld[indexOld] = null;
-                                ReadAndWrite.MoveFolder(pathUSB + folderNew.Path + folderNew.Name, ReSyncTempUsb + folderNew.Path + folderOld.Name);
+                                ReadAndWrite.MoveFolder(pathUSB + folderNew.Path + folderNew.Name, tempUSBForUSBContent + folderNew.Path + folderOld.Name);
                                 break;
-                            case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(ReSyncTempUsb + folderNew.Path + folderNew.Name);
+                            case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderNew.Path + folderNew.Name);
                                 if (ReSynchronizeToNewFolder(folderOld, folderNew, pathPC, pathUSB)) changeType = true;
                                 break;
                         }
@@ -769,12 +783,12 @@ namespace DirectoryInformation
                         switch (fileNew.FileType)
                         {
                             case ComponentMeta.Type.Modified:
-                                ReadAndWrite.MoveFile(pathUSB + fileNew.Path + fileNew.Name, ReSyncTempUsb + fileNew.Path + fileNew.Name);
+                                ReadAndWrite.MoveFile(pathUSB + fileNew.Path + fileNew.Name, tempUSBForUSBContent + fileNew.Path + fileNew.Name);
                                 ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileNew.Path + fileNew.Name);
                                 filesOld[indexOld] = fileNew;
                                 fileNew.FileType = ComponentMeta.Type.New;
                                 break;
-                            case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, ReSyncTempUsb + fileNew.Path + fileNew.Name);
+                            case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileNew.Path + fileNew.Name);
                                 filesOld[indexOld] = null;
                                 break;
                         }
@@ -850,10 +864,10 @@ namespace DirectoryInformation
                             case ComponentMeta.Type.New: //previously modified or new, now either deleted or further modified
                                 switch (fileNew.FileType)
                                 {
-                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, ReSyncTempUsb + fileOld.Path + fileOld.Name);
+                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = null;
                                         break;
-                                    case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, ReSyncTempUsb + fileOld.Path + fileOld.Name);
+                                    case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
                                         if (fileOld.FileType == ComponentMeta.Type.New) fileNew.FileType = ComponentMeta.Type.New;
@@ -863,10 +877,10 @@ namespace DirectoryInformation
                             case ComponentMeta.Type.Modified: //previously modified or new, now either deleted or further modified
                                 switch (fileNew.FileType)
                                 {
-                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, ReSyncTempUsb + fileOld.Path + fileOld.Name);
+                                    case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
                                         break;
-                                    case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, ReSyncTempUsb + fileOld.Path + fileOld.Name);
+                                    case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
                                         if (fileOld.FileType == ComponentMeta.Type.New) fileNew.FileType = ComponentMeta.Type.New;
@@ -954,15 +968,15 @@ namespace DirectoryInformation
         {
             USBJob usbJob = pcJob.GetUsbJob();
             /*string*/
-            tempUSB = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
+            tempUSBForPCContent = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
             /*string*/
-            ReSyncTempUsb = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
+            tempUSBForUSBContent = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
 
             SetBackupFolder(pcJob);
             SetTempFolderPaths(pcJob);
             if (usbJob.SynchronizingPcToUSB)
             {
-                ReadAndWrite.DeleteFolderContent(tempUSB);
+                ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 usbJob.SynchronizingPcToUSB = false;
             }
             else if (usbJob.SynchronizingUSBToPC)
@@ -971,12 +985,12 @@ namespace DirectoryInformation
             }
             else if (usbJob.MovingOldDiffToTemp) //sync PCtoUSB done, USBtoPC done, have not move folder over
             {
-                ReadAndWrite.MoveFolderContentWithReplace(ReSyncTempUsb, usbJob.AbsoluteUSBPath);
+                ReadAndWrite.MoveFolderContentWithReplace(tempUSBForUSBContent, usbJob.AbsoluteUSBPath);
             }
             else // usbJob.MovingTemptoOldDiff
             {
-                ReadAndWrite.MoveFolderContentWithReplace(usbJob.AbsoluteUSBPath, tempUSB);
-                ReadAndWrite.MoveFolderContents(ReSyncTempUsb, usbJob.AbsoluteUSBPath);
+                ReadAndWrite.MoveFolderContentWithReplace(usbJob.AbsoluteUSBPath, tempUSBForPCContent);
+                ReadAndWrite.MoveFolderContents(tempUSBForUSBContent, usbJob.AbsoluteUSBPath);
             }
             usbJob.Synchronizing = false;
             ReadAndWrite.ExportUSBJob(usbJob);
@@ -989,20 +1003,20 @@ namespace DirectoryInformation
         public void RestoreReSyncUSB(PCJob pcJob)
         {
             /*string*/
-            tempUSB = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
+            tempUSBForPCContent = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
             /*string*/
-            ReSyncTempUsb = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
+            tempUSBForUSBContent = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
             /*string*/
-            reSyncTempUsbBackup = ReadAndWrite.GetUSBResyncBackUpDirectory(pcJob.GetUsbJob()); ;
+            USBTempReSync = ReadAndWrite.GetUSBResyncBackUpDirectory(pcJob.GetUsbJob()); ;
 
             SetBackupFolder(pcJob);
             SetTempFolderPaths(pcJob);
             USBJob usbJob = pcJob.GetUsbJob();
 
-            ReadAndWrite.DeleteFolderContent(tempUSB);
-            ReadAndWrite.DeleteFolderContent(ReSyncTempUsb);
+            ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
+            ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
             ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-            ReadAndWrite.MoveFolderContentWithReplace(reSyncTempUsbBackup, pcJob.AbsoluteUSBPath);
+            ReadAndWrite.MoveFolderContentWithReplace(USBTempReSync, pcJob.AbsoluteUSBPath);
 
             usbJob.ReSynchronizing = false;
             if (!usbJob.JobState.Equals(JobStatus.Incomplete))
@@ -1025,9 +1039,9 @@ namespace DirectoryInformation
         private void SetTempFolderPaths(PCJob pcJob)
         {
             tempPC = ReadAndWrite.GetPCTempFolder(pcJob);
-            tempUSB = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
-            ReSyncTempUsb = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
-            reSyncTempUsbBackup = ReadAndWrite.GetUSBResyncBackUpDirectory(pcJob.GetUsbJob());
+            tempUSBForPCContent = ReadAndWrite.GetUSBTempFolder(pcJob.GetUsbJob());
+            tempUSBForUSBContent = ReadAndWrite.GetUSBResyncDirectory(pcJob.GetUsbJob());
+            USBTempReSync = ReadAndWrite.GetUSBResyncBackUpDirectory(pcJob.GetUsbJob());
         }
 
         #endregion
