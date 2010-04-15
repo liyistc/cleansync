@@ -91,7 +91,6 @@ namespace DirectoryInformation
 
             ClearFolderList(folders);
             folders.Sort(delegate(FolderMeta one, FolderMeta two) { return one.Name.CompareTo(two.Name); });
-            List<int> indexOfFoldersToDelete = new List<int>();
             for (int i = 0; i < folders.Count; i++)
             {
                 FolderMeta folder = folders[i];
