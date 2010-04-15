@@ -25,3 +25,12 @@ If a file exists in both differences:
   * The file will still be modified
  # The old file is modified, the new file is deleted
   * The difference will be set to deleted
+
+To allow for restoration of previous state and backing up of deleted files and folders, normal synchronization works as follows:
+ # Copy all the changes from the USB to a temporary folder
+ # Extract the changes from the PC to a temporary folder on the USB
+ # Do the resynchronization to the main USB folder.
+ # Delete the temporary USB folder.
+If the synchronization is interrupted or cancelled, the temporary folders will be flushed except for the data on the temporary folder containing the original differences which will be set back as the original differences.
+
+1. Copy all the changes from the USB to a temporary folder
