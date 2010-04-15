@@ -14,8 +14,8 @@ Private methods are divided into three groups.
 ==Calculate Size==
 These methods are called to calculate the total size of data needed to be copied for this job.
  * void initializeTotalSize(ComparisonResult comparisonResult)
- * void updateFolderSize(List<FolderMeta> folders)
- * void updateFileSize(List<FileMeta> files)
+ * void updateFolderSize(List`<`FolderMeta`>` folders)
+ * void updateFileSize(List`<`FileMeta`>` files)
 ==Normal Synchronization==
 These methods are called to do a normal synchronization, based on the tree structure of the differences.
  * void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)
