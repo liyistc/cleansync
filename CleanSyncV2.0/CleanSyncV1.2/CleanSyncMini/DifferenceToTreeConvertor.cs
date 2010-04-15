@@ -47,13 +47,15 @@ namespace CleanSync
         {
 
             if (!haveDifference && folders.Count > 0) haveDifference = true;
+            int i = 0;
             foreach (FolderMeta folder in folders)
             {
+                i++;
                 if (folder != null)
                 {
                     /*Plugin code*/
                     if(folder.FolderType == ComponentMeta.Type.New || folder.FolderType == ComponentMeta.Type.Deleted)
-                        ClearInambiguityInFolder(folder, folder.FolderType);
+                        ClearInambiguityInFolder(folder, folder.FolderType); 
                     /*end plugin code*/
 
                     string[] parents = Regex.Split(folder.Path, SPLITTER);
