@@ -38,11 +38,7 @@ See: [http://code.google.com/p/cleansync/wiki/MetaDataComponent MetaData Compone
 MetaData classes store various information used by CleanSync to perform its operations. 
 ----
 ==Implementation Details==
-[http://code.google.com/p/cleansync/wiki/NormalCleanSynchronization Normal Clean Synchronization]
-
-[http://code.google.com/p/cleansync/wiki/ReSynchronization Re-Synchronization]
-
-[http://code.google.com/p/cleansync/wiki/FileAndFoldersRenaming Renaming of Files and Folders in the USB]
+[http://code.google.com/p/cleansync/wiki/CleanSynchronization?ts=1271353935&updated=CleanSynchronization Clean Synchronization]
 
 [http://code.google.com/p/cleansync/wiki/DeterminingFolder Determining folders to store meta data]
 
