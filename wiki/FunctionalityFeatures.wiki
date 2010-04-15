@@ -11,7 +11,7 @@ CleanSync can preview a list to changes made to each computer before synchroniza
 
 *Conflict Handling*
 
-CleanSync can handle conflicts and allow users to choose from 3 options: Using the one on the external device, using the one on the computer or choosing to update both, in which case files will be copied in both directions, and will be renamed. 
+CleanSync can handle conflicts and allow users to choose from 2 options: Using the one on the external device, or using the one on the computer.
 
 *Folder/File renaming*
 
