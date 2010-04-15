@@ -1025,6 +1025,6 @@ namespace CleanSync
             if (!Directory.Exists(GetTempStorageFolder(pcJob)))
                 CreateDirectory(GetTempStorageFolder(pcJob));
         }*/
-        
+
     }
 }
