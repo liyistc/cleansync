@@ -696,7 +696,7 @@ namespace DirectoryInformation
             }
             while(oldInt < oldCount)
             {
-                folderNew.files.Add(folderNew.files[oldInt++]);
+                folderNew.files.Add(folderOld.files[oldInt++]);
             }
         }
         
