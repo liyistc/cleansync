@@ -435,7 +435,7 @@ namespace DirectoryInformation
                 ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
                 ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-                ReadAndWrite.MoveFolderContentWithReplace(USBTempReSync, pcJob.AbsoluteUSBPath);
+                ReadAndWrite.MoveFolderContents(USBTempReSync, pcJob.AbsoluteUSBPath);
                 try
                 {
                     pcJob.GetUsbJob().ReSynchronizing = false;
@@ -452,10 +452,7 @@ namespace DirectoryInformation
             }
             try
             {
-
-                Differences oldDifferences = convertor.ConvertTreeStructureToDifferences(oldDifferencesRoot);
-
-                pcJob.GetUsbJob().diff = convertor.ConvertTreeStructureToDifferences(oldDifferencesOriginal);
+                pcJob.GetUsbJob().diff = convertor.ConvertTreeStructureToDifferences(oldDifferencesOriginal); //set the new tree.
                 pcJob.GetUsbJob().ReSynchronizing = false;
                 if (!pcJob.GetUsbJob().JobState.Equals(JobStatus.Incomplete))
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
@@ -489,8 +486,19 @@ namespace DirectoryInformation
                 { throw new SyncInterruptedException(); }
                 throw;
             }
+            ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
+            ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
             ReadAndWrite.DeleteFolderContent(USBTempReSync);
         }
+
+        /// <summary>
+        /// Resynchronize 2 folders that are modified.
+        /// </summary>
+        /// <param name="oldDifferencesRoot"></param>
+        /// <param name="newDifferencesRoot"></param>
+        /// <param name="sourceDirectory"></param>
+        /// <param name="destinationDirectory"></param>
+        /// <param name="pcToUSBDone"></param>
         private void ReSynchronizeFolders(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceDirectory, string destinationDirectory, Differences pcToUSBDone)
         {
             try
@@ -565,7 +573,6 @@ namespace DirectoryInformation
                                 break;
                             case ComponentMeta.Type.Deleted: //originally was deleted, now re-created a folder with the same name
                                 folderOld.FolderType = ComponentMeta.Type.Modified; //no longer deleted, now it's just modified.
-                                ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                 ReadAndWrite.CreateDirectory(destinationDirectory + folderNew.Path + folderNew.Name);
                                 ReSynchronizeFolders(folderOld, folderNew, sourceDirectory, destinationDirectory, pcToUSBDone);
                                 break;
