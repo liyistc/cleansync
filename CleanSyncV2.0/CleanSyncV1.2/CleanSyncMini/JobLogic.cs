@@ -343,8 +343,8 @@ namespace CleanSync
             ReadAndWrite.CreateUSBResyncBackUpDirectory(usbJob);
 
             pcJob.SetUsbJob(usbJob);
-       
-            usbJob.diff = compareLogic.ConvertFolderMetaToDifferences(pcJob.FolderInfo);
+
+            pcJob.GetUsbJob().diff = compareLogic.ConvertFolderMetaToDifferences(pcJob.FolderInfo);
 
             //ReadAndWrite.CreateTempStorageFolder(pcJob);
 

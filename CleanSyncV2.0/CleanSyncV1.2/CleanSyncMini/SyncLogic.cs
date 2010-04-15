@@ -8,7 +8,9 @@ using Exceptions;
 
 namespace DirectoryInformation
 {
-
+    /// <summary>
+    /// SyncLogic handles all synchronization processes. 
+    /// </summary>
     public class SyncLogic
     {
         private System.ComponentModel.BackgroundWorker bgWorker;
@@ -103,13 +105,6 @@ namespace DirectoryInformation
         [MethodImpl(MethodImplOptions.Synchronized)]
         public void InitializationSynchronize(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker,System.ComponentModel.DoWorkEventArgs e)
         {
-            /*TestingCode*/
-
-            /*   Differences PCToUSBDone = new Differences();
-               Differences USBToPCDone = new Differences();
-         
-             * */
-            //end test
             this.bgWorker = worker;
             this.eArg = e;
 
@@ -121,6 +116,7 @@ namespace DirectoryInformation
 
                 Differences pcToUSBDone = new Differences();
                 pcJob.FolderInfo = new FolderMeta(pcJob.PCPath, pcJob.PCPath); //create an empty tree structure, next time sync will be equivalent to 1st time sync.
+                pcJob.Synchronizing = true;
                 ReadAndWrite.ExportPCJob(pcJob);
 
                 pcJob.GetUsbJob().Synchronizing = true;
@@ -144,6 +140,22 @@ namespace DirectoryInformation
             }
             catch (Exception)
             {
+                Differences pcToUSBDone = new Differences();
+                pcJob.Synchronizing = false;
+                pcJob.FolderInfo = new FolderMeta(pcJob.PCPath, pcJob.PCPath); //create an empty tree structure, next time sync will be equivalent to 1st time sync.
+                ReadAndWrite.ExportPCJob(pcJob);
+
+                try
+                {
+                    pcJob.GetUsbJob().Synchronizing = false;
+                    pcJob.GetUsbJob().MostRecentPCID = pcJob.PCID;
+                    pcJob.GetUsbJob().diff = new Differences();
+                    ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
+                }
+                catch (Exception)
+                {
+                    throw new USBUnpluggedException();
+                }
                 this.bgWorker = null;
                 this.eArg = null;
                 backupDirectory = "";
@@ -172,7 +184,6 @@ namespace DirectoryInformation
             Differences pcToUSBDone = new Differences();
 
             FolderMeta olderInfoBackup = pcJob.FolderInfo;
-            FolderMeta olderNewest = pcJob.LastNormalSyncInfo;
             string prevPCID = pcJob.GetUsbJob().MostRecentPCID;
 
             try
@@ -213,7 +224,7 @@ namespace DirectoryInformation
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
                 }
                 catch (Exception)
-                { throw new SyncInterruptedException(); }
+                { throw new USBUnpluggedException(); }
                 throw;
             }
             try
@@ -239,7 +250,7 @@ namespace DirectoryInformation
                     ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
                 }
                 catch (Exception)
-                { throw new SyncInterruptedException(); }
+                { throw new USBUnpluggedException(); }
                 throw;
             }
             try
@@ -285,7 +296,7 @@ namespace DirectoryInformation
                     ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 }
                 catch (Exception)
-                { throw new SyncInterruptedException(); }
+                { throw new USBUnpluggedException(); }
                 throw;
             }
             try
@@ -447,7 +458,7 @@ namespace DirectoryInformation
                 }
                 catch (Exception)
                 {
-                    throw new SyncInterruptedException();
+                    throw new USBUnpluggedException();
                 }
                 throw;
             }
@@ -486,7 +497,7 @@ namespace DirectoryInformation
                         ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
                 }
                 catch (Exception)
-                { throw new SyncInterruptedException(); }
+                { throw new USBUnpluggedException(); }
                 throw;
             }
             ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);

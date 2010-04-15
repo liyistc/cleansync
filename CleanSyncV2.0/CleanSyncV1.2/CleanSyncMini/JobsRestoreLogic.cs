@@ -5,7 +5,7 @@ using System.Text;
 
 namespace CleanSync
 {
-    class JobsRestoreLogic
+    static class JobsRestoreLogic
     {
         /// <summary>
         /// Restore changes made to a PCJob whose previous synchronization process was interrupted. It will attempt to restore the folder synchronized to the previous state. However, folders that were newly copied over to the drive will remain there. No file or folder will be lost.

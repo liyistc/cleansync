@@ -6,63 +6,13 @@ using DirectoryInformation;
 
 namespace CleanSync
 {
+    /// <summary>
+    /// PCJob stores the information about the Job on the PC. It is serializable, to be saved onto the PC.
+    /// </summary>
     [Serializable]
     public class PCJob : JobDefinition
-    {        
-
-        public string PCPath
-        {
-            get;
-            set;
-        }
-
-        public FolderMeta FolderInfo
-        {
-            get;
-            set;
-        }
-
-        public string PCID
-        {
-            get;
-            set;
-        }
-
-        public JobConfig JobSetting
-        {
-            get;
-            set;
-        }
-
-        public bool Synchronizing
-        {
-            get;
-            set;
-        }
-        public FolderMeta LastNormalSyncInfo
-        {
-            get;
-            set;
-        }
-
-        [NonSerialized]
-        private USBJob usbJob;
-
-        public USBJob GetUsbJob()
-        {
-            return usbJob;
-        }
-
-        public void SetUsbJob(USBJob usb)
-        {
-            usbJob = usb;
-        }
-
-     /*   public PCJob()
-            : base()
-        {
-        }
-        */
+    {
+        #region Constructors
         public PCJob(string jobName, string pathOnPC, string pathOnUSB, string PCID, JobConfig config)
             : base(jobName, pathOnUSB)
         {
@@ -84,5 +34,55 @@ namespace CleanSync
             this.JobSetting = new JobConfig();
             Synchronizing = false;
         }
+        #endregion
+
+        #region Attributes about this computer
+        public string PCPath
+        {
+            get;
+            set;
+        }
+
+        public string PCID
+        {
+            get;
+            set;
+        }
+
+        public JobConfig JobSetting
+        {
+            get;
+            set;
+        }
+        #endregion
+
+        #region Attributes about last synchronization
+        public bool Synchronizing
+        {
+            get;
+            set;
+        }
+
+        public FolderMeta FolderInfo
+        {
+            get;
+            set;
+        }
+        #endregion
+
+        #region USBJob 
+        [NonSerialized]
+        private USBJob usbJob;
+
+        public USBJob GetUsbJob()
+        {
+            return usbJob;
+        }
+
+        public void SetUsbJob(USBJob usb)
+        {
+            usbJob = usb;
+        }
+        #endregion
     }
 }
