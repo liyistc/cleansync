@@ -410,9 +410,9 @@ namespace DirectoryInformation
             FolderMeta newDifferencesRoot = convertor.ConvertDifferencesToTreeStructure(comparisonResult.PCDifferences);
            
             ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, USBTempReSync, bgWorker, onePercentSize,eArg); // Backup
-            
+
+            //for restoration, work on a new copy of oldDifferencesRoot, so that can just delete to restore
             FolderMeta oldDifferencesOriginal = new FolderMeta(oldDifferencesRoot);
-            Differences pcToUSBDone = new Differences();
             FolderMeta prevFolderInfo = pcJob.FolderInfo;
 
             try
@@ -424,6 +424,7 @@ namespace DirectoryInformation
                     ReadAndWrite.ExportIncompleteJobToUSB(pcJob.GetUsbJob());
 
                 //Copy files to USB
+                Differences pcToUSBDone = new Differences();  // dummy difference, needed for NormalCleanSyncFolderPcToUsb.
                 NormalCleanSyncFolderPcToUsb(newDifferencesRoot, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone);
 
                 ReSynchronizeFolders(oldDifferencesOriginal, newDifferencesRoot, tempUSBForPCContent, pcJob.AbsoluteUSBPath, pcToUSBDone);
@@ -452,6 +453,7 @@ namespace DirectoryInformation
             }
             try
             {
+                oldDifferencesOriginal.sortComponents();
                 pcJob.GetUsbJob().diff = convertor.ConvertTreeStructureToDifferences(oldDifferencesOriginal); //set the new tree.
                 pcJob.GetUsbJob().ReSynchronizing = false;
                 if (!pcJob.GetUsbJob().JobState.Equals(JobStatus.Incomplete))
@@ -461,6 +463,7 @@ namespace DirectoryInformation
                 pcJob.FolderInfo = ReadAndWrite.BuildTree(pcJob.PCPath);
                 pcJob.Synchronizing = false;
                 ReadAndWrite.ExportPCJob(pcJob);
+
             }
             catch (Exception)
             {
@@ -471,7 +474,7 @@ namespace DirectoryInformation
                 ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
                 ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
                 ReadAndWrite.DeleteFolderContent(pcJob.AbsoluteUSBPath);
-                ReadAndWrite.MoveFolderContentWithReplace(USBTempReSync, pcJob.AbsoluteUSBPath); 
+                ReadAndWrite.MoveFolderContents(USBTempReSync, pcJob.AbsoluteUSBPath); 
 
                 try
                 {
@@ -503,7 +506,6 @@ namespace DirectoryInformation
         {
             try
             {
-               // ReadAndWrite.CreateDirectory(ReSyncTempUsb + oldDifferencesRoot.Path);
                 ReSynchronizeFiles(oldDifferencesRoot, newDifferencesRoot, sourceDirectory, destinationDirectory);
                 List<FolderMeta> foldersOld = oldDifferencesRoot.folders;
                 List<FolderMeta> foldersNew = newDifferencesRoot.folders;
@@ -559,12 +561,11 @@ namespace DirectoryInformation
                                 {
                                     //folderOld: modified, folderNew: deleted
                                     case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFolder(destinationDirectory + folderOld.Path + folderOld.Name, tempUSBForUSBContent + folderOld.Path + folderOld.Name);
-                                        folderNew.sortComponents();
-                                        folderOld.sortComponents();
-                                        CompareNewDeletedWithOldModifiedFolders(folderNew, folderOld);
-                                        folderNew.sortComponents();
+                                        CompareNewDeletedWithOldModifiedFolders(folderNew, folderOld); //go through deleted folder and get rid of previously new files/folders, and add previously deleted files/folders
+                                       // folderNew.sortComponents();
                                         foldersOld[oldIndex] = folderNew;
                                         break;
+
                                     //folderOld: modified, folderNew: modified
                                     case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderOld.Path + folderOld.Name);
                                         ReSynchronizeFolders(folderOld, folderNew, sourceDirectory, destinationDirectory, pcToUSBDone);
@@ -597,7 +598,7 @@ namespace DirectoryInformation
                     }
                     newIndex++;
                 }
-                FolderMeta.ClearFolderList(foldersOld);
+                //FolderMeta.ClearFolderList(foldersOld);
             }
             catch (Exception)
             {
@@ -635,12 +636,12 @@ namespace DirectoryInformation
                     }
                     else
                     {
-                        //subFolderOld: new SubFolderNew: deleted
+                        //subFolderOld: new, SubFolderNew: deleted
                         if (subFolderOld.FolderType == ComponentMeta.Type.New)
                         {
                             folderNew.folders[newInt] = null;
                         }
-                        //subFolderOld: modified subFolderNew: deleted
+                        //subFolderOld: modified, subFolderNew: deleted
                         else if (subFolderOld.FolderType == ComponentMeta.Type.Modified)
                         {
                             CompareNewDeletedWithOldModifiedFolders(subFolderNew, subFolderOld);
@@ -649,12 +650,16 @@ namespace DirectoryInformation
                         newInt++;
                     }
                 }
+                while(oldInt < oldCount)//originally deleted, now delete also
+                {
+                    folderNew.folders.Add(folderOld.folders[oldInt++]);
+                }
 
                 CompareNewDeletedWithOldModifiedFiles(folderNew, folderOld);
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                throw e;
+                throw;
             }
         }
 
@@ -689,14 +694,19 @@ namespace DirectoryInformation
                     oldInt++;
                 }
             }
+            while(oldInt < oldCount)
+            {
+                folderNew.files.Add(folderNew.files[oldInt++]);
+            }
         }
         
-        private bool ReSynchronizeToNewFolder(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string pathPC, string pathUSB)
+        private void ReSynchronizeToNewFolder(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string pathPC, string pathUSB)
         {
             try
             {
-                bool changeType = false;
-                changeType = ReSynchronizeToNewFolderFiles(oldDifferencesRoot, newDifferencesRoot, pathPC, pathUSB);
+                //bool changeType = false;
+                //changeType =
+                ReSynchronizeToNewFolderFiles(oldDifferencesRoot, newDifferencesRoot, pathPC, pathUSB);
 
                 List<FolderMeta> foldersOld = oldDifferencesRoot.folders;
                 List<FolderMeta> foldersNew = newDifferencesRoot.folders;
@@ -717,7 +727,7 @@ namespace DirectoryInformation
                     }
                     else if (folderNew < folderOld)
                     {
-                        if(folderNew.FolderType != ComponentMeta.Type.New) changeType = true;
+                        //if(folderNew.FolderType != ComponentMeta.Type.New) changeType = true;
                         foldersOld.Add(folderNew);
                         ReadAndWrite.MoveFolder(pathPC + folderNew.Path + folderNew.Name, pathUSB + folderNew.Path + folderNew.Name);
                         indexNew++;
@@ -730,7 +740,8 @@ namespace DirectoryInformation
                                 ReadAndWrite.MoveFolder(pathUSB + folderNew.Path + folderNew.Name, tempUSBForUSBContent + folderNew.Path + folderOld.Name);
                                 break;
                             case ComponentMeta.Type.Modified: ReadAndWrite.CreateDirectory(tempUSBForUSBContent + folderNew.Path + folderNew.Name);
-                                if (ReSynchronizeToNewFolder(folderOld, folderNew, pathPC, pathUSB)) changeType = true;
+                                //if (ReSynchronizeToNewFolder(folderOld, folderNew, pathPC, pathUSB)) changeType = true;
+                                ReSynchronizeToNewFolder(folderOld, folderNew, pathPC, pathUSB);
                                 break;
                         }
                         indexOld++;
@@ -743,24 +754,20 @@ namespace DirectoryInformation
                     foldersOld.Add(folderNew);
                     ReadAndWrite.MoveFolder(pathPC + folderNew.Path + folderNew.Name, pathUSB + folderNew.Path + folderNew.Name);
                 }
-                FolderMeta.ClearFolderList(foldersOld);
-                if (changeType) oldDifferencesRoot.FolderType = ComponentMeta.Type.Modified;
-                return changeType;
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                throw;
+                //FolderMeta.ClearFolderList(foldersOld);
+                //if (changeType) oldDifferencesRoot.FolderType = ComponentMeta.Type.Modified;
+                return; //changeType;
             }
             catch (Exception)
             {
                 throw;
             }
         }
-        private bool ReSynchronizeToNewFolderFiles(FolderMeta folderOld, FolderMeta folderNew, string pathPC, string pathUSB)
+        private void ReSynchronizeToNewFolderFiles(FolderMeta folderOld, FolderMeta folderNew, string pathPC, string pathUSB)
         {
             try
             {
-                bool changeType = false;
+             //   bool changeType = false;
                 List<FileMeta> filesOld = folderOld.files;
                 List<FileMeta> filesNew = folderNew.files;
 
@@ -780,7 +787,7 @@ namespace DirectoryInformation
                     }
                     else if (fileNew < fileOld) //the fileNew is a new file.
                     {
-                        if (fileNew.FileType != ComponentMeta.Type.New) changeType = true;
+                       // if (fileNew.FileType != ComponentMeta.Type.New) changeType = true;
                         filesOld.Add(fileNew);
                         ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileNew.Path + fileNew.Name);
                         indexNew++;
@@ -805,18 +812,14 @@ namespace DirectoryInformation
                 }
                 while (indexNew < filesNewSize) // rest of the new files
                 {
-                    if (filesNew[indexNew].FileType != ComponentMeta.Type.New) changeType = true;
+                   // if (filesNew[indexNew].FileType != ComponentMeta.Type.New) changeType = true;
                     filesOld.Add(filesNew[indexNew]);
                     filesNew[indexNew].FileType = ComponentMeta.Type.New;
                     ReadAndWrite.MoveFile(pathPC + filesNew[indexNew].Path + filesNew[indexNew].Name, pathUSB + filesNew[indexNew].Path + filesNew[indexNew].Name);
                     indexNew++;
                 }
-                FolderMeta.ClearFileList(filesOld);
-                return changeType;
-            }
-            catch (System.IO.FileNotFoundException)
-            {
-                throw;
+                return;
+                //return changeType;
             }
             catch (Exception)
             {
@@ -853,7 +856,7 @@ namespace DirectoryInformation
                         switch (fileNew.FileType)
                         {
                             case ComponentMeta.Type.Deleted: break;   //just add the difference
-                            default: ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileNew.Path + fileNew.Name);
+                            default: ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileNew.Path + fileNew.Name); //new or modified
                                 break;
 
                         }
@@ -868,12 +871,14 @@ namespace DirectoryInformation
                                 filesOld[oldIndex] = fileNew;
                                 fileNew.FileType = ComponentMeta.Type.Modified;
                                 break;
-                            case ComponentMeta.Type.New: //previously modified or new, now either deleted or further modified
+                            case ComponentMeta.Type.New: 
                                 switch (fileNew.FileType)
                                 {
+                                    //fileOld:New, fileNew: Deleted
                                     case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = null;
                                         break;
+                                    //fileOld: New, fileNew: Modified
                                     case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
@@ -881,12 +886,15 @@ namespace DirectoryInformation
                                         break;
                                 }
                                 break;
-                            case ComponentMeta.Type.Modified: //previously modified or new, now either deleted or further modified
+                            case ComponentMeta.Type.Modified: 
                                 switch (fileNew.FileType)
                                 {
+                                    //fileOld: Modified, fileNew: Deleted
                                     case ComponentMeta.Type.Deleted: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
                                         break;
+
+                                    //fileOld: Modified, fileNew: Modified
                                     case ComponentMeta.Type.Modified: ReadAndWrite.MoveFile(pathUSB + fileOld.Path + fileOld.Name, tempUSBForUSBContent + fileOld.Path + fileOld.Name);
                                         ReadAndWrite.MoveFile(pathPC + fileNew.Path + fileNew.Name, pathUSB + fileOld.Path + fileOld.Name);
                                         filesOld[oldIndex] = fileNew;
