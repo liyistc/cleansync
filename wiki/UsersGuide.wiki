@@ -6,26 +6,23 @@ Frequently need to work on the same files and folders on 2 different computers? 
 
 [http://cleansync.googlecode.com/files/cs3215Sync%20copy.png] 
 
-Consider this scenario: You have to ensure that files and folders in a certain folder are the same in Computer A and Computer B. If the directory contains hundreds of files and folders, how will you keep track of updates, deletes and modifications to any of the files and folders in both computers? It is possible to copy every file and folder into the removable device, but this takes up unnecessary space. CleanSync monitors updates to your files and folders for you, and ensures minimum disk usage on the external hard disk.
+Consider this scenario: You have to ensure that files and folders in a certain directory are the same in Computer A and Computer B. Each time, you will need to copy all the files from one side to other side by copying and pasting every single files (or only changed files, which might take longer to find out).
 
 =Clean Synchronization=
 ----
-So, how does CleanSync work? CleanSync does synchronization through a process called Clean Synchronization. Through Clean Synchronization, synchronizing folders in Computer A and B is done in 2 easy steps:
+So, how does CleanSync work? CleanSync does synchronization through a process called Clean Synchronization. Through Clean Synchronization, synchronizing folders between Computer A and B is done in 2 easy steps:
 
-*Step 1*: Synchronize with Computer A. Assuming that Computer A has a new file(File3.txt), a modified file (File5.txt) and File4.txt has been deleted since the last synchronization. All these information will be acknowledged by the removable device.
+*Step 1: Synchronize with Computer A.* Assuming that Computer A has one new file (File3.txt), a modified file (File5.txt) and File4.txt has been deleted after the last synchronization. All these information will be acknowledged by the external drive.
 
 [http://cleansync.googlecode.com/files/syncPCA.png]
 
-*Step 2:* Unplug the removable device, and synchronize with Computer B. CleanSync will automatically copy File3.txt, modify File5.txt over to Computer B and delete File4.txt. It will also repeat Step 1 on Computer B, to synchronize Computer B’s updates to Computer A.
+*Step 2: Unplug the removable device, and synchronize with Computer B.* CleanSync will copy File3.txt, modify File5.txt over to Computer B and delete File4.txt. It will also repeat Step 1 on Computer B, to synchronize Computer B’s updates to Computer A.
 
 [http://cleansync.googlecode.com/files/syncPCB.png]
-
-That’s it! Through Clean Synchronization, synchronization is easy, quick and efficient. 
+ 
 = Installing CleanSync=
 ----
-Unzip CleanSync_v1.0.zip to any directory in your computer`*`. A folder “CleanSync v1.0” will be created in that directory. No installation is necessary.
-
-`*` Do not unzip to a directory on an removable device or CleanSync will not run properly.
+Unzip CleanSync_v2.0.zip to an empty folder in your computer. A folder “CleanSync v2.0” will be created in that directory.
 = Starting CleanSync =
 ----
 To start, click on CleanSync.exe located inside the CleanSync v1.0 folder.
@@ -37,7 +34,7 @@ CleanSync keeps track of the folders to be synchronized through CleanSync jobs. 
 [http://cleansync.googlecode.com/files/select_new_job.jpg]
 
 From the main screen
- * Click on "new job" to create a new job
+ * Click on "New Job" to create a new job
 
 [http://cleansync.googlecode.com/files/new_job_screen.jpg]
 
@@ -81,6 +78,9 @@ Now that the CleanSync job has been created, the job is not complete yet as the 
 After viewing the changes that will happen from USB to PC and from PC to USB, click on “Synchronize” to start synchronization. 
 
 [http://cleansync.googlecode.com/files/synchronizing.jpg]
+*Special Note:*
+1. Do not plug out the removable storage device during synchronization.
+2. Do not open the files going to be synchronized during synchronized.
 
 = File/Folder renaming =
 ----
