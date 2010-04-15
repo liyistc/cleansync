@@ -4,7 +4,6 @@
     xmlns:local="clr-namespace:CleanSync"
     xmlns:custom="clr-namespace:Samples.Controls"
     xmlns:tb="http://www.hardcodet.net/taskbar"
-    xmlns:animate ="clr-namespace:CleanSync.Animation"
     Title="CleanSync" Height="600" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Icon="Pic\icon.png" AllowsTransparency="False" Opacity="5" Loaded="Window_Loaded"  >
     <Window.Background>
         <ImageBrush ImageSource="Pic/Background.png" Opacity="1.0"></ImageBrush>
