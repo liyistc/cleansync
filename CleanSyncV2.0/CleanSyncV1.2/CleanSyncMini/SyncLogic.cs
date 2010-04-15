@@ -46,55 +46,55 @@ namespace DirectoryInformation
         /// <param name="pcJob">pcJob of the computer to be synchronized</param>
         /// <param name="worker">worker to update the progress bar of the GUI</param>
         [MethodImpl(MethodImplOptions.Synchronized)]
-        public void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker, System.ComponentModel.DoWorkEventArgs e)
-        {
-            this.bgWorker = worker;
-            this.eArg = e;
-            try
+            public void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker, System.ComponentModel.DoWorkEventArgs e)
             {
-                SetTempFolderPaths(pcJob);
-                SetBackupFolder(pcJob);
-
-                //flush
-                ReadAndWrite.DeleteFolderContent(tempPC);
-                ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
-                ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
-                ReadAndWrite.DeleteFolderContent(USBTempReSync);
-            
-
-                pcJob.Synchronizing = true;
-                ReadAndWrite.ExportPCJob(pcJob);
-
-                Differences PCToUSBDone = new Differences();
-                Differences USBToPCDone = new Differences();
-
-                if (pcJob.PCID == pcJob.GetUsbJob().MostRecentPCID) //this is the most recent PC to sync, so do a re-synchronization
+                this.bgWorker = worker;
+                this.eArg = e;
+                try
                 {
-                    initializeTotalSize(comparisonResult);
-                    CleanSyncReSync(comparisonResult, pcJob);
+                    SetTempFolderPaths(pcJob);
+                    SetBackupFolder(pcJob);
+
+                    //flush
+                    ReadAndWrite.DeleteFolderContent(tempPC);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForPCContent);
+                    ReadAndWrite.DeleteFolderContent(tempUSBForUSBContent);
+                    ReadAndWrite.DeleteFolderContent(USBTempReSync);
+                
+
+                    pcJob.Synchronizing = true;
+                    ReadAndWrite.ExportPCJob(pcJob);
+
+                    Differences PCToUSBDone = new Differences();
+                    Differences USBToPCDone = new Differences();
+
+                    if (pcJob.PCID == pcJob.GetUsbJob().MostRecentPCID) //this is the most recent PC to sync, so do a re-synchronization
+                    {
+                        initializeTotalSize(comparisonResult);
+                        CleanSyncReSync(comparisonResult, pcJob);
+                    }
+                    else
+                    {
+                        ClearBackupFolder(pcJob);
+                        initializeTotalSize(comparisonResult);
+                        NormalCleanSync(comparisonResult, pcJob);  //the other PC was the most recent PC to sync, so do a normal synchronization
+                    }
+                    this.bgWorker = null;
+                    this.eArg = null;
+                    totalSize = 0;
+                    onePercentSize = 0;
+                    backupDirectory = "";
                 }
-                else
+                catch (Exception)
                 {
-                    ClearBackupFolder(pcJob);
-                    initializeTotalSize(comparisonResult);
-                    NormalCleanSync(comparisonResult, pcJob);  //the other PC was the most recent PC to sync, so do a normal synchronization
+                    this.bgWorker = null;
+                    this.eArg = null;
+                    totalSize = 0;
+                    onePercentSize = 0;
+                    backupDirectory = "";
+                    throw;
                 }
-                this.bgWorker = null;
-                this.eArg = null;
-                totalSize = 0;
-                onePercentSize = 0;
-                backupDirectory = "";
             }
-            catch (Exception)
-            {
-                this.bgWorker = null;
-                this.eArg = null;
-                totalSize = 0;
-                onePercentSize = 0;
-                backupDirectory = "";
-                throw;
-            }
-        }
 
         /// <summary>
         /// Do a synchronization for the first time
@@ -192,14 +192,14 @@ namespace DirectoryInformation
                 pcJob.GetUsbJob().SynchronizingPcToUSB = true;
                 pcJob.GetUsbJob().Synchronizing = true;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
-                NormalCleanSyncFolderPcToUsb(pcToUsb, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone);
+                NormalCleanSyncFolderPcToUsb(pcToUsb, pcJob.PCPath, tempUSBForPCContent, pcToUSBDone); //Extract changes from the PC to a temporary USB folder
                 
                 pcJob.GetUsbJob().SynchronizingPcToUSB = false;
                 pcJob.GetUsbJob().SynchronizingUSBToPC = true;
                 ReadAndWrite.ExportUSBJob(pcJob.GetUsbJob());
                 
                 // USB to PC 
-                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, tempPC, bgWorker, onePercentSize,eArg);  //copy folder to temp folder
+                ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, tempPC, bgWorker, onePercentSize,eArg);  //copy changes from USB to temporary folder in PC
                 NormalCleanSyncFolderUsbToPC(usbToPc, tempPC, pcJob.PCPath, usbToPcDone);  //Synchronize to PC
 
                 pcJob.GetUsbJob().SynchronizingUSBToPC = false;
@@ -420,7 +420,7 @@ namespace DirectoryInformation
             FolderMeta oldDifferencesRoot = convertor.ConvertDifferencesToTreeStructure(comparisonResult.USBDifferences);
             FolderMeta newDifferencesRoot = convertor.ConvertDifferencesToTreeStructure(comparisonResult.PCDifferences);
            
-            ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, USBTempReSync, bgWorker, onePercentSize,eArg); // Backup
+            if(newDifferencesRoot.files.Count != 0 || newDifferencesRoot.folders.Count != 0) ReadAndWrite.CopyFolder(pcJob.AbsoluteUSBPath, USBTempReSync, bgWorker, onePercentSize,eArg); // Backup
 
             //for restoration, work on a new copy of oldDifferencesRoot, so that can just delete to restore
             FolderMeta oldDifferencesOriginal = new FolderMeta(oldDifferencesRoot);
@@ -680,7 +680,7 @@ namespace DirectoryInformation
         /// </summary>
         /// <param name="folderNew"></param>
         /// <param name="folderOld"></param>
-        private static void CompareNewDeletedWithOldModifiedFiles(FolderMeta folderNew, FolderMeta folderOld)
+        private void CompareNewDeletedWithOldModifiedFiles(FolderMeta folderNew, FolderMeta folderOld)
         {
             int oldInt = 0;
             int newInt = 0;
