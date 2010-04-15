@@ -1,74 +1,38 @@
 = Sync Logic Description=
-
 Sync Logic handles synchronization between two folders. After comparing differences of the component metas, the results are brought here to execute synchronization and the copying of files and folders between the PC and the USB.
 
 Files and Folders stored in the USB are renamed and their renaming is also handled by Sync Logic.
 
-----
-= Constructor =
- * *SyncLogic()*
-= Methods =
-
-==Public==
-In SyncLogic there is only one method called by external classes, which is to do a synchronization.
- * *void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)*
-This method checks whether this PC is the last PC to do a synchronization with the USB by matching the PCID with the usbJob's MostRecentPCID. If it is not the last PC to synchronization with the USB, a normal synchronization is performed. Else, it will do a re-synchronization. 
-The worker object is used to update the progress of synchronization.
-
-==Private==
+In SyncLogic there are two methods called by external classes.
+ * void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+  * This method checks whether this PC is the last PC to do a synchronization with the USB by matching the PCID with the usbJob's MostRecentPCID. If it is not the last PC to synchronization with the USB, a normal synchronization is performed. Else, it will do a re-synchronization. The worker object is used to update the progress of synchronization.
+ 
+ * public void InitializationSynchronize(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker,System.ComponentModel.DoWorkEventArgs e)
+  * This method is called when synchronizing for the first time.
+*Private methods*
 Private methods are divided into three groups.
-===Calculate Size===
+==Calculate Size==
 These methods are called to calculate the total size of data needed to be copied for this job.
- * *void initializeTotalSize(ComparisonResult comparisonResult)*
- * *void updateFolderSize(List`<`FolderMeta`>` folders)*
- * *void updateFileSize(List`<`FileMeta`>` files)*
-===Normal Synchronization===
-These methods are called to do a normal synchronization. In the methods that copies files and folders from the USB to the PC, the individual files and folders in the USB will be deleted immediately after being copied to the PC. The algorithm is basic, just going through the differences in the comparison result and copying and renaming the files and folders accordingly.
- * *void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)*
- * *void SyncPCToUSB(Differences PCToUSB, PCJob pcJob)*
- * *void SyncPCToUSBModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)*
- * *void SyncPCToUSBNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)*
- * *void SyncPCToUSBNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)*
- * *void SyncUSBToPC(Differences USBToPC, PCJob pcJob)*
- * *void SyncUSBToPCDeleteFile(PCJob pcJob, List`<`FileMeta`>` deletedFileList)*
- * *void SyncUSBToPCModifiedFile(PCJob pcJob, List`<`FileMeta`>` modifiedFileList)*
- * *void SyncUSbToPCNewFile(PCJob pcJob, List`<`FileMeta`>` newFileList)*
- * *void SyncUSBtoPCDeleteFolder(PCJob pcJob, List`<`FolderMeta`>` deleteFolderList)*
- * *void SyncUSBToPCNewFolder(PCJob pcJob, List`<`FolderMeta`>` newFolderList)*
-===Resynchronization===
+ * void initializeTotalSize(ComparisonResult comparisonResult)
+ * void updateFolderSize(List<FolderMeta> folders)
+ * void updateFileSize(List<FileMeta> files)
+==Normal Synchronization==
+These methods are called to do a normal synchronization, based on the tree structure of the differences.
+ * void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)
+ * void NormalCleanSyncFolderPcToUsb(FolderMeta pcToUsb, string originDirectoryRoot, string destinationDirectoryRoot, Differences pcToUsbDone)
+ * void NormalCleanSyncFolderUsbToPC(FolderMeta usbToPC, string originDirectoryRoot, string destinationDirectoryRoot, Differences usbToPCDone)
+==Resynchronization==
 These methods are called to do a resynchronization. Updates of files and folders in the PC will be updated on the USB. The renaming of these files and folders are also handled here. The pair of differences in the comparisonResult, instead of being treated as in a normal synchronization, are now viewed as old and new differences. Old differences are the differences in the USB that is to be synchronized with the other PC, new differences are the differences in the PC that are now to be copied to the USB.
- * *void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)*
- * *void ReSyncFiles(Differences oldDifferences, Differences newDifferences, PCJob pcJob)*
- * *void ReSyncFolders(Differences oldDifferences, Differences newDifferences, PCJob pcJob)*
- * *void ReSyncNewFiles(PCJob pcJob, Differences oldDifferences, List`<`FileMeta`>` newFilesNew)*
- * *void ReSyncModifiedFiles(Differences oldDifferences, PCJob pcJob, List`<`FileMeta`>` modifiedFilesOld, List`<`FileMeta`>` modifiedFilesNew)*
-  * 3 possible cases:
-   * The modified file was previously a new file in the USB. In this case, the modified file will be copied over and treated as a new version of the new file yet to be copied to the other PC.
-   * The modified file was previously a modified file in the USB. Thus, the modified file will also be copied over and treated as a new version of the modified file.
-   * Else, the modified file's information will be added to the old difference, and the file will be copied over to the USB.
- * *void ReSyncDeletedFiles(Differences oldDifferences, PCJob pcJob, List`<`FileMeta`>` newFilesOld, List`<`FileMeta`>` deletedFilesNew, List`<`FileMeta`>` modifiedFilesOld)*
-  * 3 possible cases:
-   * The deleted file was previously a new file in the USB. In this case, the file will be deleted and its information removed from the old difference.
-   * The deleted file was previously a modified file in the USB. In this case, the file will be deleted, and its information moved from the modified list to the deleted list in the old difference.
-   * Else, the deleted file's information will be added to the old difference's deleted list.
- * *void ReSyncNewFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersNew)*
- * *void ReSyncDeletedFolders(Differences oldDifferences, PCJob pcJob, List`<`FolderMeta`>` newFoldersOld, List`<`FolderMeta`>` deletedFoldersNew)*
-  * 2 possible cases:
-   * The deleted folder was previously a new folder in the USb. In this case, the folder will be deleted from the USB and its information removed from the old difference.
-   * Else, the deleted folder's information will be added to the old difference.
- * *void RemoveNullComponentsFiles(PCJob pcJob, List`<`FileMeta`>` files, string listType)*
-  * This method deletes the null entries in a given FileMeta List. Files are re-organized accordingly and their temporary names are also changed.
- * *void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders, string listType)*
-  * This method is the same as the previous, but works on a given FolderMeta list instead.
- * *void RemoveNullComponentsFolders(PCJob pcJob, List`<`FolderMeta`>` folders)*
-  * This method does not change the name of any folder on the hard disk. Only the null components on the list are removed.
-----
-==Renaming of Files and Folders in the USB==
-Files and folders copied to the USB are renamed to avoid name conflicts between files and folders of the same name but in different folders in the PC. They are named as such: pcJob.JobName + difference type modifier+ index in the list. Files are renamed similarly, but with an extension .temp.
-
-||Difference Type||Modifier||
-||New||n||
-||Modified||m||
-||Deleted||d||
-
-For example, if a file that is modified is to be copied over to the USB, and the file is the 3rd modified file difference in the list. If the job's name is "SyncJob", the file will be renamed as "SyncJobm3.temp". If it is a folder, the folder will be renamed as "SyncJobm3". Note that subfiles and subfolders within renamed folders will not be renamed.
+ * void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)
+ * void ReSynchronizeFolders(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceDirectory, string destinationDirectory, Differences pcToUSBDone)
+ * void ReSynchronizeFiles(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceRoot, string destinationRoot)
+  * The previous two methods are called to resync a modified folder to a previously modified folder.
+ * void CompareNewDeletedWithOldModifiedFolders(FolderMeta folderNew, FolderMeta folderOld)
+ * void CompareNewDeletedWithOldModifiedFiles(FolderMeta folderNew, FolderMeta folderOld)
+  * These two methods are called to resynchronize a modified folder with a deleted folder.
+void ReSynchronizeToNewFolder(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceRoot, string destinationRoot)
+ * void ReSynchronizeToNewFolderFiles(FolderMeta folderOld, FolderMeta folderNew, string sourceRoot, string destinationRoot)
+  * These two methods are called to resynchronize a previously new folder with a modified folder
+==Restoration==
+ * void RestoreIncompletePCChanges(FolderMeta changes, string pcPath)
+This method is called during normal synchronization if the job if an exception is thrown, to restore the folder to its previous state.
