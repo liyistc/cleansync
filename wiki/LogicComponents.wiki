@@ -9,5 +9,4 @@ The logics components form the underlying engine of CLEANSync. This component is
   * CompareLogic
   * SyncLogic
   * ReadAndWrite
-  * LogFile
   * ConflictHandler
