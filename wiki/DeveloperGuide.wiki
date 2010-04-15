@@ -38,6 +38,8 @@ See: [http://code.google.com/p/cleansync/wiki/MetaDataComponent MetaData Compone
 MetaData classes store various information used by CleanSync to perform its operations. 
 ----
 ==Implementation Details==
+[http://code.google.com/p/cleansync/wiki/ConflictHandling?ts=1271356053&updated=ConflictHandling Conflict Handling]
+
 [http://code.google.com/p/cleansync/wiki/CleanSynchronization?ts=1271353935&updated=CleanSynchronization Clean Synchronization]
 
 [http://code.google.com/p/cleansync/wiki/DeterminingFolder Determining folders to store meta data]
