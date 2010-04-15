@@ -91,10 +91,14 @@ namespace DirectoryInformation
 
             ClearFolderList(folders);
             folders.Sort(delegate(FolderMeta one, FolderMeta two) { return one.Name.CompareTo(two.Name); });
-            foreach (FolderMeta folder in folders)
+            List<int> indexOfFoldersToDelete = new List<int>();
+            for (int i = 0; i < folders.Count; i++)
             {
+                FolderMeta folder = folders[i];
                 folder.sortComponents();
+                if (folder.FolderType == Type.Modified && folder.folders.Count == 0 && folder.files.Count == 0) folders.RemoveAt(i--);
             }
+            ClearFolderList(folders);
         }
 
 
