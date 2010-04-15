@@ -1,7 +1,27 @@
 =Re-Synchronization=
-Re-Synchronization is invoked when synchronizing the computer to the USB successively. Instead of a normal synchronization where updates on both sides are updated, re-synchronization only checks what updates from the computer are to be copied over to the USB. A few cases of updates exists which is handled by SyncLogic:
- * If a file or folder is created in a previously new folder, the file or folder will just be copied over to the new directory.
- * If a file or folder is deleted in a previously new folder, the file or folder will just be deleted from the USB.
- * If a file which is previously new is modified, it’s metadata In the difference list will be updated and the modified file will be regarded as the new file to be copied over to the other computer.
- * If a file which is previously new or modified, or a folder which is previously new is deleted, it will delete its data from its previous difference list, and the temporary file or folder will also be deleted.
- * In all other cases, the updates found in the computer will be propagated to the removable device.
+Re-Synchronization is invoked when synchronizing the computer to the USB successively. Instead of a normal synchronization where updates on both sides are updated, re-synchronization only checks what updates from the computer are to be copied over to the USB. SyncLogic defines the differences on the USB as the old differences from this computer, and the differences on the USB as the new differences. SyncLogic will compare each file and folder between the old and new differences and make changes to the old differences accordingly:
+
+Comparing contents between 2 folders which are modified:
+
+If a folder exists in both differences:
+ # The old folder is deleted, the new folder is new
+  a. This means the folder is previously deleted, and now a new folder with the same name is created. The folder‟s difference will then be set to modified, and the sub folders and files will be compared recursively.
+ # The old folder is new, the new folder is deleted
+a. The folder new folder will be removed, and no changes need to be made to the other computer, so the difference will be removed.
+ # The old folder is new, the new folder is modified
+a. In this case, a special method will be called to check accordingly the subfiles and subfolders. If a subfile or subfolder is now deleted, it will be deleted from the differences. Else, any changes will be updated
+ # The old folder is modified, the new folder is deleted
+a. A special method will also be called, to check if the there are any new files that will also be deleted from the differences. Also, previously deleted files and folders will also be added back to the differences.
+ # Both folders are modified
+a. The folders will be checked recursively again.
+If a file exists in both differences:
+ # The old file is deleted, the new file is new
+a. A previously deleted file has been created again, thus, the difference will be set to modified.
+ # The old file is new, the new file is deleted
+a. The file will be removed from the differences.
+ # The old file is new, the new file is modified
+a. The new file will be set as new again.
+ # The old file is modified, the new file is modified
+a. The file will still be modified
+ # The old file is modified, the new file is deleted
+a. The difference will be set to deleted
