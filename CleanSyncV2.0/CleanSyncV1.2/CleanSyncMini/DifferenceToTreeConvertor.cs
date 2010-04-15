@@ -47,10 +47,8 @@ namespace CleanSync
         {
 
             if (!haveDifference && folders.Count > 0) haveDifference = true;
-            int i = 0;
             foreach (FolderMeta folder in folders)
             {
-                i++;
                 if (folder != null)
                 {
                     /*Plugin code*/

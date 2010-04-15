@@ -6,27 +6,14 @@ using DirectoryInformation;
 
 namespace CleanSync
 {
+    /// <summary>
+    /// USBJob stores the information about the Job on the USB. It is serializable, to be saved onto the USB.
+    /// </summary>
     [Serializable]
     public class USBJob : JobDefinition
     {
-        /*Bily's new code*/
 
-
-
-        public bool MovingOldDiffToTemp
-        {
-            get;
-            set;
-        }
-
-        public bool MovingTempToOldDiff
-        {
-            get;
-            set;
-        }
-        //end new
-
-        /*Billy's modified code*/
+        #region Constructor
         public USBJob(PCJob jobOnPC)
             : base(jobOnPC.JobName, jobOnPC.AbsoluteUSBPath)
         {
@@ -36,19 +23,18 @@ namespace CleanSync
             SynchronizingPcToUSB = false;
             SynchronizingUSBToPC = true;
             ReSynchronizing = false;
-            RecoveryPossible = true;
             diff = new Differences();
             PCOneID = jobOnPC.PCID;
             PCTwoID = INVALID;
             MostRecentPCID = INVALID;
             MovingOldDiffToTemp = false;
             MovingTempToOldDiff = false;
-            //DeletePCID = null;
         }
-        //end modified
+        #endregion
         const string PCONE = "";
         const string INVALID = "INVALID";
 
+        #region Attributes about the PCs
         public string PCOnePath
         {
             get;
@@ -56,12 +42,6 @@ namespace CleanSync
         }
 
         public string PCTwoPath
-        {
-            get;
-            set;
-        }
-
-        public Differences diff
         {
             get;
             set;
@@ -79,12 +59,6 @@ namespace CleanSync
             set;
         }
 
-        public string MostRecentPCID
-        {
-            get;
-            set;
-        }
-
         public bool PCOneDeleted
         {
             get;
@@ -97,7 +71,29 @@ namespace CleanSync
             set;
         }
 
+        #endregion
+
+        #region Attributes about last synchronization
+        public string MostRecentPCID
+        {
+            get;
+            set;
+        }
+
+        public Differences diff
+        {
+            get;
+            set;
+        }
+
+        #region Attributes to check for previously interrupted synchronizations
         public bool Synchronizing
+        {
+            get;
+            set;
+        }
+
+        public bool ReSynchronizing
         {
             get;
             set;
@@ -115,20 +111,20 @@ namespace CleanSync
             set;
         }
 
-        public bool ReSynchronizing
+        public bool MovingOldDiffToTemp
         {
             get;
             set;
         }
 
-        public bool RecoveryPossible
+        public bool MovingTempToOldDiff
         {
             get;
             set;
         }
+        #endregion
+        #endregion
 
-        //public USBJob():base()
-        //{
-        //}
+
     }
 }

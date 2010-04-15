@@ -5,24 +5,21 @@ using System.Text;
 
 namespace Exceptions
 {
-    public class SyncInterruptedException : Exception
+
+    /// <summary>
+    /// Thrown when synchronization is interrupted because USB is plugged out
+    /// </summary>
+    public class USBUnpluggedException : Exception
     {
-        public SyncInterruptedException()
-            : base("USB Plugged out!")
+        public USBUnpluggedException()
+            : base("USB has been unplugged! Synchronization failed.")
         {
         }
-        /*   public bool USBJobSaved
-           {
-               get;
-               set;
-           }
-         * */
     }
 
-    public class RecoveryNotPossibleException : Exception
-    {
-    }
-
+    /// <summary>
+    /// Thrown when synchronization is interrupted because the user has cancelled the job.
+    /// </summary>
     public class SyncCancelledException : Exception
     {
         public SyncCancelledException(string message)
