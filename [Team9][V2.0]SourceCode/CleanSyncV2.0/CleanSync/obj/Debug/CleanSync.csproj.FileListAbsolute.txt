@@ -1,0 +1,465 @@
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\Window1.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV0.98\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV0.99\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Window1.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\Window1.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.0\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+G:\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+G:\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Pirororor\Desktop\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\New folder\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\u0706992\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+K:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+K:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+K:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+K:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+K:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+E:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+E:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+E:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+E:\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+E:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+G:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+G:\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Pirororor\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Li Zichen\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Users\Wenhao\Desktop\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV1.2\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\Booo\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.exe
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.baml
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.baml
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.g.cs
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.exe
+G:\CleanSync2.0WithoutCompare\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSyncMini\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\Copy of CleanSync2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\Desktop\CleanSync2.0final\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.csproj.GenerateResource.Cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.exe
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\bin\Debug\CleanSync.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\bin\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\App.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\Balloon.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\App.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.cache
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync_MarkupCompile.lref
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSyncGUI.baml
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.g.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.Properties.Resources.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.USBDetection.resources
+C:\Documents and Settings\Li Yi\My Documents\Visual Studio 2008\Projects\CleanSync V2.0\CleanSyncV2.0\CleanSync\obj\Debug\CleanSync.csproj.GenerateResource.Cache
