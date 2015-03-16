@@ -1,0 +1,26 @@
+## Functionality features ##
+Below are some of the main features that is implemented by CleanSync:
+
+**Clean Synchronization**
+
+Clean Synchronization is the method through which CleanSync does synchronization. It is especially designed to synchronize folders in 2 different computers through an removable device. There are 2 distinct forms of Clean Synchronization: normal clean synchronization and re-synchronization.
+
+**Preview feature**
+
+CleanSync can preview a list to changes made to each computer before synchronization so that users can see what will be changed before allowing synchronization to take place.
+
+**Conflict Handling**
+
+CleanSync can handle conflicts and allow users to choose from 2 options: Using the one on the external device, or using the one on the computer.
+
+**Folder/File renaming**
+
+Files and folders copied onto the removable device will be renamed to prevent name conflicts.
+
+**External drive Plug-in Plug-out detection**
+
+CleanSync will detect whenever a removable device is plugged in or plugged out and load or unload any synchronization job found on the removable device respectively.
+
+**Automation**
+
+CleanSync allows the user to select the option of synchronizing a job on the removable  device whenever the device is plugged in.

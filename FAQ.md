@@ -1,0 +1,13 @@
+#Frequently Asked Questions
+
+**Why did you create CLEANSync?**
+
+CLEANSync is our group's project for one of our modules.
+
+**Is CLEANSync open source?**
+
+Yes.
+
+**Will CLEANSync run on my PC?**
+
+CLEANSync will run on all PCs that has installed the .NET Framework.

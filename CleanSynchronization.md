@@ -1,0 +1,12 @@
+# Clean Synchronization #
+
+Clean Synchronization does synchronization in SyncLogic based on trees. Calling methods provide a ComprisonResult object, and SyncLogic takes the 2 differences in the comparison result and converts them to tree form. After that, synchronization is performed based on the trees generated from the differences. SyncLogic does synchronization differently for normal synchronization and re-synchronization.
+
+
+---
+
+See:
+
+[Clean Synchronization](http://code.google.com/p/cleansync/wiki/NormalCleanSynchronization)
+
+[Re-Synchronization](http://code.google.com/p/cleansync/wiki/ReSynchronization)

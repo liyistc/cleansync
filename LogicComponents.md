@@ -1,0 +1,12 @@
+# Logics #
+The logics components form the underlying engine of CLEANSync. This component is in charge of handling all calculation and work.
+
+![http://cleansync.googlecode.com/files/Logic%20Components.jpg](http://cleansync.googlecode.com/files/Logic%20Components.jpg)
+
+## Classes ##
+  * MainLogic
+  * JobLogic
+  * CompareLogic
+  * SyncLogic
+  * ReadAndWrite
+  * ConflictHandler

@@ -1,0 +1,38 @@
+# Sync Logic Description #
+Sync Logic handles synchronization between two folders. After comparing differences of the component metas, the results are brought here to execute synchronization and the copying of files and folders between the PC and the USB.
+
+Files and Folders stored in the USB are renamed and their renaming is also handled by Sync Logic.
+
+In SyncLogic there are two methods called by external classes.
+  * void CleanSync(ComparisonResult comparisonResult, PCJob pcJob, System.ComponentModel.BackgroundWorker worker)
+    * This method checks whether this PC is the last PC to do a synchronization with the USB by matching the PCID with the usbJob's MostRecentPCID. If it is not the last PC to synchronization with the USB, a normal synchronization is performed. Else, it will do a re-synchronization. The worker object is used to update the progress of synchronization.
+
+  * public void InitializationSynchronize(Differences PCToUSB, PCJob pcJob, System.ComponentModel.BackgroundWorker worker,System.ComponentModel.DoWorkEventArgs e)
+    * This method is called when synchronizing for the first time.
+**Private methods**
+Private methods are divided into three groups.
+## Calculate Size ##
+These methods are called to calculate the total size of data needed to be copied for this job.
+  * void initializeTotalSize(ComparisonResult comparisonResult)
+  * void updateFolderSize(List`<`FolderMeta`>` folders)
+  * void updateFileSize(List`<`FileMeta`>` files)
+## Normal Synchronization ##
+These methods are called to do a normal synchronization, based on the tree structure of the differences.
+  * void NormalCleanSync(ComparisonResult comparisonResult, PCJob pcJob)
+  * void NormalCleanSyncFolderPcToUsb(FolderMeta pcToUsb, string originDirectoryRoot, string destinationDirectoryRoot, Differences pcToUsbDone)
+  * void NormalCleanSyncFolderUsbToPC(FolderMeta usbToPC, string originDirectoryRoot, string destinationDirectoryRoot, Differences usbToPCDone)
+## Resynchronization ##
+These methods are called to do a resynchronization. Updates of files and folders in the PC will be updated on the USB. The renaming of these files and folders are also handled here. The pair of differences in the comparisonResult, instead of being treated as in a normal synchronization, are now viewed as old and new differences. Old differences are the differences in the USB that is to be synchronized with the other PC, new differences are the differences in the PC that are now to be copied to the USB.
+  * void CleanSyncReSync(ComparisonResult comparisonResult, PCJob pcJob)
+  * void ReSynchronizeFolders(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceDirectory, string destinationDirectory, Differences pcToUSBDone)
+  * void ReSynchronizeFiles(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceRoot, string destinationRoot)
+    * The previous two methods are called to resync a modified folder to a previously modified folder.
+  * void CompareNewDeletedWithOldModifiedFolders(FolderMeta folderNew, FolderMeta folderOld)
+  * void CompareNewDeletedWithOldModifiedFiles(FolderMeta folderNew, FolderMeta folderOld)
+    * These two methods are called to resynchronize a modified folder with a deleted folder.
+void ReSynchronizeToNewFolder(FolderMeta oldDifferencesRoot, FolderMeta newDifferencesRoot, string sourceRoot, string destinationRoot)
+  * void ReSynchronizeToNewFolderFiles(FolderMeta folderOld, FolderMeta folderNew, string sourceRoot, string destinationRoot)
+    * These two methods are called to resynchronize a previously new folder with a modified folder
+## Restoration ##
+  * void RestoreIncompletePCChanges(FolderMeta changes, string pcPath)
+This method is called during normal synchronization if the job if an exception is thrown, to restore the folder to its previous state.

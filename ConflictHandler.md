@@ -1,0 +1,2 @@
+# ConflictHandler #
+This method handles any conflicts found. Based on the job setting, different conflicts will be handled differently.

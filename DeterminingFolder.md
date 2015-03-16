@@ -1,0 +1,7 @@
+#Determining folders to store meta data
+# Determining folders to store meta data #
+There are two types of meta data. One is meta data for folder on computer (PC), we‟ll refer to this type as PCJob. The other is meta data for folder on removable device, we‟ll refer to this type as USBJob. The directory that stores the root folder on the computer is on the application data folder of the user, and on the removable device is the root folder of the drive. On the computer, a folder “CleanSync” will be created and on the removable device,
+
+The root folder to store PCJobs is the path the Clean Sync executable resides in. All meta data are stored in a folder named “_cs\_job\_data” and the property of the folder is set to System Hidden._
+
+The root folder to store USBJobs is the path of the root drive of the USBJob. All meta data are stored in folder named “

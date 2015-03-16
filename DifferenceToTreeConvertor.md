@@ -1,0 +1,12 @@
+# Introduction #
+DifferenceToTreeConvertor converts a difference into tree form for display purposes.
+
+# Methods #
+### Public ###
+  * **FolderMeta ConvertDifferencesToTreeStructure(Differences difference)**
+
+### Private ###
+  * **bool ConvertFolderListToTree(FolderMeta root, bool haveDifference, List`<`FolderMeta`>` folders)**
+    * Adds a list of FolderMeta into a given root. Parent folders are created if it does not exist yet.
+  * **bool ConvertFileListToTree(FolderMeta root, bool haveDifference, List`<`FileMeta`>` files**
+    * Adds a list of FileMeta into a given root. Parent folders are created if it does not exist yet.

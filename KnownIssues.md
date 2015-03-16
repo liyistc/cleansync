@@ -1,0 +1,6 @@
+Current version - 1.0
+# Known Issues #
+Currently, CLEANSync has a couple of known issues.
+CleanSync v1.0 currently has the following known issues:
+
+  * Currently, users can only choose to either keep one of the updates in the event of conflicts. Users can neither choose to execute both updates nor negate both updates.

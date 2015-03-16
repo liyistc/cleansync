@@ -1,0 +1,43 @@
+# Conflict Handling #
+There exist 8 kinds of possible conflicts listed below:
+  1. New File VS New File Conflict.
+  1. Modified File VS Modified File Conflict.
+  1. Modified File VS Deleted File Conflict.
+  1. Deleted File VS Deleted File Conflict.
+  1. Modified File VS Deleted Root Folder Conflict.
+  1. Deleted File VS Deleted Root Folder Conflict.
+  1. Deleted Folder VS Deleted Root Folder Conflict.
+  1. New Folder VS New Folder Conflict
+Two things need to be noticed here:
+
+Firstly, conflicts like „New File VS Modified File‟ or „New File VS Deleted File‟ are logically incorrect and are not included in the lists. For our implementation, we have avoided these kinds of conflicts.
+
+Secondly, „New File VS Deleted Root Folder‟ and „New Folder VS Deleted Root Folder‟ are not considered as conflicts. We always keep the files and folders if they are newly created on the remote PC but deleted on current PC for safety issues.
+
+Based on the above understanding, we created two methods:
+
+  1. DetectFileConflict(…).
+  1. DetectFolderConflict(…).
+
+The first method DetectFileConflict will retrieve the NewFileList, ModifiedFileList, DeletedFileList from PCDifferences(current PC changes) and USBDifferences(remote PC changes), and examines conflicts type 1 to type 6 in the above conflicts list.
+  * For type 1 conflicts (New File VS New File): DetectFileConflict compares the two NewFileLists, if there exists files of same names but different size and modification time, a new Conflict object is created and added into the conflicts list. However, if they the two files has the same modification time and file size, we remove them from the filelist entry (Users may copy the files to the remote PC, in this case the new files and identical and should not be reported as conflicts).
+  * For type 2 conflicts (Modified File VS Modified File) and type 3 conflicts(Modified File VS Deleted File) : DetectFileConflict will retrieve the corresponding filelist, check name conflicts and add it to the conflict list when a conflict is detected.
+  * For type 4 conflicts (Deleted File VS Deleted File): when such conflict is detected, the both fileMeta is removed from the fileList entry, since when both PC agree to delete the file, it is not a conflict.
+  * For type 5 conflicts (Modified File VS Deleted Root Folder Conflict): our method will compare the modifiedList with the DeletedFolderList. If a modified file belongs to a deleted folder, it is an conflict.
+  * For type 6 conflicts (Deleted file VS Deleted Root Folder Conflict): deletedFileList and DeletedFolderList are compared. If a deleted file belongs to a deleted folder, we remove both file metadata entry from the deleteFileList and DeleteFolderList, since it is not a real conflict.
+The second method DetectFodlerConflict will detect type 7 and type 8 conflict.
+  * For type 7 conflicts (Deleted Folder VS Deleted Root Folder Conflict): it will compare the two deletedFolderLists. If a deleted folder belongs to a deleted root folder, both folder entries are removed from the deletedFolderLists.
+  * For type 8 conflicts (New Folder VS New Folder Conflict): For this particular case, we do more than keep only one new folder and delete the other folder. Instead, we try to merge the two folders.We will check the two new folders‟ subfiles and detect the newFile VS newFile conflicts. Do a recursive check for the subfolders. So finally, the New Folder VS New Folder Conflict is broken down into multiple New File VS New File Conflicts.
+
+## Conflict Handling Algorithm ##
+After the Conflict Detection logic, we will have a list of conflicts:
+  1. FileConflicts.
+    * Modified File VS Modifed File Conflict
+    * Modified File Vs Deleted File Conflcit.
+    * New File VS New File Conflict.
+  1. FileVSFolderConflict.
+    * Modified File VS Deleted Root Folder.
+      * (note that the rest „conflicts‟ are already handled during conflict detection.)
+For FileConflicts, we first get the user choice(keep PC changes or keep USB changes). For instance, if user choose to keep PC changes, we will then delete the corresponding file entry in USB changes, so the USB changes will not take effect and PC changes will be kept and propagated to the remote PC.
+
+For FileVSFolderConflict, the resolution is similar, if user chooses to keep the deleted root folder, the file entry is deleted. If the file is chosen to be kept, we will remove the file entry from the root folder(Upon deletion, the program will not delete the chosen file).

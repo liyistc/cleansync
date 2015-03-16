@@ -1,0 +1,46 @@
+# Differences #
+> ## Handle basically five different type of differences: ##
+> ### 1. Folder created. ###
+> ### 2. Folder deleted. ###
+> ### 3. File created. ###
+> ### 4. File deleted. ###
+> ### 5. File modified. ###
+
+---
+
+## Attributes ##
+### Private ###
+  * **List`<`FolderMeta`>` deletedFolderDifference =new List`<`FolderMeta`>`();**
+> Contains differences of type folder deleted.
+  * **List`<`FolderMeta`>` newFolderDifference = new List`<`FolderMeta`>`();**
+> Contains differences of type folder created.
+  * **List`<`FileMeta`>` deletedFileDifference = new List`<`FileMeta`>`();**
+> Contains differences of type file deleted.
+  * **List`<`FileMeta`>` newFileDifference = new List`<`FileMeta`>`();**
+> Contains differences of type file created.
+  * **List`<`FileMeta`>` modifiedFileDifference = new List<FileMeta`>`();**
+> Contains differences of type file modified.
+
+---
+
+## Methods ##
+### Public ###
+  * **void AddDeletedFolderDifference(FolderMeta deletedFolder)**
+  * **void AddNewFolderDifference(FolderMeta newFolder)**
+  * **void AddNewFileDifference(FileMeta newFile)**
+  * **void AddDeletedFileDifference(FileMeta newFile)**
+  * **void AddModifiedFileDifference(FileMeta newFile)**
+  * **List`<`FolderMeta`>` getNewFolderList()**
+  * **List`<`FolderMeta`>` getDeletedFolderList()**
+  * **List`<`FileMeta`>` getDeletedFileList()**
+  * **List`<`FileMeta`>` getNewFileList()**
+  * **List`<`FileMeta`>` getModifiedFileList()**
+  * **void removeFolderFromDeletedFolderList(FolderMeta folder)**
+  * **void removeFolderFromNewFolderList(FolderMeta folder)**
+  * **void removeFileFromNewFileList(FileMeta file)**
+  * **void removeFileFromModifiedFileList(FileMeta file)**
+  * **void removeFileFromDeletedFileList(FileMeta file)**
+  * **override string ToString()**
+### Private ###
+  * **void DuplicateFolderList(List`<`FolderMeta`>` newList, List`<`FolderMeta`>` baseList)**
+  * **void DuplicateFileList(List`<`FileMeta`>` newList, List`<`FileMeta`>` baseList)**

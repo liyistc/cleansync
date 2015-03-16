@@ -1,0 +1,12 @@
+#Loading and unloading meta data to and from the hard disk
+# Loading and unloading meta data to and from the hard disk #
+We define two different types of job, one stores the job information for computer(we'll refer to this type of job as PCJob), and one stores the job information for removable device(we'll refer to this type of job as USBJob).
+PCJob:
+
+A PCJob is created when a new job is successfully created or when a job is successfully accepted. PCJobs are stored in the root\_cs\_job\_data\JobsList where root is the current path the CleanSync.exe resides._
+
+PCJobs are initialized and loaded by the program when the program starts up. An incomplete USBJob is created when a new job is successfully created. The incomplete USBJob will be stored in the root:\_CleanSync\_Data_\_cs\_job\_data\incompleteJobs where root is the root drive of the removable device which user chooses to store the intermediary file. An incompete USBJob will be used to notify CleanSync that there is not fully connected job on this removable device._
+
+When an incomplete job is accepted, the incomplete USBJob will be removed and a new USBJob will be created in the path root:\_CleanSync\_Data_\_cs\_job\_data\usbJobsList where root is the root drive of the removable device._
+
+The USBDetection Class is used to handle removable device plug in. When a removable device is detected, the program will check whether the device contains "_CleanSync\_Data_" folder. If yes, the program will then search for the incomplete USBJobs to display, and for USBJobs, the program will try to load the USBJob to the corresponding PCJob on this computer. For PCJobs that can be connected with a USBJob, they can proceed with Analyse or Sync functions.

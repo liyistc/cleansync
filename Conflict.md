@@ -1,0 +1,45 @@
+# Conflict #
+Defines the basic object of conflicts between files.
+
+---
+
+# Attributes #
+### Public ###
+  * **enum FolderFileType**
+    * FileConflict
+    * FolderVSFileConflict
+    * FileVSFolderConflict
+    * FolderVSSubFolderConflict
+    * SubFolderVSFolderConflict
+      * 3 different kinds of conflicts are identified by CLEANSync. The first one is when two files are modified in both the PC and the USB. The second one is when a folder is modified on one side while a sub-file in that folder is modified in the other side. The third kind of conflict happens when a folder is modified in one side and a sub-folder is modified on the other side.
+  * **enum UserChoice**
+    * KeepPCUpdates
+    * KeepUSBUpdates
+    * Untouched
+      * Users are given 3 choices to handle conflicts: Keep the update on the PC, keep the update on the USB and keep both updates and do not synchronize the conflict.
+  * **enum ConflictType**
+    * New
+    * Modified
+    * Deleted
+  * **FolderMeta CurrentPCFolder**
+  * **FolderMeta USBFolder**
+  * **FileMeta CurrentPCFile**
+  * **FileMeta USBFile**
+  * **FolderFileType FolderOrFileConflictType**
+  * **ConflictType PCFolderFileType**
+  * **ConflictType USBFolderFileType**
+  * **ConflictComplexity Complexity**
+  * **string Name**
+  * **bool USBSelected**
+  * **bool PCSelected**
+# Constructors #
+  * **Conflicts(FolderFileType type,FolderMeta currentPCFolder, FolderMeta USBFolder, ConflictType PCFolderFileType, ConflictType USBFolderFileType, ConflictComplexity complexity)**
+  * **Conflicts(FolderFileType type,FolderMeta currentPCFolder, FileMeta USBFile, ConflictType PCFolderFileType, ConflictType USBFolderFileType, ConflictComplexity complexity)**
+  * **Conflicts(FolderFileType type, FileMeta currentPCFile, FolderMeta USBFolder, ConflictType PCFolderFileType, ConflictType USBFolderFileType, ConflictComplexity complexity)**
+  * **Conflicts(FolderFileType type,FileMeta currentPCFile, FileMeta USBFile, ConflictType PCFolderFileType, ConflictType USBFolderFileType, ConflictComplexity complexity)**
+# Methods #
+### Public ###
+  * **override string ToString()**
+  * **Conflicts.UserChoice getUserChoice()**
+### Private ###
+  * **string GetName()**

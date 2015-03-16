@@ -1,0 +1,5 @@
+# CompareLogic #
+## Introduction ##
+CompareLogic handle comparison between two folders, given two root folders, it is able to tell what are the changes: "modified", "deleted" or "created". And return a comprehensive result to callers.
+
+CompareLogic currently handles two different jobs: Checking for differences between folders and checking for conflicts between 2 differences.

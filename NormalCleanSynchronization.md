@@ -1,0 +1,10 @@
+# NormalCleanSynchronization #
+
+Normal Synchronization is invoked when the previous synchronization happened on the other computer. SyncLogic will then propagate the required updates to both the PC and the removable device. To allow for restoration of previous state and backing up of deleted files and folders, normal synchronization works as follows:
+  1. Extract changes from the PC to a temporary USB folder.
+  1. Copy changes from the USB to a temporary PC folder.
+  1. Propagate the changes from the temporary PC folder to the folder in the PC. During this time, any files and folders deleted from the PC will be moved to the backup folder.
+  1. Move the old changes from the main USB folder to another temporary USB folder.
+  1. Move the new changes from the temporary USB folder to the main USB folder.
+After the correct changes are in place, the temporary folders‟ contents will be cleared.
+If during the synchronization, the USB is plugged out or the user cancels the process, An exception will be thrown and SyncLogic will move the folders back to the correct locations, depending on where the exception was thrown.

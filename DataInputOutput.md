@@ -1,0 +1,10 @@
+# DataInputOutput #
+> ## Provides a file read/write. ##
+
+---
+
+## Methods ##
+> #### public static T LoadFromBinary(string path) ####
+> Performs a read file operation.
+> #### public static void SaveToBinary(string path, T dataObject) ####
+> Performs a write file operation.

@@ -1,0 +1,14 @@
+# Introduction #
+Other than for logging, ReadAndWrite performs all copy and delete operations on files and folders. It is also called to fetch data from the hard disk.
+
+
+---
+
+  * static FolderMeta BuildTree(string rootDir)
+    * This is the main method invoked to construct a directory’s metadata. It calls a private method of the same name which is recursive, and returns the root folder’s foldermeta.
+  * static void DeleteFolder(string path)
+    * This method will delete the specified folder and all its contents.
+  * static void DeleteFolderContent(string path)
+    * This method will not delete the specified folder, only all its contents.
+  * static void EmptyFolder(string path)
+    * This method will only delete the subfiles within the specified folder

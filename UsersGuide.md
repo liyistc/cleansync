@@ -1,0 +1,147 @@
+#User's Guide to using CleanSync
+
+# Introduction #
+
+---
+
+Frequently need to work on the same files and folders on 2 different computers? Having trouble ensuring both sets of files and folders are updated? Let CleanSync handle that for you!
+
+![http://cleansync.googlecode.com/files/cs3215Sync%20copy.png](http://cleansync.googlecode.com/files/cs3215Sync%20copy.png)
+
+Consider this scenario: You have to ensure that files and folders in a certain directory are the same in Computer A and Computer B. Each time, you will need to copy all the files from one side to other side by copying and pasting every single files (or only changed files, which might take longer to find out).
+
+# Clean Synchronization #
+
+---
+
+So, how does CleanSync work? CleanSync does synchronization through a process called Clean Synchronization. Through Clean Synchronization, synchronizing folders between Computer A and B is done in 2 easy steps:
+
+**Step 1: Synchronize with Computer A.** Assuming that Computer A has one new file (File3.txt), a modified file (File5.txt) and File4.txt has been deleted after the last synchronization. All these information will be acknowledged by the external drive.
+
+![http://cleansync.googlecode.com/files/syncPCA.png](http://cleansync.googlecode.com/files/syncPCA.png)
+
+**Step 2: Unplug the removable device, and synchronize with Computer B.** CleanSync will copy File3.txt, modify File5.txt over to Computer B and delete File4.txt. It will also repeat Step 1 on Computer B, to synchronize Computer B’s updates to Computer A.
+
+![http://cleansync.googlecode.com/files/syncPCB.png](http://cleansync.googlecode.com/files/syncPCB.png)
+
+# Installing CleanSync #
+
+---
+
+Unzip CleanSync\_v2.0.zip to an empty folder in your computer. A folder “CleanSync v2.0” will be created in that directory.
+# Starting CleanSync #
+
+---
+
+To start, click on CleanSync.exe located inside the CleanSync v1.0 folder.
+
+# Creating a new CleanSync job #
+
+---
+
+CleanSync keeps track of the folders to be synchronized through CleanSync jobs. A CleanSync job stores the data of the folders to be synchronized in both computers and the removable device used to synchronize the two computers.
+
+![http://cleansync.googlecode.com/files/select_new_job.jpg](http://cleansync.googlecode.com/files/select_new_job.jpg)
+
+From the main screen
+  * Click on "New Job" to create a new job
+
+![http://cleansync.googlecode.com/files/new_job_screen.jpg](http://cleansync.googlecode.com/files/new_job_screen.jpg)
+
+You will now be at the screen for creating a CleanSync job
+  * Enter a name for the job.
+  * Select the directory on this computer to synchronize. Note: You can only synchronize folders on the computer. Synchronizing folders on external devices are not allowed.
+  * Select the drive to the removable device to be the intermediary device. A folder “_CleanSync\_Data\_” will be created on the root directory of the device if it does not exist. Inside this folder, another folder with the name of this job will be created, and files and folders to be transferred over to the other computer is stored within this folder.
+  * You can choose the option to enable automation. When automation is enabled, the job will synchronize automatically whenever the removable device is plugged into this computer while CleanSync is running, and whenever CleanSync starts up with the removable device plugged in.
+  * You can also choose to let CleanSync handle any conflicts found during synchronization by specifying to always write in this computer over the other computer or vice versa. By default any conflicts found will be handled manually. Conflicts will be explained in detail below.
+All the information required to create the job on this computer is done._
+
+![http://cleansync.googlecode.com/files/Confirm_Create_job.jpg](http://cleansync.googlecode.com/files/Confirm_Create_job.jpg)
+  * Click on “Create”. A pop-up window will prompt for confirmation to create this job. Check the details of the job.
+  * Click on “Ok” to create the job. CleanSync will then proceed to synchronize the directory with the removable device for the first time.
+After synchronization is done, creating a job on this PC is complete! You can now plug the removable device into another computer with CleanSync installed for the other computer to accept this CleanSync job.
+
+# Accepting a CleanSync Job #
+
+---
+
+![http://cleansync.googlecode.com/files/accept_job.jpg](http://cleansync.googlecode.com/files/accept_job.jpg)
+
+Now that the CleanSync job has been created, the job is not complete yet as the other computer is yet to know of this CleanSync job. Now plug in the removable device into the other computer with CleanSync and start the program from there.
+  * From the main screen, if a removable device with a job that has not been accepted is plugged in, it will be shown on the main menu and you will have the option of accepting the CleanSync job.
+  * To accept, select the incomplete job, select the folder on the computer to synchronize with and click on “Accept”.
+  * Accepting a CleanSync job is now complete! Now that CleanSync has information about both computers and their folders to synchronize, the CleanSync job is complete.
+
+# Synchronizing a job #
+
+---
+
+![http://cleansync.googlecode.com/files/analyse.jpg](http://cleansync.googlecode.com/files/analyse.jpg)
+
+  * From the main screen, select the job you want to synchronize.
+  * Only complete jobs with their removable devices plugged in are allowed to be synchronized.
+  * Click on “Analyse” to view the impending changes, or click on “Synchronize” to synchronize immediately without viewing the impending changes.
+
+  * ![http://cleansync.googlecode.com/files/New_diff.jpg](http://cleansync.googlecode.com/files/New_diff.jpg)denotes a new file/folder to be copied over
+  * ![http://cleansync.googlecode.com/files/mod_diff.jpg](http://cleansync.googlecode.com/files/mod_diff.jpg)denotes a modified file or a folder whose contents have been changed.
+  * ![http://cleansync.googlecode.com/files/del_diff.jpg](http://cleansync.googlecode.com/files/del_diff.jpg)denotes a deleted file or folder.
+
+
+![http://cleansync.googlecode.com/files/start_sync.jpg](http://cleansync.googlecode.com/files/start_sync.jpg)
+
+After viewing the changes that will happen from USB to PC and from PC to USB, click on “Synchronize” to start synchronization.
+
+![http://cleansync.googlecode.com/files/synchronizing.jpg](http://cleansync.googlecode.com/files/synchronizing.jpg)
+**Special Note:**
+1. Do not plug out the removable storage device during synchronization.
+2. Do not open the files going to be synchronized during synchronized.
+
+# File/Folder renaming #
+
+---
+
+Files and folders copied to the USB will be renamed to prevent naming conflicts. They will be renamed back correctly when copied back to the PC.
+
+# Conflicts #
+
+---
+
+During analyzing, in the event of conflicts, i.e files to be copied from USB to PC has already been modified on the PC, a conflict window will appear:
+
+![http://cleansync.googlecode.com/files/conflicts.jpg](http://cleansync.googlecode.com/files/conflicts.jpg)
+
+The status symbol on the left denotes the update on this computer, while the status symbol of the right shows the update from the other computer on the removable device.
+
+For version 1.0, checking the removable device’s update will cause the removable device’s update to be updated on the computer and not checking the removable device’s update will cause the computer’s update to be copied over to the removable device. Checking the computer update will have no effect on how conflict is handled.
+
+
+
+# Deleting a job #
+
+---
+
+
+![http://cleansync.googlecode.com/files/remove_job.jpg](http://cleansync.googlecode.com/files/remove_job.jpg)
+
+To delete a job, select the job you want to delete and click on “Remove Job”.
+
+![http://cleansync.googlecode.com/files/confirm_remove_job.jpg](http://cleansync.googlecode.com/files/confirm_remove_job.jpg)
+
+Click on OK to confirm deletion of the job. If the removable device is not plugged in, the data on the removable device will be deleted the next time the removable device is plugged in. To delete the job on the other computer, just plug in the removable device into the other computer.
+
+# About us #
+0110 consists of 6 members. Through CleanSync, we hope to channel our passion for software development to develop a product that is beneficial to the general public.
+
+Group Leader: 	Li Yi
+
+Group Members:	Gu Yang
+
+Li ZiChen
+
+Lu Wenhao
+
+Tso Shuk Yi
+
+Yu Qiqi
+
+Special thanks to Mr Damith for his mentorship and guidance, Mr Soo for his invaluable advice about CleanSync’s architecture, Ms Susu for pointers to improve our coding and everyone who gave us invaluable feedback on our product.
